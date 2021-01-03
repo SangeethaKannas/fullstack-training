@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Training</title>
+    <link rel="stylesheet" href="styles/csstutorial/2dand3dtransformations.css">
+    <link rel="stylesheet" href="styles/csstutorial/background.css">
+    <link rel="stylesheet" href="styles/csstutorial/color.css">
+    <link rel="stylesheet" href="styles/csstutorial/gradients.css">
+    <link rel="stylesheet" href="styles/csstutorial/layout.css">
+    <link rel="stylesheet" href="styles/csstutorial/main.css">
+    <link rel="stylesheet" href="styles/csstutorial/mediaqueries.css">
+    <link rel="stylesheet" href="styles/csstutorial/position.css">
+    <link rel="stylesheet" href="styles/csstutorial/pseudo-classes.css">
+    <link rel="stylesheet" href="styles/csstutorial/selectors.css">
+    <link rel="stylesheet" href="styles/csstutorial/text-effects.css">
+    <link rel="stylesheet" href="styles/csstutorial/transitionsandanimations.css">
+    <link rel="stylesheet" href="styles/csstutorial/web-fonts.css">
+    <link rel="stylesheet" href="styles/responsiveness/responsive.css">
+
+    <!---------------------------------- UI Library ------------------------->
+    <link rel="stylesheet" href="styles/uilibrary/images.css">
+    <link rel="stylesheet" href="styles/uilibrary/buttons.css">
+    <link rel="stylesheet" href="styles/uilibrary/forms.css">
+    <link rel="stylesheet" href="styles/uilibrary/nav.css">
+    <link rel="stylesheet" href="styles/uilibrary/forms.css">
+    <link rel="stylesheet" href="styles/uilibrary/dropdowns.css">
+    <link rel="stylesheet" href="styles/uilibrary/cards.css">
+    <link rel="stylesheet" href="styles/uilibrary/lists.css">
+
+    <!----------------------------- Third party resources ------------------
+    <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+    -->
+    <link rel="stylesheet" href="assets/fonts/font-awesome.css">
+
+</head>
+
+<body >
+    <nav class="navbars">
+        <img class="home-icon" src="assets/images/csstraining.svg"/>
+        CSS Training - An Initiative By SangeethaKanna
+        <div class="top-tool-bar">
+            <input type="text" placeholder="Search" id="search" />
+            <img class="avatar icon-image" src="assets/images/Me.png"></img>
+        </div>
+    </nav>
+
+    <section class="content">
+        <nav onclick="showTab(event)" class="tabs">
+            <a href="#" name="buttons" class="selected-tab">Buttons</a>
+            <a href="#" name="forms">Forms</a>
+            <a href="#" name="images">Images</a>
+            <a href="#" name="dropdowns">Dropdown</a>
+            <a href="#" name="cards">Card</a>
+            <a href="#" name="lists">List</a>
+        </nav>
+
+        <section class="ui-library">
+            <article class="buttons">
+                <div><button class="rectangle-btn">Sign In</button></div>
+                <div><button class="round-btn">Submit</button></div>
+                <div><button class="delete-btn"><i class="fas fa-trash"></i></div>
+                <div><button class="pay-btn">Pay</button></div>
+            </article>
+            <article class="forms">
+                <h2>Sign In</h2>
+                <div class="input-div">
+                    <label for="username">User Name</label>
+                    <input type="text" id="username">
+                </div>
+                <div class="input-div">
+                    <label for="password">Password</label>
+                    <input type="text" id="password">
+                </div>
+                <div>
+                    <button class="rectangle-btn">Sign In</button>
+                    <span><a href="#">Forgot Password</a></span>
+                </div>
+            </article>
+            <article class="images">
+                <img class="avatar" src="assets/images/Me.png"></img>
+                <img class="thumbnail" src="assets/images/Home.jpg"></img>
+            </article>
+            <article class="dropdowns">
+                <label class="dropdown-label">Dropdown</label>
+                <div class="dropdown-div">
+                    <ul>
+                        <li>Choice 2</li>
+                        <li>Choice 3</li>
+                    </ul>
+                </div>
+            </article>
+            <article class="cards">
+                <ul>
+                    <li><img src="assets/images/csstraining.svg"></li>
+                    <li><img src="assets/images/home-landing.jpg"></li>
+                    <li><img src="assets/images/home.jpg"></li>
+                    <li><img src="assets/images/Me.png"></li>
+                </ul>
+
+            </article>
+            <article class="lists"></article>
+        </section>
+
+        <section class="css-reference">
+             <section class="notfn">
+
+              </section>
+              <section class="side-div">
+                Hi - I am a 'section'. My styles are being controlled by media queries and I will look different in different
+                platforms and resolutions
+            </section>
+
+            <section class="selectors">
+                <header>Selectors</header>
+                <article>
+                    I am an article inside a section
+                    <div>
+                        I am a parent div
+                        <div>I am a child 'div'
+                            <a class="link" href="#">I am link for reloading</a>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    I am a sibling article to my elder one. I am immediately after an article
+                    <span>
+                        <button type="button">Submit Me</button>
+                    </span>
+                    <div class="options">
+                        <input type="radio" name="options1" value="option1">Option 1
+                        <input type="radio" name="options1" value="option2">Option 2
+                        <input type="radio" name="options1" value="option3">Option 3
+                        <input type="radio" name="options1" value="option4">Option 4
+                        <input type="radio" name="options2" vale="options5" title="Option 5">Option 5
+                    </div>
+                    <div class="arrow">I am div with an arrow</div>
+                </article>
+
+            </section>
+            <section class="pseudo-classes">
+                <div>
+                    <button disabled>Disabled</button>
+                </div>
+                <div></div>
+                <div></div>
+            </section>
+
+            <section class="transformations">
+                <header>2D Transformations</header>
+                <article class="transform2d">
+                    I am being transformed 2d wise
+                    <div>
+                        Rotate X - n Deg
+                    </div>
+                    <div>
+                        Rotate Y - n Deg
+                    </div>
+                    <div>
+                        Rotate Z - n Deg
+                    </div>
+                </article>
+
+                <header>3D Transformations</header>
+                <article class="transform3d">
+                    I am being transformed 3d wise
+                    <div>
+                        Translate X - n
+                    </div>
+                    <div>
+                        Translate Y - n deg
+                    </div>
+                    <div>
+                        Translate Z - n deg
+                    </div>
+                    <div class="rotate">
+                        Rotate x,y,z - n deg
+                    </div>
+
+                    <section class="scaling">
+                        <div>
+                            Scaling Z - n deg
+                        </div>
+                    </section>
+                </article>
+            </section>
+
+
+        </section>
+
+    </section>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+Excellent knowledge of hand-coded HTML5, CSS3, JavaScript
+Hands-on experience working with Object Oriented JavaScript (OOJS), JavaScript libraries and their practical uses in building complex interactive experiences
+Knowledge of common JavaScript design patterns
+Hands-on experience with ECMAScript 2015+ and should be up-to-date with new specifications (different stages). Also, using transpilers like Babel to use features from all stages
+Understanding of React.js, its core principles - lifecycle methods, virtual DOM etc. and at least 6 – 12 months hands-on experience with the same
+Understanding of one-way data flow and the Flux architecture
+Understanding of stateful (container) vs stateless (presentational) components and how to break   down the application into components
+Core understanding of how React’s state management works out of the box. Understanding of different libraries available to better manage application state like Redux/MobX. Difference in the way each library works (pure functions vs observables etc.) and the workflows as well as best practices
+Different middleware implementations available for async actions in Redux like redux-thunk,    redux-saga, redux-observable etc. Hands-on experience with at least one
+Understanding of different CSS architectures that go hand-in-hand with React.js application development. Pros and cons of component-level CSS vs global and where to apply each
+Thorough understanding of Webpack bundler (version 2+). Experience with configuring Webpack   from scratch is a plus
+Hands-on experience with test-driven development using Jest or equivalent. Familiar with snap shot testing, code coverage. Experience working with utilities like Enzyme
+Understanding of universal rendering with React.js. Hands-on experience with different out of the box implementations or custom implementation is a plus
