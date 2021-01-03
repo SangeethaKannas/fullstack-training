@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="42px" viewBox="0 0 28 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>tablet</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Vivid.JS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vivid-Icons" transform="translate(-671.000000, -562.000000)">
+            <g id="Icons" transform="translate(37.000000, 169.000000)">
+                <g id="tablet" transform="translate(624.000000, 390.000000)">
+                    <g transform="translate(10.000000, 3.000000)">
+                        <rect id="Rectangle-path" fill="#FF6E6E" fill-rule="nonzero" x="0" y="0" width="28" height="42"></rect>
+                        <path d="M14,36 C15.1045695,36 16,36.8954305 16,38 C16,39.1045695 15.1045695,40 14,40 C12.8954305,40 12,39.1045695 12,38 C12,36.8954305 12.8954305,36 14,36 Z M3,4 L25,4 L25,34 L3,34 L3,4 Z" id="Shape" fill="#0C0058"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+/***** Pseudo selectors    *****/
+
+button:disabled {
+    background-position: 2rem;
+    margin: 1rem;
+    display: block;
+}
+
+input:focus {
+    background-color: green;
+}
+
+a:visited {
+    background-color: brown;
+}
+
+::placeholder {
+    background: white;
+}

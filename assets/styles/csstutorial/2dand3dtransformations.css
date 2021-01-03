@@ -1,0 +1,63 @@
+/**
+
+    2D and 3D Transformations
+
+*/
+
+.transform2d div {   
+    background-color: green;
+}
+
+/*** Rotate X  **/
+.transform2d div:first-child {
+    -webkit-transform: rotateX(360deg);   
+    transform: rotateX(360deg);   
+}
+
+/*** Rotate Y ***/
+.transform2d div:nth-child(2){
+    -webkit-transform: rotateY(30deg); 
+    transform: rotateY(30deg);
+}
+
+/*** Rotate Z *********/
+.transform2d div:nth-child(3){
+    transform: rotateZ(10deg);
+}
+
+/**** 
+
+3D Transformations 
+
+**/
+
+.transform3d div {
+    background-color: darksalmon;
+}
+
+/*** Translate X  **/
+.transform3d div:first-child {
+    
+    transform: translateX(10);   
+}
+
+/*** Translate Y ***/
+.transform3d div:nth-child(2){
+    -webkit-transform: translateY(30deg); 
+    transform: translateY(30deg);
+}
+
+/*** Translate Z *********/
+.transform3d div:nth-child(3){
+    transform: translateZ(80deg);
+}
+
+/**** Rotate ******/
+.transform3d .rotate{
+    transform: rotate3d(1,100,1,180deg)
+}
+
+/****Scaling*****/
+.transform3d .scaling div:first-child{
+    transform: scaleX(0.5)
+}

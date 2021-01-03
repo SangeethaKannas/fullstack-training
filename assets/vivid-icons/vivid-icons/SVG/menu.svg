@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="24px" viewBox="0 0 30 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Vivid.JS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vivid-Icons" transform="translate(-436.000000, -571.000000)">
+            <g id="Icons" transform="translate(37.000000, 169.000000)">
+                <g id="menu" transform="translate(390.000000, 390.000000)">
+                    <g transform="translate(9.000000, 12.000000)" id="Shape">
+                        <path d="M0,0 L30,0 L30,4 L0,4 L0,0 Z M0,10 L30,10 L30,14 L0,14 L0,10 Z M0,20 L30,20 L30,24 L0,24 L0,20 Z" fill="#FF6E6E"></path>
+                        <path d="M0,0 L4,0 L4,4 L0,4 L0,0 Z M0,10 L4,10 L4,14 L0,14 L0,10 Z M0,20 L4,20 L4,24 L0,24 L0,20 Z M26,0 L30,0 L30,4 L26,4 L26,0 Z M26,10 L30,10 L30,14 L26,14 L26,10 Z M26,20 L30,20 L30,24 L26,24 L26,20 Z" fill="#0C0058"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>graph-pie</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Vivid.JS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vivid-Icons" transform="translate(-121.000000, -331.000000)">
+            <g id="Icons" transform="translate(37.000000, 169.000000)">
+                <g id="graph-pie" transform="translate(78.000000, 156.000000)">
+                    <g transform="translate(6.000000, 6.000000)" id="Shape">
+                        <path d="M18,18 L36,18 C35.68,27.671 27.767,36 18.019,36 C8.06738109,36 8.8817842e-16,27.9326189 0,17.981 C8.8817842e-16,8.233 8.329,0.32 18,0 L18,18 Z" fill="#FF6E6E"></path>
+                        <path d="M20,0 C28.4779978,0.81091514 35.1890849,7.52200216 36,16 L20,16 L20,0 Z" fill="#0C0058"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

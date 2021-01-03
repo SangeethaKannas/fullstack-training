@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="34px" viewBox="0 0 38 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>desktop</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Vivid.JS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vivid-Icons" transform="translate(-432.000000, -254.000000)">
+            <g id="Icons" transform="translate(37.000000, 169.000000)">
+                <g id="desktop" transform="translate(390.000000, 78.000000)">
+                    <g transform="translate(5.000000, 7.000000)" id="Shape">
+                        <path d="M38,27 L0,27 L0,0 L38,0 L38,27 Z M26,34 L12,34 L12,32 L26,32 L26,34 Z" fill="#FF6E6E" fill-rule="nonzero"></path>
+                        <path d="M3,24 L3,3 L35,3 L35,24 L3,24 Z M14,27 L24,27 L24,30 L26,32 L12,32 L14,30 L14,27 Z" fill="#0C0058" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

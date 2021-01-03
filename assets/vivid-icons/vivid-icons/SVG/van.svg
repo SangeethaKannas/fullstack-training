@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="27px" viewBox="0 0 40 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>van</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Vivid.JS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vivid-Icons" transform="translate(-899.000000, -180.000000)">
+            <g id="Icons" transform="translate(37.000000, 169.000000)">
+                <g id="van" transform="translate(858.000000, 0.000000)">
+                    <g transform="translate(4.000000, 11.000000)">
+                        <polygon id="Shape" fill="#FF6E6E" points="0 0 0 22.012 25.994 22.012 25.994 0"></polygon>
+                        <polygon id="Shape" fill="#000000" fill-rule="nonzero" points="25.994 6.014 34.32 6.014 40 12.014 40 22.014 25.994 22.014 25.994 6.014"></polygon>
+                        <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="8" cy="22" r="5"></circle>
+                        <circle id="Oval" fill="#FF6E6E" cx="33" cy="22" r="5"></circle>
+                        <path d="M8,20 C9.1045695,20 10,20.8954305 10,22 C10,23.1045695 9.1045695,24 8,24 C6.8954305,24 6,23.1045695 6,22 C6,20.8954305 6.8954305,20 8,20 Z M33,20 C34.1045695,20 35,20.8954305 35,22 C35,23.1045695 34.1045695,24 33,24 C31.8954305,24 31,23.1045695 31,22 C31,20.8954305 31.8954305,20 33,20 Z M32,9 L36,13 L29,13 L29,9 L32,9 Z" id="Shape" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

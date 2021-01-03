@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="31px" viewBox="0 0 34 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>layers</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Vivid.JS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vivid-Icons" transform="translate(-824.000000, -334.000000)">
+            <g id="Icons" transform="translate(37.000000, 169.000000)">
+                <g id="layers" transform="translate(780.000000, 156.000000)">
+                    <g transform="translate(6.000000, 9.000000)" id="Shape">
+                        <polygon fill="#FF6E6E" points="18 11.6 35.013 21.3 18 30.99 0.987 21.29"></polygon>
+                        <polygon fill="#0C0058" points="18 5.8 35.013 15.5 18 25.2 0.987 15.5"></polygon>
+                        <polygon fill="#FF6E6E" points="18 0.01 35.013 9.71 18 19.4 0.987 9.7"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

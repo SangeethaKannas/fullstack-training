@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script src="../datastructures/trie.js"></script>
+<script src="20.9buddystrings.js"></script>
+
+<script>
+    const myTrie = new Trie();
+    const stringA = "aaabaaaac";
+    const stringB = "aaacaaaab";
+    myTrie.add(stringA);
+    myTrie.add(stringB);
+    console.log(myTrie.getWords()); 
+    console.log(buddyStrings(stringA, stringB))
+    // console.log(buddyStrings("aaaaaabbc","aaaaaaacb"))
+</script>
+</html>

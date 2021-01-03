@@ -1,0 +1,24 @@
+.avatar {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.thumbnail {
+    width: 9rem;
+    height: 5rem;
+    border-radius: 3px;
+    border: 1px solid green;
+}
+
+.icon-image {
+    width: 20px;
+    height: 20px;    
+    margin: 0 1rem;
+}
+
+.home-icon {
+    width: 22px;
+    height: 22px;
+    padding: 0;
+}

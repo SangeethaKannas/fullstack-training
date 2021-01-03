@@ -1,0 +1,20 @@
+/***
+
+     The font CSS property is a shorthand for 
+font-style, font-variant, font-weight, font-size, line-height, and font-family. 
+Alternatively, it sets an element's font to a system font.
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts
+
+Google Web Fonts - https://www.w3schools.com/howto/howto_google_fonts.asp
+
+The font-family property should hold several font names as a "fallback" system, 
+to ensure maximum compatibility between browsers/operating systems. 
+If the browser does not support the first font, it tries the next font.
+
+*/
+
+body {
+    font: normal normal 1rem/1 'ABeeZee', 'Sofia', sans-serif;
+}
+

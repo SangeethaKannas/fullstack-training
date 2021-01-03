@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="36px" viewBox="0 0 26 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>bulb</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Vivid.JS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vivid-Icons" transform="translate(-828.000000, -566.000000)">
+            <g id="Icons" transform="translate(37.000000, 169.000000)">
+                <g id="bulb" transform="translate(780.000000, 390.000000)">
+                    <g transform="translate(10.000000, 6.000000)">
+                        <rect id="Rectangle-path" fill="#0C0058" fill-rule="nonzero" x="9" y="32" width="10" height="5"></rect>
+                        <path d="M21,25 C19.083,26.186 19,28.742 19,31 L19,32 L9,32 L9,31 C9,28.742 8.882,26.126 7,25 C3.20609078,22.4972208 0.945490024,18.236742 1,13.692 C1.08619278,6.59783885 6.90581136,0.91610047 14,1 C21.0941886,0.91610047 26.9138072,6.59783885 27,13.692 C27.05451,18.236742 24.7939092,22.4972208 21,25 Z" id="Shape" fill="#FF6E6E" fill-rule="nonzero"></path>
+                        <path d="M16,22.633 L16,32 L12,32 L12,22.633 C9.60755934,21.7928697 8.00471171,19.5356595 8,17 L11.6,17 C11.6,18.3254834 12.6745166,19.4 14,19.4 C15.3254834,19.4 16.4,18.3254834 16.4,17 L20,17 C19.9952883,19.5356595 18.3924407,21.7928697 16,22.633 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

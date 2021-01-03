@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>newspaper</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Vivid.JS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vivid-Icons" transform="translate(-433.000000, -409.000000)">
+            <g id="Icons" transform="translate(37.000000, 169.000000)">
+                <g id="newspaper" transform="translate(390.000000, 234.000000)">
+                    <g transform="translate(6.000000, 6.000000)" id="Shape">
+                        <polygon fill="#FF6E6E" points="30 33 33 33 33 36 0 36 0 0 30 0"></polygon>
+                        <path d="M36,33 C36.097741,33.8217448 35.8132443,34.6429299 35.2280871,35.2280871 C34.6429299,35.8132443 33.8217448,36.097741 33,36 C30.213,36 30,33 30,33 L30.011,16 L36,16 L36,33 Z M14,26.981 L25,26.981 L25,29 L14,29 L14,26.981 Z M14,17.02 L25,17.02 L25,19 L14,19 L14,17.019 L14,17.02 Z M5,6 L25,6 L25,9 L5,9 L5,6 Z M11,19 L5,19 L5,13 L11,13 L11,19 Z M11,29 L5,29 L5,23 L11,23 L11,29 Z M21,15 L14,14.981 L14,13 L21,13 L21,15 Z M21,25 L14,24.99 L14,23 L21,23 L21,25 Z" fill="#0C0058"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
