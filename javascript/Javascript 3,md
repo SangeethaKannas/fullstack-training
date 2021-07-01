@@ -1,0 +1,23 @@
+Promise - object - async tasks ( third party process doing the task )
+
+Creating a promise
+
+Using a promise
+
+this - is always  used inside a function - merely a reference to another object
+
+this inside a function, inside a method, function run with call, apply and bind
+
+Constructor 
+
+ special function acts as mold to create new objects
+ 
+ Defining a constructor 
+ using a constructor
+ 
+ 
+ Set properties inside a constructor
+ set methods in prototype property
+ 
+ 
+ 
