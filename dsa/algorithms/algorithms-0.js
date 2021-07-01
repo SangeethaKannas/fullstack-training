@@ -1,35 +1,19 @@
 Given a list of meetings that will happen during a day, find the minimum number of meeting rooms that can fit all meetings.
 
-Each meeting will be represented by a tuple of (start_time, end_time), where both start_time and end_time will be represented by an integer to indicate the time. start_time will be inclusive, and end_time will be exclusive, meaning a meeting of (0, 10) and (10, 20) will only require 1 meeting room.
+Each meeting will be represented by a tuple of (start_time, end_time), where both start_time and end_time will be represented by an integer to indicate the time. 
+start_time will be inclusive, and end_time will be exclusive, meaning a meeting of (0, 10) and (10, 20) will only require 1 meeting room.
 
 Here's some examples and some starting code:
 
-def meeting_rooms(meetings):
-  # Fill this in.
-
-# print 1
 print(meeting_rooms([(0, 10), (10, 20)]))
 # 1
 
 print(meeting_rooms([(20, 30), (10, 21), (0, 50)]))
 # 3 (all meetings overlap at time 20)
-
-
-Given a list of meetings that will happen during a day, find the minimum number of meeting rooms that can fit all meetings.
-
-Each meeting will be represented by a tuple of (start_time, end_time), where both start_time and end_time will be represented by an integer to indicate the time. start_time will be inclusive, and end_time will be exclusive, meaning a meeting of (0, 10) and (10, 20) will only require 1 meeting room.
-
-Here's some examples and some starting code:
-
-def meeting_rooms(meetings):
-  # Fill this in.
-
-# print 1
-print(meeting_rooms([(0, 10), (10, 20)]))
-# 1
-
-print(meeting_rooms([(20, 30), (10, 21), (0, 50)]))
-# 3 (all meetings overlap at time 20)
+ 
+   Answer
+     1. sort the array based on lowest starting time
+     2. 
 
 Given a list of numbers, for each element find the next element that is larger than the current element. Return the answer as a list of indices. If there are no elements larger than the current element, then use -1 instead.
 
@@ -162,8 +146,6 @@ print(split_bst(root, 2))
 #               \
 #                5
 
-
-
 Given a list of undirected edges which represents a graph, find out the number of connected components.
 
 def num_connected_components(edges):
@@ -171,8 +153,6 @@ def num_connected_components(edges):
 
 print(num_connected_components([(1, 2), (2, 3), (4, 1), (5, 6)]))
 # 2
-
-
 
 Given a valid parenthesis string (with only '(' and ')', an open parenthesis will always end with a close parenthesis, and a close parenthesis will never start first), remove the outermost layers of the parenthesis string and return the new parenthesis string.
 
@@ -191,4 +171,3 @@ print(remove_outermost_parenthesis('(()())'))
 
 print(remove_outermost_parenthesis('()()()'))
 # ' '
-
