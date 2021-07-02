@@ -9,6 +9,18 @@
 7. Use JSX, ES6
 8. Use React and Redux Developer tools
 
+Memoization | shouldComponentUpdate | may result in buggy code as it may create issues in Code Maintainability | PureComponent
+
+Purity = No Side affects
+
+Default React is impure
+
+React is basically a state machine
+
+Declarative system Performance improvements ShallowComparison
+
+Every child of pure component should also be pure
+
 # Getting Started
 
 ## Pre Requistes
