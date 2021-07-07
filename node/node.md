@@ -1,7 +1,16 @@
 Modules
 
 CommonJS standards
-
+   require - module
+   
+   eg
+     
+    http.createServer(function (req, res) {
+        res.writeHead(200, {'Content-Type': 'text/html'});
+        res.end('Hello World!');
+    }).listen(8080);
+    
+  
 
 |  Module Name |  Functionality |
 | ------------ | ------------ |
@@ -32,3 +41,56 @@ CommonJS standards
 |v8|Used to access information about V8 (the JavaScript engine).|
 |vm|Compiles JavaScript code in a virtual machine.|
 |zlib|Used for compressing or decompressing files.|
+
+#Event Driven
+
+The difference between an event and a callback function is that callback functions are executed when an asynchronous function returns some result. In contrast, events follow the observer pattern in which the function that listens for an event is called an Observer. When an event is fired, the observer/listener function gets executed.
+
+Methods of the EventEmitter clas
+
+addListener(event, listener)  removeListener(event, listener)  remoeAllListeners({event})   listeners(event)
+
+on(event, listener)
+
+once(event, listener) - handle event only once
+
+emit(event , [arg1, ar2...])
+
+EventEmitter.listenerCount(emitter, event)
+
+Events
+  newListener
+  removeListener
+  error
+ 
+Passing arguments and this (refers to EventEmmitter) to event listeners
+
+listenrs cfalled synchronously
+   setImmediate() or process.nextTick()
+   
+ Handling error events - prevents node termination
+ 
+ other methods
+ eventNames
+ prependOnceListener
+ prependListener
+ 
+    The advantage of using events rather than normal callbacks is that a different reaction can be given to the same signal several times with the help of multiple listeners. In contrast, if callbacks are used for this purpose, more logic needs to be written within a single callback. Events allow multiple actions to be taken based on state change and provide a different functionality each time an event occurs. 
+ 
+ patterns commonly used in Node.js to raise and bind events using EventEmitter are as follows: 
+Return EventEmitter from a function 
+Extend the EventEmitter class
+
+
+Design patterns
+
+1. Multiple listeners
+2. Using event emitter properties
+3. Publisher subscriber scenario
+4. Events of built-in modules
+5. 
+
+
+ Symbols are used as an alternative to Strings while setting keys for properties. Symbols are used for hiding properties on Objects. This is because the values can be accessed only by using the same instance of the Symbol. To access a property using Symbol key, use the notation object[symbol] as shown in below example.
+ 
+ 
