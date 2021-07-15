@@ -10,7 +10,9 @@ function testForPalindrome(givenWord) {
 
     rword.concat()
 
-    rword.endsWith()   rword.startsWith()
+    rword.endsWith()  
+    
+    rword.startsWith()
 
     String.fromCharCode(114)
 
