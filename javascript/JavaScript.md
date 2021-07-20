@@ -72,6 +72,7 @@ Expression
 ### Array
    - sort
    - slice
+   -    Returns new array
    - splice
    - map
    - filter
@@ -80,7 +81,22 @@ Expression
    - every
    - some
    - reduce
-    
+   - fill
+   - join
+   - find
+   - isArray
+   - findIndex
+   - Pop
+   - Push
+   - shift
+   - unshift
+   
+ Operators
+ Spread operator ...
+ Destructuring   []
+ 
+ 
+  
 ### Number
   - toFixed
   - toString
