@@ -1,43 +1,44 @@
-Seven Types
+Datatypes
 
-String
-Number
-Boolean
-Null
-undefined
-Symbol
+### Seven Types
 
-Object
-   store combination of data as key-value pair 
-   key
-   Value
-   Method
+- String
+- Number
+- Boolean
+- Null
+- undefined
+- Symbol
+
+- Object = stores combination of data as key-value pair 
+  -- key
+  -- Value
+  -- Method
    
-Array
+- Array
 
-Function
-  Bunch of code bundled in a section, which runs only when the function is called
-  allow for organizing code and code reusability
+- Function
+  -- Bunch of code bundled in a section, which runs only when the function is called
+  -- allow for organizing code and code reusability
   
-  Functiona declaration
+  -- Function declaration
      Name of a function
      Parameters | arguments ( optional )
      Function body - Code block
      Return (optional)
      
-  Function invocation
+  -- Function invocation
      Name + matching arguments within parantheses
  
 
-Basic Vocabulary
-Variables
+### Basic Vocabulary
+- Variables
   Variable declartion
   Variable initialization
   Variable Assignment
   
-  Hoisting
+- Hoisting
   
-  Scope
+- Scope
     Global Scope
     Functional Scope
     
@@ -51,8 +52,7 @@ Rule:
     Nested hierarchy of scope --> JS Engine looks for variables in the scope chain upwards ( its ancestors )
     
     
-Operator
+- Operator
 Keyword / reserved word
 Statement
 Expression
-
