@@ -1,9 +1,9 @@
-###Conditional Statements
+### Conditional Statements
    - if-else
    - switch-break
    - Ternary operator
    
-##Truthy / Falsy
+## Truthy / Falsy
   type- coerced to boolean
   
 ### Loop statements
