@@ -21,3 +21,16 @@ Add a default-src CSP Header in Express to Enforce an Allowlist and Mitigate XSS
 
 https://github.com/wjohnson85/eggheadio-web-security-essentails/blob/master/17-add-a-default-src-csp-header-in-express-to-enforce-an-allowlist-and-mitigate-xss.md
 
+Security
+https://blog.lanyonm.org/articles/2015/12/22/continuous-security-owasp-java-vulnerability-check.html
+https://stormpath.com/blog/crud-application-react-spring-boot-user-authentication
+https://www.youtube.com/watch?v=IVLpmCtiPZ0&list=PLE58b5NgENKm3h5r2R17Q4ypZIGjDI4n
+https://github.com/OWASP/java-html-sanitizer/blob/master/src/main/java/org/owasp/html/examples/EbayPolicyExample.java
+https://github.com/owasp/java-html-sanitizer
+https://gitter.im/OWASP/NodeGoat?source=explore
+https://en.wikipedia.org/wiki/Nofollow
+
+context sensitive auto sanitization
+Content Security Policy
+
+CSDL tools like AppScan
