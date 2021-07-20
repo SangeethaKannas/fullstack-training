@@ -56,3 +56,39 @@ Rule:
 Keyword / reserved word
 Statement
 Expression
+
+
+### Built in functions
+
+### String
+   - concat
+   - charAt
+   - split
+   - indexOf
+   - startsWith
+   - endsWith
+   - slice
+    
+### Array
+   - sort
+   - slice
+   - splice
+   - map
+   - filter
+   - forEach
+   - find
+   - every
+   - some
+   - reduce
+    
+### Number
+  - toFixed
+  - toString
+  - toPrecision
+   
+### Boolean
+  - toString
+   
+###Built In objects   
+- Date
+- Math
