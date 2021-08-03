@@ -91,6 +91,39 @@ FP
       AMD
       IIFE
       
-   
+   V8 Engine 
+Event loop 
+Thread loop 
+Event phases  
+ 
+Blocking/NOn-blocking IO 
+response.writeHEader 
+  response.writeHead 
+  response.end 
+
+ 
+REPL Language 
+
+Code Cleaner
+Code Beautifier
+HTML Hint 
+CSS Comb
 
 
+Environment Variables
+   process.env.<VARIABLE_NAME>
+
+Express.js in production
+Socket.IO in production
+Errors	
+	Node.js domains
+	
+Multithreading with Cluster 1 and 2
+Logging of events and monitoring
+Building
+Dependency Locking
+Running tests in cloud with Travis CI
+2 - 3 oppurtunities in Node js
+US startup company
+Application creation
+Support

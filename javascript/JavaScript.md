@@ -1,6 +1,4 @@
-Datatypes
-
-### Seven Types
+### Datatypes - Seven Types
 
 - String
 - Number

@@ -1,3 +1,45 @@
+Error boundaries are REact components that catch Javascripts errors anywhere in their child component tree, log those errors and display a fallback UI instead of the component tree that crashed
+
+Error boundaries make it quite easy to handle  errors in the server side rendering 
+Error boundaries catch errors during rendering in lifecyle methods and in constructors of the whole tree below them
+Error boundaries do not catch errors for Event
+
+
+Where we can use React : 
+
+1. React supports any environment that can write its own custom renderer and run react code 
+2. Only on Web and React Native applications
+only browsr based environments
+
+After using useEffect you find that it does not satisfy our requirements, you realize that ou need a hook with some signature, but synchronously after all DOM mutations, in such a situation, whic of the following?
+
+Custom Hook   useImperativeHandle    useSynchronousEffect    useLayoutEffect
+
+import PropTypes from 'prop-types';
+
+class MyComponents extends React.Component {
+  render () {
+     const children = this.props.children;
+	 return <div>{children}</div>
+  }
+}
+
+MyComponent.propTypes = {
+  children: PropTypes.element.isRequired
+
+}
+
+ensures a prop named children is passed with the component
+
+A Button clicking on which trigges a call to setState() that changes the data ouput. While testing your app, you noticed that clicking on the button continously doesnot give you different outputs but one output at the end of the last click
+
+setState() is asynchronous and batched together
+//////////
+As your component starts updating this.componentDidUpdate() is invoked. You call set state() immediately in componentDidUpdate() without wrapping it in a condition, --> 
+ 1. An infinte loop
+ 2. An extra re-rendering
+ 3. undefined passed as a third "snapshot" parameter to componentDidUpdate
+
 
 {!!!obj.id && <UserLogin />}
 

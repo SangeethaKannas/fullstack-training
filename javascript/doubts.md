@@ -1,3 +1,4 @@
+Difference between viewState and sessionState
 
 media queries
 
@@ -701,3 +702,51 @@ button.addEventListener('click', debounce(function() {
 	https://stackoverflow.com/questions/542938/how-do-i-get-the-number-of-days-between-two-dates-in-javascript
 	https://strongloop.com/strongblog/node-js-event-loop/
 	
+
+	
+Why sync requests shouldn't be used:
+https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Synchronous_and_Asynchronous_Requests#Synchronous_request
+
+JQuery Ajax (the default behavior is async unless explicitly specified; examples at the bottom of thee page): 
+https://api.jquery.com/jQuery.ajax/
+  
+Async Redux Actions:
+https://redux.js.org/advanced/async-actions
+https://code.google.com/p/domxsswiki/wiki/jQuery
+http://shebang.brandonmintern.com/foolproof-html-escaping-in-javascript/\
+
+npm config set http-proxy 
+npm config set https-proxy 
+
+https://eloquentjavascript.net/
+https://boards.greenhouse.io/gitlab/jobs/4224948002
+https://codeburst.io/build-a-blog-using-gatsby-js-react-8561bfe8fc91
+http://2ality.com/2012/09/expressions-vs-statements.html
+https://medium.com/dailyjs/the-why-behind-the-wat-an-explanation-of-javascripts-weird-type-system-83b92879a8db
+
+Comments: 
+https://medium.freecodecamp.org/code-comments-the-good-the-bad-and-the-ugly-be9cc65fbf83
+https://dzone.com/articles/5-best-practices-commenting
+https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
+https://culttt.com/2012/10/29/javascript-control-flow-structures/
+http://2ality.com/2013/09/types.html
+https://medium.com/dailyjs/the-why-behind-the-wat-an-explanation-of-javascripts-weird-type-system-83b92879a8db
+http://www.javascripttutorial.net/javascript-primitive-vs-reference-values/
+http://adripofjavascript.com/blog/drips/the-difference-between-boolean-objects-and-boolean-primitives-in-javascript.html
+https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5
+http://speakingjs.com/es5/ch24.html
+https://www.linkedin.com/learning/react-managing-complex-interactions/initialize-a-new-project
+https://www.webmantras.com/blog/inspiration/amazing-free-stock-photos-websites/
+http://speakingjs.com/es5/index.html#toc_pt01
+http://benalman.com/news/2010/11/immediately-invoked-function-expression/
+https://frontendmasters.com/courses/javascript-foundations/compiling-function-scope/
+
+https://medium.freecodecamp.org/the-css-handbook-a-handy-guide-to-css-for-developers-b56695917d11
+https://www.youtube.com/watch?v=n1mdAPFq2Os
+https://www.youtube.com/watch?v=m_u6P5k0vP0
+https://pazzing.talentlyft.com/jobs/full-stack-software-engineer-iYF/new
+https://www.remote-developer-jobs.com/job/sticker-mule-javascript-engineer-2/?utm_medium=blog&utm_source=NoiceJobs
+https://www.remote-developer-jobs.com/job/494539/?utm_medium=blog&utm_source=NoiceJobs
+https://stackoverflow.com/jobs/493275/javascript-developer-arative-technologies?utm_source=remoteok.io&ref=remoteok.io

@@ -1,3 +1,18 @@
+“loosely coupled” 
+design challenges and accompanying usability problems,  UI design guidelines and style guides, to manage the web application’s “look and feel”
+Lengthy and difficult
+
+Web Triad
+HTML - Content
+CSS - presentation
+JS – behaviour
+Browser Incompatabilities
+Similar to same lang. and diff accent
+
+
+
+
+
 ### Conditional Statements
    - if-else
    - switch-break
