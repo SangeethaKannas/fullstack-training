@@ -93,4 +93,18 @@ Design patterns
 
  Symbols are used as an alternative to Strings while setting keys for properties. Symbols are used for hiding properties on Objects. This is because the values can be accessed only by using the same instance of the Symbol. To access a property using Symbol key, use the notation object[symbol] as shown in below example.
  
- 
+
+Node js
+concurrency-node-js/
+callstack
+libuv-in-node-js/express js
+app vs server
+
+services in nodejs
+cluster mongodb and nodejs
+
+	Nodejs modules - you have used
+	Node JS architecture
+
+middleware - syntax to create a middle ware
+	event loop in nodejs

@@ -90,3 +90,56 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 - useImerativeHandle
 - useLayoutEffect
 - useDebugValue
+
+
+React-window is a very popular library that helps us in reducing the DOM size of the web page.
+To know more about this,
+- How to implement react-window?
+- Where should we use react-window?
+- How to calculate the DOM size of the application?
+
+Server side rendering
+
+Difference between viewState and sessionState
+
+media queries
+
+responsive web designate
+react redux
+
+jsx  - write html without JSX
+
+React.fragment vs <>
+
+lazyloading
+
+scolling optimization - memoizatiion
+
+debouncing
+
+setState - can you change the state without setState? is it asynchronous
+useCall
+useMemo
+remove event handlers - useEffect
+Synthetic events
+
+useEffect - returns an anonymous function vs useWrap
+useDispatch 
+API - redux-simplifying-the-arrow-functions 
+how many reducer and stored
+logger?
+
+	shadow dom
+	components
+	state vs props
+	useEffect - how man 
+	setState(
+	key props ?
+
+  Memoization | shouldComponentUpdate | may result in buggy code as it may create issues in Code Maintainability | PureComponent
+
+Purity = No Side affects
+Default React is impure
+React is basically a state machine
+Declarative system Performance improvements ShallowComparison
+Every child of pure component should also be pure
