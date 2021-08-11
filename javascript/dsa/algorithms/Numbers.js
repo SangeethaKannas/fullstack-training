@@ -1,3 +1,102 @@
+Pascal's Triangle is a triangle where all numbers are the sum of the two numbers above it. Here's an example of the Pascal's Triangle of size 5.
+
+    1
+   1 1
+  1 2 1
+ 1 3 3 1
+1 4 6 4 1
+
+Given an integer n, generate the n-th row of the Pascal's Triangle.
+
+Here's an example and some starter code.
+
+def pascal_triangle_row(n):
+  # Fill this in.
+
+print(pascal_triangle_row(6))
+# [1, 5, 10, 10, 5, 1]
+
+
+
+Given two binary numbers represented as strings, return the sum of the two binary numbers as a new binary represented as a string. Do this without converting the whole binary string into an integer.
+
+Here's an example and some starter code.
+
+def sum_binary(bin1, bin2):
+  # Fill this in.
+  
+print(sum_binary("11101", "1011"))
+# 101000
+
+
+
+Given a list of numbers and a target number n, find 3 numbers in the list that sums closest to the target number n. There may be multiple ways of creating the sum closest to the target number, you can return any combination in any order.
+
+Here's an example and some starter code.
+
+def closest_3sum(nums, target):
+  # Fill this in.
+  
+print(closest_3sum([2, 1, -5, 4], -1))
+# Closest sum is -5+1+2 = -2 OR -5+1+4 = 0
+# print [-5, 1, 2]
+
+
+
+
+Given an integer, convert the integer to a roman numeral. You can assume the input will be between 1 to 3999.
+
+The rules for roman numerals are as following:
+
+There are 7 symbols, which correspond to the following values.
+
+I   1
+V   5
+X   10
+L   50
+C   100
+D   500
+M   1000
+
+The value of a roman numeral are the digits added together. For example the roman numeral 'XX' is V + V = 10 + 10 = 20. Typically the digits are listed from largest to smallest, so X should always come before I. Thus the largest possible digits should be used first before the smaller digits (so to represent 50, instead of XXXXX, we should use L).
+
+There are a couple special exceptions to the above rule.
+
+To represent 4, we should use IV instead of IIII. Notice that I comes before V.
+To represent 9, we should use IX instead of VIIII.
+To represent 40, we should use XL instead of XXXX.
+To represent 90, we should use XC instead of LXXXX.
+To represent 400, we should use CD instead of CCCC.
+To represent 900, we should use CM instead of DCCCC.
+
+Here are some examples and some starter code.
+
+def integer_to_roman(num):
+  # Fill this in.
+
+print(integer_to_roman(1000))
+# M
+print(integer_to_roman(48))
+# XLVIII
+print(integer_to_roman(444))
+# CDXLIV
+
+
+Given an integer, reverse the digits. Do not convert the integer into a string and reverse it.
+
+Here's some examples and some starter code.
+
+def reverse_integer(num):
+  # Fill this in.
+  
+print(reverse_integer(135))
+# 531
+
+print(reverse_integer(-321))
+# -123
+
+
+
 Given a 32-bit integer, swap the 1st and 2nd bit, 3rd and 4th bit, up til the 31st and 32nd bit.
 
 Here's some starting code and an example:
@@ -337,5 +436,263 @@ def sortNums(nums):
 
 print sortNums([3, 3, 2, 1, 3, 2, 1])
 # [1, 1, 2, 2, 3, 3, 3]
+
+
+
+
+Given a 32 bit integer, reverse the bits and return that number.
+
+Example:
+
+Input: 1234 
+# In bits this would be 0000 0000 0000 0000 0000 0100 1101 0010
+Output: 1260388352
+# Reversed bits is 0100 1011 0010 0000 0000 0000 0000 0000
+
+Here's some starter code:
+
+def to_bits(n):
+  return '{0:08b}'.format(n)
+
+def reverse_num_bits(num):
+  # Fill this in.
+
+print(to_bits(1234))
+# 10011010010
+print(reverse_num_bits(1234))
+# 1260388352
+print(to_bits(reverse_num_bits(1234)))
+# 1001011001000000000000000000000
+
+
+
+Kaprekar's Constant is the number 6174. This number is special because it has the property where for any 4-digit number that has 2 or more unique digits, if you repeatedly apply a certain function it always reaches the number 6174.
+
+This certain function is as follows:
+- Order the number in ascending form and descending form to create 2 numbers.
+- Pad the descending number with zeros until it is 4 digits in length.
+- Subtract the ascending number from the descending number.
+- Repeat.
+
+Given a number n, find the number of times the function needs to be applied to reach Kaprekar's constant. Here's some starter code:
+
+KAPREKAR_CONSTANT = 6174
+
+def num_kaprekar_iterations(n):
+  # Fill this in.
+
+print num_kaprekar_iterations(123)
+# 3
+# Explanation:
+#  3210 - 123 = 3087
+#  8730 - 0378 = 8352
+#  8532 - 2358 = 6174 (3 iterations)
+
+
+
+Given a list of numbers, and a target number n, find all unique combinations of a, b, c, d, such that a + b + c + d = n.
+
+Here's some examples and some starting code.
+
+def fourSum(nums, target):
+  # Fill this in.
+
+print(fourSum([1, 1, -1, 0, -2, 1, -1], 0))
+# print [[-1, -1, 1, 1], [-2, 0, 1, 1]]
+
+print(fourSum([3, 0, 1, -5, 4, 0, -1], 1))
+# print [[-5, -1, 3, 4]]
+
+print(fourSum([0, 0, 0, 0, 0], 0))
+# print ([0, 0, 0, 0])
+
+
+
+Given a list of numbers, find the smallest window to sort such that the whole list will be sorted. If the list is already sorted return (0, 0). You can assume there will be no duplicate numbers.
+
+Example:
+
+Input: [2, 4, 7, 5, 6, 8, 9]
+Output: (2, 4)
+
+Explanation: Sorting the window (2, 4) which is [7, 5, 6] will also means that the whole list is sorted.
+
+def min_window_to_sort(nums):
+  # Fill this in.
+  
+print(min_window_to_sort([2, 4, 7, 5, 6, 8, 9]))
+# (2, 4)
+
+
+Given a list of numbers and a target number, find all possible unique subsets of the list of numbers that sum up to the target number. The numbers will all be positive numbers.
+
+Here's an example and some starter code.
+
+def sum_combinations(nums, target):
+  # Fill this in.
+
+print(sum_combinations([10, 1, 2, 7, 6, 1, 5], 8))
+# [(2, 6), (1, 1, 6), (1, 2, 5), (1, 7)]
+
+
+Given a number n, generate all possible combinations of n well-formed brackets.
+
+Here are some examples and some starting code.
+
+def generate_brackets(n):
+  #Fill this in.
+  
+print(generate_brackets(1))
+# ['()']
+
+print(generate_brackets(3))
+# ['((()))', '(()())', '()(())', '()()()', '(())()']
+
+
+
+
+Given an integer, check if that integer is a palindrome. For this problem do not convert the integer to a string to check if it is a palindrome.
+
+import math
+
+def is_palindrome(n):
+  # Fill this in.
+
+print is_palindrome(1234321)
+# True
+print is_palindrome(1234322)
+# False
+
+
+
+
+Return the longest run of 1s for a given integer n's binary representation.
+
+Example:
+
+Input: 242
+Output: 4
+
+242 in binary is 0b11110010, so the longest run of 1 is 4.
+
+def longest_run(n):
+  # Fill this in.
+
+print longest_run(242)
+# 4
+
+
+
+The Fibonacci sequence is the integer sequence defined by the recurrence relation: F(n) = F(n-1) + F(n-2), where F(0) = 0 and F(1) = 1. In other words, the nth Fibonacci number is the sum of the prior two Fibonacci numbers. Below are the first few values of the sequence:
+
+0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144...
+
+Given a number n, print the n-th Fibonacci Number.
+Examples:
+Input: n = 3
+Output: 2
+
+Input: n = 7
+Output: 13
+Here's a starting point:
+
+class Solution():
+  def fibonacci(self, n):
+    # fill this in.
+
+n = 9
+print(Solution().fibonacci(n))
+# 34
+
+
+Given an integer, check if that integer is a palindrome. For this problem do not convert the integer to a string to check if it is a palindrome.
+
+import math
+
+def is_palindrome(n):
+  # Fill this in.
+
+print is_palindrome(1234321)
+# True
+print is_palindrome(1234322)
+# False
+
+
+Given an integer, find the number of 1 bits it has.
+
+Here's an example and some starting code.
+
+def one_bits(num):
+  # Fill this in.
+
+print(one_bits(23))
+# 4
+# 23 = 0b10111
+
+
+
+Given a list of numbers, for each element find the next element that is larger than the current element. Return the answer as a list of indices. If there are no elements larger than the current element, then use -1 instead.
+
+Here's an example and some starter code:
+
+def larger_number(nums):
+  # Fill this in.
+
+# print [2, 2, 3, 4, -1, -1]
+print(larger_number([3, 2, 5, 6, 9, 8]))
+
+
+
+Given a list of sorted numbers, and two integers k and x, find k closest numbers to the pivot x.
+
+Here's an example and some starter code:
+
+def closest_nums(nums, k, x):
+ # Fill this in.
+
+print(closest_nums([1, 3, 7, 8, 9], 3, 5))
+# [7, 3, 8]
+
+Given a list of points as a tuple (x, y) and an integer k, find the k closest points to the origin (0, 0).
+
+Here's an example and some starter code:
+
+def closest_points(points, k):
+  # Fill this in.
+
+print(closest_points([(0, 0), (1, 2), (-3, 4), (3, 1)], 2))
+# [(1, 2), (0, 0)]
+
+
+/**
+ * 
+ * Given an array, nums, of n integers, find all unique triplets (three numbers, a, b, & c) in nums such that a + b + c = 0. Note that there may not be any triplets that sum to zero in nums, and that the triplets must not be duplicates.
+
+Example:
+Input: nums = [0, -1, 2, -3, 1]
+Output: [0, -1, 1], [2, -3, 1]
+ * 
+ */
+
+ /**
+You are given an array of integers. Return the smallest positive integer that is not present in the array. The array may contain duplicate entries.
+For example, the input [3, 4, -1, 1] should return 2 because it is the smallest positive integer that doesn't exist in the array.
+*/
+
+
+/**
+
+A look-and-say sequence is defined as the integer sequence beginning with a single digit in which the next term is obtained by describing the previous term. An example is easier to understand:
+
+Each consecutive value describes the prior value.
+
+1      #
+11     # one 1's
+21     # two 1's
+1211   # one 2, and one 1.
+111221 # #one 1, one 2, and two 1's.
+
+Your task is, return the nth term of this sequence. 
+*/
 
 

@@ -1,15 +1,3 @@
-Given a list of numbers and a target number, find all possible unique subsets of the list of numbers that sum up to the target number. The numbers will all be positive numbers.
-
-Here's an example and some starter code.
-
-def sum_combinations(nums, target):
-  # Fill this in.
-
-print(sum_combinations([10, 1, 2, 7, 6, 1, 5], 8))
-# [(2, 6), (1, 1, 6), (1, 2, 5), (1, 7)]
-
-
-
 Given a sorted list of size n, with m unique elements (thus m < n), modify the list such that the first m unique elements in the list will be sorted, ignoring the rest of the list. Your solution should have a space complexity of O(1). Instead of returning the list (since you are just modifying the original list), you should return what m is.
 
 Here's an example and some starter code.
@@ -30,20 +18,6 @@ print(nums)
 # [1]
 
 
-Given a number n, generate all possible combinations of n well-formed brackets.
-
-Here are some examples and some starting code.
-
-def generate_brackets(n):
-  #Fill this in.
-  
-print(generate_brackets(1))
-# ['()']
-
-print(generate_brackets(3))
-# ['((()))', '(()())', '()(())', '()()()', '(())()']
-
-
 
 In many spreadsheet applications, the columns are marked with letters. From the 1st to the 26th column the letters are A to Z. Then starting from the 27th column it uses AA, AB, ..., ZZ, AAA, etc.
 
@@ -60,117 +34,11 @@ print column_name(28)
 # AB
 
 
-Hi, here's your problem today. This problem was recently asked by Apple:
-
-You are given a tree, and your job is to print it level-by-level with linebreaks.
-
-    a
-   / \
-  b   c
- / \ / \
-d  e f  g
-
-
-The output should be
-
-a
-bc
-defg
-
-Here's a starting point:
-
-from collections import deque
-
-class Node(object):
-  def __init__(self, val):
-    self.val = val
-    self.left = None
-    self.right = None
-
-  def __str__(self):
-    # Fill this in.
-
-tree = Node('a')
-tree.left = Node('b')
-tree.right = Node('c')
-tree.left.left = Node('d')
-tree.left.right = Node('e')
-tree.right.left = Node('f')
-tree.right.right = Node('g')
-
-print tree
-# a
-# bc
-# defg
 
 
 
 
 
-Given an integer, check if that integer is a palindrome. For this problem do not convert the integer to a string to check if it is a palindrome.
-
-import math
-
-def is_palindrome(n):
-  # Fill this in.
-
-print is_palindrome(1234321)
-# True
-print is_palindrome(1234322)
-# False
-
-
-Given a string with only ( and ), find the minimum number of characters to add or subtract to fix the string such that the brackets are balanced.
-
-Example:
-
-Input: '(()()'
-Output: 1
-
-Explanation:
-
-The fixed string could either be ()() by deleting the first bracket, or (()()) by adding a bracket. These are not the only ways of fixing the string, there are many other ways by adding it in different positions!
-
-
-Here's some code to start with:
-
-def fix_brackets(s):
-  # Fill this in.
-
-print fix_brackets('(()()')
-# 1
-
-
-
-
-
-Given a binary tree, find the most frequent subtree sum.
-
-Example:
-
-   3
-  / \
- 1   -3
-
-
-The above tree has 3 subtrees. The root node with 3, and the 2 leaf nodes, which gives us a total of 3 subtree sums. The root node has a sum of 1 (3 + 1 + -3), the left leaf node has a sum of 1, and the right leaf node has a sum of -3. Therefore the most frequent subtree sum is 1.
-
-If there is a tie between the most frequent sum, you can return any one of them.
-
-Here's some starter code for the problem:
-
-class Node():
-  def __init__(self, value, left=None, right=None):
-    self.val = value
-    self.left = left
-    self.right = right
-
-def most_freq_subtree_sum(root):
-  # fill this in.
-
-root = Node(3, Node(1), Node(-3))
-print(most_freq_subtree_sum(root))
-# 1
 
 
 
@@ -232,42 +100,6 @@ tree = create_height_balanced_bst([1, 2, 3, 4, 5, 6, 7, 8])
 #   2   4 6  8
 #  /
 # 1
-
-
-
-An IP Address is in the format of A.B.C.D, where A, B, C, D are all integers between 0 to 255.
-
-Given a string of numbers, return the possible IP addresses you can make with that string by splitting into 4 parts of A, B, C, D.
-
-Keep in mind that integers can't start with a 0! (Except for 0)
-
-Example:
-
-Input: 1592551013
-Output: ['159.255.101.3', '159.255.10.13']
-
-def ip_addresses(s, ip_parts=[]):
-  # Fill this in.
-
-print ip_addresses('1592551013')
-# ['159.255.101.3', '159.255.10.13']
-
-
-
-Return the longest run of 1s for a given integer n's binary representation.
-
-Example:
-
-Input: 242
-Output: 4
-
-242 in binary is 0b11110010, so the longest run of 1 is 4.
-
-def longest_run(n):
-  # Fill this in.
-
-print longest_run(242)
-# 4
 
 
 MS Excel column titles have the following pattern: A, B, C, ..., Z, AA, AB, ..., AZ, BA, BB, ..., ZZ, AAA, AAB, ... etc. In other words, column 1 is named "A", column 2 is "B", column 26 is "Z", column 27 is "AA" and so forth. Given a positive integer, find its corresponding column name.
@@ -352,193 +184,6 @@ for _, val in reverse_graph(graph).items():
 
 
 
-Given a file path with folder names, '..' (Parent directory), and '.' (Current directory), return the shortest possible file path (Eliminate all the '..' and '.').
-
-Example
-
-Input: '/Users/Joma/Documents/../Desktop/./../'
-Output: '/Users/Joma/'
-
-def shortest_path(file_path):
-  # Fill this in.
-
-print shortest_path('/Users/Joma/Documents/../Desktop/./../')
-# /Users/Joma/
-
-
-
-Design a Tic-Tac-Toe game played between two players on an n x n grid. A move is guaranteed to be valid, and a valid move is one placed on an empty block in the grid. A player who succeeds in placing n of their marks in a horizontal, diagonal, or vertical row wins the game. Once a winning condition is reached, the game ends and no more moves are allowed. Below is an example game which ends in a winning condition:
-
-Given n = 3, assume that player 1 is "X" and player 2 is "O" 
-board = TicTacToe(3);
-
-board.move(0, 0, 1); -> Returns 0 (no one wins)
-|X| | |
-| | | |    // Player 1 makes a move at (0, 0).
-| | | |
-
-board.move(0, 2, 2); -> Returns 0 (no one wins)
-|X| |O|
-| | | |    // Player 2 makes a move at (0, 2).
-| | | |
-
-board.move(2, 2, 1); -> Returns 0 (no one wins)
-|X| |O|
-| | | |    // Player 1 makes a move at (2, 2).
-| | |X|
-
-board.move(1, 1, 2); -> Returns 0 (no one wins)
-|X| |O|
-| |O| |    // Player 2 makes a move at (1, 1).
-| | |X|
-
-board.move(2, 0, 1); -> Returns 0 (no one wins)
-|X| |O|
-| |O| |    // Player 1 makes a move at (2, 0).
-|X| |X|
-
-board.move(1, 0, 2); -> Returns 0 (no one wins)
-|X| |O|
-|O|O| |    // Player 2 makes a move at (1, 0).
-|X| |X|
-
-board.move(2, 1, 1); -> Returns 1 (player 1 wins)
-|X| |O|
-|O|O| |    // Player 1 makes a move at (2, 1).
-|X|X|X|
-
-
-Here's a starting point:
-
-class TicTacToe(object):
-  def __init__(self, n):
-    # Fill this in.
-
-  def move(self, row, col, player):
-    # Fill this in.
-
-board = TicTacToe(3)
-board.move(0, 0, 1)
-board.move(0, 2, 2)
-board.move(2, 2, 1)
-board.move(1, 1, 2)
-board.move(2, 0, 1)
-board.move(1, 0, 2)
-print(board.move(2, 1, 1))
-
-
-
-Given a non-empty list of words, return the k most frequent words. The output should be sorted from highest to lowest frequency, and if two words have the same frequency, the word with lower alphabetical order comes first. Input will contain only lower-case letters.
-
-Example:
-
-Input: ["daily", "interview", "pro", "pro", 
-"for", "daily", "pro", "problems"], k = 2
-Output: ["pro", "daily"]
-
-class Solution(object):
-  def topKFrequent(self, words, k):
-    # Fill this in.
-
-words = ["daily", "interview", "pro", "pro", "for", "daily", "pro", "problems"]
-k = 2
-print(Solution().topKFrequent(words, k))
-# ['pro', 'daily']
-
-
-
-By the way, check out our NEW project AlgoPro (http://algopro.com) for over 60+ video coding sessions with ex-Google/ex-Facebook engineers.
-
-Given a non-empty array where each element represents a digit of a non-negative integer, add one to the integer. The most significant digit is at the front of the array and each element in the array contains only one digit. Furthermore, the integer does not have leading zeros, except in the case of the number '0'.
-
-Example:
-
-Input: [2,3,4]
-Output: [2,3,5]
-
-class Solution():
-  def plusOne(self, digits):
-    # Fill this in.
-
-num = [2, 9, 9]
-print(Solution().plusOne(num))
-# [3, 0, 0]
-
-
-You are given the root of a binary tree. Find the level for the binary tree with the minimum sum, and return that value.
-
-For instance, in the example below, the sums of the trees are 10, 2 + 8 = 10, and 4 + 1 + 2 = 7. So, the answer here should be 7.
-
-class Node:
-  def __init__(self, value, left=None, right=None):
-    self.val = value
-    self.left = left
-    self.right = right
-
-def minimum_level_sum(root):
-  # Fill this in.
-
-#     10
-#    /  \
-#   2    8
-#  / \    \
-# 4   1    2
-node = Node(10)
-node.left = Node(2)
-node.right = Node(8)
-node.left.left = Node(4)
-node.left.right = Node(1)
-node.right.right = Node(2)
-
-print minimum_level_sum(node)
-
-
-
-By the way, check out our NEW project AlgoPro (http://algopro.com) for over 60+ video coding sessions with ex-Google/ex-Facebook engineers.
-
-You are given the root of a binary tree, along with two nodes, A and B. Find and return the lowest common ancestor of A and B. For this problem, you can assume that each node also has a pointer to its parent, along with its left and right child.
-
-class TreeNode:
-  def __init__(self, val):
-    self.left = None
-    self.right = None
-    self.parent = None
-    self.val = val
-
-
-def lowestCommonAncestor(root, a, b):
-  # Fill this in.
-
-#   a
-#  / \
-# b   c
-#    / \
-#   d*  e*
-root = TreeNode('a')
-root.left = TreeNode('b')
-root.left.parent = root
-root.right = TreeNode('c')
-root.right.parent = root
-a = root.right.left = TreeNode('d')
-root.right.left.parent = root.right
-b = root.right.right = TreeNode('e')
-root.right.right.parent = root.right
-
-print lowestCommonAncestor(root, a, b).val
-# c
-
-
-
-You are given two strings, A and B. Return whether A can be shifted some number of times to get B.
-
-Eg. A = abcde, B = cdeab should return true because A can be shifted 3 times to the right to get B. A = abc and B= acb should return false.
-
-def is_shifted(a, b):
-  # Fill this in.
-  
-print is_shifted('abcde', 'cdeab')
-# True
-
 
 You are given an array of integers, and an integer K. Return the subarray which sums to K. You can assume that a solution will always exist.
 
@@ -552,96 +197,6 @@ print find_continuous_k([1, 3, 2, 5, 7, 2], 14)
 Can you do this in linear time?
 
 
-You are given the root of a binary tree. Find the path between 2 nodes that maximizes the sum of all the nodes in the path, and return the sum. The path does not necessarily need to go through the root.
-
-class Node:
-  def __init__(self, val):
-    self.val = val
-    self.left = None
-    self.right = None
-
-def maxPathSum(root):
-  # Fill this in.
-
-# (* denotes the max path)
-#       *10
-#       /  \
-#     *2   *10
-#     / \     \
-#   *20  1    -25
-#             /  \
-#            3    4
-root = Node(10)
-root.left = Node(2)
-root.right = Node(10)
-root.left.left = Node(20)
-root.left.right = Node(1)
-root.right.right = Node(-25)
-root.right.right.left = Node(3)
-root.right.right.right = Node(4)
-print maxPathSum(root)
-# 42
-
-
-Given an array of characters with repeats, compress it in place. The length after compression should be less than or equal to the original array.
-
-Example:
-
-Input: ['a', 'a', 'b', 'c', 'c', 'c']
-Output: ['a', '2', 'b', 'c', '3']
-
-Here's a starting point:
-
-class Solution(object):
-  def compress(self, chars):
-    # Fill this in.
-
-print Solution().compress(['a', 'a', 'b', 'c', 'c', 'c'])
-# ['a', '2', 'b', 'c', '3']
-
-
-
-Given a Roman numeral, find the corresponding decimal value. Inputs will be between 1 and 3999.
-
-Example:
-
-Input: IX
-Output: 9
-
-Input: VII
-Output: 7
-
-Input: MCMIV
-Output: 1904
-
-Roman numerals are based on the following symbols:
-
-I     1
-IV    4
-V     5
-IX    9 
-X     10
-XL    40
-L     50
-XC    90
-C     100
-CD    400
-D     500
-CM    900
-M     1000
-
-Numbers are strings of these symbols in descending order. In some cases, subtractive notation is used to avoid repeated characters. The rules are as follows:
-1.) I placed before V or X is one less, so 4 = IV (one less than 5), and 9 is IX (one less than 10)
-2.) X placed before L or C indicates ten less, so 40 is XL (10 less than 50) and 90 is XC (10 less than 100).
-3.) C placed before D or M indicates 100 less, so 400 is CD (100 less than 500), and 900 is CM (100 less than 1000).
-
-class Solution():
-  def romanToInt(self, s):
-    # Fill this in.
-    
-n = 'MCMX'
-print(Solution().romanToInt(n))
-# 1910
 
 
 
@@ -1318,31 +873,6 @@ print find_cycle(graph)
 
 
 
-You are given a 2D array of characters, and a target string. Return whether or not the word target word exists in the matrix. Unlike a standard word search, the word must be either going left-to-right, or top-to-bottom in the matrix.
-
-Example:
-
-[['F', 'A', 'C', 'I'],
- ['O', 'B', 'Q', 'P'],
- ['A', 'N', 'O', 'B'],
- ['M', 'A', 'S', 'S']]
-
-
-Given this matrix, and the target word FOAM, you should return true, as it can be found going up-to-down in the first column.
-
-Here's the function signature:
-
-def word_search(matrix, word):
-  # Fill this in.
-  
-matrix = [
-  ['F', 'A', 'C', 'I'],
-  ['O', 'B', 'Q', 'P'],
-  ['A', 'N', 'O', 'B'],
-  ['M', 'A', 'S', 'S']]
-print word_search(matrix, 'FOAM')
-# True
-
 
 
 Given an array of n positive integers and a positive integer s, find the minimal length of a contiguous subarray of which the sum â‰¥ s. If there isn't one, return 0 instead.
@@ -1362,87 +892,6 @@ class Solution:
 
 print Solution().minSubArrayLen([2, 3, 1, 2, 4, 3], 7)
 # 2
-
-
-
-You are given the root of a binary tree. Invert the binary tree in place. That is, all left children should become right children, and all right children should become left children.
-
-Example:
-
-    a
-   / \
-  b   c
- / \  /
-d   e f
-
-
-The inverted version of this tree is as follows:
-
-  a
- / \
- c  b
- \  / \
-  f e  d
-
-
-Here is the function signature:
-
-class Node:
-  def __init__(self, value):
-    self.left = None
-    self.right = None
-    self.value = value
-  def preorder(self):
-    print self.value,
-    if self.left: self.left.preorder()
-    if self.right: self.right.preorder()
-
-def invert(node):
-  # Fill this in.
-
-root = Node('a') 
-root.left = Node('b') 
-root.right = Node('c') 
-root.left.left = Node('d') 
-root.left.right = Node('e') 
-root.right.left = Node('f') 
-
-root.preorder()
-# a b d e c f 
-print "\n"
-invert(root)
-root.preorder()
-# a c f b e d
-
-
-
-Given an integer k and a binary search tree, find the floor (less than or equal to) of k, and the ceiling (larger than or equal to) of k. If either does not exist, then print them as None.
-
-Here is the definition of a node for the tree.
-
-class Node:
-  def __init__(self, value):
-    self.left = None
-    self.right = None
-    self.value = value
-
-def findCeilingFloor(root_node, k, floor=None, ceil=None):
-  # Fill this in.
-
-root = Node(8) 
-root.left = Node(4) 
-root.right = Node(12) 
-  
-root.left.left = Node(2) 
-root.left.right = Node(6) 
-  
-root.right.left = Node(10) 
-root.right.right = Node(14) 
-
-print findCeilingFloor(root, 5)
-# (4, 6)
-
-
 
 
 You are given an array of integers in an arbitrary order. Return whether or not it is possible to make the array non-decreasing by modifying at most 1 element to any value.
@@ -1465,7 +914,6 @@ print check([13, 4, 7])
 print check([5,1,3,2,5])
 # False
 
-
 Can you find a solution in O(n) time?
 
 
@@ -1484,7 +932,6 @@ print two_sum([4,7,1,-3,2], 5)
 
 
 Try to do it in a single pass of the list.
-
 
 
 Given a sorted array, A, with possibly duplicated elements, find the indices of the first and last occurrences of a target element, x. Return -1 if the target is not found.
@@ -1550,36 +997,6 @@ s = "([{}])()"
 print(Solution().isValid(s))
 
 
-Given a binary tree, and a target number, find if there is a path from the root to any leaf that sums up to the target.
-
-Here's an example and some starter code.
-
-class Node:
-  def __init__(self, value, left=None, right=None):
-    self.value = value
-    self.left = left
-    self.right = right
-
-def target_sum_bst(root, target):
-  # Fill this in.
-
-#      1
-#    /   \
-#   2     3
-#    \     \
-#     6     4
-n6 = Node(6)
-n4 = Node(4)
-n3 = Node(3, None, n4)
-n2 = Node(2, None, n6)
-n1 = Node(1, n2, n3)
-
-print(target_sum_bst(n1, 9))
-# True
-# Path from 1 -> 2 -> 6
-
-
-
 
 A majority element is an element that appears more than half the time. Given a list with a majority element, find the majority element.
 
@@ -1608,133 +1025,6 @@ print(maxNonAdjacentSum([2, 1, 2, 7, 3]))
 # max sum is 2 (index 0) + 7 (index 3)
 
 
-Given an integer, find the number of 1 bits it has.
-
-Here's an example and some starting code.
-
-def one_bits(num):
-  # Fill this in.
-
-print(one_bits(23))
-# 4
-# 23 = 0b10111
-
-Given a matrix that is organized such that the numbers will always be sorted left to right, and the first number of each row will always be greater than the last element of the last row (mat[i][0] > mat[i - 1][-1]), search for a specific value in the matrix and return whether it exists.
-
-Here's an example and some starter code.
-
-def searchMatrix(mat, value):
-  # Fill this in.
-  
-mat = [
-    [1, 3, 5, 8],
-    [10, 11, 15, 16],
-    [24, 27, 30, 31],
-]
-
-print(searchMatrix(mat, 4))
-# False
-
-print(searchMatrix(mat, 10))
-# True
-
-
-A Sudoku board is a 9x9 grid, where each row, column and each 3x3 subbox contains the number from 1-9. Here's an example of a Sudoku board.
--------------
-|534|678|912|
-|672|195|348|
-|198|342|567|
-|------------
-|859|761|423|
-|426|853|791|
-|713|924|856|
-|------------
-|961|537|284|
-|287|419|635|
-|345|286|179|
-|------------
-
-Given a 9x9 board, determine if it is a valid Sudoku board. The board may be partially filled, where an empty cell will be represented by the space character ' '.
-
-Here's an example and some starting code:
-
-def validate_sudoku(board):
-  # Fill this in.
-
-board = [
-    [5, ' ', 4, 6, 7, 8, 9, 1, 2],
-    [6, ' ', 2, 1, 9, 5, 3, 4, 8],
-    [1,   9, 8, 3, 4, 2, 5, 6, 7],
-    [8,   5, 9, 7, 6, 1, 4, 2, 3],
-    [4,   2, 6, 8, 5, 3, 7, 9, 1],
-    [7,   1, 3, 9, 2, 4, 8, 5, 6],
-    [9,   6, 1, 5, 3, 7, 2, 8, 4],
-    [2,   8, 7, 4, 1, 9, 6, 3, 5],
-    [3,   4, 5, 2, 8, 6, 1, 7, 9],
-]
-
-print(validate_sudoku(board))
-# True
-
-
-
-Daily Interview Pro
-Hi, here's your problem today. (You've reached the end of the problems for now - in the meanwhile, here is a random question. And visit CoderPro for more practice!) This problem was recently asked by Apple:
-
-The Fibonacci sequence is the integer sequence defined by the recurrence relation: F(n) = F(n-1) + F(n-2), where F(0) = 0 and F(1) = 1. In other words, the nth Fibonacci number is the sum of the prior two Fibonacci numbers. Below are the first few values of the sequence:
-
-0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144...
-
-Given a number n, print the n-th Fibonacci Number.
-Examples:
-Input: n = 3
-Output: 2
-
-Input: n = 7
-Output: 13
-Here's a starting point:
-
-class Solution():
-  def fibonacci(self, n):
-    # fill this in.
-
-n = 9
-print(Solution().fibonacci(n))
-# 34
-
-
-Given an integer, check if that integer is a palindrome. For this problem do not convert the integer to a string to check if it is a palindrome.
-
-import math
-
-def is_palindrome(n):
-  # Fill this in.
-
-print is_palindrome(1234321)
-# True
-print is_palindrome(1234322)
-# False
-
-
-
-Find all words that are concatenations of a list.
-
-Input:
-["tech", "lead", "techlead", "cat", "cats", "dog", "catsdog"]
-
-Output:
-['techlead', 'catsdog']
-
-class Solution(object):
-  def findAllConcatenatedWordsInADict(self, words):
-    # Fill this in.
-    
-input = ["tech", "lead", "techlead", "cat", "cats", "dog", "catsdog"]
-
-print(Solution().findAllConcatenatedWordsInADict(input))
-
-Note: This question is classified as "hard."
-HINT: Start with a brute-force solution.
 
 Given an expression (as a list) in reverse polish notation, evaluate the expression. Reverse polish notation is where the numbers come before the operand. Note that there can be the 4 operands '+', '-', '*', '/'. You can also assume the expression will be well formed.
 
@@ -1805,84 +1095,6 @@ print(cache.get(3))
 # 3
 
 
-Daily Interview Pro
-Hi, here's your problem today. This problem was recently asked by Amazon:
-
-Given a binary tree, flatten the binary tree using inorder traversal. Instead of creating a new list, reuse the nodes, where the list is represented by following each right child. As such the root should always be the first element in the list so you do not need to return anything in the implementation, just rearrange the nodes such that following the right child will give us the list.
-
-Here's an example and some starter code.
-
-class Node:
-  def __init__(self, value, left=None, right=None):
-    self.value = value
-    self.left = left
-    self.right = right
-
-  def __repr__(self):
-    return f"({self.value}, {self.left}, {self.right})"
-
-def flatten_bst(root):
-  # Fill this in.
-  
-n5 = Node(5)
-n4 = Node(4)
-n3 = Node(3, n4)
-n2 = Node(2, n5)
-n1 = Node(1, n2, n3)
-
-#      1
-#    /   \
-#   2     3
-#  /     /
-# 5     4
-
-flatten_bst(n1)
-print(n1)
-
-# n1 should now look like
-#   1
-#    \
-#     2
-#      \
-#       5
-#        \
-#         3
-#          \
-#           4
-
-
-A number can be constructed by a path from the root to a leaf. Given a binary tree, sum all the numbers that can be constructed from the root to all leaves.
-
-Here's an example and some starter code.
-
-class Node:
-  def __init__(self, value, left=None, right=None):
-    self.value = value
-    self.left = left
-    self.right = right
-
-  def __repr__(self):
-    return f"({self.value}, {self.left}, {self.right})"
-
-
-def bst_numbers_sum(root, num=0):
-  # Fill this in.
-
-n5 = Node(5)
-n4 = Node(4)
-n3 = Node(3)
-n2 = Node(2, n4, n5)
-n1 = Node(1, n2, n3)
-
-#      1
-#    /   \
-#   2     3
-#  / \
-# 4   5
-
-print(bst_numbers_sum(n1))
-# 262
-# Explanation: 124 + 125 + 13 = 262
 
 
 Given a node in a connected directional graph, create a copy of it.
@@ -1933,48 +1145,312 @@ print(graph_copy)
 # (1, ([5]))
 
 
-Daily Interview Pro
-Hi, here's your problem today. This problem was recently asked by Amazon:
+Given a list of points, an interger k, and a point p, find the k closest points to p.
 
-Given a binary tree, flatten the binary tree using inorder traversal. Instead of creating a new list, reuse the nodes, where the list is represented by following each right child. As such the root should always be the first element in the list so you do not need to return anything in the implementation, just rearrange the nodes such that following the right child will give us the list.
+Here's an example and some starter code:
+
+class Point:
+  def __init__(self, x=0, y=0):
+    self.x = x
+    self.y = y
+
+  def __repr__(self):
+    return f"({self.x}, {self.y})"
+
+def closest_points(points, k, p):
+  # Fill this in.
+
+points = [
+    Point(0, 0),
+    Point(1, 1),
+    Point(2, 2),
+    Point(3, 3),
+]
+print(closest_points(points, 2, Point(0, 2)))
+# [(0, 0), (1, 1)]
+
+
+Given an array and an integer k, rotate the array by k spaces. Do this without generating a new array and without using extra space.
+
+Here's an example and some starter code
+
+def rotate_list(nums, k):
+  # Fill this in.
+
+a = [1, 2, 3, 4, 5]
+rotate_list(a, 2)
+print(a)
+# [3, 4, 5, 1, 2]
+
+
+
+Given two rectangles, find the area of intersection.
+
+Here's some starter code and a starter example:
+
+class Rectangle():
+  def __init__(self, min_x=0, min_y=0, max_x=0, max_y=0):
+    self.min_x = min_x
+    self.min_y = min_y
+    self.max_x = max_x
+    self.max_y = max_y
+
+def intersection_area(rect1, rect2):
+  # Fill this in.
+
+#  BBB
+# AXXB
+# AAA
+rect1 = Rectangle(0, 0, 3, 2)
+rect2 = Rectangle(1, 1, 3, 3)
+
+print(intersection_area(rect1, rect2))
+# 2
+
+
+Given a nested dictionary, flatten the dictionary, where nested dictionary keys can be represented through dot notation.
+
+Example:
+
+Input: {
+  'a': 1,
+  'b': {
+    'c': 2,
+    'd': {
+      'e': 3
+    }
+  }
+}
+Output: {
+  'a': 1,
+  'b.c': 2,
+  'b.d.e': 3
+}
+
+You can assume there will be no arrays, and all keys will be strings.
+
+Here's some starter code:
+
+def flatten_dictionary(d):
+  # Fill this in.
+
+d = {
+    'a': 1,
+    'b': {
+        'c': 2,
+        'd': {
+            'e': 3
+        }
+    }
+}
+print(flatten_dictionary(d))
+# {'a': 1, 'b.c': 2, 'b.d.e': 3}
+
+
+
+
+Given an expression (as a list) in reverse polish notation, evaluate the expression. Reverse polish notation is where the numbers come before the operand. Note that there can be the 4 operands '+', '-', '*', '/'. You can also assume the expression will be well formed.
+
+Example
+
+Input: [1, 2, 3, '+', 2, '*', '-']
+Output: -9
+
+The equivalent expression of the above reverse polish notation would be (1 - ((2 + 3) * 2)).
+
+Here's some starter code:
+
+def reverse_polish_notation(expr):
+  # Fill this in.
+  
+# 1 - (2 + 3) * 2
+print(reverse_polish_notation([1, 2, 3, '+', 2, '*', '-']))
+# -9
+
+
+
+A UTF-8 character encoding is a variable width character encoding that can vary from 1 to 4 bytes depending on the character. The structure of the encoding is as follows:
+
+1 byte:  0xxxxxxx
+2 bytes: 110xxxxx 10xxxxxx
+3 bytes: 1110xxxx 10xxxxxx 10xxxxxx
+4 bytes: 11110xxx 10xxxxxx 10xxxxxx 10xxxxxx
+
+For more information, you can read up on the Wikipedia Page.
+
+Given a list of integers where each integer represents 1 byte, return whether or not the list of integers is a valid UTF-8 encoding.
+
+BYTE_MASKS = [
+    None,
+    0b10000000,
+    0b11100000,
+    0b11110000,
+    0b11111000,
+]
+BYTE_EQUAL = [
+    None,
+    0b00000000,
+    0b11000000,
+    0b11100000,
+    0b11110000,
+]
+
+def utf8_validator(bytes):
+  # Fill this in.
+
+print utf8_validator([0b00000000])
+# True
+print utf8_validator([0b00000000, 10000000])
+# False
+print utf8_validator([0b11000000, 10000000])
+# True
+
+
+
+A fixed point in a list is where the value is equal to its index. So for example the list [-5, 1, 3, 4], 1 is a fixed point in the list since the index and value is the same. Find a fixed point (there can be many, just return 1) in a sorted list of distinct elements, or return None if it doesn't exist.
+
+Here is a starting point:
+
+def find_fixed_point(nums):
+  # Fill this in.
+
+print find_fixed_point([-5, 1, 3, 4])
+# 1
+
+
+Given a list of building in the form of (left, right, height), return what the skyline should look like. The skyline should be in the form of a list of (x-axis, height), where x-axis is the next point where there is a change in height starting from 0, and height is the new height starting from the x-axis.
+
+Here's some starter code:
+
+def generate_skyline(buildings):
+  # Fill this in.
+
+#            2 2 2
+#            2 2 2
+#        1 1 2 2 2 1 1
+#        1 1 2 2 2 1 1
+#        1 1 2 2 2 1 1
+# pos: 1 2 3 4 5 6 7 8 9
+print generate_skyline([(2, 8, 3), (4, 6, 5)])
+# [(2, 3), (4, 5), (7, 3), (9, 0)]
+
+Given 3 sorted lists, find the intersection of those 3 lists.
 
 Here's an example and some starter code.
 
+def intersection(list1, list2, list3):
+  # Fill this in.
+
+print(intersection([1, 2, 3, 4], [2, 4, 6, 8], [3, 4, 5]))
+# [4]
+
+
+mGiven a numerator and a denominator, find what the equivalent decimal representation is as a string. If the decimal representation has recurring digits, then put those digits in brackets (ie 4/3 should be represented by 1.(3) to represent 1.333...). Do not use any built in evaluator functions like python's eval. You can also assume that the denominator will be nonzero.
+
+Here's some examples and some starter code:
+
+def frac_to_dec(numerator, denominator):
+  # Fill this in.
+
+print(frac_to_dec(-3, 2))
+# -1.5
+
+print(frac_to_dec(4, 3))
+# 1.(3)
+
+print(frac_to_dec(1, 6))
+# 0.1(6)
+
+
+Given a valid parenthesis string (with only '(' and ')', an open parenthesis will always end with a close parenthesis, and a close parenthesis will never start first), remove the outermost layers of the parenthesis string and return the new parenthesis string.
+
+If the string has multiple outer layer parenthesis (ie (())()), remove all outer layers and construct the new string. So in the example, the string can be broken down into (()) + (). By removing both components outer layer we are left with () + '' which is simply (), thus the answer for that input would be ().
+
+Here are some examples and some starter code.
+
+def remove_outermost_parenthesis(s):
+  # Fill this in.
+
+print(remove_outermost_parenthesis('(())()'))
+# ()
+
+print(remove_outermost_parenthesis('(()())'))
+# ()()
+
+print(remove_outermost_parenthesis('()()()'))
+# ' '
+
+
+Given a sorted linked list of integers, remove all the duplicate elements in the linked list so that all elements in the linked list are unique.
+
+Here's an example and some starter code:
+
 class Node:
-  def __init__(self, value, left=None, right=None):
+  def __init__(self, value, next=None):
     self.value = value
-    self.left = left
-    self.right = right
+    self.next = next
 
   def __repr__(self):
-    return f"({self.value}, {self.left}, {self.right})"
+    return f"({self.value}, {self.next})"
 
-def flatten_bst(root):
+
+def remove_dup(lst):
   # Fill this in.
-  
-n5 = Node(5)
-n4 = Node(4)
-n3 = Node(3, n4)
-n2 = Node(2, n5)
-n1 = Node(1, n2, n3)
 
-#      1
-#    /   \
-#   2     3
-#  /     /
-# 5     4
+lst = Node(1, Node(2, Node(2, Node(3, Node(3)))))
 
-flatten_bst(n1)
-print(n1)
+remove_dup(lst)
+print(lst)
+# (1, (2, (3, None)))
 
-# n1 should now look like
-#   1
-#    \
-#     2
-#      \
-#       5
-#        \
-#         3
-#          \
-#           4
 
+Given a list of tasks (each task will be represented by a string), and a positive integer n representing the time it takes to run the same task again, find the minimum amount of time needed to run all tasks.
+
+Here's an example and some starter code:
+
+def schedule_tasks(tasks, n):
+  # Fill this in.
+
+print(schedule_tasks(['q', 'q', 's', 'q', 'w', 'w'], 4))
+# print 6
+# one of the possible orders to run the task would be
+# 'q', 'w', idle, idle, 'q', 'w'
+
+
+
+Given a list of meetings that will happen during a day, find the minimum number of meeting rooms that can fit all meetings.
+
+Each meeting will be represented by a tuple of (start_time, end_time), where both start_time and end_time will be represented by an integer to indicate the time. 
+start_time will be inclusive, and end_time will be exclusive, meaning a meeting of (0, 10) and (10, 20) will only require 1 meeting room.
+
+Here's some examples and some starting code:
+
+print(meeting_rooms([(0, 10), (10, 20)]))
+# 1
+
+print(meeting_rooms([(20, 30), (10, 21), (0, 50)]))
+# 3 (all meetings overlap at time 20)
+ 
+   Answer
+     1. sort the array based on lowest starting time
+     2. 
+
+
+Given a list of undirected edges which represents a graph, find out the number of connected components.
+
+def num_connected_components(edges):
+	# Fill this in.
+
+print(num_connected_components([(1, 2), (2, 3), (4, 1), (5, 6)]))
+# 2
+
+
+/**
+ * Given an array with n objects colored red, white or blue, sort them in-place so that objects of the same color are adjacent, with the colors in the order red, white and blue.
+
+Here, we will use the integers 0, 1, and 2 to represent the color red, white, and blue respectively.
+
+Note: You are not suppose to use the library’s sort function for this problem.
+ * 
+ * 
+ */
