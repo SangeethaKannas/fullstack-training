@@ -1,3 +1,104 @@
+	https://tsh.io/blog/simple-guide-concurrency-node-js/
+	https://stackoverflow.com/questions/26114749/assign-priority-to-nodejs-tasks-in-a-event-loop#26119807	
+	https://www.geeksforgeeks.org/libuv-in-node-js/	
+	https://stackoverflow.com/questions/542938/how-do-i-get-the-number-of-days-between-two-dates-in-javascript
+	https://strongloop.com/strongblog/node-js-event-loop/
+
+https://www.geeksforgeeks.org/what-is-a-stub-in-node-js/
+https://kentcdodds.com/blog/prop-drilling
+https://www.mongodb.com/basics/best-practices
+https://nodejs.org/en/knowledge/getting-started/what-is-require/
+https://www.freecodecamp.org/news/array-and-object-destructuring-in-javascript/
+
+https://egghead.io/lessons/react-redux-react-todo-list-example-filtering-todos
+https://egghead.io/lessons/javascript-redux-simplifying-the-arrow-functions
+https://www.youtube.com/watch?v=yoJuOs-niIc&list=PLuNEz8XtB51K-x3bwCC9uNM_cxXaiCcRY&index=2
+https://www.freecodecamp.org/news/mongodb-mongoose-node-tutorial/
+https://mongoosejs.com/docs/connections.html
+
+ Security
+ https://stackoverflow.com/questions/2669690/why-does-google-prepend-while1-to-their-json-responses?rq=1 
+ https://stackoverflow.com/questions/2067472/what-is-jsonp-and-why-was-it-created?rq=1
+https://stackoverflow.com/questions/2067472/what-is-jsonp-and-why-was-it-created?rq=1
+
+ let variables are scoped to the immediate enclosing block denoted by { }
+  
+ https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var?rq=1 
+ https://stackoverflow.com/questions/801032/why-is-null-an-object-and-whats-the-difference-between-null-and-undefined?rq=1 
+
+https://stackoverflow.com/questions/9959727/proto-vs-prototype-in-javascript
+https://stackoverflow.com/questions/336859/var-functionname-function-vs-function-functionname?rq=1
+https://github.com/sudheerj/avascript-interview-questions#how-do-you-receive-server-sent-event-notifications
+
+	https://tsh.io/blog/simple-guide-concurrency-node-js/
+	https://stackoverflow.com/questions/26114749/assign-priority-to-nodejs-tasks-in-a-event-loop#26119807	
+	https://www.geeksforgeeks.org/libuv-in-node-js/	
+	https://stackoverflow.com/questions/542938/how-do-i-get-the-number-of-days-between-two-dates-in-javascript
+	https://strongloop.com/strongblog/node-js-event-loop/
+	
+
+Why sync requests shouldn't be used:
+https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Synchronous_and_Asynchronous_Requests#Synchronous_request
+
+JQuery Ajax (the default behavior is async unless explicitly specified; examples at the bottom of thee page): 
+https://api.jquery.com/jQuery.ajax/
+  
+Async Redux Actions:
+https://redux.js.org/advanced/async-actions
+https://code.google.com/p/domxsswiki/wiki/jQuery
+http://shebang.brandonmintern.com/foolproof-html-escaping-in-javascript/\
+
+
+https://eloquentjavascript.net/
+https://boards.greenhouse.io/gitlab/jobs/4224948002
+https://codeburst.io/build-a-blog-using-gatsby-js-react-8561bfe8fc91
+http://2ality.com/2012/09/expressions-vs-statements.html
+https://medium.com/dailyjs/the-why-behind-the-wat-an-explanation-of-javascripts-weird-type-system-83b92879a8db
+
+Comments: 
+https://medium.freecodecamp.org/code-comments-the-good-the-bad-and-the-ugly-be9cc65fbf83
+https://dzone.com/articles/5-best-practices-commenting
+https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
+https://culttt.com/2012/10/29/javascript-control-flow-structures/
+http://2ality.com/2013/09/types.html
+https://medium.com/dailyjs/the-why-behind-the-wat-an-explanation-of-javascripts-weird-type-system-83b92879a8db
+http://www.javascripttutorial.net/javascript-primitive-vs-reference-values/
+http://adripofjavascript.com/blog/drips/the-difference-between-boolean-objects-and-boolean-primitives-in-javascript.html
+https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5
+http://speakingjs.com/es5/ch24.html
+https://www.linkedin.com/learning/react-managing-complex-interactions/initialize-a-new-project
+https://www.webmantras.com/blog/inspiration/amazing-free-stock-photos-websites/
+http://speakingjs.com/es5/index.html#toc_pt01
+http://benalman.com/news/2010/11/immediately-invoked-function-expression/
+https://frontendmasters.com/courses/javascript-foundations/compiling-function-scope/
+
+https://medium.freecodecamp.org/the-css-handbook-a-handy-guide-to-css-for-developers-b56695917d11
+https://www.youtube.com/watch?v=n1mdAPFq2Os
+https://www.youtube.com/watch?v=m_u6P5k0vP0
+https://pazzing.talentlyft.com/jobs/full-stack-software-engineer-iYF/new
+https://www.remote-developer-jobs.com/job/sticker-mule-javascript-engineer-2/?utm_medium=blog&utm_source=NoiceJobs
+https://www.remote-developer-jobs.com/job/494539/?utm_medium=blog&utm_source=NoiceJobs
+https://stackoverflow.com/jobs/493275/javascript-developer-arative-technologies?utm_source=remoteok.io&ref=remoteok.io
+
+
+http://jsfiddle.net/7zrx4/
+http://stackoverflow.com/questions/17174627/angularjs-trigger-validation-of-a-field-when-another-field-is-changed
+https://github.com/nelsonomuto/angular-ui-form-validation
+https://youtu.be/naRNwKXGrF8  
+http://stackoverflow.com/questions/4807152/sending-arguments-to-background-worker
+http://kirszenberg.com/facebook-sixth-sense
+http://stackoverflow.com/questions/26764401/make-tabcontrol-headers-scrollable-in-wpf
+https://vortexwolf.wordpress.com/2011/07/27/silverlight-tabcontrol-with-scrolling-and-with-the-new-tab-button/\
+http://stackoverflow.com/questions/5690594/want-to-make-scrollable-tabs-for-a-tabcontrol
+http://stackoverflow.com/questions/13455047/passing-data-with-events
+http://stackoverflow.com/questions/6414143/setup-installshield-limited-edition-for-vs2010-so-it-automatically-uninstalls-pr
+https://msdn.microsoft.com/en-us/library/aa370579(VS.85).aspx
+http://www.charlesproxy.com/
+http://www.telerik.com/fiddler
+
+
 https://angular.io/docs/ts/latest/cookbook/aot-compiler.html#!#tree-shaking
 http://plnkr.co/edit/7fGsiuRjcF0M0Ffeoml2?p=preview
 https://github.com/swimlane/ngx-charts

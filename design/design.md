@@ -78,3 +78,55 @@ Use when there are specific pages or functions that are more frequently used tha
 Use when you want shortcuts to pages that are possibly on different hierarchical levels of the page.
 Can also be used as navigation when short on space, although it is not advised.
 
+### Web design
+
+Web Design:
+Knowing about web design
+Important elements of web design
+Difference between Frontend & Backend developer
+And a look at some modern websites
+Wireframing
+Idea of wireframing
+Example of wireframing
+Different online tools for making wireframing
+Working on wireframing example
+UI & UX
+Understanding of User Interface – UI
+Understanding of UX – User Experience
+Real world example of UI & UX
+Typography for Web
+Understanding of web typography
+Choosing font
+Difference between Serif & Sans Serif
+Size for text type
+Line height recommendation
+Text alignment and readability
+Choosing good online fonts
+Working on online tools for good typography                    
+Web Colors
+Idea about web colors
+RGB & Hexadecimal color
+RGB & Hexadecimal colors
+Choosing the right color
+Online tool for web color scheme
+Icons for Web
+Web Icons
+Why icons are important
+How to use icons
+Images for web
+Purpose of image usage for web
+Tips to use images effectively in web design
+Selection Of Images
+Use Effective Images
+Placement Of Images
+ Size & Resolution of Images
+ Image Optimization
+White spacing
+Idea of whitespacing
+Why whitespace matters.
+Inspiration for web
+
+
+media queries
+
+responsive web designate

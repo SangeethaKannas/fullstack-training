@@ -1,23 +1,18 @@
-Promise - object - async tasks ( third party process doing the task )
+Empty your brain. Write out all the things you have to do on paper. Ask yourself, what has to be done?
 
-Creating a promise
+2. Figure out what is the end result you want to achieve. If your goal is to produce 10 more sales. What activities off your list will help you achieve those results?
 
-Using a promise
+3. Group similar activities together into groups. IE Calls, emails, appointments, etc. 
 
-this - is always  used inside a function - merely a reference to another object
+4. Prioritize the most important tasks that will help you achieve your ultimate goal. Put them first.
 
-this inside a function, inside a method, function run with call, apply and bind
+5. Figure out an amount of time for each task/group. This is a biggie. Set yourself up for success! If you don't do this this is exactly how your to do list turn into crap lists.
 
-Constructor 
+6. Schedule the groups/tasks into your calendar. For example set specific times in your calendar to complete emails. Emails can be the biggest time drain if not scheduled.
 
- special function acts as mold to create new objects
- 
- Defining a constructor 
- using a constructor
- 
- 
- Set properties inside a constructor
- set methods in prototype property
+7. Plan your tomorrow today. 
+
+
 
 What are the best practices for UI developers?
 1 Keep things Simple
@@ -64,98 +59,13 @@ There is always complaints from designer’s or QA is that the page is not displ
 It is important to use more semantic HTML. Semantic means more meaningful HTML tags. Other than using ‘div’s for displaying content, use header elements like h1, h2, h3. Use ‘li’ or ‘ol’ for list items. ‘p’ tag for paragraphs. Use other semantic tags like header, nav, section, footer, block quotes etc accordingly. Use ‘div’s to divide the page into logical sections or when there is no better alternative. If your page is logically divided into sections that use id’s to identify each section then this will allow you to target inner elements in that section without having to over-use classes on each element
 
 
-https://app.codility.com/programmers/trainings/5/disappearing_pairs/
-https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
-
-Javascript interview questions
-
-console.log(a)
-a = 10;
-
-console.log(a)
-var a = 10;
-
-const sum = (...args) => args.reduce((sum, number) => sum + number, 0);
-
-console.log(sum(1, 2, 3, 4));
-console.log(sum(1, 2, 3, 4, 3, 2, 1));
-
-//Currying 
-console.log(sum(1)(2)(3));
-
-//Factorial
-
-function factorial (number) {  
-  return number > 1 ? number * factorial (number - 1) : number * 1;
-}
-
-factorial(5)
-
-/////
-
-let str = "asdfioweurkjdlksdjfkjdsfkljsdfkjklsdf";
-
-//a2b3c5d8
-
-let str = "asdfioweurkjdlksdjfkjdsfkljsdfkjklsdf";
-
-//a2b3c5d8
-
-const countCharacters = (str = '') => {
-  
-  //
-  const alphabetsCount = {};
-  
-  if(str.length > 0) {
-    for(var index in str) {
-      const currentCharacter = str[index];
-      
-      if(typeof alphabetsCount[currentCharacter] == 'undefined') {
-        alphabetsCount[currentCharacter] = 1;
-      } else {
-        alphabetsCount[currentCharacter] = alphabetsCount[currentCharacter] + 1;
-      }
-    }
-  }
-  
-  const alphabetCountArr = []
-  Object.keys( alphabetsCount).map((k ,v) => {
-    alphabetCountArr.push(k+v)
-  })  
-  
-  return alphabetsCount;
-  
-}
-
-
-const promise = new Promise((resolve, reject) => {
-  console.log(1);
-  setTimeout(() => {
-    console.log("timerStart");
-    resolve("success");
-    console.log("timerEnd");
-  }, 0);
-  console.log(2);
-});
-promise.then((res) => {
-  console.log(res);
-});
-console.log(4);
-
-Array.prototype.contains = function(v) {
-    for(var i = 0; i < this.length; i++) {
-        if(this[i] === v) return true;
-    }
-    return false;
-};
-
-//To make a DISTINCT values in array
-Array.prototype.unique = function() {
-    var arr = [];
-    for(var i = 0; i < this.length; i++) {
-        if(!arr.contains(this[i]) && this[i]!=null) {
-            arr.push(this[i]);
-        }
-    }
-    return arr; 
-} 
+UI Developer: 6 - 8 Years Exp.  - Senior Engineer
+Strong Experience in Java, HTML-5, CSS, JAVASCRIPT, JQUERY, AngularJS
+Very Strong Experience in designing and developing UI applications
+Should be able to debug UI applications using developer tools and other UI tools.
+Good experience in creating reusable UI components
+Ability to work independently and collaboratively. 
+Should be completely aware of coding standards and should be able to develop high performance & scalable UI applications.
+Excellent verbal and written communication skills to effectively collaborate with business and technical teams
+Experience in Leading a module/function/team is a plus
+Awareness of Core Java, Hibernate is a plus. 

@@ -10,9 +10,6 @@ Browser Incompatabilities
 Similar to same lang. and diff accent
 
 
-
-
-
 ### Conditional Statements
    - if-else
    - switch-break
@@ -39,3 +36,54 @@ Similar to same lang. and diff accent
    
    
    } while(condition
+
+
+### String Manipulation
+
+- String functions
+
+ - charAt()
+
+    charCodeAt()
+
+    concat()
+
+    endsWith()  
+    
+    startsWith()
+
+    String.fromCharCode(114)
+
+    includes()
+
+    indexOf(), lastIndexOf()
+
+    match()
+
+    repeat()
+
+    replace()
+
+    search()
+
+    slice()
+
+    split()
+
+    substr()
+
+    substring()
+
+    toLowerCase()
+
+    toUpperCase()
+
+    trim()
+
+https://en.wikipedia.org/wiki/Base64.
+
+Base 64 encoding
+
+btoa 
+
+atob

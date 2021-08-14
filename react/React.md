@@ -143,3 +143,20 @@ Default React is impure
 React is basically a state machine
 Declarative system Performance improvements ShallowComparison
 Every child of pure component should also be pure
+
+jsx  - write html without JSX
+
+React.fragment vs <>
+
+lazyloading
+
+setState - can you change the state without setState? is it asynchronous
+
+
+useEffect - returns an anonymous function vs useWrap
+useDispatch 
+API - redux-simplifying-the-arrow-functions 
+how many reducer and stored
+logger?
+
+Error boundaries in react

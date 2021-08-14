@@ -1,39 +1,28 @@
-debouncing
-throttling
-functional  vs class programming
-
-media queries
-
-responsive web designate
-react redux
-
-jsx  - write html without JSX
-
-React.fragment vs <>
-
-lazyloading
-
-scolling optimization - memoizatiion
-
-debouncing
-
-setState - can you change the state without setState? is it asynchronous
-
-
 Node js
-concurrency-node-js/
-callstack
-libuv-in-node-js/express js
-app vs server
-angular lifecycle hooksprioritize the application
+	concurrency-node-js/
+	callstack
+	libuv-in-node-js/express js
+	app vs server
+	Nodejs modules - you have used
+	
+	Node JS architecture
+	middleware - syntax to create a middle ware
+	event loop in nodejs
+
+	NPM Dependencies types
+	https://estebansastre.com/posts/types-of-dependencies-in-npm/
+	https://nodejs.org/en/blog/npm/peer-dependencies/
+	peerdependencies
+	optionaldependencies
+	devDependencies
+	dependencies
+
+npm config set http-proxy 
+npm config set https-proxy 
 
 view state vs session state
 depreceated react methods
 dangerous setDate
-
-useCall
-
-useMemo
 
 services in nodejs
 cluster mongodb and nodejs
@@ -45,30 +34,13 @@ rabbitmq
 
 viewstate
 
-
-
 SVG vs canvas
 Websockets
 Synthetic events
-	Nodejs modules - you have used
-	
-	Node JS architecture
-
-Pop vs push
-map - return value
-shift vs pop
-map vs filtering-todos
-useEffect - returns an anonymous function vs useWrap
-useDispatch 
-API - redux-simplifying-the-arrow-functions 
-how many reducer and stored
-logger?
 
 event driven languageanti pattern
 	
 Questions
-	middleware - syntax to create a middle ware
-	event loop in nodejs
 swap third var
 	HTML 5 apis
 	Explain difference b/w cookies session storage and local storage
@@ -508,32 +480,6 @@ restful
 
 notifications
  
- If I use a jQuery calendar control in an Angular app and it has an event selectDate. Can I use these selectDate with Angular event binding? if yes then why and if no then why.
-✔What do you understand by ViewChild and ContentChild?
-Can I read a ViewChild in ngOnInit() life cycle hook? If yes then how?
-✔What do you understand by Angular Service?
-✔How many objects of a service Angular creates? Can we reconfigure it to create as many objects as we want? how?
-✔What is the difference between provideIn and providers?
-✔When you may need non-tree shakeable service?
-✔Can u explain to me the real use case of useExisting?
-✔What do you understand by lazy loaded modules?
-✔For a service how many objects Angular creates for lazy loaded modules?
-✔Let us say there are three objects an inside that b and inside that C. and there is a service Foo. I have passed Foo in the providers array of component c. Foo is also passed in the providers array of AppModule. How many objects of Foo will be created and inside C component which object will be used?
-✔How to dynamically load a component? can you explain me the process?
-✔Do Attribute directives have life cycle hooks?
-✔What is the purpose of @HostBinding
-✔What do you understand by Change Detection?
-✔When we should use onPush?
-✔What is the difference between detectChange and markForCheck
-✔What do you understand by dumb component and smart component?
-✔What is the difference between promise and observables
-✔What is the difference between observable and subjects?
-✔What are various types of subjects?
-✔When we should use BehaviorSubject?
-✔How will integrate API in the angular app? best practices?
-✔Is it ok to use observable<any> if not why?
-✔What is the async pipe?
-
 binary se
 
 proto vs prototype   https://stackoverflow.com/questions/9959727/proto-vs-prototype-in-javascript
@@ -551,19 +497,7 @@ NPM Dependencies types
 	devDependencies
 	dependencies
 
-
-Array methods
-	unshift Shift
-	Push and Pop
-	slice and splice
-	concat
-	
-	
-	
-	
 	Object literals in javascript are by default associative arrays eg object.propertyName.propertyValue is the same as object[propertyName][propertyValue]
-
-
 
 var size = Object.keys(myObj).length;
 This doesn't have to modify any existing prototype since Object.keys() is now built-in.
@@ -621,81 +555,6 @@ window.addEventListener('unhandledrejection', function(event) {
   alert(event.reason); // Error: Whoops! - the unhandled error object
 });
 
-
-
-<html>
-<body>
-<button id="debounce">
-	Debounce
-</button>
-<script>
-var button = document.getElementById("debounce");
-const debounce = (func, delay) => {
-	let debounceTimer
-	return function() {
-		const context = this
-		const args = arguments
-			clearTimeout(debounceTimer)
-				debounceTimer
-			= setTimeout(() => func.apply(context, args), delay)
-	}
-}
-button.addEventListener('click', debounce(function() {
-		alert("Hello\nNo matter how many times you" +
-			"click the debounce button, I get " +
-			"executed once every 3 seconds!!")
-						}, 3000));
-</script>
-</body>
-</html>
-
-
-////// Throttling
-
-<button id="throttle">Click Me</button>
-<script>
-	const btn=document.querySelector("#throttle");
-	
-	// Throttling Function
-	const throttleFunction=(func, delay)=>{
-
-	// Previously called time of the function
-	let prev = 0;
-	return (...args) => {
-		// Current called time of the function
-		let now = new Date().getTime();
-
-		// Logging the difference between previously
-		// called and current called timings
-		console.log(now-prev, delay);
-		
-		// If difference is greater than delay call
-		// the function again.
-		if(now - prev> delay){
-		prev = now;
-
-		// "..." is the spread operator here
-		// returning the function with the
-		// array of arguments
-		return func(...args);
-		}
-	}
-	}
-	btn.addEventListener("click", throttleFunction(()=>{
-	console.log("button is clicked")
-	}, 1500));
-</script>
-</body>
-</html>
-
-////////
-	https://tsh.io/blog/simple-guide-concurrency-node-js/
-	https://stackoverflow.com/questions/26114749/assign-priority-to-nodejs-tasks-in-a-event-loop#26119807	
-	https://www.geeksforgeeks.org/libuv-in-node-js/	
-	https://stackoverflow.com/questions/542938/how-do-i-get-the-number-of-days-between-two-dates-in-javascript
-	https://strongloop.com/strongblog/node-js-event-loop/
-	
-46: "Number of Entries/பதிவுகளின் எண்ணிக்ைக: 1"
 
 view state vs session state
 depreceated react methods
@@ -1001,7 +860,6 @@ var variableFunction = function() {
      console.log("I am a function and stored in a variable");
 }
 
-
 //2. Callback and IIFE
 function Callback() {
     console.log("I am in a callback");
@@ -1012,88 +870,11 @@ function Callback() {
     callback && callback();
 })("Hi", Callback);
 
-
-/**
- * 
- * Good and misunderstood parts
- */
-
- console.log( [] == ![] )
-
- //Why? 
- //In javascript all comparison are done after converting data types to numbers
- // Empty Stack [] = 0  Numerical value
- // ![] = false = 0     
- // So  0 == 0 ==> true
-
- console.log( [] + {} );
-
- console.log( {} + [] );
-
- console.log( - 0);
-
- console.log(Number( "- 0"));
-
- console.log(Number(""));
- console.log(Number(" "));
- console.log(Number("\r\n\t"));
-
- console.log(Number("0"));
- console.log(Number("-0"));
- JSON.parse("-0");
-
- console.log(JSON.stringify(-0));
- console.log(String(-0));
- console.log(-0 + "");
- 
- 
- /**
-WTF *
-*/
-
-
-console.log( Number.MAX_VALUE > 0 );
-
-console.log( Number.MIN_VALUE < 0 );
-
-//Left - Right Associativity of operators
-console.log(1 < 2 < 3);
-
-console.log(3 > 2 > 1);
-
-//Rules around period
-//Syntax Errors
-//console.log(42.toFixed(2))
-//console.log(42. toFixed(2))
-console.log(42 .toFixed(2));
-console.log(42 .toFixed(2));
-console.log(42.0.toFixed(2));
-console.log(42..toFixed(2));
-
 //Coercion
-
 
 //Array becomes an empty string, which finally becomes zero
 
-https://www.geeksforgeeks.org/what-is-a-stub-in-node-js/
-https://kentcdodds.com/blog/prop-drilling
-https://www.mongodb.com/basics/best-practices
-https://nodejs.org/en/knowledge/getting-started/what-is-require/
-https://www.freecodecamp.org/news/array-and-object-destructuring-in-javascript/
-
-
 callbackHell
-
-https://egghead.io/lessons/react-redux-react-todo-list-example-filtering-todos
-https://egghead.io/lessons/javascript-redux-simplifying-the-arrow-functions
-https://www.youtube.com/watch?v=yoJuOs-niIc&list=PLuNEz8XtB51K-x3bwCC9uNM_cxXaiCcRY&index=2
-https://www.freecodecamp.org/news/mongodb-mongoose-node-tutorial/
-https://mongoosejs.com/docs/connections.html
-
-ravi.k@rrootshell.com
- landru@nsight-inc.com
-
-get the 2nd and third maximum marks in sql query
 
 OOPS concepts
 
@@ -1115,23 +896,6 @@ For majority of the debugging purposes, this could be used.
 
 Below is a very good reference to use it: https://developers.google.com/web/tools/chrome-devtools/console/utilities#geteventlisteners
 
-
-https://stackoverflow.com/questions/2067472/what-is-jsonp-and-why-was-it-created?rq=1
-
- let variables are scoped to the immediate enclosing block denoted by { }
-  
- https://stackoverflow.com/questions/762011/whats-the-difference-between-using-let-and-var?rq=1 
- https://stackoverflow.com/questions/801032/why-is-null-an-object-and-whats-the-difference-between-null-and-undefined?rq=1 
-
- Security
- https://stackoverflow.com/questions/2669690/why-does-google-prepend-while1-to-their-json-responses?rq=1 
- https://stackoverflow.com/questions/2067472/what-is-jsonp-and-why-was-it-created?rq=1
-
-
-promiseAllsettled
-rest operato
-object destructuring vs array destructuring
-
 datatypes in typescript
 cassandra
 long polling
@@ -1142,7 +906,6 @@ restful
 
 notifications
  
- If I use a jQuery calendar control in an Angular app and it has an event selectDate. Can I use these selectDate with Angular event binding? if yes then why and if no then why.
 ✔What do you understand by ViewChild and ContentChild?
 Can I read a ViewChild in ngOnInit() life cycle hook? If yes then how?
 ✔What do you understand by Angular Service?
@@ -1176,29 +939,7 @@ how prototype works
 PT inheritances in JS
 Once super js two sub classes
 
-
-NPM Dependencies types
-	https://estebansastre.com/posts/types-of-dependencies-in-npm/
-	https://nodejs.org/en/blog/npm/peer-dependencies/
-	peerdependencies
-	optionaldependencies
-	devDependencies
-	dependencies
-
-
-Array methods
-	unshift Shift
-	Push and Pop
-	slice and splice
-	concat
-	
-	
-	
-	
 	Object literals in javascript are by default associative arrays eg object.propertyName.propertyValue is the same as object[propertyName][propertyValue]
-
-
-
 var size = Object.keys(myObj).length;
 This doesn't have to modify any existing prototype since Object.keys() is now built-in.
 
@@ -1208,22 +949,12 @@ Symbol type was added to the language to create unique identifiers for object pr
 
 Object.keys or Object.getOwnPropertyNames does not work for symbolic properties. To return them you need to use Object.getOwnPropertySymbols
 
-
 Error handling in javascript
 Error handling in promises
-
-Error boundaries in react
-
 
 Websockets
 
 how to use websockets etc.,
-
-https://github.com/sudheerj/javascript-interview-questions#how-do-you-receive-server-sent-event-notifications
-
-
-promise.AllAny
-
 
 +"5" // 5 (string to number)
 +"" // 0 (string to number)
@@ -1241,13 +972,6 @@ promise.AllAny
 +true // 1
 +false // 0
 
-
-
-https://stackoverflow.com/questions/9959727/proto-vs-prototype-in-javascript
-
-https://stackoverflow.com/questions/336859/var-functionname-function-vs-function-functionname?rq=1
-
-
 //Handling unhandled rejection at window level
 window.addEventListener('unhandledrejection', function(event) {
   // the event object has two special properties:
@@ -1255,15 +979,11 @@ window.addEventListener('unhandledrejection', function(event) {
   alert(event.reason); // Error: Whoops! - the unhandled error object
 });
 
-
-debouncing
-
-throttling
-
-
 functional  vs class programming
 
+### debouncing
 
+### throttling
 
 <html>
 <body>
@@ -1290,7 +1010,6 @@ button.addEventListener('click', debounce(function() {
 </script>
 </body>
 </html>
-
 
 ////// Throttling
 
@@ -1331,79 +1050,6 @@ button.addEventListener('click', debounce(function() {
 </html>
 
 ////////
-
-	https://tsh.io/blog/simple-guide-concurrency-node-js/
-	https://stackoverflow.com/questions/26114749/assign-priority-to-nodejs-tasks-in-a-event-loop#26119807	
-	https://www.geeksforgeeks.org/libuv-in-node-js/	
-	https://stackoverflow.com/questions/542938/how-do-i-get-the-number-of-days-between-two-dates-in-javascript
-	https://strongloop.com/strongblog/node-js-event-loop/
-	
-
-	
-Why sync requests shouldn't be used:
-https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Synchronous_and_Asynchronous_Requests#Synchronous_request
-
-JQuery Ajax (the default behavior is async unless explicitly specified; examples at the bottom of thee page): 
-https://api.jquery.com/jQuery.ajax/
-  
-Async Redux Actions:
-https://redux.js.org/advanced/async-actions
-https://code.google.com/p/domxsswiki/wiki/jQuery
-http://shebang.brandonmintern.com/foolproof-html-escaping-in-javascript/\
-
-npm config set http-proxy 
-npm config set https-proxy 
-
-https://eloquentjavascript.net/
-https://boards.greenhouse.io/gitlab/jobs/4224948002
-https://codeburst.io/build-a-blog-using-gatsby-js-react-8561bfe8fc91
-http://2ality.com/2012/09/expressions-vs-statements.html
-https://medium.com/dailyjs/the-why-behind-the-wat-an-explanation-of-javascripts-weird-type-system-83b92879a8db
-
-Comments: 
-https://medium.freecodecamp.org/code-comments-the-good-the-bad-and-the-ugly-be9cc65fbf83
-https://dzone.com/articles/5-best-practices-commenting
-https://blog.codinghorror.com/code-tells-you-how-comments-tell-you-why/
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/block
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode
-https://culttt.com/2012/10/29/javascript-control-flow-structures/
-http://2ality.com/2013/09/types.html
-https://medium.com/dailyjs/the-why-behind-the-wat-an-explanation-of-javascripts-weird-type-system-83b92879a8db
-http://www.javascripttutorial.net/javascript-primitive-vs-reference-values/
-http://adripofjavascript.com/blog/drips/the-difference-between-boolean-objects-and-boolean-primitives-in-javascript.html
-https://codeburst.io/using-javascript-bitwise-operators-in-real-life-f551a731ff5
-http://speakingjs.com/es5/ch24.html
-https://www.linkedin.com/learning/react-managing-complex-interactions/initialize-a-new-project
-https://www.webmantras.com/blog/inspiration/amazing-free-stock-photos-websites/
-http://speakingjs.com/es5/index.html#toc_pt01
-http://benalman.com/news/2010/11/immediately-invoked-function-expression/
-https://frontendmasters.com/courses/javascript-foundations/compiling-function-scope/
-
-https://medium.freecodecamp.org/the-css-handbook-a-handy-guide-to-css-for-developers-b56695917d11
-https://www.youtube.com/watch?v=n1mdAPFq2Os
-https://www.youtube.com/watch?v=m_u6P5k0vP0
-https://pazzing.talentlyft.com/jobs/full-stack-software-engineer-iYF/new
-https://www.remote-developer-jobs.com/job/sticker-mule-javascript-engineer-2/?utm_medium=blog&utm_source=NoiceJobs
-https://www.remote-developer-jobs.com/job/494539/?utm_medium=blog&utm_source=NoiceJobs
-https://stackoverflow.com/jobs/493275/javascript-developer-arative-technologies?utm_source=remoteok.io&ref=remoteok.io
-
-
-
-Empty your brain. Write out all the things you have to do on paper. Ask yourself, what has to be done?
-
-2. Figure out what is the end result you want to achieve. If your goal is to produce 10 more sales. What activities off your list will help you achieve those results?
-
-3. Group similar activities together into groups. IE Calls, emails, appointments, etc. 
-
-4. Prioritize the most important tasks that will help you achieve your ultimate goal. Put them first.
-
-5. Figure out an amount of time for each task/group. This is a biggie. Set yourself up for success! If you don't do this this is exactly how your to do list turn into crap lists.
-
-6. Schedule the groups/tasks into your calendar. For example set specific times in your calendar to complete emails. Emails can be the biggest time drain if not scheduled.
-
-7. Plan your tomorrow today. 
-
-
     Write code, focusing on a single program unit at a time
     Define tests to measure success objectives
     Test each unit of code
@@ -1427,90 +1073,8 @@ Misusing event listeners
 1.	Manipulating HTML/CSS directly
 3.	Employing methods which are not in sync with MVC Angular
 
-
-sonam@kslegal.co.in
-
-Krohitpawar@gmail.com
-
-	
-+919840545547   Mail id       : n.mani110788@gmail.com
-
-http://jsfiddle.net/7zrx4/
-http://stackoverflow.com/questions/17174627/angularjs-trigger-validation-of-a-field-when-another-field-is-changed
-https://github.com/nelsonomuto/angular-ui-form-validation
-https://youtu.be/naRNwKXGrF8  
-http://stackoverflow.com/questions/4807152/sending-arguments-to-background-worker
-http://kirszenberg.com/facebook-sixth-sense
-http://stackoverflow.com/questions/26764401/make-tabcontrol-headers-scrollable-in-wpf
-https://vortexwolf.wordpress.com/2011/07/27/silverlight-tabcontrol-with-scrolling-and-with-the-new-tab-button/\
-http://stackoverflow.com/questions/5690594/want-to-make-scrollable-tabs-for-a-tabcontrol
-http://stackoverflow.com/questions/13455047/passing-data-with-events
-http://stackoverflow.com/questions/6414143/setup-installshield-limited-edition-for-vs2010-so-it-automatically-uninstalls-pr
-https://msdn.microsoft.com/en-us/library/aa370579(VS.85).aspx
-http://www.charlesproxy.com/
-http://www.telerik.com/fiddler
-
-
-UI Developer: 6 - 8 Years Exp.  - Senior Engineer
-Strong Experience in Java, HTML-5, CSS, JAVASCRIPT, JQUERY, AngularJS
-Very Strong Experience in designing and developing UI applications
-Should be able to debug UI applications using developer tools and other UI tools.
-Good experience in creating reusable UI components
-Ability to work independently and collaboratively. 
-Should be completely aware of coding standards and should be able to develop high performance & scalable UI applications.
-Excellent verbal and written communication skills to effectively collaborate with business and technical teams
-Experience in Leading a module/function/team is a plus
-Awareness of Core Java, Hibernate is a plus. 
-
-
 There we need to measure UI loading time(page load , navigation etc.)
 We tried some tools(page load,Yslow,Live HTTP headers,Pagespeed insight, Page speed monitor) but not able to measure the correct loading time.
-
-Web Design:
-Knowing about web design
-Important elements of web design
-Difference between Frontend & Backend developer
-And a look at some modern websites
-Wireframing
-Idea of wireframing
-Example of wireframing
-Different online tools for making wireframing
-Working on wireframing example
-UI & UX
-Understanding of User Interface – UI
-Understanding of UX – User Experience
-Real world example of UI & UX
-Typography for Web
-Understanding of web typography
-Choosing font
-Difference between Serif & Sans Serif
-Size for text type
-Line height recommendation
-Text alignment and readability
-Choosing good online fonts
-Working on online tools for good typography                    
-Web Colors
-Idea about web colors
-RGB & Hexadecimal color
-RGB & Hexadecimal colors
-Choosing the right color
-Online tool for web color scheme
-Icons for Web
-Web Icons
-Why icons are important
-How to use icons
-Images for web
-Purpose of image usage for web
-Tips to use images effectively in web design
-Selection Of Images
-Use Effective Images
-Placement Of Images
- Size & Resolution of Images
- Image Optimization
-White spacing
-Idea of whitespacing
-Why whitespace matters.
-Inspiration for web
 
 
 //Interview Questions
@@ -1527,7 +1091,6 @@ Functional programming (also: closures, first class functions, lambdas).
 Class Inheritance: instances inherit from classes (like a blueprint — a description of the class), and create sub-class relationships: hierarchical class taxonomies. Instances are typically instantiated via constructor functions with the `new` keyword. Class inheritance may or may not use the `class` keyword from ES6.
 Prototypal Inheritance: instances inherit directly from other objects. Instances are typically instantiated via factory functions or `Object.create()`. Instances may be composed from many different objects, allowing for easy selective inheritance.
 
-
 Good to hear:
 Classes: create tight coupling or hierarchies/taxonomies.
 Prototypes: mentions of concatenative inheritance, prototype delegation, functional inheritance, object composition.
@@ -1543,3 +1106,68 @@ Good to hear:
 In situations where modules or functional programming don’t provide an obvious solution.
 When you need to compose objects from multiple sources.
 Any time you need inheritance.
+
+https://app.codility.com/programmers/trainings/5/disappearing_pairs/
+https://app.codility.com/programmers/lessons/1-iterations/binary_gap/
+
+Javascript interview questions
+
+console.log(a)
+a = 10;
+
+console.log(a)
+var a = 10;
+
+const sum = (...args) => args.reduce((sum, number) => sum + number, 0);
+
+console.log(sum(1, 2, 3, 4));
+console.log(sum(1, 2, 3, 4, 3, 2, 1));
+
+//Currying 
+console.log(sum(1)(2)(3));
+
+//Factorial
+
+function factorial (number) {  
+  return number > 1 ? number * factorial (number - 1) : number * 1;
+}
+
+factorial(5)
+
+/////
+
+let str = "asdfioweurkjdlksdjfkjdsfkljsdfkjklsdf";
+
+//a2b3c5d8
+
+let str = "asdfioweurkjdlksdjfkjdsfkljsdfkjklsdf";
+
+//a2b3c5d8
+
+const countCharacters = (str = '') => {
+  
+  //
+  const alphabetsCount = {};
+  
+  if(str.length > 0) {
+    for(var index in str) {
+      const currentCharacter = str[index];
+      
+      if(typeof alphabetsCount[currentCharacter] == 'undefined') {
+        alphabetsCount[currentCharacter] = 1;
+      } else {
+        alphabetsCount[currentCharacter] = alphabetsCount[currentCharacter] + 1;
+      }
+    }
+  }
+  
+  const alphabetCountArr = []
+  Object.keys( alphabetsCount).map((k ,v) => {
+    alphabetCountArr.push(k+v)
+  })  
+  
+  return alphabetsCount;
+  
+}
+
+scolling optimization - memoizatiion
