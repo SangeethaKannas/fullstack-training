@@ -31,7 +31,8 @@ httpnstsatus codes
 2.  Partial content
 301 Moved permanently
 304 Not Modified
-400 Bad request
+400 Bad 
+
 403 Forbidden
 501 Not implemented
 503 Service unavailable
