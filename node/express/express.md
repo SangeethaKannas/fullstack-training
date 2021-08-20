@@ -21,6 +21,23 @@ exoress-validator
 
 socket.io
 
+### Error handling
+httpnstsatus codes 
+
+200
+
+201. New resource created.
+204  No content
+2.  Partial content
+301 Moved permanently
+304 Not Modified
+400 Bad request
+403 Forbidden
+501 Not implemented
+503 Service unavailable
+
+RFC 2616
+
 ### Domain and expressmJS
 try/catch
 joyent/node/wiki
@@ -31,4 +48,4 @@ and might be slower
 jsperf.com/tryncatch performance over head
 
 
-
+errorhandler
