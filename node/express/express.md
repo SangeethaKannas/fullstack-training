@@ -48,5 +48,9 @@ and might be slower
 
 jsperf.com/tryncatch performance over head
 
+appwide objects and methods on its object
 
+app.locala, .render, .mountpath, .on('mount', callback), .path(), .listen()
 errorhandler
+
+app.locals 
