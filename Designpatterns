@@ -1,0 +1,19 @@
+1. Singletone design pattern
+
+Constructor - private. Why? If constructor is public then we can create instances of the object. JS doesnot support private public keywords so inside constructor we have to restrict 
+object creation using consition
+
+class Configuration {
+  constructor(initValues) {
+      if(Configuration.instance) {
+        return Configuration.instance;
+      }
+      
+      Configuration.instance = this;
+      //
+      //use init vals
+  }
+
+
+}
+
