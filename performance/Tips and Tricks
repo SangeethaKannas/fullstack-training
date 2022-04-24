@@ -1,0 +1,54 @@
+Best Practices for Speeding Up Your Web Site
+
+Minimize HTTP Requests
+Use a Content Delivery Network
+Add an Expires or a Cache-Control Header
+Gzip Components
+Put Stylesheets at the Top
+Put Scripts at the Bottom
+Avoid CSS Expressions
+Make JavaScript and CSS External
+Reduce DNS Lookups
+Minify JavaScript and CSS
+No 404s
+Avoid Redirects
+Remove Duplicate Scripts
+Configure ETags
+Make Ajax Cacheable
+Flush the Buffer Early
+Use GET for AJAX Requests
+Post-load Components
+Split Components Across Domains
+Optimize Images
+Choose <link> over @import
+Minimize the Number of iframes
+
+35 Total Rules → http://developer.yahoo.com/performance/rules.html
+
+
+Page Speed Project
+
+YSlow
+Server Recommendations
+Suggested Code Changes
+Staging got a B
+Production got an F
+Enable Compression
+Add Expires Headers
+Optimizing Images (25% savings)
+Reduce HTTP Requests
+JavaScript at Bottom
+
+
+UI Refresh Project
+
+CSS Image sprites
+
+Themes
+ -- Variables
+ 
+
+
+
+Videos
+Performance Tooling by Paul Irish (#perfmatters at SFHTML5)
