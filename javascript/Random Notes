@@ -1,0 +1,53 @@
+1. Difference between var and let (Asked 90% times)
+2. What are promises and how are they better than callbacks ? (Asked 90% times)
+3. Polyfill for promise all
+4. Polyfill for bind
+5. What is async/await and how is it different from promises ?
+6. What are the different types of browser storage ?
+7. Difference between function expression and function declaration.
+8. Difference between null and undefined
+9. Difference between '==' and '==='
+10. Difference between spread and rest operator
+11. Difference between arrow function and normal function.
+12. What is prototype and prototype chain ?
+13. Check if these arrays are equal
+Input 1 - A = [4,2,7,8] B = [8,4,2,7] Output - True (If the arrays contains same element they are considered irrespective pf their positions)
+Input 2 - A = [6,2,5,0] B = [6,2,2,5] Output - False
+14. Reverse a string
+15. What are closures
+16. What are some practical usage of closures - 
+ Answer: Memoisation, data hiding/encapsulation, currying.. Explain         each of them
+Some output based questions-
+ // Code 1:
+function foo(){
+ setTimeout(()=>{
+  console.log(a);
+  console.log(b);
+ },100);
+ var a = 2;
+ let b = 12;
+}
+
+foo();
+
+// Code 2:
+function foo(){
+ for(var i = 0; i < 3; i++){
+  setTimeout(()=> console.log(i),2000);
+ }
+}
+foo();
+
+
+Promise.resolve(10)
+    .then((r) => {
+        throw (r + 10)
+    })
+    .catch((e) => {
+        return e + 24;
+    })
+    .then(console.log)
+    .catch((e) => {
+        console.log(20 + e)
+    })
+
