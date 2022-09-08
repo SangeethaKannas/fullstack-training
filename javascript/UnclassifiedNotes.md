@@ -7796,3 +7796,66 @@ function highlightPattern(text = "", pattern = "") {
     //    mainCanvas.style.display = 'none';
     // }
     //setTimeout(modifyCanvas, 500);
+
+	
+	
+	
+	/**
+ * Given an array of 0,1 and 2. Sort them.
+ * input = {2,0,1,0,1,2}
+ * output = {0,0,1,1,2,2}
+ * 
+ */
+
+const _ = require('lodash');
+
+function sort(array) {
+
+  let finalIndex = array.length - 1;
+  let addtlIndex = 0;
+
+  for (let index = 0; index < array.length;) {
+
+    if (array[index] == 2 || array[index] == 1) {
+
+      for (let indexFromEnd = finalIndex; indexFromEnd > index; indexFromEnd--) {
+        console.log(index + ":" + array[index] + "," + indexFromEnd + ":" + array[indexFromEnd])
+
+        if (
+          (array[index] == 1 && array[indexFromEnd] == 0) ||
+          (array[index] == 2 && array[indexFromEnd] <= 1)
+        ) {
+          //swap
+          let temp = array[index];
+          array[index] = array[indexFromEnd]
+          array[indexFromEnd] = temp;
+          console.log('After swap ' + indexFromEnd)
+          console.log(array)
+          break;
+        }
+      }
+
+    } else {
+      index++
+
+    }
+    console.log(array)
+    console.log(index)
+    addtlIndex++;
+    if (addtlIndex > array.length) {
+      break;
+    }
+  }
+
+  return array;
+
+}
+
+function sayHello() {
+  let inputArray = [0, 1, 2, 1, 0, 1, 0, 2, 0, 2, 0, 1, 0, 1, 2];
+  console.log(sort(inputArray))
+
+}
+
+_.times(1, sayHello);
+
