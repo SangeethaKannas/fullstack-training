@@ -1,29 +1,26 @@
-/***
-Best Practices
-****/
+## /***  Best Practices   ****/
 
-//Always declare variables
+- Always declare variables
+- Use === instead of ==
 
-Use === instead of ==
+### Objects
+- Use delete properly
+- User object lookup instead of Switch statements
 
-Use delete properly
+### Functions
+- Function arguments - 2 or feweer ideally
+- Functions should do only one thing
+- -  Avoid Side effects - Use pure functions whenever necessary
+- Function names should say what they do
+- Functions should have single level of abstraction
+- Don't use flag as function parameters
+- Favor functional programming instead of imperative programming
 
-//Function arguments - 2 or feweer ideally
-
-//Functions should do only one thing
-
-//Function names should say what they do
-
-//Functions should have single level of abstraction
-
-//Remove duplicate code
-
-//Don't use flag as function parameters
-
-//Avoid Side effects - Use pure functions whenever necessary
-
-// Dont write to global functions like Arrays etc., instead extend them
-
+### General
+- Remove duplicate code
+- Remove unused code
+- Dont write to global functions like Arrays etc., instead extend them
+`
 const SuperArray extends Array {
   diff(comparisonArray) {
     const hash = new Set(comparisonArray)
@@ -31,14 +28,9 @@ const SuperArray extends Array {
  }
 
 }
+`
 
-//Favor functional programming instead of imperative programming
-
-//Encapsulate conditionals
-
-//Avoid negative conditionals
-
-//Avoid conditionals
-
-//Remove unused code
+### Conditionals 
+- Encapsulate conditionals
+- Avoid negative conditionals
 
