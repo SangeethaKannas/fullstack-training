@@ -54,6 +54,19 @@ New Features
    Asynchronous programming improvements
    Template literals
    Typed Arrays
+   
+Support for constants or immutable variables
+ii. Block-scope support for variables, constants and functions
+iii. Arrow functions
+iv. Default parameters
+v. Rest and Spread Parameters
+vi. Template Literals
+vii. Multi-line Strings
+viii. Destructuring Assignment
+ix. Enhanced Object Literals
+x. Promises
+xi. Classes
+xii. Modules
 
 Enhancements
    Function Parameters : Default Parameters, Destructuring
