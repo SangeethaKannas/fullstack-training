@@ -1,3 +1,5 @@
 <Script async defer />
  - Old Way: Blocks HTML parsing once browser sees script tag ==> Download it ==> Execute It and Continue HTML 
- - New Way: Download source ==> Wait for HTML parsing ==> Execute scripts downloaded
+ - Old way: script at end of body: User have to wait longer till HTML dom is created
+ - New Way: async: Download source ==> Wait for HTML parsing ==> Execute scripts downloaded. Good for 3rd party libraries   |  Scripts not executed in order
+ - New Way: defer: wait for dom to be created --> executes order in the way it is created.
