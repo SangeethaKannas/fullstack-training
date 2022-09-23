@@ -1,6 +1,6 @@
 ## input 
 
-Mode:  numeric   decimal   tel   search   url    email
+Mode:  numeric   decimal   tel   search   url    email   text password  date   button  checkbox radio      file     color      range       image
 
 ### Attributes
 - Accept: filter for file types.      Tip: Avoid using for validation, validation should be donw on server
