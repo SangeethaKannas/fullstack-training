@@ -1,0 +1,3 @@
+<Script async defer />
+ - Old Way: Blocks HTML parsing once browser sees script tag ==> Download it ==> Execute It and Continue HTML 
+ - New Way: Download source ==> Wait for HTML parsing ==> Execute scripts downloaded
