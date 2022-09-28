@@ -96,7 +96,7 @@ generators
 yield operator
 
 
-ES 2019
+##  ES 2019
 
 String.prototype.trimStart and trimEnd
 Symbol.prototype.description
@@ -107,3 +107,16 @@ Array.sort()
 Array.{flat, flatMap}
 
 Object.fromEntries - opposite of object.entries
+
+## Method chaining
+const chainableObj = new ChainObj();
+chainableObj.a().b();
+class ChainableObj =  {  a() {.,..return this}    b() {.... return this }  }
+
+## for-await-of
+
+const getFruits = [  Promise.resolve('a'), Promise.resolve('b'), Promise.resolve('c') ]
+async function logFruits
+
+
+
