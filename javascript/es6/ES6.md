@@ -116,7 +116,13 @@ class ChainableObj =  {  a() {.,..return this}    b() {.... return this }  }
 ## for-await-of
 
 const getFruits = [  Promise.resolve('a'), Promise.resolve('b'), Promise.resolve('c') ]
-async function logFruits
+async function logFruits() {
+  for await (const fruit of getFruits) {
+     console.log(fruit);
+  }
+}
+
+logFruits();
 
 
 
