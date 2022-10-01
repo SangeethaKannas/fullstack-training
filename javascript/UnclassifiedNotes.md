@@ -1,10 +1,11 @@
- pdf js
- Crypto js
- https://michalsnik.github.io/aos/
- https://animate.style/
- https://www.icofont.com/
- http://www.javascriptkit.com/script/script2/doctextresizer.shtml
- MooTools: the javascript framework 
+ ### pdf js
+ ### Crypto js
+- https://michalsnik.github.io/aos/
+- https://animate.style/
+- https://www.icofont.com/
+- http://www.javascriptkit.com/script/script2/doctextresizer.shtml
+
+MooTools: the javascript framework 
  BxSlider v4.1.2 - Fully loaded, responsive content slider  * http://bxslider.com
  Ditty News Ticker
  JSZip v3.1.3 - A Javascript class for generating and reading zip files   <http://stuartk.com/jszip>
@@ -7858,4 +7859,8 @@ function sayHello() {
 }
 
 _.times(1, sayHello);
-
+------------------------
+let a = null 
+	
+console.log(typeof(a))
+------------------------
