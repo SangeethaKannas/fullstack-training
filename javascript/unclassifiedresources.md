@@ -6,68 +6,69 @@
 - http://lwan.ws/
 - http://www.impredicative.com/ur/
 - http://plnkr.co/edit/aGxuXMiPgYA0TFc67YL4?p=preview
-http://www.fastcodesign.com/3032719/ui-ux-who-does-what-a-designers-guide-to-the-tech-industry
-https://kx.hcl.com/sites/TechOffice/UxDCoE/_layouts/15/start.aspx#/SitePages/Interactive%20User%20Manual.aspx 
-https://en.wikipedia.org/wiki/Comparison_of_web_application_frameworks
-https://en.wikipedia.org/wiki/Comparison_of_JavaScript_frameworks
-http://noeticforce.com/best-php-frameworks-for-modern-web-development
-https://wiki.python.org/moin/WebFrameworks
-http://www.fromdev.com/2014/11/best-ruby-web-frameworks.html
-http://hotframeworks.com/
-https://wiki.haskell.org/Web/Frameworks
-http://www.developereconomics.com/feature-comparison-of-4-popular-js-mv-frameworks/
-http://softwaresimply.blogspot.in/2012/04/hopefully-fair-and-useful-comparison-of.html
-https://www.reddit.com/r/haskell/comments/332s1k/what_haskell_web_framework_do_you_use_and_why/
-http://www.infoq.com/research/jvm-web-frameworks
-http://www.improgrammer.net/most-popular-javascript-frameworks-2015/
-https://www.quora.com/What-are-the-available-Scala-web-frameworks
-http://www.bestwebframeworks.com/compare-web-frameworks/perl/
-http://www.sitepoint.com/best-php-framework-2015-sitepoint-survey-results/
-https://codegeekz.com/best-python-frameworks/
-https://www.quora.com/What-is-the-best-Python-web-app-framework-And-why
-https://github.com/NancyFx/Nancy/wiki/Introduction
-http://www.theregister.co.uk/2016/01/20/microsoft_web_app_framework_renamed_aspnet_core/
-https://www.thoughtworks.com/radar/languages-and-frameworks/nancy
-http://developer.telerik.com/featured/what-to-expect-from-javascript-in-2016-frameworks/
-http://githut.info/
-http://www.gajotres.net/the-top-5-angularjs-hybrid-mobile-app-frameworks-proscons/
-https://github.com/driftyco/ionic
-https://github.com/jooby-project/jooby
-http://www.developereconomics.com/feature-comparison-of-4-popular-js-mv-frameworks/
-https://github.com/facebook/react
-https://objectpartners.com/2015/09/24/angular-2-vs-angular-1/
-https://github.com/angular/angular
-http://jimfrenette.com/2016/01/javascript-frameworks/
-http://www.javaworld.com/article/2078838/mobile-java/open-source-java-projects-vert-x.html
-https://github.com/phusion/traveling-ruby
-https://github.com/phusion/traveling-ruby#why_precompiled_binary_difficult
-https://developer.apple.com/swift/
-http://vschart.com/compare/backbone-js/vs/sails-js
-https://blog.appdynamics.com/python/an-introduction-to-python-frameworks-part-1/
-http://softwareas.com/2016-tech-predictions/
-https://en.wikipedia.org/wiki/Chakra_(JScript_engine)
-http://www.tiobe.com/tiobe_index?page=index
-http://www.theserverside.com/news/thread.tss?thread_id=81656
-http://www.mrc-productivity.com/blog/2016/01/5-big-enterprise-application-development-trends-of-2016/
-http://blog.continued-learning.com/web-development-trends-in-2015-2016/
-http://usersnap.com/blog/web-development-trends-2016/
-http://mentormate.com/blog/top-mobile-trends-2016-technologists-predict/
-	https://stackoverflow.com/questions/286419/how-to-build-a-dmg-mac-os-x-file-on-a-non-mac-platform
-	http://slopjong.de/2013/01/22/mount-apple-disk-images-dmg-in-linux/	
-	http://blog.arungupta.me/monolithic-microservices-refactoring-javaee-applications/
-	http://www.codingthearchitecture.com/2014/07/06/distributed_big_balls_of_mud.html
-	
-	POC
+- - http://www.fastcodesign.com/3032719/ui-ux-who-does-what-a-designers-guide-to-the-tech-industry
+- https://kx.hcl.com/sites/TechOffice/UxDCoE/_layouts/15/start.aspx#/SitePages/Interactive%20User%20Manual.aspx 
 
-https://msdn.microsoft.com/en-us/library/jj161049.aspx
-https://github.com/rwaldron/idiomatic.js
-https://github.com/rmurphey/js-assessment
-http://nibbler.silktide.com/
-https://wappalyzer.com/
-https://css-tricks.com/examples/ButtonMaker/
-http://web-developmenthub.com/ideas
-http://web-developmenthub.com/sources
-https://github.com/mishoo/UglifyJS
+### Frameworks
+- https://en.wikipedia.org/wiki/Comparison_of_web_application_frameworks
+- https://en.wikipedia.org/wiki/Comparison_of_JavaScript_frameworks
+- http://noeticforce.com/best-php-frameworks-for-modern-web-development
+- https://wiki.python.org/moin/WebFrameworks
+- http://www.fromdev.com/2014/11/best-ruby-web-frameworks.html
+- http://hotframeworks.com/
+- https://wiki.haskell.org/Web/Frameworks
+- http://www.developereconomics.com/feature-comparison-of-4-popular-js-mv-frameworks/
+- http://softwaresimply.blogspot.in/2012/04/hopefully-fair-and-useful-comparison-of.html
+- https://www.reddit.com/r/haskell/comments/332s1k/what_haskell_web_framework_do_you_use_and_why/
+- http://www.infoq.com/research/jvm-web-frameworks
+- http://www.improgrammer.net/most-popular-javascript-frameworks-2015/
+- https://www.quora.com/What-are-the-available-Scala-web-frameworks
+- http://www.bestwebframeworks.com/compare-web-frameworks/perl/
+- http://www.sitepoint.com/best-php-framework-2015-sitepoint-survey-results/
+- https://codegeekz.com/best-python-frameworks/
+- https://www.quora.com/What-is-the-best-Python-web-app-framework-And-why
+- https://github.com/NancyFx/Nancy/wiki/Introduction
+- http://www.theregister.co.uk/2016/01/20/microsoft_web_app_framework_renamed_aspnet_core/
+- https://www.thoughtworks.com/radar/languages-and-frameworks/nancy
+- http://developer.telerik.com/featured/what-to-expect-from-javascript-in-2016-frameworks/
+- http://githut.info/
+- http://www.gajotres.net/the-top-5-angularjs-hybrid-mobile-app-frameworks-proscons/
+- https://github.com/driftyco/ionic
+- https://github.com/jooby-project/jooby
+- http://www.developereconomics.com/feature-comparison-of-4-popular-js-mv-frameworks/
+- https://github.com/facebook/react
+- https://objectpartners.com/2015/09/24/angular-2-vs-angular-1/
+- http://jimfrenette.com/2016/01/javascript-frameworks/
+- http://www.javaworld.com/article/2078838/mobile-java/open-source-java-projects-vert-x.html
+- https://github.com/phusion/traveling-ruby
+- https://github.com/phusion/traveling-ruby#why_precompiled_binary_difficult
+- https://developer.apple.com/swift/
+- http://vschart.com/compare/backbone-js/vs/sails-js
+- https://blog.appdynamics.com/python/an-introduction-to-python-frameworks-part-1/
+- http://softwareas.com/2016-tech-predictions/
+- https://en.wikipedia.org/wiki/Chakra_(JScript_engine)
+- http://www.tiobe.com/tiobe_index?page=index
+- http://www.theserverside.com/news/thread.tss?thread_id=81656
+- http://www.mrc-productivity.com/blog/2016/01/5-big-enterprise-application-development-trends-of-2016/
+- http://blog.continued-learning.com/web-development-trends-in-2015-2016/
+- http://usersnap.com/blog/web-development-trends-2016/
+- http://mentormate.com/blog/top-mobile-trends-2016-technologists-predict/
+- https://stackoverflow.com/questions/286419/how-to-build-a-dmg-mac-os-x-file-on-a-non-mac-platform
+- http://slopjong.de/2013/01/22/mount-apple-disk-images-dmg-in-linux/	
+- http://blog.arungupta.me/monolithic-microservices-refactoring-javaee-applications/
+- http://www.codingthearchitecture.com/2014/07/06/distributed_big_balls_of_mud.html
+	
+### POC
+
+- https://msdn.microsoft.com/en-us/library/jj161049.aspx
+- https://github.com/rwaldron/idiomatic.js
+- https://github.com/rmurphey/js-assessment
+- http://nibbler.silktide.com/
+- https://wappalyzer.com/
+- https://css-tricks.com/examples/ButtonMaker/
+- http://web-developmenthub.com/ideas
+- http://web-developmenthub.com/sources
+- https://github.com/mishoo/UglifyJS
 
 #### Necessary Tools
 - https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm
