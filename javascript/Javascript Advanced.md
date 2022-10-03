@@ -1,57 +1,51 @@
-#Enginers
-
-##Javascript Engine
-
-Javascript Runtime
-
-Interpreter/Compiler /JIT Compiler
-
-Writing Optimized Code
-
-Call stack + memory Heap
-
-Stack overflow + Memory Leaks
-
-Garbage Collection
-
-Node.js
-
-Single Threaded Model
-
-#F
-
-Execution Context
-Lexical Environment
-Scope Chain
-Hoisting
-Function Invocation
-Function Scope Vs Block Scope
-Dynamic Vs Lexical Scope
-this - call, apply and bind
-IIFE
-
-Types
-Static Vs Dynamically Typed
-Primitive Types
-
-Pass by Reference and Pass By Value
-Type Coercion
-Arrays, Functions and Objects
-
-The 2 Pillars
-Closures
-Prototypical Inheritance
-
-Higher order functions
-Functions Vs Objects
-Schme + Java 
+## Javascript Advanced
 
 
-OOP Vs FP
-OOP
-  this keyword
-  new keyword
-  Prototype
+### Javascript Engine
+
+- Javascript Runtime
+- Interpreter/Compiler /JIT Compiler
+- Writing Optimized Code
+- Call stack + memory Heap
+- Stack overflow + Memory Leaks
+- Garbage Collection
+
+## Node.js
+- Single Threaded Model
+
+## Others
+
+- Execution Context
+- Lexical Environment
+- Scope Chain
+- Hoisting
+- Function Invocation
+- Function Scope Vs Block Scope
+- Dynamic Vs Lexical Scope
+- this - call, apply and bind
+- IIFE
+
+## Types
+- Static Vs Dynamically Typed
+- Primitive Types
+
+## Pass by Reference and Pass By Value
+- Type Coercion
+- Arrays, Functions and Objects
+
+## The 2 Pillars
+- Closures
+- Prototypical Inheritance
+
+## Higher order functions
+- Functions Vs Objects
+- Schme + Java 
+
+## OOP Vs FP
+### OOP
+- this keyword
+- new keyword
+ - Prototype
   ES 6 classes
   Java
   Inheritance
@@ -59,11 +53,8 @@ OOP
   Private Vs Public
   4 principles of OOP
   
-  
-FP
+### FP
   Composition vs inheritance
-  
-  
   Curry
   Partial Application
   Pure Functions
@@ -71,8 +62,8 @@ FP
   Compose
   Pipe
   
- Extras+
-   Asynchronous Javascript
+ ## Extras+
+ ###  Asynchronous Javascript
       Web APIs
       Async / Await
       Callbacks
@@ -81,10 +72,9 @@ FP
       Promises 
       Event loop
       
-      
-   Error handling
+  ### Error handling
    
-   Modules
+  ### Modules
       Native ES Modules
       CommonJS
       UMD
@@ -93,4 +83,5 @@ FP
       
    
 
-
+### Others
+Deep copy : structuredClone (obj0)
