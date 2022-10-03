@@ -1,4 +1,15 @@
-Datatypes
+
+## Why Javascript
+1. High Demand
+2. Beginner Friendly - Easy to learn
+3. Frameworks
+4. Huge Communinity
+5. FrontEnd and Backend
+6. Block Chain
+7. Visual Effects
+8. Web and Mobile Apps
+
+## Datatypes
 
 ### Seven Types
 
