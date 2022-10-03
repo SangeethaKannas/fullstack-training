@@ -3,12 +3,19 @@
 
 ### Javascript Engine
 
+
 - Javascript Runtime
 - Interpreter/Compiler /JIT Compiler
 - Writing Optimized Code
 - Call stack + memory Heap
 - Stack overflow + Memory Leaks
 - Garbage Collection
+
+#### Enginers - JS engines | Virtual Machines   
+   - Chrome - V8 engine
+   - Safari - JavaScriptCore engine
+   - Firefox - SpiderMonkey (except iOS)
+   - Edge - Chakra -> Chromium
 
 ## Node.js
 - Single Threaded Model
