@@ -32,15 +32,15 @@ Datatypes
 
 ### Basic Vocabulary
 - Variables
-  Variable declartion
-  Variable initialization
-  Variable Assignment
+  -- Variable declartion
+  -- Variable initialization
+  -- Variable Assignment
   
 - Hoisting
   
 - Scope
-    Global Scope
-    Functional Scope
+    -- Global Scope
+    -- Functional Scope
     
     Lexical Environment (Lexical scope)
         The physical location (scope) where a variable or function is declared is its lexical environment (lexical scope).
