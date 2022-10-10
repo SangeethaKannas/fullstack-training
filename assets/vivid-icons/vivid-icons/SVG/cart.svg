@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="36px" viewBox="0 0 40 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>cart</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Vivid.JS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vivid-Icons" transform="translate(-587.000000, -175.000000)">
+            <g id="Icons" transform="translate(37.000000, 169.000000)">
+                <g id="cart" transform="translate(546.000000, 0.000000)">
+                    <g transform="translate(4.000000, 6.000000)" id="Shape">
+                        <path d="M10.58,29.043 C12.4949277,29.0694229 14.0284086,30.6385295 14.0108538,32.5535591 C13.993299,34.4685886 12.4313106,36.0093194 10.5162203,36.0006331 C8.60113003,35.9919467 7.05318229,34.43711 7.053,32.522 C7.05854818,31.5926903 7.43345802,30.7037395 8.09507761,30.0511241 C8.75669719,29.3985087 9.65070149,29.0358143 10.58,29.043 Z M22.351,29.043 C24.2638144,29.0776442 25.789741,30.6502507 25.7667487,32.5632407 C25.7437564,34.4762307 24.1804737,36.0117079 22.2673792,36.0003684 C20.3542847,35.9890289 18.8093137,34.4351281 18.809,32.522 C18.8265943,30.5832882 20.4122846,29.0258018 22.351,29.043 Z M40,6 L10,6 L5,0 L0,0 L14,20 L26,20 L24,23 L9,23 L5,27 L26,27 L40,6 Z" fill="#FF6E6E"></path>
+                        <path d="M12,10 L32,10 L30,12 L14,12 L12,10 Z M15,14 L28,14 L26,16 L17,16 L15,14 Z" fill="#0C0058"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

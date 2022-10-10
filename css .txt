@@ -1,0 +1,42 @@
+Cascading Style Sheets
+
+Conflicts
+
+Style Application
+
+   Same property has two different values   
+   Closest to the element takes precedence   
+   Last Write wins    
+	Wastage
+
+Code Wise
+    Repeated Code	 
+	Unused Code	 
+	Inline Style Elements	 
+	Default Values	 
+	Downloading codes which already exists	 
+	Inline Downloading Codes
+	 
+	 
+String buffer
+
+function StringBuffer () {
+	this.buffer = [];
+}
+
+CSS
+
+   Separation of Concerns
+    Document structure and Semantics - HTML
+	
+	Logic - JS
+	Formatting and Display - CSS	
+	
+CSS Syntax
+
+	Selector -  What	
+		property : value -- How and where	
+	Class
+		#id and name
+		  
+Careeer	http://www.graphicmania.net/what-should-a-freelancer-learn-from-the-japanese-mentality/?utm_content=buffer8be41&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer

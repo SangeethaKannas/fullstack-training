@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="18px" viewBox="0 0 37 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>battery</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Vivid.JS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vivid-Icons" transform="translate(-43.000000, -418.000000)">
+            <g id="Icons" transform="translate(37.000000, 169.000000)">
+                <g id="battery" transform="translate(0.000000, 234.000000)">
+                    <g transform="translate(6.000000, 15.000000)">
+                        <rect id="Rectangle-path" fill="#FF6E6E" fill-rule="nonzero" x="0" y="0" width="34" height="18"></rect>
+                        <path d="M34,4 L37,4 L37,14 L34,14 L34,4 Z M17,3 L12,9 L16,10 L12,15 L23,9 L17,8 L23,3 L17,3 Z" id="Shape" fill="#0C0058"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

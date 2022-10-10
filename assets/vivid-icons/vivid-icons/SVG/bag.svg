@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="35px" viewBox="0 0 28 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>bag</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Vivid.JS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vivid-Icons" transform="translate(-47.000000, -644.000000)">
+            <g id="Icons" transform="translate(37.000000, 169.000000)">
+                <g id="bag" transform="translate(0.000000, 468.000000)">
+                    <g transform="translate(10.000000, 7.000000)" id="Shape">
+                        <polygon fill="#FF6E6E" points="3.394 9 24.606 9 28 35 0 35"></polygon>
+                        <path d="M0,35 L0.522,31 L27.478,31 L28,35 L0,35 Z M18,8 C18,6.484 17.263,3 14,3 C10.737,3 10,6.484 10,8 L10,9 L7,9 L7.01,6.049 C7.01,3.017 10.053,0 14,0 C17.947,0 20.99,3.017 20.99,6.049 L21,9 L18,9 L18,8 Z" fill="#0C0058"></path>
+                        <path d="M7,9 L7.009,11 L10.009,11 L10.009,9 L7,9 Z M17.989,9 L17.989,10.989 L20.989,10.989 L21,9 L17.991,9 L17.989,9 Z" fill="#FAFAFA"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="18px" viewBox="0 0 30 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>angle-top</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Vivid.JS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vivid-Icons" transform="translate(-592.000000, -574.000000)">
+            <g id="Icons" transform="translate(37.000000, 169.000000)">
+                <g id="angle-top" transform="translate(546.000000, 390.000000)">
+                    <g transform="translate(9.000000, 15.000000)" id="Shape">
+                        <polygon fill="#FF6E6E" points="0 15 15 0 30 15 27 18 15 6 3 18"></polygon>
+                        <path d="M8.5,12.5 L5.5,9.5 L0,15 L3,18 L8.5,12.5 Z M21.5,12.5 L27,18 L30,15 L24.5,9.5 L21.5,12.5 Z" fill="#0C0058"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="26px" viewBox="0 0 40 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>cloud</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Vivid.JS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vivid-Icons" transform="translate(-431.000000, -180.000000)" fill="#FF6E6E">
+            <g id="Icons" transform="translate(37.000000, 169.000000)">
+                <g id="cloud" transform="translate(390.000000, 0.000000)">
+                    <g transform="translate(3.000000, 11.000000)" id="Shape">
+                        <path d="M34.22,26 L10.492,26 C5.15499117,25.9025641 0.906373637,21.499077 1,16.162 C1,10.729 4.758,7 10,7 C10.9980963,6.91273629 12.0019037,6.91273629 13,7 C14.607,3.118 18.022,0 22.356,0 C28.16,0 33,3.985 33,10 C33,10.411 33.043,11.6 33,12 C33.3313885,11.9490768 33.6686115,11.9490768 34,12 C37.8451296,12.024898 40.9602424,15.1279953 41,18.973 C41.0668755,22.7851738 38.0321265,25.9304808 34.22,26 Z"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

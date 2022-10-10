@@ -1,0 +1,21 @@
+button {
+    background: white;
+    border: none;
+    padding: 3px 1rem;
+    text-align: center;
+    margin: 2px;
+}
+
+.buttons button:hover {
+    transform: scale(1.1);    
+}
+
+.rectangle-btn {
+    border: 1px solid rgb(151, 93, 93);
+    border-radius:2px;
+}
+
+.buttons .round-btn {
+    border: 2px solid green;
+    border-radius: 50%;
+}

@@ -1,0 +1,40 @@
+.forms {
+    
+    
+    width: 40vw;    
+}
+
+.forms input {
+    background-color: white;
+    border: 1px solid #bcacac;
+    border-radius: 1px;
+    height: 1.3rem;
+}
+
+.forms label {
+    color: black;
+    float: left;
+    font-size: 0.9rem;
+    padding-top: 5px;
+    width: 10rem;
+    text-align: right;
+    margin-right: 1.6rem;
+    
+}
+
+.forms a {
+    float: right;
+}
+
+.forms div:last-child {
+    margin-top: 2rem;
+}
+
+.forms div {
+    height: 2rem;
+    width: 96%;
+}
+
+.forms .input-div label {
+    
+}

@@ -1,0 +1,39 @@
+/**
+    Scroller page
+
+*/
+
+.box1 {
+    height: 100vh;
+    background: url("./images/remote-work-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.box1 {
+    color:white;
+}
+
+.box1 a {
+    color:white;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.box1 time {
+    font-size: 5rem;
+}
+
+.box2 {
+    height: 100vh;    
+    display:flex;
+    justify-content: space-around;
+    align-items: center;    
+}

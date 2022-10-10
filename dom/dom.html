@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Drag and Drop</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/popup.css">
+    <link rel="stylesheet" href="styles/splitscreen.css">
+    <link rel="stylesheet" href="../../thirdparty/font-awesome.min.css">
+</head>
+<body>
+
+    <section>
+        <button class="button" id="modalBtn">Click Here</button>
+
+        <div class="modal" id="simpleModal">
+            <div class="modal-content">
+
+                <header class="modal-header">
+                    <span class="close-btn" id="closeBtn">x</span>
+                </header>
+                <div class="modal=body">
+                    <p>Hello I am a model</p>
+                </div>
+                <footer class="modal-footer">
+
+                </footer>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div id="chain" class="fa">
+        </div>
+
+    </section>
+
+    <section class="tab">
+        <div class="empty">
+            <div class="fill" draggable="true"></div>
+        </div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+    </section>
+
+    <section class="tab">
+        <div class="screen-split-widget">
+            <div class="layer">
+                <div class="content-wrap">
+                    <div class="content-body">
+                        My First focus for today
+                    </div>
+                    <img src="images/background1.jpg" alt="">
+                </div>
+            </div>
+            <div class="layer">
+                <div class="content-wrap">
+                    <div class="content-body">
+                        My Second focus for today
+                    </div>
+                    <img src="img1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="tab">
+        <a href="#/" class="btn">Show Box</a>
+
+        <div class="status-popup">
+            <header>Java script Popup
+                <a class="close"></a>
+            </div>
+            <div class="content">
+                <h1>Completed Successfully</h1>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/modal.js"></script>
+    <script src="js/tabs.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/draganddrop.js"></script>
+</body>
+</html>

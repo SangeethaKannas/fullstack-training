@@ -1,0 +1,34 @@
+/***
+
+Selectors
+
+Reference : https://www.w3schools.com/cssref/css_selectors.asp
+
+*/
+
+
+/************ Child selectors *****/
+.selectors article div > div {
+    background-color: blanchedalmond;
+}
+
+.selectors article > span {
+    background-color: turquoise;
+    display: block;
+}
+
+/***** Sibling selectors *****/
+.selectors article + article {
+    background-color: rgb(80, 108, 167);
+}
+
+.selectors span ~ div {
+    background-color: tomato;
+}
+
+/***** Attribute selectors ********/
+
+input:not([name="options1"]) {
+    display:block
+}
+

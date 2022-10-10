@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>ticket</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Vivid.JS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vivid-Icons" transform="translate(-199.000000, -253.000000)">
+            <g id="Icons" transform="translate(37.000000, 169.000000)">
+                <g id="ticket" transform="translate(156.000000, 78.000000)">
+                    <g transform="translate(5.000000, 5.000000)" id="Shape">
+                        <path d="M32.659,10.308 L37.005,14.654 L14.654,37.005 L10.308,32.659 C11.6795992,31.2874008 11.6795992,29.0635992 10.308,27.692 C8.93640082,26.3204008 6.71259918,26.3204008 5.341,27.692 L0.995,23.346 L23.346,0.995 L27.692,5.341 C26.3204008,6.71259918 26.3204008,8.93640082 27.692,10.308 C29.0635992,11.6795992 31.2874008,11.6795992 32.659,10.308 Z" fill="#FF6E6E"></path>
+                        <polygon fill="#0C0058" points="9.066 21.484 21.484 9.066 28.934 16.517 16.517 28.934"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

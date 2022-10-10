@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="36px" viewBox="0 0 22 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>pen</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Vivid.JS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vivid-Icons" transform="translate(-362.000000, -721.000000)">
+            <g id="Icons" transform="translate(37.000000, 169.000000)">
+                <g id="pen" transform="translate(312.000000, 546.000000)">
+                    <g transform="translate(13.000000, 6.000000)" id="Shape">
+                        <polygon fill="#FF6E6E" points="16.556 32 5.444 32 0 16 11 0 22 16"></polygon>
+                        <path d="M2,36 L2,32 L20,32 L20,36 L2,36 Z M11,14 C9.8954305,14 9,13.1045695 9,12 C9,10.8954305 9.8954305,10 11,10 C12.1045695,10 13,10.8954305 13,12 C13,13.1045695 12.1045695,14 11,14 Z" fill="#0C0058"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

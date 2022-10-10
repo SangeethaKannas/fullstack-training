@@ -1,0 +1,14 @@
+.cards img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.cards li {
+    width: 5rem;
+    height: 5rem;
+    padding: 3px;
+    border-radius: 3px;
+    border: 1px solid yellowgreen;
+    margin: 3px;
+    float: left;
+}

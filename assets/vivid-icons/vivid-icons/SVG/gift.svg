@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="37px" viewBox="0 0 33 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>gift</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Vivid.JS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vivid-Icons" transform="translate(-357.000000, -409.000000)">
+            <g id="Icons" transform="translate(37.000000, 169.000000)">
+                <g id="gift" transform="translate(312.000000, 234.000000)">
+                    <g transform="translate(8.000000, 6.000000)" id="Shape">
+                        <path d="M1,14 L33,14 L33,37 L1,37 L1,14 Z M4,5 C3.96609506,2.2733389 6.14835433,0.0351242587 8.875,0 C10.741,0 11.075,0.489 13,2 L17,5 L21,2 C22.711,0.379 23.259,0 25.125,0 C27.8516457,0.0351242587 30.0339049,2.2733389 30,5 C30.0339049,7.7266611 27.8516457,9.96487574 25.125,10 L8.875,10 C6.14835433,9.96487574 3.96609506,7.7266611 4,5 Z M25,7 C26.1045695,7 27,6.1045695 27,5 C27,3.8954305 26.1045695,3 25,3 C24.2741193,3.08501207 23.6234795,3.48799842 23.224,4.1 L20,7 L25,7 Z M10.776,4.1 C10.3765205,3.48799842 9.7258807,3.08501207 9,3 C7.8954305,3 7,3.8954305 7,5 C7,6.1045695 7.8954305,7 9,7 L14,7 L10.776,4.1 Z" fill="#FF6E6E"></path>
+                        <polygon fill="#0C0058" points="8.875 10 32.99 10 32.99 14 19 14 19 37 15 37 15 14 0.99 14 0.99 10"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

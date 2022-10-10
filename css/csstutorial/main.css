@@ -1,0 +1,59 @@
+
+/***
+
+
+
+***/
+
+body {
+    padding: 3px;
+    background: linear-gradient(135deg, yellow 0%, green 50%);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+}
+
+article, div, section {
+    padding: 1px;
+
+}
+
+.side-div{
+    display: none;
+    width: 20%;
+    background-color: brown;
+}
+
+header{
+    color: green;
+    margin: 1rem 0;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+
+.uilibrary {
+    width: 30rem;
+    height: 20rem;    
+}
+
+.ui-library article {
+    display: none;
+    padding: 10px 3px;
+    height: 20rem;   
+}
+
+.ui-library article:first-child {
+    display: block;
+}
+
+.content {
+    margin-top: 4rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.css-reference {
+    display: none;
+}

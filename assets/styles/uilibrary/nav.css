@@ -1,0 +1,46 @@
+.navbars {
+    width: 100%;
+    background-color:transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    padding: 1.1rem 1rem;
+    color: white;
+}
+
+.navbars .top-tool-bar {
+    float: right;
+    margin-right: 1rem;
+}
+
+.top-tool-bar input  {
+    float: left;
+}
+
+.tabs {
+    margin: 3px 0;
+}
+
+.tabs a {
+    text-decoration: none;
+    color: #ffddee;
+    padding: 1px 5px 5px 0;
+    margin:0 5px;
+}
+
+
+.tabs a:hover {
+    border-bottom: 1px solid green;
+    color: #eeeeee;
+}
+
+.tabs .selected-tab {
+    border-bottom: 1px solid green;
+    color: #eeeeee;
+}
+
+.tabs .selected-tab:hover {
+    transform: scale(1.1);
+}
+

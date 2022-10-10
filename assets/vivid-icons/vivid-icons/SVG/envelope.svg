@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="28px" viewBox="0 0 38 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>envelope</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Vivid.JS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vivid-Icons" transform="translate(-510.000000, -257.000000)">
+            <g id="Icons" transform="translate(37.000000, 169.000000)">
+                <g id="envelope" transform="translate(468.000000, 78.000000)">
+                    <g transform="translate(5.000000, 10.000000)">
+                        <rect id="Rectangle-path" fill="#FF6E6E" fill-rule="nonzero" x="0" y="0" width="38" height="28"></rect>
+                        <polygon id="Shape" fill="#0C0058" points="0 0 38 0 19 17"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

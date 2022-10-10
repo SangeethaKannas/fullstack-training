@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="23px" viewBox="0 0 38 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>vr</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Vivid.JS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vivid-Icons" transform="translate(-666.000000, -260.000000)">
+            <g id="Icons" transform="translate(37.000000, 169.000000)">
+                <g id="vr" transform="translate(624.000000, 78.000000)">
+                    <g transform="translate(5.000000, 13.000000)" id="Shape">
+                        <polygon fill="#0C0058" points="14.035 14.992 14 20.006 24 20.006 23.961 14.992"></polygon>
+                        <path d="M25,23 L22.055,17.315 C20.436,14.19 17.555,14.19 15.932,17.315 L12.743,23 L2,23 L2,3 L36,3 L36,23 L25,23 Z" fill="#FF6E6E"></path>
+                        <path d="M30.995,2.988 L31,0 L7,0 L7.005,2.988 L30.995,2.988 Z M36,9 L38,9 L38,16 L36,16 L36,9 Z M0,9 L2,9 L2,16 L0,16 L0,9 Z M10.5,10 C11.8807119,10 13,11.1192881 13,12.5 C13,13.8807119 11.8807119,15 10.5,15 C9.11928813,15 8,13.8807119 8,12.5 C8,11.1192881 9.11928813,10 10.5,10 Z M27.5,10 C28.8807119,10 30,11.1192881 30,12.5 C30,13.8807119 28.8807119,15 27.5,15 C26.1192881,15 25,13.8807119 25,12.5 C25,11.1192881 26.1192881,10 27.5,10 Z" fill="#0C0058"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

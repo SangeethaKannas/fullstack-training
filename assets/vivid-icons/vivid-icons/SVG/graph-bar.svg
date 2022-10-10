@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="30px" viewBox="0 0 36 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>graph-bar</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Vivid.JS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vivid-Icons" transform="translate(-745.000000, -334.000000)">
+            <g id="Icons" transform="translate(37.000000, 169.000000)">
+                <g id="graph-bar" transform="translate(702.000000, 156.000000)">
+                    <g transform="translate(6.000000, 9.000000)">
+                        <rect id="Rectangle-path" fill="#0C0058" fill-rule="nonzero" x="0" y="26" width="36" height="4"></rect>
+                        <path d="M3,11 L8,11 L8,26 L3,26 L3,11 Z M11,16 L16,16 L16,26 L11,26 L11,16 Z M19,7 L24,7 L24,26 L19,26 L19,7 Z M27,0 L32,0 L32,26 L27,26 L27,0 Z" id="Shape" fill="#FF6E6E" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
