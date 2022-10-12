@@ -57,3 +57,35 @@ So to get the actual string 𝗛𝗲𝗹𝗹𝗼, we need to add .𝘁𝗵𝗲�
 
 𝗖𝗵𝗲𝗰𝗸 𝗼𝘂𝘁 𝘁𝗵𝗲 𝗹𝗶𝗻𝗸 𝗶𝗻 𝘁𝗵𝗲 𝗰𝗼𝗺𝗺𝗲𝗻𝘁 𝘁𝗼 𝘀𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗲 𝘁𝗼 𝗺𝘆 𝘄𝗲𝗲𝗸𝗹𝘆 𝗻𝗲𝘄𝘀𝗹𝗲𝘁𝘁𝗲𝗿 𝗮𝗻𝗱 𝗴𝗲𝘁 𝗮𝗺𝗮𝘇𝗶𝗻𝗴 𝗰𝗼𝗻𝘁𝗲𝗻𝘁 𝗱𝗶𝗿𝗲𝗰𝘁𝗹𝘆 𝗶𝗻 𝘆𝗼𝘂𝗿 𝗶𝗻𝗯𝗼𝘅.
 
+
+###
+`
+Promise.resolve(10)
+    .then((r) => {
+        throw (r + 10)
+    })
+    .catch((e) => {
+        return e + 24;
+    })
+    .then(console.log)
+    .catch((e) => {
+        console.log(20 + e)
+    })
+`
+
+### Async Iteration
+
+Generator function can generate multiple values
+
+Generators:Normal :: Async Iteration::Promises
+Async Iteration
+
+Reactive programming - separate branch of programming
+  eg; Observables in Angular
+
+
+Symbol.asyncIterator
+
+for await(...) {
+
+}

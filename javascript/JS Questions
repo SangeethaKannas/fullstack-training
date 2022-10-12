@@ -15,8 +15,9 @@ Input 1 - A = [4,2,7,8] B = [8,4,2,7] Output - True (If the arrays contains same
 Input 2 - A = [6,2,5,0] B = [6,2,2,5] Output - False
 14. Reverse a string
 15. What are closures
-16. What are some practical usage of closures - 
- Answer: Memoisation, data hiding/encapsulation, currying.. Explain         each of them
+16. What are some practical usage of closures -
+ Answer: Memoisation, data hiding/encapsulation, currying..
+
 Some output based questions-
  // Code 1:
 function foo(){
@@ -38,16 +39,4 @@ function foo(){
 }
 foo();
 
-
-Promise.resolve(10)
-    .then((r) => {
-        throw (r + 10)
-    })
-    .catch((e) => {
-        return e + 24;
-    })
-    .then(console.log)
-    .catch((e) => {
-        console.log(20 + e)
-    })
 

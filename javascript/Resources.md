@@ -7,7 +7,7 @@
 - http://www.impredicative.com/ur/
 - http://plnkr.co/edit/aGxuXMiPgYA0TFc67YL4?p=preview
 - - http://www.fastcodesign.com/3032719/ui-ux-who-does-what-a-designers-guide-to-the-tech-industry
-- https://kx.hcl.com/sites/TechOffice/UxDCoE/_layouts/15/start.aspx#/SitePages/Interactive%20User%20Manual.aspx 
+- https://kx.hcl.com/sites/TechOffice/UxDCoE/_layouts/15/start.aspx#/SitePages/Interactive%20User%20Manual.aspx
 
 ### Frameworks
 - https://en.wikipedia.org/wiki/Comparison_of_web_application_frameworks
@@ -54,10 +54,10 @@
 - http://usersnap.com/blog/web-development-trends-2016/
 - http://mentormate.com/blog/top-mobile-trends-2016-technologists-predict/
 - https://stackoverflow.com/questions/286419/how-to-build-a-dmg-mac-os-x-file-on-a-non-mac-platform
-- http://slopjong.de/2013/01/22/mount-apple-disk-images-dmg-in-linux/	
+- http://slopjong.de/2013/01/22/mount-apple-disk-images-dmg-in-linux/
 - http://blog.arungupta.me/monolithic-microservices-refactoring-javaee-applications/
 - http://www.codingthearchitecture.com/2014/07/06/distributed_big_balls_of_mud.html
-	
+
 ### POC
 
 - https://msdn.microsoft.com/en-us/library/jj161049.aspx
@@ -75,7 +75,7 @@
 - https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp
 - https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi
 - https://chrome.google.com/webstore/detail/capture-webpage-screensho/mcbpblocgmgfnpjjppndjkmgjaogfceg
-	
+
 #### Tutorials
 - https://tutorialzine.com/forum/124/im-learning-js-what-should-i-learn-first
 - http://rm-labo.com/labo/devicemock/
@@ -93,10 +93,10 @@
 - http://en.wikipedia.org/wiki/Behavior-driven_development
 - http://evanhahn.com/how-do-i-jasmine/
 - http://karma-runner.github.io/0.12/index.html
-- http://stackoverflow.com/questions/2692072/code-analysis-for-css-html-and-javascript 
+- http://stackoverflow.com/questions/2692072/code-analysis-for-css-html-and-javascript
 - http://stackoverflow.com/questions/2784230/javascript-how-do-you-sort-an-array-on-multiple-columns
 
-	
+
 #### Code Optimization
 - https://pmd.github.io/pmd-5.8.1/overview/similar-projects.html
 - https://jeremylong.github.io/DependencyCheck/dependency-check-maven/pmd.html
@@ -111,7 +111,7 @@
 - http://css3please.com/
 - http://peter.michaux.ca/articles/feature-detection-state-of-the-art-browser-scripting
 - https://github.com/cinsoft/jessie/blob/master/docs/CLI-Builder.md
-	
+
 #### Best Practices
 - https://en.wikipedia.org/wiki/Law_of_Demeter
 
@@ -120,5 +120,14 @@ Problem : All the modules are injected into the main application module during a
 
 Description : Javascript code for all the dependent modules need to be fetched first i.e, downloaded. The initial screen mostly does not need all the modules. Complete size of the javascipt file loaded in the landing page, containing all the modules was around 3MB after minification. Fetching it took some 4 to 5 seconds. Only after it is fetched angular gets instantiated and main app injection takes place.
 
-Solution : On-demand  injection of modules into the main application. Load only the modules required for main page. On subsequent page switch, fetch the javascript of dependent module and then inject it into the main application. Now the initial javascript file that is loaded in the landing page is just 300 to 400KB. When user navigates to some x page, the dependent Module is fetched and then injected before page gets loaded.   
+Solution : On-demand  injection of modules into the main application. Load only the modules required for main page. On subsequent page switch, fetch the javascript of dependent module and then inject it into the main application. Now the initial javascript file that is loaded in the landing page is just 300 to 400KB. When user navigates to some x page, the dependent Module is fetched and then injected before page gets loaded.
 
+### Security
+https://blog.lanyonm.org/articles/2015/12/22/continuous-security-owasp-java-vulnerability-check.html
+https://stormpath.com/blog/crud-application-react-spring-boot-user-authentication
+https://www.youtube.com/watch?v=IVLpmCtiPZ0&list=PLE58b5NgENKm3h5r2R17Q4ypZIGjDI4n
+https://github.com/OWASP/java-html-sanitizer/blob/master/src/main/java/org/owasp/html/examples/EbayPolicyExample.java
+https://github.com/owasp/java-html-sanitizer
+https://gitter.im/OWASP/NodeGoat?source=explore
+https://en.wikipedia.org/wiki/Nofollow
+https://github.com/wjohnson85/eggheadio-web-security-essentails/blob/master/17-add-a-default-src-csp-header-in-express-to-enforce-an-allowlist-and-mitigate-xss.md

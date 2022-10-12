@@ -1,4 +1,15 @@
-Create objects
+### Constructor
+
+- special function acts as mold to create new objects
+
+####Defining a constructor
+ using a constructor
+
+
+ Set properties inside a constructor
+ set methods in prototype property
+
+### Create objects
 
 Object.assign()  - Copies the values of all enumerable own properties from one or more source objects to a target object.
 
@@ -6,21 +17,22 @@ Object.create() - Creates a new object with the specified prototype object and p
 
 Object.fromEntries()   Returns a new object from an iterable of [key, value] pairs. (This is the reverse of Object.entries).
 
-Update
+### Update Objects
 Object.freeze() - Freezes an object. Other code cannot delete or change its properties.
 Object.preventExtensions()   Prevents any extensions of an object.
 Object.seal()    Prevents other code from deleting properties of an object.
 
-  Update properties
+  #### Update properties of object
   Object.setPrototypeOf()     Sets the object's prototype (its internal [[Prototype]] property).
-  
+
   Object.defineProperty() - Adds the named property described by a given descriptor to an object.
+
   Object.defineProperties() -  Adds the named properties described by the given descriptors to an object.
 
-Read
-Object.entries()   Returns an array containing all of the [key, value] pairs of a given object's own enumerable string properties.
-Object.keys()         Returns an array containing the names of all of the given object's own enumerable string properties.
-Object.values()   Returns an array containing the values that correspond to all of a given object's own enumerable string properties.
+### Read object properties
+1. Object.entries()   Returns an array containing all of the [key, value] pairs of a given object's own enumerable string properties.
+2. Object.keys()         Returns an array containing the names of all of the given object's own enumerable string properties.
+3. Object.values()   Returns an array containing the values that correspond to all of a given object's own enumerable string properties.
 
 Object.getOwnPropertyDescriptor()    Returns a property descriptor for a named property on an object.
 Object.getOwnPropertyDescriptors()   Returns an object containing all own property descriptors for an object.
@@ -28,7 +40,7 @@ Object.getOwnPropertyNames()   Returns an array containing the names of all of t
 Object.getOwnPropertySymbols()    Returns an array of all symbol properties found directly upon a given object.
 Object.getPrototypeOf()    Returns the prototype (internal [[Prototype]] property) of the specified object.
 
-
+### Validate properties
 Object.is()    Compares if two values are the same value. Equates all NaN values (which differs from both Abstract Equality Comparison and Strict Equality Comparison)
 Object.isExtensible()     Determines if extending of an object is allowed.
 Object.isFrozen()     Determines if an object was frozen.
@@ -39,7 +51,7 @@ Instance properties
 Object.prototype.constructor     Specifies the function that creates an object's prototype.
 Object.prototype.__proto__        Points to the object which was used as prototype when the object was instantiated.
 
-Instance methods 
+Instance methods
 Object.prototype.__defineGetter__()     Associates a function with a property that, when accessed, executes that function and returns its return value.
 Object.prototype.__defineSetter__()     Associates a function with a property that, when set, executes that function which modifies the property.
 

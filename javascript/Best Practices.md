@@ -1,7 +1,5 @@
-## /***  Best Practices   ****/
+##   Best Practices
 
-- Always declare variables
-- Use === instead of ==
 
 ### Objects
 - Use delete properly
@@ -20,6 +18,9 @@
 - Remove duplicate code
 - Remove unused code
 - Dont write to global functions like Arrays etc., instead extend them
+- Always declare variables
+- Use === instead of ==
+
 `
 const SuperArray extends Array {
   diff(comparisonArray) {
@@ -30,7 +31,6 @@ const SuperArray extends Array {
 }
 `
 
-### Conditionals 
+### Conditionals
 - Encapsulate conditionals
 - Avoid negative conditionals
-

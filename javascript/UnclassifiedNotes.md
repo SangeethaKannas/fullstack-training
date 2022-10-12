@@ -5,7 +5,7 @@
 - https://www.icofont.com/
 - http://www.javascriptkit.com/script/script2/doctextresizer.shtml
 
-MooTools: the javascript framework 
+MooTools: the javascript framework
  BxSlider v4.1.2 - Fully loaded, responsive content slider  * http://bxslider.com
  Ditty News Ticker
  JSZip v3.1.3 - A Javascript class for generating and reading zip files   <http://stuartk.com/jszip>
@@ -25,11 +25,11 @@ MooTools: the javascript framework
  * @preserve
  */
  //Style Sheet Switcher version 1.1 Oct 10th, 2006
- 
+
  d3.min.js
  c3.min.js
-  saveSvgaspng.js  
-  
+  saveSvgaspng.js
+
 EasyCookie=(function(){var EPOCH='Thu, 01-Jan-1970 00:00:01 GMT',RATIO=1000*60*60*24,KEYS=['expires','path','domain'],esc=escape,un=unescape,doc=document,me;var get_now=function(){var r=new Date();r.setTime(r.getTime());return r;}
     var cookify=function(c_key,c_val){var i,key,val,r=[],opt=(arguments.length>2)?arguments[2]:{};r.push(esc(c_key)+'='+esc(c_val));for(i=0;i<KEYS.length;i++){key=KEYS[i];if(val=opt[key])
         r.push(key+'='+val);}
@@ -88,7 +88,7 @@ $(window).unload(function(){
 
 
 
-// http://cpojer.net/PowerTools/#select=Mobile/Swipe  
+// http://cpojer.net/PowerTools/#select=Mobile/Swipe
 // packager build Mobile/Swipe
 /*
 ---
@@ -202,7 +202,7 @@ Browser.Features.Touch = (function(){
 		document.createEvent('TouchEvent').initTouchEvent('touchstart');
 		return true;
 	} catch (exception){}
-	
+
 	return false;
 })();
 
@@ -272,17 +272,17 @@ var events = {
 		active = true;
 		start = {x: touch.pageX, y: touch.pageY};
 	},
-	
+
 	touchmove: function(event){
 		if (disabled || !active) return;
-		
+
 		var touch = event.changedTouches[0],
 			end = {x: touch.pageX, y: touch.pageY};
 		if (this.retrieve(cancelKey) && Math.abs(start.y - end.y) > 10){
 			active = false;
 			return;
 		}
-		
+
 		var distance = this.retrieve(distanceKey, dflt),
 			delta = end.x - start.x,
 			isLeftSwipe = delta < -distance,
@@ -290,13 +290,13 @@ var events = {
 
 		if (!isRightSwipe && !isLeftSwipe)
 			return;
-		
+
 		event.preventDefault();
 		active = false;
 		event.direction = (isLeftSwipe ? 'left' : 'right');
 		event.start = start;
 		event.end = end;
-		
+
 		this.fireEvent(name, event);
 	},
 
@@ -331,32 +331,32 @@ Element.defineCustomEvent(name, {
 ////////////////////////////////////////////////////DSA
 
 Given a list of coins i.e 1 cents, 5 cents and 10 cents, can you determine the total number of combinations of the coins in the given list to make up the number N?
-Suppose you are given the coins 1 cent, 5 cents, and 10 cents with N = 8 cents, what are the total number of combinations of the coins you can arrange to obtain 8 cents. 
+Suppose you are given the coins 1 cent, 5 cents, and 10 cents with N = 8 cents, what are the total number of combinations of the coins you can arrange to obtain 8 cents.
 
 Input: N=8
         Coins : 1, 5, 10
 Output: 2
 
-Explanation: 
-1 way: 
+Explanation:
+1 way:
       1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 = 8 cents.
 2 way:
-      1 + 1 + 1 + 5 = 8 cents.      
-      
+      1 + 1 + 1 + 5 = 8 cents.
+
       1 way = 1 + 1 + 1... N
-      
+
       N > 5 and N < 10
           N % 5
-          
+
       N > 10
          N % 10
-     
+
      function countCombinations(totalCents) {
          let count = 1; // 1 + 1 + 1 +... N
          if(totalCents > 4 and totalCents < 10) {
              count++;
-         }         
-         
+         }
+
          if (totalCents >= 10 ) {
              count += 2;
          }
@@ -368,14 +368,14 @@ DB Construction String
 /////////////////////////////////////////////////////////////////////////////
 
 range(
-            Number(pagesList[pages].split("-")[0]), 
+            Number(pagesList[pages].split("-")[0]),
             Number(pagesList[pages].split("-")[1])
           )
-		  
+
 $(document).ready(function(){
-						   
+
  //$("body").append("<a target='_blank' class='ico-responsive' href='devise/responsive.html'>Check Responsive</a>");
-						   
+
 	//contrast
 	if(getCookie('contrast') == 0 || getCookie('contrast') == null){
 	$(".light").hide();
@@ -391,50 +391,50 @@ var num = 36; //number of pixels before modifying styles
     $(window).bind('scroll', function () {
         if ($(window).scrollTop() > num) {
         $('.fixed-wrapper').addClass('sticky');
-		
-    
+
+
         } else {
         $('.fixed-wrapper').removeClass('sticky');
-    
+
         }
     });
 
-	
+
 /*	var num = 146; //number of pixels before modifying styles
             $(window).bind('scroll', function () {
                 if ($(window).scrollTop() > num) {
-                $('.nav-wrapper').addClass('sticky');				
-            
+                $('.nav-wrapper').addClass('sticky');
+
                 } else {
                 $('.nav-wrapper').removeClass('sticky');
-            
+
                 }
             });*/
-			
+
 	/*var num = 146; //number of pixels before modifying styles
             $(window).bind('scroll', function () {
                 if ($(window).scrollTop() > num) {
                 $('.search-el').addClass('sticky');
-				
-            
+
+
                 } else {
                 $('.search-el').removeClass('sticky');
-            
+
                 }
-            });*/		
-	
-// Mobile Nav	
+            });*/
+
+// Mobile Nav
 $('.sub-menu').append('<i class="fa fa-caret-right"></i>');
-	$('.toggle-nav-bar').click(function(){	
+	$('.toggle-nav-bar').click(function(){
 	$('#nav').slideToggle();
 	$('#nav li').removeClass('open');
     $("#nav li").click(function(){
 		$("#nav li").removeClass('open');
 		$(this).addClass('open');
-	}); 
-		
 	});
-	
+
+	});
+
 //Skip Content
 $('a[href^="#skipCont"]').click(function() {
 $('html,body').animate({ scrollTop: $(this.hash).offset().top}, 500);
@@ -472,7 +472,7 @@ $('.access-drop').slideToggle();
 
 //Drop down menu for Keyboard accessing
 
-function dropdown1(dropdownId, hoverClass, mouseOffDelay) { 
+function dropdown1(dropdownId, hoverClass, mouseOffDelay) {
 	if(dropdown = document.getElementById(dropdownId)) {
 		var listItems = dropdown.getElementsByTagName('li');
 		for(var i = 0; i < listItems.length; i++) {
@@ -488,21 +488,21 @@ function dropdown1(dropdownId, hoverClass, mouseOffDelay) {
 			anchor.onblur = function() { tabOff(this.parentNode); }
 		}
 	}
-	
+
 	function tabOn(li) {
 		if(li.nodeName == 'LI') {
 			li.className = addClass(li);
 			tabOn(li.parentNode.parentNode);
 		}
 	}
-	
+
 	function tabOff(li) {
 		if(li.nodeName == 'LI') {
 			li.className = removeClass(li);
 			tabOff(li.parentNode.parentNode);
 		}
 	}
-	
+
 	function addClass(li) { return li.className + ' ' + hoverClass; }
 	function removeClass(li) { return li.className.replace(hoverClass, ""); }
 }
@@ -1035,8 +1035,8 @@ function numbersOnly(field) {
 	var numere = "0123456789";
 	var chars = field.value.split("");
 	for (i = 0; i < chars.length; i++) {
-		if (numere.indexOf(chars[i]) != -1) 
-			valo += chars[i];	
+		if (numere.indexOf(chars[i]) != -1)
+			valo += chars[i];
 	}
 	if (field.value != valo) field.value = valo;
 }
@@ -1045,33 +1045,33 @@ function numbersOnly1(field) {
 	var numere = "0123456789/_";
 	var chars = field.value.split("");
 	for (i = 0; i < chars.length; i++) {
-		if (numere.indexOf(chars[i]) != -1) 
-			valo += chars[i];	
+		if (numere.indexOf(chars[i]) != -1)
+			valo += chars[i];
 	}
 	if (field.value != valo) field.value = valo;
-	
-	
+
+
 }
 
 function date(field) {
 	var valo = new String();
 	var numere = "0123456789-";
-	
+
 	var chars = field.value.split("");
 	for (i = 0; i < chars.length; i++) {
-		if (numere.indexOf(chars[i]) != -1) 
-			valo += chars[i];	
+		if (numere.indexOf(chars[i]) != -1)
+			valo += chars[i];
 	}
 	if (field.value != valo) field.value = valo;
 }
 function toUpperCase(field)
-{	
+{
 	var valo = new String();
 	var chars = field.value.split("");
 	for (i = 0; i < chars.length; i++) {
 		valo += chars[i].toUpperCase();
 	}
-	if (field.value != valo) field.value = valo; 
+	if (field.value != valo) field.value = valo;
 }
 
 function notAllowedChars(field) {
@@ -1079,7 +1079,7 @@ function notAllowedChars(field) {
 	var numere = "<>&\\\'~!^|";
 	var chars = field.value.split("");
 	for (i = 0; i < chars.length; i++) {
-		if (numere.indexOf(chars[i]) == -1) 
+		if (numere.indexOf(chars[i]) == -1)
 			valo += chars[i];
 	}
 	if (field.value != valo) field.value = valo;
@@ -1090,7 +1090,7 @@ function notAllowedChars1(field) {
 	var numere = "<>&\\\'~!^|@#$%()+*<>?,./}{][;':";
 	var chars = field.value.split("");
 	for (i = 0; i < chars.length; i++) {
-		if (numere.indexOf(chars[i]) == -1) 
+		if (numere.indexOf(chars[i]) == -1)
 			valo += chars[i];
 	}
 	if (field.value != valo) field.value = valo;
@@ -1101,8 +1101,8 @@ function allowedChars(field) {
 	var numere = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ/-";
 	var chars = field.value.split("");
 	for (i = 0; i < chars.length; i++) {
-		
-		if (numere.indexOf(chars[i]) != -1) 
+
+		if (numere.indexOf(chars[i]) != -1)
 			valo += chars[i];
 	}
 	if (field.value != valo) field.value = valo;
@@ -1114,7 +1114,7 @@ function allowedChars1(field) {
 	var numere = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ/-";
 	var chars = field.value.split("");
 	for (i = 0; i < chars.length; i++) {
-		if (numere.indexOf(chars[i]) != -1) 
+		if (numere.indexOf(chars[i]) != -1)
 			valo += chars[i];
 	}
 	if (field.value != valo) field.value = valo;
@@ -1126,7 +1126,7 @@ function notAllowSpace(field) {
 	var numere = " ";
 	var chars = field.value.split("");
 	for (i = 0; i < chars.length; i++) {
-		if (numere.indexOf(chars[i]) == -1) 
+		if (numere.indexOf(chars[i]) == -1)
 			valo += chars[i];
 	}
 	if (field.value != valo) field.value = valo;
@@ -1151,53 +1151,53 @@ function getReq() {
     return req;
 }
 
-function ltrim(testStr) { 
-       if (testStr == "") 
-              return ""; 
-       else { 
-              var pattern = /[^\s]+.*/; 
-              result = testStr.match(pattern); 
-              return result[0]; 
-       } 
-} 
-function rtrim(testStr) { 
-       if (testStr == "") 
-              return ""; 
-       else { 
-              var pattern = /.*[\S]/; 
-              result = testStr.match(pattern); 
-              return result[0]; 
-       } 
-} 
-function trim(testStr) { 
-   return rtrim(ltrim(testStr)); 
+function ltrim(testStr) {
+       if (testStr == "")
+              return "";
+       else {
+              var pattern = /[^\s]+.*/;
+              result = testStr.match(pattern);
+              return result[0];
+       }
+}
+function rtrim(testStr) {
+       if (testStr == "")
+              return "";
+       else {
+              var pattern = /.*[\S]/;
+              result = testStr.match(pattern);
+              return result[0];
+       }
+}
+function trim(testStr) {
+   return rtrim(ltrim(testStr));
 }
 
-function val_space(text) {  
+function val_space(text) {
 	var result=false;
 	for (i=0,n=text.length;i<n;i++){
 		if(text.charCodeAt(i)!=32){
-		result=true;				
+		result=true;
 		}
   	}
   	if (result==false){
   			text="";
   	}
-  		return text; 	
+  		return text;
 }
 
-function getTaluksTamil(districtCode) {		
+function getTaluksTamil(districtCode) {
 	var url = "ajax.html?page=talukTamil&districtCode=" + districtCode;
 
 	var HttpRequest = getReq();
-    HttpRequest.open("GET", url, true);    
+    HttpRequest.open("GET", url, true);
     HttpRequest.onreadystatechange = function(){
             getTalukLists(HttpRequest);
     }
     HttpRequest.send(null);
 }
 
-function getTaluks(districtCode) {	
+function getTaluks(districtCode) {
 //alert("===getTaluks===");
 	/*if(districtCode == "02"){
 		document.getElementById("street").style.display="block";
@@ -1206,28 +1206,28 @@ function getTaluks(districtCode) {
 		document.getElementById("street").value="";
 	}*/
 	var url = "ajax.html?page=taluk&districtCode=" + districtCode;
-	
+
 	var HttpRequest = getReq();
-    HttpRequest.open("GET", url, true);    
+    HttpRequest.open("GET", url, true);
     HttpRequest.onreadystatechange = function(){
             getTalukLists(HttpRequest);
     }
-   
+
     HttpRequest.send(null);
 }
 
 
 
-function getTaluksAreg(districtCode) {	
-	
+function getTaluksAreg(districtCode) {
+
 		var url = "ajax.html?page=taluk&districtCode=" + districtCode;
-		
+
 		var HttpRequest = getReq();
-	    HttpRequest.open("GET", url, true);    
+	    HttpRequest.open("GET", url, true);
 	    HttpRequest.onreadystatechange = function(){
 	            getTalukLists(HttpRequest);
 	    }
-	   
+
 	    HttpRequest.send(null);
 	}
 
@@ -1235,42 +1235,42 @@ function getEncroachmentType(i)
 {
 	//alert("getEncroachmentType"+i);
 	var url = "ajax.html?page=encr_type";var HttpRequest = getReq();
-    HttpRequest.open("GET", url, true);    
+    HttpRequest.open("GET", url, true);
     HttpRequest.onreadystatechange = function(){
             getencrLists(HttpRequest,i);
     }
-   
+
     HttpRequest.send(null);
 }
 
 function getTalukLists(HttpRequest) {
-	
+
 var taluk = document.forms[0].talukCode;
 
 	if(HttpRequest.readyState == 4){
-		
+
         if(HttpRequest.status == 200){
-        	
-        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];       
-            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;                        
-            if(flag == "false") {   
+
+        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];
+            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;
+            if(flag == "false") {
             	for(i = taluk.length; i > 0; i--){
 					taluk.options[i] = null;
-				}          
+				}
             }
-            else {            	
+            else {
             	var list = root.getElementsByTagName('taluk');
             	for(i = taluk.length; i > 0; i--){
 					taluk.options[i] = null;
 				}
-				for(i = 0; i < list.length; i++){	
-					
+				for(i = 0; i < list.length; i++){
+
 					var talukCode = list[i].getElementsByTagName('talukcode')[0].firstChild.nodeValue;
-					
+
 					var talukName = list[i].getElementsByTagName('talukname')[0].firstChild.nodeValue;
-					
+
 					taluk.options[i+1] = new Option(talukName, talukCode);
-				}	            	
+				}
             }
         }
     }
@@ -1280,81 +1280,81 @@ var taluk = document.forms[0].talukCode;
 /**/
 
 function getUrbanTalukLists(HttpRequest) {
-	
+
 	var taluk = document.forms[0].talukCode;
 
 		if(HttpRequest.readyState == 4){
-			
+
 	        if(HttpRequest.status == 200){
-	        	
-	        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];       
-	            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;                        
-	            if(flag == "false") {   
+
+	        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];
+	            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;
+	            if(flag == "false") {
 	            	for(i = taluk.length; i > 0; i--){
 						taluk.options[i] = null;
-					}          
+					}
 	            }
-	            else {            	
+	            else {
 	            	var list = root.getElementsByTagName('taluk');
 	            	for(i = taluk.length; i > 0; i--){
 						taluk.options[i] = null;
 					}
-					for(i = 0; i < list.length; i++){	
-						
+					for(i = 0; i < list.length; i++){
+
 						var talukCode = list[i].getElementsByTagName('talukcode')[0].firstChild.nodeValue;
-						
+
 						var talukName = list[i].getElementsByTagName('talukname')[0].firstChild.nodeValue;
-						
+
 						taluk.options[i+1] = new Option(talukName, talukCode);
-					}	            	
+					}
 	            }
 	        }
 	    }
 	}
 
-function getVillages(districtCode, talukCode) {	
+function getVillages(districtCode, talukCode) {
 //alert("hai"+districtCode+talukCode);
 	var url = "ajax.html?page=village&districtCode=" + districtCode + "&talukCode=" + talukCode;
 	var HttpRequest = getReq();
-	
-    HttpRequest.open("GET", url, true);    
+
+    HttpRequest.open("GET", url, true);
     HttpRequest.onreadystatechange = function(){
             getVillageLists(HttpRequest);
     }
     HttpRequest.send(null);
 }
 
-function getUrbanVillages(districtCode, talukCode) {	
+function getUrbanVillages(districtCode, talukCode) {
 	//alert("inside js"+districtCode+talukCode);
 		var url = "ajax.html?page=getUrbanVillages&districtCode=" + districtCode + "&talukCode=" + talukCode;
 		var HttpRequest = getReq();
-		
-	    HttpRequest.open("GET", url, true);    
+
+	    HttpRequest.open("GET", url, true);
 	    HttpRequest.onreadystatechange = function(){
-	    	
+
 	    	getUrbanVillageListsNew(HttpRequest);
 	    }
 	    HttpRequest.send(null);
 	}
 
-function getUrbanVillagesTamil(districtCode, talukCode) {	
+function getUrbanVillagesTamil(districtCode, talukCode) {
 	//alert("inside js"+districtCode+talukCode);
 		var url = "ajax.html?page=getUrbanVillagesTamil&districtCode=" + districtCode + "&talukCode=" + talukCode;
 		var HttpRequest = getReq();
-		
-	    HttpRequest.open("GET", url, true);    
+
+	    HttpRequest.open("GET", url, true);
 	    HttpRequest.onreadystatechange = function(){
 	    	getUrbanVillageListsNew(HttpRequest);
 	    }
 	    HttpRequest.send(null);
 	}
 
-function getVillagesfromStreet(districtCode, streetCode) {	
+function getVillagesfromStreet(districtCode, streetCode) {
 	//alert("hai"+districtCode+talukCode);
 		var url = "ajax.html?page=getVillagesfromStreet&districtCode=" + districtCode + "&streetCode=" + streetCode;
 		var HttpRequest = getReq();
-		
-	    HttpRequest.open("GET", url, true);    
+
+	    HttpRequest.open("GET", url, true);
 	    HttpRequest.onreadystatechange = function(){
 	            getVillageListsfromStreet(HttpRequest);
 	    }
@@ -1363,15 +1363,15 @@ function getVillagesfromStreet(districtCode, streetCode) {
 	   document.forms[0].villageCode.disabled = true;
 	   document.forms[0].wardNo.disabled = true;
 	  // alert(document.forms[0].villageCode.value);
-	   
+
 	}
 
-function getVillagesTamilfromStreet(districtCode, streetCode) {	
+function getVillagesTamilfromStreet(districtCode, streetCode) {
 	//alert("hai"+districtCode+talukCode);
 		var url = "ajax.html?page=getVillagesTamilfromStreet&districtCode=" + districtCode + "&streetCode=" + streetCode;
 		var HttpRequest = getReq();
-		
-	    HttpRequest.open("GET", url, true);    
+
+	    HttpRequest.open("GET", url, true);
 	    HttpRequest.onreadystatechange = function(){
 	            getVillageListsfromStreet(HttpRequest);
 	    }
@@ -1380,38 +1380,38 @@ function getVillagesTamilfromStreet(districtCode, streetCode) {
 	    document.forms[0].villageCode.disabled = true;
 	    document.forms[0].wardNo.disabled = true;
 	  // alert(document.forms[0].villageCode.value);
-	   
+
 	}
 
-function getStreets(districtCode, talukCode) {	
+function getStreets(districtCode, talukCode) {
 	//alert("hai"+districtCode+talukCode);
 		var url = "ajax.html?page=streets&districtCode=" + districtCode + "&talukCode=" + talukCode;
 		var HttpRequest = getReq();
-		
-	    HttpRequest.open("GET", url, true);    
+
+	    HttpRequest.open("GET", url, true);
 	    HttpRequest.onreadystatechange = function(){
 	    	getStreetsLists(HttpRequest);
 	    }
 	    HttpRequest.send(null);
 	}
 
-function getStreetsTamil(districtCode, talukCode) {	
+function getStreetsTamil(districtCode, talukCode) {
 	//alert("hai"+districtCode+talukCode);
 		var url = "ajax.html?page=streetsTamil&districtCode=" + districtCode + "&talukCode=" + talukCode;
 		var HttpRequest = getReq();
-		
-	    HttpRequest.open("GET", url, true);    
+
+	    HttpRequest.open("GET", url, true);
 	    HttpRequest.onreadystatechange = function(){
 	    	getStreetsLists(HttpRequest);
 	    }
 	    HttpRequest.send(null);
 	}
 //new funstion gettin subdiv no. form tamilnilam web service
-function getSubdivNo(districtCode,talukCode,villageCode,surveyno) {	
-		
-	
+function getSubdivNo(districtCode,talukCode,villageCode,surveyno) {
+
+
 	if(districtCode!='' && talukCode!='' && villageCode != '' && surveyno!= ''){
-	
+
 
 	var url = "ajax.html?page=getSubdivNo&districtCode=" + districtCode + "&talukCode=" + talukCode + "&villageCode="+villageCode+"&surveyno=" + surveyno;
 	//alert("url"+url);
@@ -1419,13 +1419,13 @@ function getSubdivNo(districtCode,talukCode,villageCode,surveyno) {
 /*	else{
 	var wardCode = document.forms[0].wardNo.value;
 	var blockCode = document.forms[0].blockCode.value;
-	var url = "ajax.html?page=getUrbanSubdivNo&districtCode=" + districtCode + "&talukCode=" + talukCode + 
+	var url = "ajax.html?page=getUrbanSubdivNo&districtCode=" + districtCode + "&talukCode=" + talukCode +
 				"&villageCode="+villageCode+"&wardCode="+wardCode+"&blockCode="+blockCode+"&surveyno="+surveyno;
 	}*/
-	
+
 	var HttpRequest = getReq();
-	
-    HttpRequest.open("GET", url, true);    
+
+    HttpRequest.open("GET", url, true);
     HttpRequest.onreadystatechange = function(){
         getSubdivLists(HttpRequest);
 
@@ -1435,24 +1435,24 @@ function getSubdivNo(districtCode,talukCode,villageCode,surveyno) {
 }
 
 /*new*/
-function getUrbanSubdivNo(districtCode,talukCode,villageCode,wardCode,blockCode,surveyno) {	
-		
-	
+function getUrbanSubdivNo(districtCode,talukCode,villageCode,wardCode,blockCode,surveyno) {
+
+
 	if(districtCode!='' && talukCode!='' && villageCode != '' && wardCode!= '' && blockCode!='' && surveyno!=''){
-	
-	
+
+
 	var wardCode = document.forms[0].wardNo.value;
 	var blockCode = document.forms[0].blockCode.value;
-	var url = "ajax.html?page=getUrbanSubdivNo&districtCode=" + districtCode + "&talukCode=" + talukCode + 
+	var url = "ajax.html?page=getUrbanSubdivNo&districtCode=" + districtCode + "&talukCode=" + talukCode +
 				"&villageCode="+villageCode+"&wardCode="+wardCode+"&blockCode="+blockCode+"&surveyno="+surveyno;
-	
-	
+
+
 	//alert("url"+url);
-	
-	
+
+
 	var HttpRequest = getReq();
-	
-    HttpRequest.open("GET", url, true);    
+
+    HttpRequest.open("GET", url, true);
     HttpRequest.onreadystatechange = function(){
         getSubdivLists(HttpRequest);
 
@@ -1463,17 +1463,17 @@ function getUrbanSubdivNo(districtCode,talukCode,villageCode,wardCode,blockCode,
 
 /**/
 
-function getUrbanTalukSubdivNo(districtCode,talukCode,villageCode,wardCode,blockCode,surveyno) {		
-	if(districtCode!='' && talukCode!='' && villageCode != '' && wardCode!= '' && blockCode!='' && surveyno!=''){	
-	
+function getUrbanTalukSubdivNo(districtCode,talukCode,villageCode,wardCode,blockCode,surveyno) {
+	if(districtCode!='' && talukCode!='' && villageCode != '' && wardCode!= '' && blockCode!='' && surveyno!=''){
+
 	var wardCode = document.forms[0].wardNo.value;
 	var blockCode = document.forms[0].blockCode.value;
-	var url = "ajax.html?page=getUrbanTalukSubdivNo&districtCode=" + districtCode + "&talukCode=" + talukCode + 
+	var url = "ajax.html?page=getUrbanTalukSubdivNo&districtCode=" + districtCode + "&talukCode=" + talukCode +
 				"&villageCode="+villageCode+"&wardCode="+wardCode+"&blockCode="+blockCode+"&surveyno="+surveyno;
-	
+
 	var HttpRequest = getReq();
-	
-    HttpRequest.open("GET", url, true);    
+
+    HttpRequest.open("GET", url, true);
     HttpRequest.onreadystatechange = function(){
         getSubdivLists(HttpRequest);
 
@@ -1482,51 +1482,51 @@ function getUrbanTalukSubdivNo(districtCode,talukCode,villageCode,wardCode,block
 	}
 }
 
-function getUrbanSurveyNo(districtCode,talukCode,villageCode,wardCode,blockCode) {	
+function getUrbanSurveyNo(districtCode,talukCode,villageCode,wardCode,blockCode) {
 	//var wardCode = document.forms[0].wardNo.value;
-	
+
 	if(districtCode!='' && talukCode!='' && villageCode != '' && wardCode!= '' && blockCode!=''){
 		var url = "ajax.html?page=getUrbanSurveyNo&districtCode=" + districtCode + "&talukCode=" + talukCode + "&villageCode="+villageCode+"&wardCode=" + wardCode+"&blockCode="+blockCode;
 		//alert("url"+url);
 		var HttpRequest = getReq();
-		
-	    HttpRequest.open("GET", url, true);    
-	    HttpRequest.onreadystatechange = function(){
-	    	getUrbanSurveyNoLists(HttpRequest);
 
-	    };
-	    HttpRequest.send(null);
-		}	
-}
-
-
-function getUrTalSurveyNo(districtCode,talukCode,villageCode,wardCode,blockCode) {	
-	
-	//var wardCode = document.forms[0].wardNo.value;
-	
-	if(districtCode!='' && talukCode!='' && villageCode != '' && wardCode!= '' && blockCode!=''){
-		var url = "ajax.html?page=getUrTalSurveyNo&districtCode=" + districtCode + "&talukCode=" + talukCode + "&villageCode="+villageCode+"&wardCode=" + wardCode+"&blockCode="+blockCode;
-		//alert("url"+url);
-		var HttpRequest = getReq();
-		
-	    HttpRequest.open("GET", url, true);    
+	    HttpRequest.open("GET", url, true);
 	    HttpRequest.onreadystatechange = function(){
 	    	getUrbanSurveyNoLists(HttpRequest);
 
 	    };
 	    HttpRequest.send(null);
 		}
-	
 }
 
-function getBlocks(districtCode,talukCode,villageCode,wardNo) {	
-	
+
+function getUrTalSurveyNo(districtCode,talukCode,villageCode,wardCode,blockCode) {
+
+	//var wardCode = document.forms[0].wardNo.value;
+
+	if(districtCode!='' && talukCode!='' && villageCode != '' && wardCode!= '' && blockCode!=''){
+		var url = "ajax.html?page=getUrTalSurveyNo&districtCode=" + districtCode + "&talukCode=" + talukCode + "&villageCode="+villageCode+"&wardCode=" + wardCode+"&blockCode="+blockCode;
+		//alert("url"+url);
+		var HttpRequest = getReq();
+
+	    HttpRequest.open("GET", url, true);
+	    HttpRequest.onreadystatechange = function(){
+	    	getUrbanSurveyNoLists(HttpRequest);
+
+	    };
+	    HttpRequest.send(null);
+		}
+
+}
+
+function getBlocks(districtCode,talukCode,villageCode,wardNo) {
+
 	if(districtCode!='' && talukCode!='' && villageCode != '' && wardNo!= ''){
 	var url = "ajax.html?page=getBlocks&districtCode=" + districtCode + "&talukCode=" + talukCode + "&villageCode="+villageCode+"&wardNo=" + wardNo;
 	//alert("url"+url);
 	var HttpRequest = getReq();
-	
-    HttpRequest.open("GET", url, true);    
+
+    HttpRequest.open("GET", url, true);
     HttpRequest.onreadystatechange = function(){
     	getBlocksLists(HttpRequest);
 
@@ -1536,14 +1536,14 @@ function getBlocks(districtCode,talukCode,villageCode,wardNo) {
 }
 
 
-function getWard(districtCode,talukCode,villageCode) {	
-	
+function getWard(districtCode,talukCode,villageCode) {
+
 	if(districtCode!='' && talukCode!='' && villageCode != ''){
 	var url = "ajax.html?page=getWard&districtCode=" + districtCode + "&talukCode=" + talukCode + "&villageCode="+villageCode;
 	//alert("url"+url);
 	var HttpRequest = getReq();
-	
-    HttpRequest.open("GET", url, true);    
+
+    HttpRequest.open("GET", url, true);
     HttpRequest.onreadystatechange = function(){
     	getWardLists(HttpRequest);
 
@@ -1552,15 +1552,15 @@ function getWard(districtCode,talukCode,villageCode) {
 	}
 }
 
-function getWardTamil(districtCode,talukCode,villageCode) {	
+function getWardTamil(districtCode,talukCode,villageCode) {
 	//alert("districtCode"+districtCode);
 
 	if(districtCode!='' && talukCode!='' && villageCode != ''){
 	var url = "ajax.html?page=getWardTamil&districtCode=" + districtCode + "&talukCode=" + talukCode + "&villageCode="+villageCode;
 	//alert("url"+url);
 	var HttpRequest = getReq();
-	
-    HttpRequest.open("GET", url, true);    
+
+    HttpRequest.open("GET", url, true);
     HttpRequest.onreadystatechange = function(){
     	getWardLists(HttpRequest);
 
@@ -1570,10 +1570,10 @@ function getWardTamil(districtCode,talukCode,villageCode) {
 }
 
 
-/*function getBlocks(districtCode,talukCode,streetCode,wardNo) {	
+/*function getBlocks(districtCode,talukCode,streetCode,wardNo) {
 	//alert("districtCode"+districtCode);
 	//alert("talukCode"+talukCode);
-	
+
 	//alert("wardNo"+wardNo);
 
 	//("streetCode"+streetCode);
@@ -1581,8 +1581,8 @@ function getWardTamil(districtCode,talukCode,villageCode) {
 	var url = "ajax.html?page=getBlocks&districtCode=" + districtCode + "&talukCode=" + talukCode + "&streetCode="+streetCode+"&wardNo=" + wardNo;
 	//alert("url"+url);
 	var HttpRequest = getReq();
-	
-    HttpRequest.open("GET", url, true);    
+
+    HttpRequest.open("GET", url, true);
     HttpRequest.onreadystatechange = function(){
     	getBlocksLists(HttpRequest);
 
@@ -1591,7 +1591,7 @@ function getWardTamil(districtCode,talukCode,villageCode) {
 	}
 }*/
 
-function getsubdiv(districtCode,talukCode,villageCode,surveyno) {	
+function getsubdiv(districtCode,talukCode,villageCode,surveyno) {
 	//alert("districtCode"+districtCode);
 	//alert("talukCode"+talukCode);
 	//alert("villageCode"+villageCode);
@@ -1601,8 +1601,8 @@ function getsubdiv(districtCode,talukCode,villageCode,surveyno) {
 
 	var url = "ajax.html?page=surno&districtCode=" + districtCode + "&talukCode=" + talukCode + "&villageCode="+villageCode+"&surveyno=" + surveyno;
 	var HttpRequest = getReq();
-	
-    HttpRequest.open("GET", url, true);    
+
+    HttpRequest.open("GET", url, true);
     HttpRequest.onreadystatechange = function(){
         getSurveyLists(HttpRequest);
 
@@ -1616,35 +1616,35 @@ function getclaCode(claType,claDesc)
 	var url = "ajax.html?page=getClaCode&claType=" + claType  + "&claDesc=" + claDesc;
 	var HttpRequest = getReq();
 
-	 HttpRequest.open("GET", url, true);    
+	 HttpRequest.open("GET", url, true);
 	    HttpRequest.onreadystatechange = function(){
 	        getClaCodeLists(HttpRequest);
 
 	    }
 	    HttpRequest.send(null);
-	
+
  }
- 
-function getVillagesTamil(districtCode, talukCode) {	
-	
+
+function getVillagesTamil(districtCode, talukCode) {
+
 	var url = "ajax.html?page=villageTamil&districtCode=" + districtCode + "&talukCode=" + talukCode;
-	
+
 	var HttpRequest = getReq();
-    HttpRequest.open("GET", url, true);    
+    HttpRequest.open("GET", url, true);
     HttpRequest.onreadystatechange = function(){
             getVillageLists(HttpRequest)
     }
     HttpRequest.send(null);
 }
 
-function getLandType(districtCode) {	
+function getLandType(districtCode) {
 	//alert("hai");
 //	alert("haigetLandType"+districtCode);
 	document.getElementById("landtype").style.display="block";
 	var url = "ajax.html?page=landType&districtCode=" + districtCode ;
-	
+
 	var HttpRequest = getReq();
-    HttpRequest.open("GET", url, true);    
+    HttpRequest.open("GET", url, true);
     HttpRequest.onreadystatechange = function(){
             getLandLists(HttpRequest)
     }
@@ -1655,168 +1655,168 @@ function getLandLists(HttpRequest) {
 
 		if(HttpRequest.readyState == 4){
 	        if(HttpRequest.status == 200){
-	        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];   
-	        	
-	            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;  
-	            
-	            if(flag == "false") {   
+	        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];
+
+	            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;
+
+	            if(flag == "false") {
 	            	for(i = landtype.length; i > 0; i--){
 	            		landtype.options[i] = null;
-					}          
+					}
 	            }
-	            else {            	
+	            else {
 	            	var list = root.getElementsByTagName('landtype');
 	            	for(i = landtype.length; i > 0; i--){
 	            		landtype.options[i] = null;
 					}
-					for(i = 0; i < list.length; i++){	
-						
+					for(i = 0; i < list.length; i++){
+
 						var typeCode = list[i].getElementsByTagName('typecode')[0].firstChild.nodeValue;
-						
+
 						var typeEcate = list[i].getElementsByTagName('typeecate')[0].firstChild.nodeValue;
 						landtype.options[i+1] = new Option(typeEcate, typeCode);
-						
-					}	            	
+
+					}
 	            }
 	        }
 	    }
 	}
 
 function getencrLists(HttpRequest,val) {
-	
+
 	var encr = document.getElementById("mydropdown")+val;
 	//alert("id ====="+encr);
 
 		if(HttpRequest.readyState == 4){
-			
+
 	        if(HttpRequest.status == 200){
-	        	
-	        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];       
-	            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;                        
-	            if(flag == "false") {   
+
+	        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];
+	            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;
+	            if(flag == "false") {
 	            	for(i = encr.length; i > 0; i--){
 	            		encr.options[i] = null;
-					}          
+					}
 	            }
-	            else {            	
+	            else {
 	            	var list = root.getElementsByTagName('encrtype');
 	            	for(i = encr.length; i > 0; i--){
 	            		encr.options[i] = null;
 					}
-					for(i = 0; i < list.length; i++){	
-						
+					for(i = 0; i < list.length; i++){
+
 						var encrCode = list[i].getElementsByTagName('encrcode')[0].firstChild.nodeValue;
-						
+
 						var encrName = list[i].getElementsByTagName('encrname')[0].firstChild.nodeValue;
 						//alert(encrName)
 						encr.options[i+1] = new Option(encrName, encrCode);
-					}	            	
+					}
 	            }
 	        }
 	    }
 	}
 
 function getVillageLists(HttpRequest) {
-	
-	
+
+
 var village = document.forms[0].villageCode;
 
 	if(HttpRequest.readyState == 4){
         if(HttpRequest.status == 200){
-        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];   
-        	
-            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;  
-            
-            if(flag == "false") {   
+        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];
+
+            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;
+
+            if(flag == "false") {
             	for(i = village.length; i > 0; i--){
 					village.options[i] = null;
-				}          
+				}
             }
-            else {            	
+            else {
             	var list = root.getElementsByTagName('village');
             	for(i = village.length; i > 0; i--){
 					village.options[i] = null;
 				}
-            	village.options.length=1; 
-				for(i = 0; i < list.length; i++){	
-					
+            	village.options.length=1;
+				for(i = 0; i < list.length; i++){
+
 					var villageCode = list[i].getElementsByTagName('villagecode')[0].firstChild.nodeValue;
-					
+
 					var villageName = list[i].getElementsByTagName('villagename')[0].firstChild.nodeValue;
-				//	village.options[village.options.length] = new Option(trim(name), id);		
-					
+				//	village.options[village.options.length] = new Option(trim(name), id);
+
 					village.options[i+1] = new Option(villageName, villageCode);
-					
-				}	            	
+
+				}
             }
         }
     }
-	
+
 }
 
 function getUrbanVillageListsNew(HttpRequest) {
-		
+
 	var town = document.forms[0].villageCode;
-	
+
 		if(HttpRequest.readyState == 4){
 	        if(HttpRequest.status == 200){
-	        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];   
+	        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];
 	        	//alert(root);
-	            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;  
-	            
-	            if(flag == "false") {   
+	            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;
+
+	            if(flag == "false") {
 	            	for(i = town.length; i > 0; i--){
 	            		town.options[i] = null;
-					}          
+					}
 	            }
-	            else {            	
+	            else {
 	            	var list = root.getElementsByTagName('town');
 	            	for(i = town.length; i > 0; i--){
 	            		town.options[i] = null;
 					}
-	            	town.options.length=1; 
-					for(i = 0; i < list.length; i++){	
-						
+	            	town.options.length=1;
+					for(i = 0; i < list.length; i++){
+
 						var townCode = list[i].getElementsByTagName('townCode')[0].firstChild.nodeValue;
-						
+
 						var townName = list[i].getElementsByTagName('townName')[0].firstChild.nodeValue;
-						//town.options[town.options.length] = new Option(trim(townname), id);		
-						
-						
+						//town.options[town.options.length] = new Option(trim(townname), id);
+
+
 						town.options[i+1] = new Option(townName,townCode);
-						
-						
-					}	            	
+
+
+					}
 	            }
 	        }
 	    }
-		
+
 	}
 
 function getVillageListsfromStreet(HttpRequest) {
-	
+
 	var village = document.forms[0].villageCode;
-	
+
 
 		if(HttpRequest.readyState == 4){
 	        if(HttpRequest.status == 200){
-	        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];   
-	        	
-	            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;  
-	            
-	            if(flag == "false") {   
+	        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];
+
+	            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;
+
+	            if(flag == "false") {
 	            	for(i = village.length; i > 0; i--){
 						village.options[i] = null;
-					}          
+					}
 	            }
-	            else {            	
+	            else {
 	            	var villageCode = root.getElementsByTagName('villagecode')[0].firstChild.nodeValue;
-	            
-	            	
-	            		
+
+
+
 							document.forms[0].villageCode.value = villageCode;
-						
-	            						
+
+
 	            }
 	        }
 	    }
@@ -1825,44 +1825,44 @@ function getVillageListsfromStreet(HttpRequest) {
 
 
 function getStreetsLists(HttpRequest) {
-	
+
 	var street = document.forms[0].streetCode;
 	//alert("village"+village);
 	//alert("state"+HttpRequest.readyState);
 	//alert("status"+HttpRequest.status);
 		if(HttpRequest.readyState == 4){
 	        if(HttpRequest.status == 200){
-	        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];   
-	        	
-	            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;  
+	        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];
+
+	            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;
 	         //  alert(flag);
-	            if(flag == "false") {   
+	            if(flag == "false") {
 	            	for(i = street.length; i > 0; i--){
 	            		street.options[i] = null;
-					}          
+					}
 	            }
-	            else {            	
+	            else {
 	            	var list = root.getElementsByTagName('street');
 	            	//alert( list.length);
 	            	for(i = street.length; i > 0; i--){
 	            		street.options[i] = null;
 					}
-	            	street.options.length=1; 
-					for(i = 0; i < list.length; i++){	
-						
+	            	street.options.length=1;
+					for(i = 0; i < list.length; i++){
+
 						var streetCode = list[i].getElementsByTagName('streetcode')[0].firstChild.nodeValue;
-						
+
 						var streetName = list[i].getElementsByTagName('streetname')[0].firstChild.nodeValue;
-					//	village.options[village.options.length] = new Option(trim(name), id);		
-						
+					//	village.options[village.options.length] = new Option(trim(name), id);
+
 						street.options[i+1] = new Option(streetName, streetCode);
 						//alert("streetName"+streetName);
-						
-					}	            	
+
+					}
 	            }
 	        }
 	    }
-		
+
 	}
 
 function getClaCodeLists(HttpRequest) {
@@ -1871,35 +1871,35 @@ function getClaCodeLists(HttpRequest) {
 
 		if(HttpRequest.readyState == 4){
 	        if(HttpRequest.status == 200){
-	        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];   
-	        	
-	            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;  
-	            
-	            if(flag == "false") {   
+	        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];
+
+	            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;
+
+	            if(flag == "false") {
 	            	//alert("false");
 	            	for(i = claCode.length; i > 0; i--){
 	            		claCode.options[i] = null;
-					}          
+					}
 	            }
-	            else {            	
+	            else {
 	            	var list = root.getElementsByTagName('clacode');
 	            //	alert("list"+list.value);
 	            	for(i = claCode.length; i > 0; i--){
 	            		claCode.options[i] = null;
 					}
-					for(i = 0; i < list.length; i++){	
+					for(i = 0; i < list.length; i++){
 						var ClaType = list[i].getElementsByTagName('claCode')[0].firstChild.nodeValue;
 					//	alert("ClaType====>"+ClaType);
 
 						var ClaDesc = list[i].getElementsByTagName('claCodeName')[0].firstChild.nodeValue;
 					//	alert("ClaDesc====>"+ClaDesc);
 						claCode.options[i+1] = new Option(ClaDesc,ClaType);
-						
-					}	            	
+
+					}
 	            }
 	        }
 	    }
-		
+
 	}
 function getSurveyLists(HttpRequest) {
 	var subdivision = document.forms[0].subdivision;
@@ -1907,32 +1907,32 @@ function getSurveyLists(HttpRequest) {
 
 		if(HttpRequest.readyState == 4){
 	        if(HttpRequest.status == 200){
-	        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];   
-	        	
-	            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;  
-	            
-	            if(flag == "false") {   
+	        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];
+
+	            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;
+
+	            if(flag == "false") {
 	            	for(i = subdivision.length; i > 0; i--){
 	            		subdivision.options[i] = null;
-					}          
+					}
 	            }
-	            else {            	
+	            else {
 	            	var list = root.getElementsByTagName('subdiv');
 	            	for(i = subdivision.length; i > 0; i--){
 	            		subdivision.options[i] = null;
 					}
-					for(i = 0; i < list.length; i++){	
-						
+					for(i = 0; i < list.length; i++){
+
 						var villageCode = list[i].getElementsByTagName('subdivcode')[0].firstChild.nodeValue;
-						
+
 						var villageName = list[i].getElementsByTagName('subdivcode')[0].firstChild.nodeValue;
 						subdivision.options[i+1] = new Option(villageName, villageCode);
-						
-					}	            	
+
+					}
 	            }
 	        }
 	    }
-		
+
 	}
 
 function getSubdivLists(HttpRequest) {
@@ -1941,70 +1941,70 @@ function getSubdivLists(HttpRequest) {
 
 		if(HttpRequest.readyState == 4){
 	        if(HttpRequest.status == 200){
-	                  	
-	        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];   
-	        	
-	            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;  
-	            
-	            if(flag == "false") {   
+
+	        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];
+
+	            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;
+
+	            if(flag == "false") {
 	            	for(i = subdivision.length; i > 0; i--){
 	            		subdivision.options[i] = null;
-					}          
+					}
 	            }
-	            else {            	
+	            else {
 	            	var list = root.getElementsByTagName('subdiv');
 	            	for(i = subdivision.length; i > 0; i--){
 	            		subdivision.options[i] = null;
 					}
-					for(i = 0; i < list.length; i++){	
-						
+					for(i = 0; i < list.length; i++){
+
 						var villageCode = list[i].getElementsByTagName('subdivcode')[0].firstChild.nodeValue;
-						
+
 						var villageName = list[i].getElementsByTagName('subdivcode')[0].firstChild.nodeValue;
 						subdivision.options[i+1] = new Option(villageName, villageCode);
-						
-					}	            	
-	            }          	
-	            
+
+					}
+	            }
+
 	        }
 	    }
-		
+
 	}
 
 
 function getUrbanSurveyNoLists(HttpRequest) {
 	var subdivision = document.forms[0].surveyNo;
-	
+
 
 	if(HttpRequest.readyState == 4){
         if(HttpRequest.status == 200){
-                  	
-        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];   
-        	
-            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;  
+
+        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];
+
+            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;
           //  alert(flag);
-            if(flag == "false") {   
+            if(flag == "false") {
             	for(i = subdivision.length; i > 0; i--){
             		subdivision.options[i] = null;
-				}          
+				}
             }
-            else {            	
+            else {
             	var list = root.getElementsByTagName('survey');
             //	alert(list.length);
-            	
-				for(i = 0; i < list.length; i++){	
-					
+
+				for(i = 0; i < list.length; i++){
+
 					var blockCode = list[i].getElementsByTagName('surveyNo')[0].firstChild.nodeValue;
-					
+
 					var blockName = list[i].getElementsByTagName('surveyNo')[0].firstChild.nodeValue;
 					subdivision.options[i+1] = new Option(blockCode, blockName);
-					
-				}	            	
-            }          	
-            
+
+				}
+            }
+
         }
     }
-		
+
 	}
 
 
@@ -2014,34 +2014,34 @@ function getBlocksLists(HttpRequest) {
 
 		if(HttpRequest.readyState == 4){
 	        if(HttpRequest.status == 200){
-	                  	
-	        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];   
-	        	
-	            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;  
-	            
-	            if(flag == "false") {   
+
+	        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];
+
+	            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;
+
+	            if(flag == "false") {
 	            	for(i = subdivision.length; i > 0; i--){
 	            		subdivision.options[i] = null;
-					}          
+					}
 	            }
-	            else {            	
+	            else {
 	            	var list = root.getElementsByTagName('block');
 	            	for(i = subdivision.length; i > 0; i--){
 	            		subdivision.options[i] = null;
 					}
-					for(i = 0; i < list.length; i++){	
-						
+					for(i = 0; i < list.length; i++){
+
 						var blockCode = list[i].getElementsByTagName('blockCode')[0].firstChild.nodeValue;
-						
+
 						var blockName = list[i].getElementsByTagName('blockCode')[0].firstChild.nodeValue;
 						subdivision.options[i+1] = new Option(blockCode, blockName);
-						
-					}	            	
-	            }          	
-	            
+
+					}
+	            }
+
 	        }
 	    }
-		
+
 	}
 
 
@@ -2052,40 +2052,40 @@ function getWardLists(HttpRequest) {
 
 		if(HttpRequest.readyState == 4){
 	        if(HttpRequest.status == 200){
-	                  	
-	        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];   
-	        	
-	            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;  
-	            
-	            if(flag == "false") {   
+
+	        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];
+
+	            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;
+
+	            if(flag == "false") {
 	            	for(i = ward.length; i > 0; i--){
 	            		ward.options[i] = null;
-					}          
+					}
 	            }
-	            else {            	
+	            else {
 	            	var list = root.getElementsByTagName('ward');
 	            	for(i = ward.length; i > 0; i--){
 	            		ward.options[i] = null;
 					}
-					for(i = 0; i < list.length; i++){	
-						
+					for(i = 0; i < list.length; i++){
+
 						var wardCode = list[i].getElementsByTagName('wardCode')[0].firstChild.nodeValue;
-						
+
 						var wardName = list[i].getElementsByTagName('wardName')[0].firstChild.nodeValue;
 						ward.options[i+1] = new Option(wardName, wardCode);
-						
-					}	            	
-	            }          	
-	            
+
+					}
+	            }
+
 	        }
 	    }
-		
+
 	}
 
-function getActions(stage, letter) {	
+function getActions(stage, letter) {
 	var url = "ajax.html?page=actionTaken&letter=" + letter;
 	var HttpRequest = getReq();
-    HttpRequest.open("GET", url, true);    
+    HttpRequest.open("GET", url, true);
     HttpRequest.onreadystatechange = function(){
             getActionTakenLists(HttpRequest, stage)
     }
@@ -2095,45 +2095,45 @@ function getActionTakenLists(HttpRequest, stage) {
 	var action = document.forms[0].actionTaken;
 	if(HttpRequest.readyState == 4){
         if(HttpRequest.status == 200){
-        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];       
-            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;                        
-            if(flag == "false") {   
+        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];
+            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;
+            if(flag == "false") {
             	for(i = action.length; i > 0; i--){
 					action.options[i] = null;
-				}          
+				}
             }
-            else {            	
+            else {
             	var list = root.getElementsByTagName('action');
             	for(i = action.length; i > 0; i--){
 					action.options[i] = null;
-				}				
-				var j = 0;				
+				}
+				var j = 0;
 				if(stage == 'new' || stage == 'pending') {
-					for(i = 0; i < list.length; i++){				
+					for(i = 0; i < list.length; i++){
 						var actionCode = list[i].getElementsByTagName('actioncode')[0].firstChild.nodeValue;
 						var actionDesc = list[i].getElementsByTagName('actiondesc')[0].firstChild.nodeValue;
-						if(actionDesc.indexOf('Forward') != -1 || actionDesc.indexOf('Reject') != -1) {		
+						if(actionDesc.indexOf('Forward') != -1 || actionDesc.indexOf('Reject') != -1) {
 							action.options[j+1] = new Option(actionDesc, actionCode);
 							j++;
 						}
-						
+
 					}
 				} else {
-					for(i = 0; i < list.length; i++){				
+					for(i = 0; i < list.length; i++){
 						var actionCode = list[i].getElementsByTagName('actioncode')[0].firstChild.nodeValue;
 						var actionDesc = list[i].getElementsByTagName('actiondesc')[0].firstChild.nodeValue;
 						action.options[i+1] = new Option(actionDesc, actionCode);
 					}
-				}	            	
+				}
             }
         }
     }
 }
 
-function getActionsNew(letter) {	
+function getActionsNew(letter) {
 	var url = "ajax.html?page=actionTaken&letter=" + letter;
 	var HttpRequest = getReq();
-    HttpRequest.open("GET", url, true);    
+    HttpRequest.open("GET", url, true);
     HttpRequest.onreadystatechange = function(){
             getActionTakenListsNew(HttpRequest)
     }
@@ -2144,34 +2144,34 @@ function getActionTakenListsNew(HttpRequest) {
 	var action = document.forms[0].actionCode;
 	if(HttpRequest.readyState == 4){
         if(HttpRequest.status == 200){
-        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];       
-            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;                        
-            if(flag == "false") {   
+        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];
+            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;
+            if(flag == "false") {
             	for(i = action.length; i > 0; i--){
 					action.options[i] = null;
-				}          
+				}
             }
-            else {            	
+            else {
             	var list = root.getElementsByTagName('action');
             	for(i = action.length; i > 0; i--){
 					action.options[i] = null;
-				}				
+				}
 				var j = 0;
-				for(i = 0; i < list.length; i++){				
+				for(i = 0; i < list.length; i++){
 					var actionCode = list[i].getElementsByTagName('actioncode')[0].firstChild.nodeValue;
 					var actionDesc = list[i].getElementsByTagName('actiondesc')[0].firstChild.nodeValue;
 					action.options[i+1] = new Option(actionDesc, actionCode);
-				}           	
+				}
             }
         }
     }
 }
 
 
-function getGrievanceSubType(grievanceMajorCode) {	
+function getGrievanceSubType(grievanceMajorCode) {
 	var url = "ajax.html?page=grievance&grievMajCode=" + grievanceMajorCode;
 	var HttpRequest = getReq();
-    HttpRequest.open("GET", url, true);    
+    HttpRequest.open("GET", url, true);
     HttpRequest.onreadystatechange = function(){
             getGrievanceSubLists(HttpRequest)
     }
@@ -2181,23 +2181,23 @@ function getGrievanceSubLists(HttpRequest) {
 var grievMin = document.forms[0].grievMinCode;
 	if(HttpRequest.readyState == 4){
         if(HttpRequest.status == 200){
-        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];  
-            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;                        
-            if(flag == "false") {   
+        	var root = HttpRequest.responseXML.getElementsByTagName('root')[0];
+            var flag = root.getElementsByTagName('flag')[0].firstChild.nodeValue;
+            if(flag == "false") {
             	for(i = grievMin.length; i > 0; i--){
 					grievMin.options[i] = null;
-				}          
+				}
             }
-            else {            	
+            else {
             	var list = root.getElementsByTagName('grievSub');
             	for(i = grievMin.length; i > 0; i--){
 					grievMin.options[i] = null;
 				}
-				for(i = 0; i < list.length; i++){				
+				for(i = 0; i < list.length; i++){
 					var Code = list[i].getElementsByTagName('code')[0].firstChild.nodeValue;
 					var Name = list[i].getElementsByTagName('name')[0].firstChild.nodeValue;
 					grievMin.options[i+1] = new Option(Name, Code);
-				}	            	
+				}
             }
         }
     }
@@ -2205,31 +2205,31 @@ var grievMin = document.forms[0].grievMinCode;
 
 
 function getCount() {
-	
+
 	var url = "ajax.html?page=getCount";
 	//alert(url);
 	var HttpRequest = getReq();
 	//alert("HttpRequest"+HttpRequest);
-     
+
     HttpRequest.onreadystatechange = function(){
             getCountReply(HttpRequest);
     }
-    HttpRequest.open("GET", url, true); 
+    HttpRequest.open("GET", url, true);
     HttpRequest.send(null);
 }
 
 
 function getVisitedCount() {
-	
+
 	var url = "ajax.html?page=getVisitedCount";
 	//alert(url);
 	var HttpRequest = getReq();
 	//alert("HttpRequest"+HttpRequest);
-     
+
     HttpRequest.onreadystatechange = function(){
             getCountReply(HttpRequest);
     }
-    HttpRequest.open("GET", url, true); 
+    HttpRequest.open("GET", url, true);
     HttpRequest.send(null);
 }
 
@@ -2240,14 +2240,14 @@ function getCountReply(HttpRequest) {
         	document.getElementById('count').innerHTML = HttpRequest.responseText;
         }
     }
-	
+
 }
 
 
 function noBack() {
 window.history.forward();
 }
-function setCookie() {	
+function setCookie() {
 	var name = "page";
 	var value = "talukAdmin";
 	var days = 0;
@@ -2257,25 +2257,25 @@ function setCookie() {
 		var expires = "; expires="+date.toGMTString();
 	}
 	else var expires = "";
-	document.cookie = name+"="+value+expires+"; path=/";	
+	document.cookie = name+"="+value+expires+"; path=/";
 	window.location="logout.html";
 }
-function readCookie() {	
+function readCookie() {
 	var values;
 	var nameEQ = "page=";
-	var ca = document.cookie.split(';');	
-	for(var i=0;i < ca.length;i++) {	
-		var c = ca[i];	
-		while (c.charAt(0)==' ') 
+	var ca = document.cookie.split(';');
+	for(var i=0;i < ca.length;i++) {
+		var c = ca[i];
+		while (c.charAt(0)==' ')
 			c = c.substring(1,c.length);
-		if (c.indexOf(nameEQ) == 0) 
-	    	values = c.substring(nameEQ.length,c.length);    
+		if (c.indexOf(nameEQ) == 0)
+	    	values = c.substring(nameEQ.length,c.length);
 		if(values == "talukAdmin")   {
 			window.location="../logout.html";
 		}
-	}	
+	}
 }
-function removeCookie() {	
+function removeCookie() {
 
 	var name = "page";
 	var value = "";
@@ -2306,11 +2306,11 @@ function refreshParent()
   	self.close();
   	window.opener.location.reload();
 }
-function intOnly(i) 
+function intOnly(i)
 {
-	if(i.value.length>0) 
-	{ 
-		i.value = i.value.replace(/[^\d]+/g, ''); 
+	if(i.value.length>0)
+	{
+		i.value = i.value.replace(/[^\d]+/g, '');
 	}
 }
 
@@ -2331,7 +2331,7 @@ function disableControl(control1,control2)
 	}
 }
 
-			
+
 function LTrim( value ) {
 var re = /\s*((\S+\s*)*)/;
 return value.replace(re, "$1");
@@ -2366,7 +2366,7 @@ function PrintThisPage()
 {
 	var sOption="toolbar=yes,location=no,directories=yes,menubar=yes,";
 	sOption+="scrollbars=yes,left=100,top=25";
-	var sWinHTML = document.getElementById('PrintContent').innerHTML;	
+	var sWinHTML = document.getElementById('PrintContent').innerHTML;
 	var sHeadingHTML = '';
 	if(document.getElementById('headingContent')!=null)
 	{
@@ -2382,7 +2382,7 @@ function PrintThisPage()
 	}
 	winprint.document.write('<tr><td>' + sWinHTML + '</td></tr>');
 	winprint.document.write('</table>');
-	winprint.document.write('</body></html>');				
+	winprint.document.write('</body></html>');
 	winprint.document.close();
 	winprint.focus();
 	winprint.print();
@@ -2487,7 +2487,7 @@ function lettercharacter(e)
    			return false;
 		 else
    			 return true;
-}	
+}
 function scriptCharacters(e)
 {
 		var key;
@@ -2512,24 +2512,24 @@ function scriptCharacters(e)
    			return true;
 		 else
    			 return false;
-}	
+}
 
 function DecimalValCheck(data)
 {
     var sFullNumber = data;
     var IsDotPres=0;
     var Char;
-    for (var i = 0; i < sFullNumber.length; i++) 
-    { 
-        Char = sFullNumber.charAt(i); 
-        if(Char == '.' ) 
+    for (var i = 0; i < sFullNumber.length; i++)
+    {
+        Char = sFullNumber.charAt(i);
+        if(Char == '.' )
         {
         	IsDotPres++;
         }
     }
     if(IsDotPres=="0")
     	return false;
-    else 
+    else
     	return true;
   }
 
@@ -2538,10 +2538,10 @@ function DecimalValCheckForMax(data)
     var sFullNumber = data.value;
     var IsDotPres=0;
     var Char;
-    for (var i = 0; i < sFullNumber.length; i++) 
-    { 
-        Char = sFullNumber.charAt(i); 
-        if(Char == '.' ) 
+    for (var i = 0; i < sFullNumber.length; i++)
+    {
+        Char = sFullNumber.charAt(i);
+        if(Char == '.' )
         {
         	IsDotPres++;
         }
@@ -2552,7 +2552,7 @@ function DecimalValCheckForMax(data)
     	data.value=parseInt(data.value);
     	data.focus();
     	return false;
-    }else 
+    }else
     	return false;
   }
 var emailfilter=/^\w+[\+\.\w-]*@([\w-]+\.)*\w+[\w-]*\.([a-z]{2,4}|\d+)$/i;
@@ -2576,7 +2576,7 @@ function checkmail(e)
 	{
 		ctrl.value = ctrl.value.replace(/^\s+|\s+$/g, "");
 	}
-	
+
 	function isNumberKey(evt)
 	{
 		var charCode = (evt.which) ? evt.which : evt.keyCode;
@@ -2604,11 +2604,11 @@ function checkmail(e)
 		//alert(charCode);
 		return false;
 	}
-	function isDecimalKey(e) 
+	function isDecimalKey(e)
 	{
 		var key;
 		var keychar;
-		
+
 		if (window.event) {
 		   key = window.event.keyCode;
 		}
@@ -2619,7 +2619,7 @@ function checkmail(e)
 		   return true;
 		}
 		keychar = String.fromCharCode(key);
-		
+
 		if ((key==null) || (key==0) || (key==8) ||  (key==9) || (key==13) || (key==27) ) {
 		   return true;
 		}
@@ -2629,11 +2629,11 @@ function checkmail(e)
 		else
 		   return false;
 	}
-	function isHouseNumberKey(e) 
+	function isHouseNumberKey(e)
 	{
 		var key;
 		var keychar;
-		
+
 		if (window.event) {
 		   key = window.event.keyCode;
 		}
@@ -2644,7 +2644,7 @@ function checkmail(e)
 		   return true;
 		}
 		keychar = String.fromCharCode(key);
-		
+
 		if ((key==null) || (key==0) || (key==8) ||  (key==9) || (key==13) || (key==27) ) {
 		   return true;
 		}
@@ -2654,11 +2654,11 @@ function checkmail(e)
 		else
 		   return false;
 	}
-	function isUserKey(e) 
+	function isUserKey(e)
 	{
 		var key;
 		var keychar;
-		
+
 		if (window.event) {
 		   key = window.event.keyCode;
 		}
@@ -2669,7 +2669,7 @@ function checkmail(e)
 		   return true;
 		}
 		keychar = String.fromCharCode(key);
-		
+
 		if ((key==null) || (key==0) || (key==8) ||  (key==9) || (key==13) || (key==27) || (key==32)) {
 		   return true;
 		}
@@ -2679,11 +2679,11 @@ function checkmail(e)
 		else
 		   return false;
 	}
-	function isUserKey1(e) 
+	function isUserKey1(e)
 	{
 		var key;
 		var keychar;
-		
+
 		if (window.event) {
 		   key = window.event.keyCode;
 		}
@@ -2694,7 +2694,7 @@ function checkmail(e)
 		   return true;
 		}
 		keychar = String.fromCharCode(key);
-		
+
 		if ((key==null) || (key==0) || (key==8) ||  (key==9) || (key==13) || (key==27) || (key==32)) {
 		   return true;
 		}
@@ -2704,7 +2704,7 @@ function checkmail(e)
 		else
 		   return false;
 	}
-	
+
 	function convertToUpper(ctrl)
 	{
 		ctrl.value = ctrl.value.toUpperCase();
@@ -2725,32 +2725,32 @@ function checkmail(e)
 		optn.value = value;
 		selectbox.options.add(optn);
 	}
-	
+
 	// emptying a select box
 	function emptySelectBox(selectbox)
 	{
 		selectbox.options.length = 0;
 	}
-	
+
 	// this function sorts all the list items
     function sortlist(selectbox) {
 		var lb = selectbox;
 		arrTexts = new Array();
-		
+
 		for(i=1; i<lb.length; i=i+1)  {
 		  arrTexts[i] = lb.options[i].text;
 		}
-		
+
 		arrTexts.sort();
-		
+
 		for(i=1; i<lb.length; i=i+1)  {
 		  lb.options[i].text = arrTexts[i];
 		  lb.options[i].value = arrTexts[i];
 		}
 	}
-	
+
 	/************************************************/
-	
+
 	        // sort function - ascending (case-insensitive)
         function sortFuncAsc(record1, record2) {
             var value1 = record1.optText.toLowerCase();
@@ -2794,9 +2794,9 @@ function checkmail(e)
                 selectToSort.options.add(optObj);
             }
         }
-	
+
 	/*************************************************/
-	
+
 	// returns select boxs selected index
 	function getSelectBoxText(ctrl)
 	{
@@ -2829,9 +2829,9 @@ function checkmail(e)
 		}
 		return false;
 	}
-	
+
 	// detecting the browser
-	
+
 	function detectBrowser()
 	{
 	var browser=navigator.appName;
@@ -2847,12 +2847,12 @@ function checkmail(e)
 		window.location="notCompatible.appsc";
 	}
 	}
-	
 
-	
-	
+
+
+
 	/*** e-Mail validation	 ***/
-	function echeck(str) 
+	function echeck(str)
 	{
 		var at="@"
 		var dot="."
@@ -2884,10 +2884,10 @@ function checkmail(e)
 		    return false
 		 }
 
- 		 return true					
+ 		 return true
 	}
-	
-	
+
+
 	String.prototype.trim = String.prototype.trim || function () {return this.replace(/^\s+|\s+$/g, "");};String.prototype.ltrim = String.prototype.ltrim ||function(){return this.replace(/^\s+/, "");};String.prototype.rtrim = String.prototype.rtrim || function(){return this.replace(/\s+$/, "");};
 String.prototype.fulltrim = String.prototype.fulltrim || function () {return this.replace(/(?:(?:^|\n)\s+|\s+(?:$|\n))/g, "").replace(/\s+/g, " ");};String.prototype.startsWith = String.prototype.startsWith || function(str) {return this.indexOf(str)===0;};
 
@@ -2923,8 +2923,8 @@ function b64_hmac_md5(key, data) { return binl2b64(core_hmac_md5(key, data)); }
 /* Backwards compatibility - same as hex_md5() */
 function calcMD5(s){ return binl2hex(core_md5(str2binl(s), s.length * chrsz));}
 
-/* 
- * Perform a simple self-test to see if the VM is working 
+/*
+ * Perform a simple self-test to see if the VM is working
  */
 function md5_vm_test()
 {
@@ -2939,7 +2939,7 @@ function core_md5(x, len)
   /* append padding */
   x[len >> 5] |= 0x80 << ((len) % 32);
   x[(((len + 64) >>> 9) << 4) + 14] = len;
-  
+
   var a =  1732584193;
   var b = -271733879;
   var c = -1732584194;
@@ -2951,7 +2951,7 @@ function core_md5(x, len)
     var oldb = b;
     var oldc = c;
     var oldd = d;
- 
+
     a = md5_ff(a, b, c, d, x[i+ 0], 7 , -680876936);
     d = md5_ff(d, a, b, c, x[i+ 1], 12, -389564586);
     c = md5_ff(c, d, a, b, x[i+ 2], 17,  606105819);
@@ -3026,7 +3026,7 @@ function core_md5(x, len)
     d = safe_add(d, oldd);
   }
   return Array(a, b, c, d);
-  
+
 }
 
 /*
@@ -3062,7 +3062,7 @@ function core_hmac_md5(key, data)
   if(bkey.length > 16) bkey = core_md5(bkey, key.length * chrsz);
 
   var ipad = Array(16), opad = Array(16);
-  for(var i = 0; i < 16; i++) 
+  for(var i = 0; i < 16; i++)
   {
     ipad[i] = bkey[i] ^ 0x36363636;
     opad[i] = bkey[i] ^ 0x5C5C5C5C;
@@ -6216,9 +6216,9 @@ function binl2b64(binarray)
             r && "undefined" != typeof r.display_settings.ajax_pagination && parseInt(r.display_settings.ajax_pagination) && this.enable_ajax_pagination(), "undefined" == typeof window.ngg_ajax_operation_count && (window.ngg_ajax_operaton_count = 0)
         }
     }(jQuery);
-	
-	
-	
+
+
+
 /*function echeck(control, elementId)
 {
 	var str = control.value;
@@ -6698,9 +6698,9 @@ JS can modify to any extent only existing or create new objects and not on eleme
 
 Window - Global object
   document : Property of window object
-  
-  
-global state of the JavaScript application persists in the meantime - 
+
+
+global state of the JavaScript application persists in the meantime -
 
 
 These two steps
@@ -6735,8 +6735,8 @@ SecondaryCanvas.width = desiredWidth;
 SecondaryCanvas.height = desiredHeight;
 newcanvas.getContext('2d').putImageData(imageContentRaw, 0, 0);
 // get image data (encoded as bas64)
- 
- 
+
+
 var img = new Image();
 img.src = newcanvas.toDataURL("image/jpeg", 1.0)
 
@@ -7798,14 +7798,12 @@ function highlightPattern(text = "", pattern = "") {
     // }
     //setTimeout(modifyCanvas, 500);
 
-	
-	
-	
+
 	/**
  * Given an array of 0,1 and 2. Sort them.
  * input = {2,0,1,0,1,2}
  * output = {0,0,1,1,2,2}
- * 
+ *
  */
 
 const _ = require('lodash');
@@ -7860,7 +7858,7 @@ function sayHello() {
 
 _.times(1, sayHello);
 ------------------------
-let a = null 
-	
+let a = null
+
 console.log(typeof(a))
 ------------------------
