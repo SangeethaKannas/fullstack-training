@@ -11,7 +11,7 @@
 - Stack overflow + Memory Leaks
 - Garbage Collection
 
-#### Enginers - JS engines | Virtual Machines   
+#### Enginers - JS engines | Virtual Machines
    - Chrome - V8 engine
    - Safari - JavaScriptCore engine
    - Firefox - SpiderMonkey (except iOS)
@@ -46,7 +46,7 @@
 
 ## Higher order functions
 - Functions Vs Objects
-- Schme + Java 
+- Schme + Java
 
 ## OOP Vs FP
 ### OOP
@@ -59,7 +59,7 @@
   Object.create
   Private Vs Public
   4 principles of OOP
-  
+
 ### FP
   Composition vs inheritance
   Curry
@@ -68,7 +68,7 @@
   Referential Transparency
   Compose
   Pipe
-  
+
  ## Extras+
  ###  Asynchronous Javascript
       Web APIs
@@ -76,19 +76,48 @@
       Callbacks
       Microtask Queue ( Job Queue )
       Task Queue (callback Queue )
-      Promises 
+      Promises
       Event loop
-      
+
   ### Error handling
-   
+
   ### Modules
       Native ES Modules
       CommonJS
       UMD
       AMD
       IIFE
-      
-   
 
 ### Others
 Deep copy : structuredClone (obj0)
+
+### Check if online or offline
+
+window.addEventListener('online', () => {})
+window.addEventListener('offline', () => {})
+
+
+window.navigator.onLine
+
+
+### Structure clode
+
+_.cloneDeep
+
+structuredClone(object);
+
+
+### Send Beacon
+
+const body = {events}
+const headers = {type: 'application/json' }
+const blob = new Blob([JSON.stringify(body)], headers)
+
+//Executes when user closes or switches tab or closes session
+
+document.addEventListener('visibilityChange', () => {
+  if(document.visibilityState === 'hidden') {
+     navigator.sendBeacon('/events', btob)
+     //Guaranteed to send event even when session ends
+  }
+});

@@ -1,10 +1,9 @@
-Array methods
+## Array
 
-Create
-[]
-new Array()
-
-create new array from existing array
+### Create
+1. []
+2. new Array()
+3. create new array from existing array
 //shallow copy
 .slice
 
@@ -12,7 +11,7 @@ Creating an array using the result of a match
 
 Array.from()
 
-join 
+join
 rest operator
 
 Update
