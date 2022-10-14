@@ -1,6 +1,6 @@
 # ECMA
-- ECMA - European Computer Manufacturer Association 
-ECMA Script 
+- ECMA - European Computer Manufacturer Association
+ECMA Script
 JS: ECMA-262
 
 - Technical Committe TC 39
@@ -18,7 +18,7 @@ Other standars
 
    ES 4 Abandoned
 
-   ES 5 = 5th Edition / Dec 2009 : ECMAScript Language Spec  
+   ES 5 = 5th Edition / Dec 2009 : ECMAScript Language Spec
    ES 6 = 6th Edition / Jun 2015 : ECMAScript 2015 Language Spec
 
 
@@ -48,7 +48,7 @@ Global Scope: node < script.js
    Asynchronous programming improvements
    Template literals
    Typed Arrays
-   
+
 #### Support for constants or immutable variables
 - Block-scope support for variables, constants and functions
 - Arrow functions
@@ -64,9 +64,9 @@ Global Scope: node < script.js
 
 #### Enhancements
 - Function Parameters : Default Parameters, Destructuring
-  
+
 ### Backwad compatability
-Transpiling: Babel  
+Transpiling: Babel
 
 let
 
@@ -78,7 +78,7 @@ Block Scoping
 
 Arrow functions  default parameters
 
-Spread Operators    Object Destructuring       Array functions - map reduce filter  
+Spread Operators    Object Destructuring       Array functions - map reduce filter
 
 
 class <Name>  {extends}
@@ -87,7 +87,7 @@ class <Name>  {extends}
 Promises
 async await
 
-generators 
+generators
 yield operator
 
 
@@ -123,6 +123,21 @@ logFruits();
 
 try {
 
-}catch(error) {
+} catch(error) {
    throw new Error('', { cause: error });
 }
+
+### Function that may be null
+
+functionThatMayBeNull?.();
+
+
+#### Import on interatction
+
+<button onClick={() => {
+  import(...url).then(...)
+
+})>
+
+Load non-critical resources when a user interacts with UI requiring it
+

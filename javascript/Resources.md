@@ -96,7 +96,6 @@
 - http://stackoverflow.com/questions/2692072/code-analysis-for-css-html-and-javascript
 - http://stackoverflow.com/questions/2784230/javascript-how-do-you-sort-an-array-on-multiple-columns
 
-
 #### Code Optimization
 - https://pmd.github.io/pmd-5.8.1/overview/similar-projects.html
 - https://jeremylong.github.io/DependencyCheck/dependency-check-maven/pmd.html
@@ -131,3 +130,40 @@ https://github.com/owasp/java-html-sanitizer
 https://gitter.im/OWASP/NodeGoat?source=explore
 https://en.wikipedia.org/wiki/Nofollow
 https://github.com/wjohnson85/eggheadio-web-security-essentails/blob/master/17-add-a-default-src-csp-header-in-express-to-enforce-an-allowlist-and-mitigate-xss.md
+
+
+###   Other links
+- Everything about Currying in JavaScript ► https://technicalsuneja.com/currying-in-javascript/
+- Infinite Currying In Javascript ► https://technicalsuneja.com/infinite-currying-in-javascript/
+- useState in React: A complete guide ► https://technicalsuneja.com/a-complete-guide-to-usestate-in-react/
+- How to Solve String Anagram Problem in Javascript | String Anagram Problem in Javascript ► https://technicalsuneja.com/string-anagram-problem/
+30 Days Of JavaScript - [http://ow.ly/wk3L50IL3nK
+JavaScript Questions - [http://ow.ly/H1h150IL3nL
+Javascript Questions - https://lnkd.in/dQfvN_SD
+Ultimate Web Development Resources - https://lnkd.in/dh4Am2pD
+Awesome JavaScript Learning - [http://ow.ly/KlSZ50IL3nR
+JavaScript Algorithms and Data Structures - [http://ow.ly/ev4c50IL3nJ
+Clean Code JavaScript - [http://ow.ly/SSfc50IL3nN
+Awesome JavaScript - [http://ow.ly/2hPv50IL3nS
+Node.js Best Practices - [http://ow.ly/Hm8T50IL3nP
+Airbnb JavaScript Style Guide - [http://ow.ly/747550IL3nM
+33 Concepts Every JavaScript Developer Should Know - [http://ow.ly/FmHj50IL3nQ
+Computer Science in JavaScript - [http://ow.ly/x8Zh50IL3nO
+FreeCodeCamp - https://lnkd.in/dVUbHMnD
+
+### Other resources
+Awesome Python - https://lnkd.in/dcYuJDXw
+
+Ultimate Node Js Resources - https://lnkd.in/d6d-xuE8
+
+You don't know JS - https://lnkd.in/diG6GbJc
+
+ Coding Interview University - https://lnkd.in/d7bDch7y
+
+Public Apis - https://lnkd.in/d-4H_Ews
+The Algorithms - https://lnkd.in/dPP8NdsU
+Complete Python 3 Bootcamp - https://lnkd.in/dq6urETM
+Tech Interview Handbook - https://lnkd.in/dXAgvaJV
+
+
+
