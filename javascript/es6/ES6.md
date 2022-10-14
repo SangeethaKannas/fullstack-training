@@ -49,22 +49,23 @@ Global Scope: node < script.js
    Template literals
    Typed Arrays
    
-Support for constants or immutable variables
-ii. Block-scope support for variables, constants and functions
-iii. Arrow functions
-iv. Default parameters
-v. Rest and Spread Parameters
-vi. Template Literals
-vii. Multi-line Strings
-viii. Destructuring Assignment
-ix. Enhanced Object Literals
-x. Promises
-xi. Classes
-xii. Modules
+#### Support for constants or immutable variables
+- Block-scope support for variables, constants and functions
+- Arrow functions
+- Default parameters
+- Rest and Spread Parameters
+- Template Literals
+- Multi-line Strings
+- Destructuring Assignment
+- Enhanced Object Literals
+- Promises
+- Classes
+- Modules
 
-Enhancements
-   Function Parameters : Default Parameters, Destructuring
-   
+#### Enhancements
+- Function Parameters : Default Parameters, Destructuring
+  
+### Backwad compatability
 Transpiling: Babel  
 
 let
@@ -118,5 +119,10 @@ async function logFruits() {
 
 logFruits();
 
+### error cause
 
+try {
 
+}catch(error) {
+   throw new Error('', { cause: error });
+}
