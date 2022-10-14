@@ -121,3 +121,16 @@ document.addEventListener('visibilityChange', () => {
      //Guaranteed to send event even when session ends
   }
 });
+
+### Get battery status
+
+navigator.getBattery().then((battery) => {
+  console.log(battery);
+})
+
+### Console utilities API
+copy()              -  copies string representation of parameter as string in clipboard
+inspect()           -  opens and selects the specified element or object in appropriate method
+monitor()           -  logs in the console when specified function is called and lists its parameters
+getEventListeners() -  returns the event listeners registered on specific object
+$$(selector)        -  returns an array of elements that match given CSS selectors. = document.querySelectorAll()

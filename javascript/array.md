@@ -53,3 +53,12 @@ some
 
 Get individual elements
 indexOf
+
+
+### Array Vs Set
+Set: For verifying element existence in large collection
+
+
+array.includes()   // O complexity O(n^2)
+
+set.has()  // O complexity O(n)

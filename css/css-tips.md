@@ -1,3 +1,9 @@
+# Mask image
+.mask-image-in-div {
+  mask-image: url('image.png');
+  mask-repeat: no-repeat;
+}
+
 # Aspect-ratio
 
 .media {
@@ -23,7 +29,7 @@
 
 # Font size
 
-  html { 
+  html {
     font-size: 62.5%
   }
 
@@ -36,7 +42,7 @@
   }
 
 
-# Border radius 
+# Border radius
 
 - responsive
 
@@ -44,12 +50,12 @@
   border-radius: 1vw\
 }
 
-- chat bubbles 
+- chat bubbles
 .buble {
    border-radius: 20px 20px 0;
  }
-  
-- active items 
+
+- active items
 .active {
   border-radius: 0 20px 20px 0;
 }
@@ -59,9 +65,9 @@
    border-radius : 0 0 1.5rem 0;
 }
 
-- buttons 
+- buttons
 .button {
-   border-radius: 20px 4px; 
+   border-radius: 20px 4px;
 }
 
 .semi-circle {

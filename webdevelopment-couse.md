@@ -26,3 +26,14 @@ https://lnkd.in/gS9223Wi
 
 Source Code
 https://lnkd.in/gdHrYSAU
+
+- How to write test cases (Testing tools like Karma, Jasmine..)
+- How to bundle, split, uglify your code (Webpack)
+- How to format and lint your code (Eslint, Prettier)
+- How to commit your code (Git)
+- How the browser works
+- How to solve CORS error
+- How HTTP works
+- How to create stories (Jira)
+- Choosing a good code editor and its shortcuts (VScode for most web devs)
+- Sometimes working with excel, ppts and giving presentations

@@ -54,14 +54,14 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
     have state: set of data that is managed by the component.
         State: owns
         props: Recieve data from other components
-   
-   HoC : dynamically provided children    
+
+   HoC : dynamically provided children
 
 - JSX
    Build a components output
    React processes JSX into Javascript
    HTML vs JSX
-   forgiving, embed javascript, 
+   forgiving, embed javascript,
 
    {} - one statement for every JS block
 
@@ -90,3 +90,23 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 - useImerativeHandle
 - useLayoutEffect
 - useDebugValue
+
+
+### Class Vs functional components
+there are still 3 lifecycle methods available in class components for which there is no
+equivalent react hook.
+These lifecycle methods are:
+- getSnapshotBeforeUpdate
+- getDerivedStateFromError
+- componentDidCatch
+
+So to use these lifecyle methods, then you need to use class components instead of
+react hooks(functional components).
+
+
+### Libraries
+- For routing: React router, react navigation or reach router?
+- For state management: Redux, context api, recoil or zustand?
+- For async actions: Redux saga or thunk?
+- For data fetching: Axios, native fetch or use query?
+- For styling: Styled-Components, makeStyle, SASS, or plain CSS?
