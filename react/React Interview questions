@@ -1,6 +1,6 @@
 class Input extends React.PureComponent {
   render() {
-    let {forwardedRef, ...otherProps} = this.props; 
+    let {forwardedRef, ...otherProps} = this.props;
     return <input {...otherProps} ref={forwardedRef} />;
   }
 }
@@ -9,18 +9,18 @@ const TextInput = React.forwardRef((props, ref) => {
   return <Input {...props} forwardedRef={ref} />
 });
 
-class FocusableInput extends React.Component { 
+class FocusableInput extends React.Component {
   ref = React.createRef()
   render() {
     return <TextInput ref={this.ref} />;
   }
 
-  // When the focused prop is changed from false to true, 
+  // When the focused prop is changed from false to true,
   // and the input is not focused, it should receive focus.
   // If focused prop is true, the input should receive the focus.
   // Implement your solution below:
   componentDidUpdate(prevProps) {}
-  
+
   componentDidMount() {}
 }
 
@@ -35,18 +35,17 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
 
 
-
 const TodoItem = (props) => <li onClick={props.onClick}>{props.item.text}</li>
 
 class TodoList extends React.Component {
   render() {
     const { items, onClick } = this.props;
     return (<ul onClick={onClick}>
-      {items.map((item, index) => 
+      {items.map((item, index) =>
                  <TodoItem item={item} key={index} onClick={this.handleItemClick.bind(this, item)}/>)}
     </ul>);
   }
-  
+
   handleItemClick(item, event) {
     console.log(item)
     event.preventDefault();
@@ -71,7 +70,7 @@ ReactDOM.render(<App items={items}/>, rootElement);
 
 class Input extends React.PureComponent {
   render() {
-    let {forwardedRef, ...otherProps} = this.props; 
+    let {forwardedRef, ...otherProps} = this.props;
     return <input {...otherProps} ref={forwardedRef} />;
   }
 }
@@ -81,19 +80,19 @@ const TextInput = React.forwardRef((props, ref) => {
 });
 
 class FocusableInput extends React.Component {
-  
+
   ref = React.createRef()
 
   render() {
     return <TextInput ref={this.ref} />;
   }
 
-  // When the focused prop is changed from false to true, 
+  // When the focused prop is changed from false to true,
   // and the input is not focused, it should receive focus.
   // If focused prop is true, the input should receive the focus.
   // Implement your solution below:
   componentDidUpdate(prevProps) {}
-  
+
   componentDidMount() {}
 }
 
@@ -119,32 +118,12 @@ ReactDOM.render(<App />, rootElement);
     render: function () {
        return (<span>TestComponent</span>)
     }
-    
- 3. 
+
+ 3.
 
 
 
 
-References
-https://www.toptal.com/react/interview-questions
-https://mindmajix.com/reactjs-interview-questions
-https://tekslate.com/reactjs-interview-questions
-https://hackr.io/blog/react-interview-questions
-https://www.wisdomjobs.com/e-university/reactjs-interview-questions.html
-https://medium.com/@vigowebs/frequently-asked-react-js-interview-questions-and-answers-36f3dd99f486
-https://itnext.io/reactjs-interview-questions-for-senior-developers-64618f6a0aca
-https://www.codementor.io/blog/5-essential-reactjs-interview-questions-du1084ym1
-https://tms-outsource.com/blog/posts/react-interview-questions/
-https://www.edureka.co/blog/interview-questions/react-interview-questions/
-https://career.guru99.com/reactjs-interview-questions/
-
-https://www.knowledgehut.com/interview-questions/reactjs
-
-https://www.javatpoint.com/react-interview-questions
-
-https://www.onlineinterviewquestions.com/react-js-interview-questions/
-
-https://www.besanttechnologies.com/reactjs-interview-questions-and-answers
 
 
 
