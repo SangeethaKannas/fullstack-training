@@ -1,6 +1,12 @@
 ### Resources
 - React Lifecycle Methods – A Deep Dive ► https://technicalsuneja.com/react-lifecycle-methods/
 
+start working in a React component:
+
+- do I need to set the state or can I derive it?
+- is this function necessary in the component or can I outsource it?
+- do I need to trigger at re-render on this specific situation?
+
 
 {!!!obj.id && <UserLogin />}
 
@@ -43,3 +49,32 @@ When a component unmount, there may be side effects left inside it. By ex a asyn
 
 
 Import { useId } from 'react'
+
+### Memory Leaks
+
+Memory Leak in React
+You may encounter the following warning message in React application when working with
+asynchronous calls:
+"Can't perform a React state update on an unmounted component. This is a no-op, but it
+indicates a memory leak in your application. To fix, cancel all subscriptions and asynchronous
+tasks in a useEffect cleanup function."
+Let say we are fetching data from an API when component mounts and we navigate to some
+other page before the request gets fulfilled and now when our browser would be expecting a
+response and which when received , will update the state of a component which is no longer
+mounted, which cause memory leak issue.
+So, How to avoid this issue?
+1. Using a flag which will only setState if our component is mounted. This only removes the
+console warning, but we want something which will cancel our in progress fetch request.
+Here Abort Controllers come to the rescue.
+According to MDN :
+"The AbortController interface represents a controller object that allows you to abort one or
+more Web requests as and when desired."
+We'll cancel the request if our component unmounts and our request is in progress.
+Initializing abort controllers :
+const abortController = new AbortController();
+It has a read-only property named signal which is passed in the fetch request's option object.
+This allow us to abort the fetch request by calling abortController.abort().
+PS : Calling abortController.abort() after the request has been completed doesn't throw any
+errors. The abortController simply does not take any action on an already complete request.
+
+
