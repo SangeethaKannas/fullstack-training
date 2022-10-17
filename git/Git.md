@@ -12,6 +12,7 @@ git add *
 git commit -m "Initial Commit: Created react-app, added first component"
 git branch -M main
 git remote add origin <url>
+git branch --set-upstream-to=origin/master master
 git push -u origin main
 
 

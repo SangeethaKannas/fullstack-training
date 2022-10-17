@@ -11,3 +11,115 @@
         background-color:green;
     }
 }
+
+@media screen and (max-width: 1565px) {
+    html {
+        font-size:14px
+    }
+}
+
+@media screen and (max-width: 1368px) {
+    html {
+        font-size:12px
+    }
+}
+
+@media (max-width: 1240px) {
+    html {
+	}
+}
+
+@media (max-width: 1140px) {
+    html {
+	}
+}
+
+@media (min-width: 1024px) {
+    html {
+	}
+}
+
+@media (max-width: 991px) {
+    html {
+	}
+}
+
+@media (max-width: 767px) {
+    html {
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+    }
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size:16px
+    }
+}
+
+@media (max-width: 480px) {
+    html {
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    html {
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    html {
+    }
+}
+
+@media screen and (max-width: 320px) {
+    html {
+    }
+}
+
+/*///////////////////////////    Media Print  */
+
+
+@media print {
+      #wrapper {
+        page-break-after: always;
+      }
+
+      table {
+        page-break-after: auto;
+      }
+
+      .list tr {
+        page-break-inside: avoid;
+        page-break-after: auto;
+        page-break-before: auto;
+      }
+
+      .list td {
+        page-break-inside: avoid;
+        page-break-after: auto;
+        page-break-before: auto;
+      }
+
+      thead {
+        display: table-header-group;
+      }
+
+      tfoot {
+        display: table-footer-group;
+      }
+
+      footer {
+        page-break-after: always;
+      }
+
+      .hide-in-print {
+        display: none;
+      }
+    }
+
+
+

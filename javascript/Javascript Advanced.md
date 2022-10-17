@@ -101,9 +101,7 @@ Deep copy : structuredClone (obj0)
 window.addEventListener('online', () => {})
 window.addEventListener('offline', () => {})
 
-
 window.navigator.onLine
-
 
 ### Structure clode
 
@@ -311,3 +309,162 @@ Promise - finally
             ))
         }
         )
+
+
+### Decode encode URI component
+ encodeURIComponent(String(n)).replace(/%(23|24|26|2B|3A|3C|3E|3D|2F|3F|40|5B|5D|5E|60|7B|7D|7C)/g, decodeURIComponent),
+ encodeURIComponent(String(e)).replace(/%(23|24|26|2B|5E|60|7C)/g, decodeURIComponent).replace(/[\(\)]/g, escape);
+ return t.replace(/(%[0-9A-Z]{2})+/g, decodeURIComponent)
+
+### Devtools
+Dev tools : unused code
+Tip: DevTools can measure how much unused JavaScript is on your page. Helpful to identify code to remove or lazy-load.
+
+DevTools > three-right menu > More tools > Coverage
+
+Ideally, only load code users need when they need it (or soon before they need it). The Coverage tab in Chrome DevTools can help you find unused JavaScript and CSS. Removing unused code or lazy-loading non-critical code can improve how quickly pages load and render for users. Learn more: https://bit.ly/unused-js.
+
+I usually like to pair usage of Coverage with Lighthouse Treemap or Webpack Bundle Analyzer. Lighthouse also includes audits for discovering unused JavaScript and identifying specific opportunities to optimize or remove less necessary things in your bundles (e.g. duplicate modules).
+
+Is all unused JavaScript bad? Not quite. Some of it might be needed right away, but may not be executed on page load as it requires a user interaction. For a more accurate picture of what to lazy-load, here's how I tend to use it:
+
+I do an initial run (which may say 50% of my code is unused) and then I click around on key actions the user is most likely to immediately perform on the page (e.g. clicking on tabs, focusing on Search) - this might take the number down to 40%. You can eagerly load this code or prefetch chunks for this work if you want, lazy-loading most of the rest.
+
+The key part is to load what's actually important to the user when they need it most, while not delaying their ability to perform early interactions.
+
+Advanced: We've been talking about code-splitting and lazy-loading for a number of years now. If you're interested in how this pertains to modern frameworks, partial hydration etc you may be interested in "is 0KB of JavaScript your future?": https://lnkd.in/g4ZYR4Dq. You might also be interested in reading up about the value of reducing unused code as it relates to newer performance metrics like INP: https://web.dev/inp/
+
+### Websites to ask Questions
+
+1. Stack overflow
+2. Quora
+3. Reddit
+4. Stack Exchange
+5. CodeProject
+6. Google Groups
+7. Google Ranch
+8. Programmers Haven
+9. findNerd
+10. Chegg
+
+
+1. Let's start from the basics. When we browse any website, we are connected via multiple HTTP requests which are sent over a TCP connection maintained between the client and the server. We also know, that for real-time systems like chat applications, we use Web Sockets instead of HTTP connections. Now, the question comes, what type of connection is maintained during streaming and how is the data actually transferred?
+
+2. Answering the first question, the type of connection that is maintained while streaming is called the HTTP streaming connection.
+
+3. The "HTTP streaming" mechanism keeps a request open indefinitely. It never terminates the request or closes the connection, even after the server pushes data to the client. This mechanism significantly reduces the network latency because the client and the server do not need to open and close the connection.
+
+4. The basic life cycle of an application using "HTTP streaming" is as follows:1) The client makes an initial request and then waits for a response.2) The server defers the response to a poll request until an update is available, or until a particular status or timeout has occurred.3) Whenever an update is available, the server sends it back to the client as a part of the response.4) The data sent by the server does not terminate the request or the connection. The server returns to step 3.
+
+5. Now we know the connection type used for streaming, as HTTP depends on TCP, the underlying connection is TCP. Now let's discuss how the data actually travels.
+
+6. For this, HTTP live streaming (HLS) protocol is used. An HLS stream originates from a server where (in on-demand streaming) the media file is stored, or where (in live streaming) the stream is created.
+
+7. Two main processes take place on the server:1) Encoding: The video data is reformatted so that any device can recognize and interpret the data. HLS must use H.264 or H.265 encoding.2) Segmenting: The video is divided up into segments a few seconds in length. In addition to dividing the video into segments, HLS creates an index file of the video segments to record the order they belong in.HLS will also create several duplicate sets of segments at different quality levels: 480p, 720p, 1080p, and so on.
+
+8. Then these segments are supplied over CDN which then makes these available to the client which is your device- laptop or mobile on which you are streaming contents.
+
+9. One of the advantages HLS has over some other streaming protocols is adaptive bitrate streaming.
+
+There are some other streaming protocols too like DASH. A lot of people prefer DASH over HLS.
+
+I also created a detailed video on the topic explaining video streaming in detail:
+https://lnkd.in/d2fP53du
+
+
+https://lnkd.in/dX8nuf5D
+
+
+### Key Codes
+          Esc: "Escape",
+            Spacebar: " ",
+            Left: "ArrowLeft",
+            Up: "ArrowUp",
+            Right: "ArrowRight",
+            Down: "ArrowDown",
+            Del: "Delete",
+            Win: "OS",
+            Menu: "ContextMenu",
+            Apps: "ContextMenu",
+            Scroll: "ScrollLock",
+            MozPrintableKey: "Unidentified"
+        }
+          , Xr = {
+            8: "Backspace",
+            9: "Tab",
+            12: "Clear",
+            13: "Enter",
+            16: "Shift",
+            17: "Control",
+            18: "Alt",
+            19: "Pause",
+            20: "CapsLock",
+            27: "Escape",
+            32: " ",
+            33: "PageUp",
+            34: "PageDown",
+            35: "End",
+            36: "Home",
+            37: "ArrowLeft",
+            38: "ArrowUp",
+            39: "ArrowRight",
+            40: "ArrowDown",
+            45: "Insert",
+            46: "Delete",
+            112: "F1",
+            113: "F2",
+            114: "F3",
+            115: "F4",
+            116: "F5",
+            117: "F6",
+            118: "F7",
+            119: "F8",
+            120: "F9",
+            121: "F10",
+            122: "F11",
+            123: "F12",
+            144: "NumLock",
+            145: "ScrollLock",
+            224: "Meta"
+        }
+Other events
+        At("blur blur cancel cancel click click close close contextmenu contextMenu copy copy cut cut auxclick auxClick dblclick doubleClick dragend dragEnd dragstart dragStart drop drop focus focus input input invalid invalid keydown keyDown keypress keyPress keyup keyUp mousedown mouseDown mouseup mouseUp paste paste pause pause play play pointercancel pointerCancel pointerdown pointerDown pointerup pointerUp ratechange rateChange reset reset seeked seeked submit submit touchcancel touchCancel touchend touchEnd touchstart touchStart volumechange volumeChange".split(" "), 0),
+
+
+        At("drag drag dragenter dragEnter dragexit dragExit dragleave dragLeave dragover dragOver mousemove mouseMove mouseout mouseOut mouseover mouseOver pointermove pointerMove pointerout pointerOut pointerover pointerOver scroll scroll toggle toggle touchmove touchMove wheel wheel".split(" "), 1),
+        At(Lt, 2);
+        for (var Ut = "change selectionchange textInput compositionstart compositionend compositionupdate".split(" "), Vt = 0; Vt < Ut.length; Vt++)
+
+### Video Events
+  Lt = ["abort", "abort", je, "animationEnd", He, "animationIteration", $e, "animationStart", "canplay", "canPlay", "canplaythrough", "canPlayThrough", "durationchange", "durationChange", "emptied", "emptied", "encrypted", "encrypted", "ended", "ended", "error", "error", "gotpointercapture", "gotPointerCapture", "load", "load", "loadeddata", "loadedData", "loadedmetadata", "loadedMetadata", "loadstart", "loadStart", "lostpointercapture", "lostPointerCapture", "playing", "playing", "progress", "progress", "seeking", "seeking", "stalled", "stalled", "suspend", "suspend", "timeupdate", "timeUpdate", Be, "transitionEnd", "waiting", "waiting"];
+
+
+### Pointer events
+
+case "focus":
+case "blur":
+case "dragenter":
+case "dragleave":
+case "mouseover":
+case "mouseout":
+case "pointerover":
+case "pointerout":
+case "gotpointercapture":
+case "lostpointercapture":
+
+
+### Cookies
+1. Cookies are small pieces of text sent to your browser by a website you visit. They help that website remember information about your visit, which can both make it easier to visit the site again and make the site more useful to you. Cookies are also of two types: first-party cookies and third-party cookies.
+
+2. First-party cookies are the cookies that the website you are on stores to help populate the information when you again come back on the website like username etc. Third-Party cookies are the cookies that are stored by the ad servers - Meta.
+
+3. Every eCommerce website generally has an integration with Meta to record the things you search for. A part of the code of these ad-servers gets executed whenever you shop for an item or click on it.
+These websites generally do this so that they can re-target you in the future using Facebook/Instagram Ads.
+
+4. The new Apple IOS update disabled Third-party cookies which became a big issue for Meta and also eCommerce websites that depend on this data to sell your products.
+
+5. eCommerce websites started seeing bad results with their Facebook ads. They started losing money for ads and not getting good impressions or click-through rates.
+
+6. This caused them to move away from Meta which in turn led to declining in revenue of Meta and hence the stock dip.
+
+

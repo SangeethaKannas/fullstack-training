@@ -168,7 +168,6 @@ https://github.com/wjohnson85/eggheadio-web-security-essentails/blob/master/17-a
 - ImpressJS https://github.com/impress/impress.js/  - Examples and Demos: https://github.com/impress/impress.js/wiki/Examples-and-demos
 - Hovercraft ImpressJS generator https://github.com/regebro/hovercraft  - Demo: http://regebro.github.io/hovercraft/#/step-1
 
-
 ### Other resources
 - Awesome Python - https://lnkd.in/dcYuJDXw
 - Ultimate Node Js Resources - https://lnkd.in/d6d-xuE8
@@ -178,5 +177,32 @@ https://github.com/wjohnson85/eggheadio-web-security-essentails/blob/master/17-a
 - The Algorithms - https://lnkd.in/dPP8NdsU
 - Complete Python 3 Bootcamp - https://lnkd.in/dq6urETM
 - Tech Interview Handbook - https://lnkd.in/dXAgvaJV
+- JavaScript-with-JC - 15 #javascriptdaily
+
+### Node
+https://nodejs.org/en/docs/guides/timers-in-node/
+https://javascript.info/event-loop#macrotasks-and-microtasks
+https://stackoverflow.com/questions/56205620/why-is-libuv-needed-in-node-js
+https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/
+https://medium.com/js-imaginea/clustering-inter-process-communication-ipc-in-node-js-748f981214e9#:~:text=The%20worker%20processes%20spawned%20can,to%20communicate%20between%20two%20processes.
+https://www.w3schools.com/nodejs/nodejs_mysql.asp
+
+### Open layers
+- // USGS Topo
+new TileLayer({
+source: new XYZ({
+url:
+'https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}',
+})
+}),
+
+// get clicked coordinate using mapRef to access current React state inside
+
+#### OpenLayers callback
+- https://stackoverflow.com/a/60643670
+- https://medium.com/swlh/how-to-incorporate-openlayers-maps-into-react-65b411985744
+- https://github.com/SiteRecon/siteReconFrontend/pull/1418
+- https://sharing.clickup.com/clip/p/t7275376/948042cc-414a-4a3e-8463-c6abe7566604/screen-recording-2022-08-24-03%3A57.webm
+- https://openlayers.org/en/latest/apidoc/module-ol_Map-Map.html#getPixelFromCoordinate
 
 
