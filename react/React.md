@@ -110,3 +110,40 @@ react hooks(functional components).
 - For async actions: Redux saga or thunk?
 - For data fetching: Axios, native fetch or use query?
 - For styling: Styled-Components, makeStyle, SASS, or plain CSS?
+- For UI : Material UI, React Bootstrap, Ant Design
+- Form validation: Yup, React Hook form,
+
+### React 16+
+? Good knowledge of server side rendering (SSR)
+? Knowledge of react tools like ? hooks, webpack, nodejs, JSX, babel
+? Knowledge of unit testing frameworks like jest, karma, jasmine
+? TypeScript
+? ES6 JavaScript
+? SCSS, LESS, CSS3
+? HTML5
+? Understanding of version control tools like BitBucket, git or svn.
+? SEO best practices
+? Object oriented design principles and MV* patterns
+? Interfacing with REST APIs
+? Object-oriented & Functional Programming
+Experience with the following is also desirable:
+? Bootstrap
+? Server Side coding experience like ExpressJS, Node etc.
+? Micro Front End Pattern (Single SPA, Module Federation, etc)
+? Mobile frameworks like Ionic, Cordova etc.
+? Build tools like npm, yarn etc.
+? Accessibility
+? Jenkins pipelines
+? Scrum methodologies
+? Deployment strategies for react based projects
+
+
+### React Advanced
+1. Composition in React
+2. Separation of concerns (view, integration, service)
+3. Abstraction around external libraries
+4. Dependency injection (IoC)
+5. Lazy loading
+6. When to DRY and when to keep the code wet
+7. How to test what
+8. Test-driven Development

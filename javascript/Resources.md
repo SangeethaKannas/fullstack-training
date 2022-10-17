@@ -137,33 +137,46 @@ https://github.com/wjohnson85/eggheadio-web-security-essentails/blob/master/17-a
 - Infinite Currying In Javascript ► https://technicalsuneja.com/infinite-currying-in-javascript/
 - useState in React: A complete guide ► https://technicalsuneja.com/a-complete-guide-to-usestate-in-react/
 - How to Solve String Anagram Problem in Javascript | String Anagram Problem in Javascript ► https://technicalsuneja.com/string-anagram-problem/
-30 Days Of JavaScript - [http://ow.ly/wk3L50IL3nK
-JavaScript Questions - [http://ow.ly/H1h150IL3nL
-Javascript Questions - https://lnkd.in/dQfvN_SD
-Ultimate Web Development Resources - https://lnkd.in/dh4Am2pD
-Awesome JavaScript Learning - [http://ow.ly/KlSZ50IL3nR
-JavaScript Algorithms and Data Structures - [http://ow.ly/ev4c50IL3nJ
-Clean Code JavaScript - [http://ow.ly/SSfc50IL3nN
-Awesome JavaScript - [http://ow.ly/2hPv50IL3nS
-Node.js Best Practices - [http://ow.ly/Hm8T50IL3nP
-Airbnb JavaScript Style Guide - [http://ow.ly/747550IL3nM
-33 Concepts Every JavaScript Developer Should Know - [http://ow.ly/FmHj50IL3nQ
-Computer Science in JavaScript - [http://ow.ly/x8Zh50IL3nO
-FreeCodeCamp - https://lnkd.in/dVUbHMnD
+- 30 Days Of JavaScript - [http://ow.ly/wk3L50IL3nK
+- JavaScript Questions - [http://ow.ly/H1h150IL3nL
+- Javascript Questions - https://lnkd.in/dQfvN_SD
+- Ultimate Web Development Resources - https://lnkd.in/dh4Am2pD
+- Awesome JavaScript Learning - [http://ow.ly/KlSZ50IL3nR
+- JavaScript Algorithms and Data Structures - [http://ow.ly/ev4c50IL3nJ
+- Clean Code JavaScript - [http://ow.ly/SSfc50IL3nN
+- Awesome JavaScript - [http://ow.ly/2hPv50IL3nS
+- Node.js Best Practices - [http://ow.ly/Hm8T50IL3nP
+- Airbnb JavaScript Style Guide - [http://ow.ly/747550IL3nM
+- 33 Concepts Every JavaScript Developer Should Know - [http://ow.ly/FmHj50IL3nQ
+- Computer Science in JavaScript - [http://ow.ly/x8Zh50IL3nO
+- FreeCodeCamp - https://lnkd.in/dVUbHMnD
+- WebDevSimplified - https://lnkd.in/dSKF3h-S
+- Academind - https://lnkd.in/dvPDekzW
+- Clever Programmer -https://lnkd.in/dsXVMcTm
+- TraversyMedia - https://lnkd.in/dXR6iS69
+- KevinPowell - https://lnkd.in/dNKWAM2j
+- TheNetNinja - https://lnkd.in/dmx8Bsii
+- DerekBanas - https://lnkd.in/dHurM2qH
+- FlorinPop - https://lnkd.in/dgcgpA4Y
+- FreeCodeCamp - https://lnkd.in/d4ZnZgUA
+- LearnCode academy -https://lnkd.in/dwaQkGrR
+- Programming with Mosh - https://lnkd.in/dkyQ3Qya
+- TheNewBoston - https://lnkd.in/dR3WJa3T
+- Treehouse - https://lnkd.in/dppghAhS
+- Rich Content Generation (HTML5/CSS/JS Frameworks for Presentations)
+- RevealJS https://revealjs.com/#/
+- ImpressJS https://github.com/impress/impress.js/  - Examples and Demos: https://github.com/impress/impress.js/wiki/Examples-and-demos
+- Hovercraft ImpressJS generator https://github.com/regebro/hovercraft  - Demo: http://regebro.github.io/hovercraft/#/step-1
+
 
 ### Other resources
-Awesome Python - https://lnkd.in/dcYuJDXw
-
-Ultimate Node Js Resources - https://lnkd.in/d6d-xuE8
-
-You don't know JS - https://lnkd.in/diG6GbJc
-
- Coding Interview University - https://lnkd.in/d7bDch7y
-
-Public Apis - https://lnkd.in/d-4H_Ews
-The Algorithms - https://lnkd.in/dPP8NdsU
-Complete Python 3 Bootcamp - https://lnkd.in/dq6urETM
-Tech Interview Handbook - https://lnkd.in/dXAgvaJV
-
+- Awesome Python - https://lnkd.in/dcYuJDXw
+- Ultimate Node Js Resources - https://lnkd.in/d6d-xuE8
+- You don't know JS - https://lnkd.in/diG6GbJc
+- Coding Interview University - https://lnkd.in/d7bDch7y
+- Public Apis - https://lnkd.in/d-4H_Ews
+- The Algorithms - https://lnkd.in/dPP8NdsU
+- Complete Python 3 Bootcamp - https://lnkd.in/dq6urETM
+- Tech Interview Handbook - https://lnkd.in/dXAgvaJV
 
 

@@ -1,3 +1,19 @@
+### HoC Sample
+const HoCSample = ( {value, ...props})   => {
+
+	return (
+	    {
+			value ?  <Tooltip> {props.chidren} </Tooltip> :  {props.children}
+		}
+
+	)
+
+}
+
+
+### If you have more than 3 useState in a component you are doing it wrong!
+
+
 ### Resources
 - React Lifecycle Methods – A Deep Dive ► https://technicalsuneja.com/react-lifecycle-methods/
 
@@ -78,3 +94,27 @@ PS : Calling abortController.abort() after the request has been completed doesn'
 errors. The abortController simply does not take any action on an already complete request.
 
 
+
+### React performance
+
+Use React? Render large lists efficiently with react-window: https://lnkd.in/etNN94TH ~ a small library for virtualizing lists & grids. Renders what users can see vs. all your items at once.
+
+If you've used React Virtualized for this before, it's by the same author Brian Vaughn, (but is far smaller) and a better fit if targeting mobile web given the smaller library size. A quick Movies demo using react-window can be found here: https://lnkd.in/edAK3HR8
+
+I've enjoyed using react-window on a few projects where list virtualization was a better fit for the UX. There are of course trade-offs with infinite scrolling patterns like this (e.g. with CLS, Load More) and I've written about them here: https://lnkd.in/eQc8mGQy
+
+In case you're interested in learning more about list virtualization in React with plenty of examples, there's a great guide over on web(dot)dev too by Houssein Djirdeh and Jason Miller: https://lnkd.in/erqqabkV :)
+
+React Performance Optimisation techniques
+---------------------------------------------------------------
+1. Lazy loading
+2. Usecallback and Use Memo
+3. Use Pure Pipes
+4. Use Typescript export for exporting common reusable functions (Pipes is better for looping than export)
+5. Use differnt key other than map index option with For loops
+6. Avoid any calculation in template (html) files. Should take place in TS files
+7. onPush changeDetection strategy (situation dependent)
+8. Use dynamic components for custom modal, date picker, accordion
+9. Use Dyanmic imports only when needed
+10. Use Service-workers, Web workers
+11. Use local storage & cookie
