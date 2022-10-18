@@ -265,3 +265,35 @@ Khan Academy’s Internet 101 - https://www.khanacademy.org/computing/computer-s
 JavaScript for Cats - http://jsforcats.com/
 Gordon Zhu’s Watch and Code program - https://watchandcode.com/
 First four chapters of Eloquent JavaScript - http://eloquentjavascript.net/
+
+
+### Curriculum
+1. Front end theory
+Learn to build Responsive web applications
+React + Redux Unit Testing
+Understanding how browser works
+Debugging Techniques
+
+
+2. Backend
+DSA with JS
+Build Node JS API with Mongo DB\
+CS fundamentals
+Architecture Discussion
+Cloud Deployment
+
+Project Building
+Design Phase
+ Business Case + customer needs
+ PRD + UX System design
+
+Implementation Phase
+ Design patterns
+ CI/CD functionality and reponsiveness
+ End to End testing plan
+ Production readiness like security, performance, pixel perfection
+
+Tangible Outcomes
+Develop industry level, scalable and responsive Web application
+Tool handling
+

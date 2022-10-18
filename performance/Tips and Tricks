@@ -58,7 +58,17 @@ var a =  333/2020;
 3. Evaluate your current hosting provider - geographical location, BW, type of hosting website
 4. Use CDNs
 5. Optimize images
-6.
+6. Reduce total redirects
+7. Limit HTTP requests
+8. Compress, Compress and Compress
+9. Capitalize on Caching
+10. Track 404 errors - Mix Panel
+11. Make Mobile a priority
+12. Migrate to a CMS
+13. Combine and Minify JS and CSS files
+14. Determine DNS speed ( Time to First Byte (TTFB))
+15. Opt for Async loading
+16. Choose fewer and optimized fonts
 
 ### Best Practices for Speeding Up Your Web Site
 

@@ -206,3 +206,13 @@ url:
 - https://openlayers.org/en/latest/apidoc/module-ol_Map-Map.html#getPixelFromCoordinate
 
 
+### Github Repos
+1. getify/You-Dont-know-js
+2. denysdohvan/wtfjs
+3. ryanmcdermott/clean-code-javascript
+4. Vishal-raj-1/awesome-javascript-projects
+5. js training best practices: /goldbergyoni/javascript-testing-best-practices
+6. elsewhencode/project-guidelines
+7. loverajoel/jstips
+8. sudheerj/javascript-interview-questions
+9.
