@@ -4,25 +4,38 @@
 1. []
 2. new Array()
 3. create new array from existing array
+
 //shallow copy
 .slice
 
-Creating an array using the result of a match
+### Creating an array using the result of a match
 
 Array.from()
 
 join
+
 rest operator
 
-Update
+concat
+
+copyWithin    [1,2,3,4,5].copyWithin(2, 3, 4) ==> [1,2,4,4,5]
+
+### Update an array
 reverse
 
-subset of array
-slice
+fill
 
-splice
+sort
 
-single element
+### subset of array
+1. slice
+
+2. splice
+
+3. filter
+
+
+### single element
 push
 
 pop
@@ -31,29 +44,50 @@ shift
 
 unshift
 
-concat
-
-Check
+### Check
 Array.isArray
+
 Array.of
 
-Read an array
+every    [1,2,3,4,5].every(num => num > 0)  //true
+
+find
+
+includes
+
+some
+
+### Read an array
 anIndividual elements in an array``
 
 forEach
+
 map
 
-read subset of an array
+### read subset of an array
+
 filter
+
 reduce
 
-Search in an array
+### Search in an array
 find
 some
 
-Get individual elements
+### Get individual elements
 indexOf
 
+lastIndexOf
+
+at
+
+findIndex
+
+
+### Properties
+length
+
+toString
 
 ### Array Vs Set
 Set: For verifying element existence in large collection

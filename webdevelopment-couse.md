@@ -297,3 +297,267 @@ Tangible Outcomes
 Develop industry level, scalable and responsive Web application
 Tool handling
 
+
+### Youtube channels
+
+10. CrashCourse
+
+📍https://lnkd.in/dkvNdG_K
+
+CrashCourse has fit into 10-12 minute videos with multiple lessons on economics, physics, philosophy, astronomy, politics, psychology, literature, and biology.
+
+
+9. Khan Academy
+
+📍https://lnkd.in/dEiZqiGe
+
+If you’ve never used Khan Academy’s website before, it is a free educational resource with tutorials on all sorts of subjects.
+
+
+8. Thomas Frank
+
+📍https://lnkd.in/d7NpmMcf
+
+Thomas Frank’s channel is actually called College Info Geek and what he publishes are videos on studying and habits and tips that can help you do better in your college classes.
+
+
+7. The school of life
+
+📍https://lnkd.in/dBq4wCxi
+
+The School of Life is a place that tries to answer the great questions of life.
+
+The best Value for Money Business Studies
+
+
+6. TED
+
+📍https://youtube.com/c/TED
+
+TED is a nonprofit organisation devoted to spreading ideas, usually in the form of short, powerful talks (18 minutes or less).
+
+
+5. MIT OpenCourseWare
+
+📍https://lnkd.in/dgzhyHVJ
+
+Did you know you could attend an MIT class without actually being accepted?
+
+For those who don´t know what MIT is, it is a highly-ranked Boston university not only in the United States but in the world.
+
+
+4. Bozeman Science
+
+📍https://lnkd.in/dwYD25BE
+
+Do you love science? But wait, what is the best way to teach science? Paul Andersen can help you to get deeper into science.
+
+3. freeCodeCamp
+
+📍https://lnkd.in/dbgDuqHZ
+
+⚡️Learn how to code for free.
+⚡️Web development and programming tutorials
+⚡️Full courses teaching HTML, CSS, JavaScript, Python, and more
+
+2. Charisma On Command
+
+📍https://lnkd.in/dFk2uCRy
+
+Want to be more charismatic and confident?
+
+This channel will give you lessons on:
+
+⚡️How to be more confident
+⚡️How to make people laugh
+⚡️How to be more likable
+
+
+1. Better Than Yesterday
+
+📍https://lnkd.in/dNsdYn8n
+
+Animated lessons from the best personal development books.
+
+
+### Freelancing
+
+
+17◾️ JustRemote
+
+📍https://justremote.co/
+
+Discover Remote Jobs from all around the world. Give up the commute, work remotely and do what you love, daily, & from anywhere.
+
+16◾️ AngelList
+
+📍https://angel.co/
+
+Apply privately to "140000+ remote jobs" and startup jobs near you with one application.
+
+15◾️ LinkedIn
+
+📍https://lnkd.in/dRbmrHrq
+
+253,000+ Remote Jobs in the United States (26,979 new)
+
+14◾️ Working Nomads
+
+📍https://lnkd.in/dtcQjtvc
+
+Remote jobs for digital working nomads. Start your telecommuting career and work remotely from home.
+
+13◾️ Remotive
+
+📍https://remotive.com/
+
+Find the best remote job, working as a developer, customer support rep, product, or sales professional.
+
+12◾️ oDeskwork Private Limited
+
+📍https://odeskwork.com/
+
+"Work at oDesk Work" oDesk Work is an online portal & that provides freelancer services both for project hunters and project providers.
+
+11◾️ FlexJobs
+
+📍https://www.flexjobs.com/
+
+The #1 job search site for hand-screened flexible and remote jobs (work-from-home jobs) since 2007.
+
+10◾️ Fiverr
+
+📍https://lnkd.in/dzE5weTg
+
+Fiverr connects businesses with freelancers offering digital services in 500+ categories.
+
+9◾️ Upwork
+
+📍https://www.upwork.com/
+
+Upwork connects businesses with independent professionals & agencies all over the world.
+
+8◾️ Dribble
+
+📍https://lnkd.in/dQQZeSNN
+
+Discover 1500plus Remote Jobs designs on Dribble.
+
+7◾️ Freelancer.com
+
+📍https://www.freelancer.in/
+
+Find & hire top freelancers, web developers & designers inexpensively. World's largest marketplace of 60m.
+
+6◾️ Indeed.com
+
+📍https://in.indeed.com/m/
+
+With Indeed, you can search for millions of jobs online to find the next step in your career.
+
+5◾️ Outsourcely
+
+📍https://lnkd.in/dz9xsy4N
+
+Outsourcely connects startups and businesses with talented remote workers from around the world. (400000+ Remote Workers & 50000+ Companies).
+
+4v We Work Remotely
+
+📍https://lnkd.in/deHzRsGy
+
+We Work Remotely is the largest remote work community in the world.
+
+3◾️ ProBlogger
+
+📍https://lnkd.in/deUqdCPx
+
+Discover 100+ Remote jobs on multiple fields.
+
+2◾️ Skip The Drive
+
+📍https://lnkd.in/dhmEb8Re
+
+SkipTheDrive lists remote & work-from-home jobs such as customer service, accounting, development, and many more.
+
+1◾️ Remote.co
+
+📍https://remote.co/
+
+Remote.co is a definitive remote work job board for online job seekers and companies hiring. Start your remote job search here!
+
+
+
+////////////////////////
+
+Resume building tips
+
+[1] Format
+
+Don't worry about searching for fancy, colorful, complex templates. A black&white plain old boring template works.
+
+Recruiters & hiring managers care about your accomplishments and about you, not about the colors you chose for your resume (unless you are a designer or something similar).
+
+
+[2] Write accomplishments with X-Y-Z
+
+Most of my accomplishments written using as a base the X-Y-Z formula (shared by Google recruiters)
+
+"Accomplished [X], as measured by [Y], by doing [Z]"
+
+Follow it as close as possible, but don't be afraid to put your own style into it (as long as you share your X,Y & Z)
+
+
+[3] Use strong verbs (red 🔴)
+
+Start every accomplishment with a verb in past tense.
+- Strong Verbs (Led) >>>> Soft Verbs (Assisted)
+- Try to use verbs relevant to the role. For PM I used: Led, Designed, Researched, Prioritized, etc.
+
+
+[4] Relevant Skills (blue 🔵)
+
+Notice how I don't have a "skills section" full of Product Manager keywords like "cross-functional", "leadership", "prioritization", "Roadmap"?
+
+The keywords in blue are embedded in my accomplishments. I'm showing the context of how I used those skills to help customers, my team, and/or the organization.
+
+I took these keywords from job descriptions I wanted to apply to.
+
+
+[5] Show your impact (yellow 🟡)
+
+Not every accomplishment has to have impact, but try to add as many as you can. Impact shows that:
+- You can do the job
+- You can do it well
+- You can make a difference
+
+Anyone can "complete a project in time", but not everyone can "complete a project in time by doing xxxxx, and having an impact of yyyyy"
+
+If you struggle to find the impact, think about this:
+
+- What is it that without YOU it wouldn't have been possible? What did it cause (impact)? How did you measure what happened?
+
+
+[6] Technical Skills (green 🟢)
+
+I write down all the technical skills that I know and can show some 'proof' (a test, a score, etc.). Many of these are taken from the job descriptions I was applying to.
+
+A few things to remember:
+- 'sprinkle' tech(hard) skills here and there
+- don't throw all of them in a giant skills section
+- don't have 🟢 > 🔵 (unless you go for Software Engineer roles)
+
+
+[7] Other stuff to keep in mind
+
+Length? 1, 2, 3 pages are ok. You may have a lot of experience. Make it RELEVANT, that's what matters.
+
+Tailoring your resume to the job >>>> almost everything else.
+Don't submit the same resume to every job.
+
+Triple-check for grammar/spelling mistakes.
+
+
+BONUS: While I worked on my resume for a while (and there's still A LOT of room for improvement), what got me my recent jobs was the fact that I networked a lot.
+Don't underestimate the power of networking.
+
+////////////////////////////////////////////////
