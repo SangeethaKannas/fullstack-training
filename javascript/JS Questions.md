@@ -90,4 +90,113 @@ console.log(guest.attributes.isAdmin)
 // true true
 
 
+////////////////////////////////////////
+
+const add = x=> y=> z => {
+
+  console.log(x, y, z);
+
+  return x+y+z'
+}
+
+add(7)(8)(10);
+
+function multiply(x) {
+  return function(y) {
+    return function(z) {
+      return function (w) {
+        return function (p) {
+          return x * y * z * w * p;
+        }
+      }
+    }
+  }
+}
+
+console.log(mul (6)(7)(8)(9)(10))
+///////////////////////////////////////
+which of the following are true
+   null == undefined
+   typeof alert === 'function'
+   Number(undefined) is NaN
+   null >= 0
+
+////////////////////////////////////////
+
+
+(() => {
+  let x,y;
+  try {
+
+    throw new Error()
+  }catch(e) {
+    (x=1), (y=2)
+    console.log(e)
+  }
+  console.log(x)
+  console.log(y)
+
+})()
+
+/////////////////////////////////////////////////
+
+let info = {
+
+  name: 'Test',
+  rollNo: '012',
+  Section: 'A',
+  dispInfo: function() {
+    console.log(this);
+  }
+}
+
+let info2 = {
+
+  name: 'Test',
+  rollNo: '012',
+  Section: 'A',
+  dispInfo: function() {
+    console.log(this);
+  }
+}
+
+
+info.dispInfo();
+info2.dispInfo();
+
+//////////////////////////////////////////////////////
+
+.example { color: 'yellow'; }
+ul li a {color: blue; }
+ul a { color: green; }
+a { color: red; }
+
+<ul>
+   <li><a href='#' class="example">Test</a></li>
+   <li>item 1</li>
+   <li>item 2</li>
+</ul>
+
+////////////////////////////////////////
+
+let person = 'A'
+if(true) {
+  let person = 'B';
+  if(true) {
+    console.log(person);
+  }
+}
+
+console.log(person);
+
+////////////////////////////////////////
+
+function sum(a, b)  {
+  return a + b;
+}
+
+
+sumn(1, '2');
+
+////////////////////////////////////////
 
