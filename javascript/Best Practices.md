@@ -49,3 +49,17 @@ export const debounce = (func, wait) => {
   };
 };
 
+
+### Variable names
+1. Use proper variable names
+  - concise, descriptive and pronouncable, explains the purpose
+2. Be careful with loose equality operator
+3. Use spread operator to add an proeprty conditionally
+
+const ob = {
+  property1: 'a',
+  property2: 'b',
+  ...(includeProperty3 && {property3: 'c' })
+}
+
+4. Avoid delete keyword

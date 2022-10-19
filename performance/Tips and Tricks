@@ -119,3 +119,24 @@ while destructing of objects, default values would only be assigned when the key
 
 because we are passing an arrow function to the setTimeout. Arrow functions retains the scope of their definition. Hence, when the arrow function will be called then context will be same as sayName function.
 
+### Short hand methods
+
+- Repeat a string - 'string'.repeat(numberof times);
+- number of params accepted by a function - <functionname>.length
+- Max and Min in array: Math.max(...arr) and Math.min(...arr)
+- Exponent power:   a**b
+- Remove duplicates in an array - using a set  // [...new Set(arr)]
+- string to number   +<stringvariable>
+- remove false values from an array:   arr.filter(Boolean)
+- Assigning values to multiple variables  :  let [a, b, c] = ['a', 'b', 'c']
+- Swap two variables :   [a, b] = [b, a]
+- Object property assignment    :   - object destructuring
+- Multiple condition checking   :  if( ['a', 'b', 'c'].includes(var))
+- Check if a key exists in object   :   'name' in obj   or   Reflect.has(obj, 'name')
+- For flooring :  instead of Math.floor use  Double bitwise or ~~
+- And ( && )  Short circuit evaluation
+- Removing multiple properties from an obj :   const {a, b, ...newObj } = obj
+- Default value to function params
+- Assign default value using OR       a || false
+- Covnert string to array.   string.split(''), [...str], ...Array.from(str), Object.assign([], str)
+-

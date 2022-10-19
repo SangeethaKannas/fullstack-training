@@ -216,3 +216,11 @@ url:
 7. loverajoel/jstips
 8. sudheerj/javascript-interview-questions
 9.
+
+### Design patterns
+- https://blog.sessionstack.com/how-javascript-works-the-factory-design-pattern-4-use-cases-
+7b9f0d22151d
+- https://www.dofactory.com/javascript/design-patterns/factory-method
+- https://www.youtube.com/watch?v=LqlhjsYSSRw
+- https://www.educative.io/collection/page/5429798910296064/5725579815944192/6078594150301696
+
