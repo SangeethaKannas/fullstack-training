@@ -1,18 +1,17 @@
 ### HoC Sample
-const HoCSample = ( {value, ...props})   => {
+   const HoCSample = ( {value, ...props})   => {
 
-	return (
-	    {
-			value ?  <Tooltip> {props.chidren} </Tooltip> :  {props.children}
-		}
+      return (
+         {
+            value ?  <Tooltip> {props.chidren} </Tooltip> :  {props.children}
+         }
 
-	)
+      )
 
-}
+   }
 
 
 ### If you have more than 3 useState in a component you are doing it wrong!
-
 
 ### Resources
 - React Lifecycle Methods – A Deep Dive ► https://technicalsuneja.com/react-lifecycle-methods/
@@ -92,8 +91,6 @@ It has a read-only property named signal which is passed in the fetch request's 
 This allow us to abort the fetch request by calling abortController.abort().
 PS : Calling abortController.abort() after the request has been completed doesn't throw any
 errors. The abortController simply does not take any action on an already complete request.
-
-
 
 ### React performance
 
