@@ -139,4 +139,19 @@ because we are passing an arrow function to the setTimeout. Arrow functions reta
 - Default value to function params
 - Assign default value using OR       a || false
 - Covnert string to array.   string.split(''), [...str], ...Array.from(str), Object.assign([], str)
--
+
+
+### Performance comparison
+Object creation
+
+Object.assign
+
+custom implementation
+
+lodash deep clone
+
+angular copy
+
+Json.stringify
+
+jquery.extend

@@ -8,7 +8,6 @@
 
 ### Javascript Engine
 
-
 - Javascript Runtime
 - Interpreter/Compiler /JIT Compiler
 - Writing Optimized Code
@@ -466,5 +465,30 @@ These websites generally do this so that they can re-target you in the future us
 5. eCommerce websites started seeing bad results with their Facebook ads. They started losing money for ads and not getting good impressions or click-through rates.
 
 6. This caused them to move away from Meta which in turn led to declining in revenue of Meta and hence the stock dip.
+
+### Javascript Advanced
+//Create generator
+function *myGenerator() {
+  console.log('Invoked 1st time');
+  yield 1
+
+  console.log('Invoked 2nd time');
+  yield 2
+
+  console.log('Invoked 3rd time');
+  yield 3
+}
+
+//Assign generator a variable
+const myGeneratorValue = myGenerator();
+
+console.log(myGeneratorValue.next());
+
+console.log(myGeneratorValue.next());
+
+console.log(myGeneratorValue.next());
+
+// This call does'nt return any yield, since there is no other yield the generator is done
+console.log(myGeneratorValue.next());
 
 
