@@ -96,3 +96,9 @@ Set: For verifying element existence in large collection
 array.includes()   // O complexity O(n^2)
 
 set.has()  // O complexity O(n)
+
+### Wayt to use reduce
+1. Summing numbers  [1 ,2, 3, 4, 5].reduce((acc, num) => acc + num, 0)
+2. Reducing array to object = ['a', 'b', 'a', 'c'].reduce((acc, value) => { acc[value] = (acc[value] || 0) + 1 }; return acc, {})
+3. Flattening an array:  [  [1, 2, 3], [4, 5, 6]].reduce((acc, arr) => [...acc, ...arr], []);
+4.
