@@ -287,3 +287,41 @@ strawberry700: "#E98888",
 ultramarine350: "#8A97DA",
 ultramarine950: "#32343B",
 golden: "#A9943C"
+
+### css-all
+
+  button {
+    all: unset;
+  }
+
+instead of
+
+  button {
+    background: none;
+    border: none;
+    color: inherit;
+    font: inherit;
+    outline: none;
+    padding: 0;
+  }
+
+
+### Content-box
+
+content-box = content;
+border-box = content + padding + border
+
+
+### Reponsidve bolumns
+
+  .container {
+    columns: 300px;
+  }
+
+
+### Change default selection color
+
+::selection {
+  color: red;
+  background: yellow;
+}

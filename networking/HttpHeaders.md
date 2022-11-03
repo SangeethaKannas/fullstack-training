@@ -23,7 +23,7 @@ script-src: nonce-abc
     cache-controlmax-age=..., public, immutable
 
     Brotli compression - slow and by default headers at 4
-    
+
     WebPicture - <picture>
         <source srcet>
     </picture>
@@ -34,8 +34,12 @@ script-src: nonce-abc
 
     Accept-ch: Width, Viewport-Width
     Accept-ch-lifetime: 180
-    RequestURL: 
+    RequestURL:
     Viewport-Width:
     Width
 
     <link rel="preload" href="/" as="image">
+
+
+### Auto refresh
+    <meta http-equiv="refresh" content="10" >
