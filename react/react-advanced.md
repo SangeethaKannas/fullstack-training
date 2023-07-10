@@ -494,7 +494,7 @@ export const attachHLSMediaToVideo = async ({ videoRef, videoSrcs }) => {
 };
 
 ### React textfield
-import React from "react";
+
 import { TextField } from "@material-ui/core";
 
 export const renderField = ({ input, placeholder, label, type, value, helperText, meta: { touched, error, warning }, ...props }) => (

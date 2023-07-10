@@ -34,7 +34,7 @@ export const Flex = styled.div`
 `;
 
 
-import React from "react";
+
 import PropTypes from "prop-types";
 import styled, { css } from "styled-components";
 import {
@@ -191,7 +191,7 @@ BaseSection.propTypes = {
 
 
 
-import React from "react";
+
 import PropTypes from "prop-types";
 import pick from "lodash-es/pick";
 import { ThemeProvider } from "styled-components";
