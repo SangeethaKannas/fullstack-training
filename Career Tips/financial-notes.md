@@ -297,10 +297,31 @@ How does it help: The most effective way to grow your money, is increasing your 
 
 MOOCs or Massive open online courses are gaining popularity and acceptance among companies. These courses are often free or priced attractively. Finding and enrolling for a MOOC requires just one lunch break at work.
 
-Related Posts:
 
+Experts believe that spending money on experiences such as a vacation or adventure sports, produces happiness that lasts longer compared to spending the same money on physical things. The reasoning is that experiences stay in the memory longer, and can’t be compared with someone else’s experience.
 
+So the next time you want to remember fondly what you spent your money on, try a road trip instead of a new smartphone whose technology will be obsolete in less than a year.
 
+#2. Spend on others
 
+Research has found that spending money on others, generally friends or family, helps you derive greater happiness as compared to spending on yourself. So treat your loved ones to a great gift and let their happiness add to your own.
+
+Giving to charity and sharing your wealth with those who need help, is another great way to derive meaningful joy.
+
+#3. Buy happiness in bite sized pieces
+
+Small indulgences such as a one off ice-cream or even a head massage the next time you go to a hair salon are likely to give you greater joy than a one-off big ticket purchase. The key is to go for small things that give you several small bursts of happiness.
+
+#4. Buy what you like, not to keep up with others
+
+Buying based on what you like versus trying to keep up with your peers has been shown to provide greater joy. Your individuality, when it reflects in the things you buy, tends to bring greater satisfaction to you.
+
+#5. Buy more free time
+
+Spend on outsourcing things which save you time such as on hiring a maid or a cook. You will have more time to spend on things you like to do rather than boring chores which you would rather avoid.
+
+#6. Spend on your passion or hobbies
+
+Spending on something you enjoy doing, such as spending on a sports club membership, Lego sets, or even video games, can directly enhance your happiness.
 
 
