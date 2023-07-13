@@ -1,11 +1,8 @@
-
-
 data as documents similar to json
 data is placed in collections
 
  no need for strongly defined database schema
- 
- 
+  
  mongoose - Object Document Mapper ( ODM )
  
  String
@@ -37,7 +34,6 @@ find
    
    
 findByIdAndUpdate
-
 
 Virtuals
 
@@ -77,8 +73,6 @@ ObjectId, Number, String, and Buffer are valid data types to use as references, 
 
     options: {limit: 10, sort: 'title'}
 
-
-
     .find({}, {
     limit: 10,
     sort: {_id: -1}})
@@ -99,6 +93,5 @@ const userSchema = new mongoose.Schema({
 })
 // Attach methods, hooks, etc.
 const User = mongoose.model('User', userSchema)
-
 
 https://docs.mongodb.com/manual/reference/operator/update/push/

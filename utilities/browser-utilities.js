@@ -16,7 +16,6 @@ export const isPaytmBrowser = () => {
   return false;
 };
 
-
 //// Get device
 export const deviceTypes = {
   MOBILE: 'MOBILE',
@@ -86,8 +85,6 @@ function mapDispatchToProps(dispatch) {
   };
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(HideOnMobile);
-
 /////////////////////////////////////////// HIde on PCs
 /* eslint-disable react/jsx-filename-extension */
 import React from 'react';
@@ -119,8 +116,6 @@ function mapDispatchToProps(dispatch) {
     setDeviceAction: (value) => dispatch(setDeviceType(value)),
   };
 }
-
-export default connect(mapStateToProps, mapDispatchToProps)(HideOnPC);
 
 /////////////////////////////////////////  HIde on Tablets
 import React from 'react';

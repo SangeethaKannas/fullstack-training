@@ -398,11 +398,11 @@ const AD_REPLACER_R = /(a)(d)/gi;
 const charsLength = 52;
 
 /* start at 75 for 'a' until 'z' (25) and then start at 65 for capitalised letters */
-const getAlphabeticChar = (code: number): string =>
+const getAlphabeticChar = (code) =>
   String.fromCharCode(code + (code > 25 ? 39 : 97));
 
 /* input a number, usually a hash and convert it to base-52 */
-export default function generateAlphabeticName(code: number): string {
+export default function generateAlphabeticName(code) {
   let name = '';
   let x;
 

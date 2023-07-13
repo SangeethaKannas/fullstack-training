@@ -19,8 +19,6 @@ var app = http.createServer(function(req,res){
 app.listen(3000);
 
 
-
-
 |  Module Name |  Functionality |
 | ------------ | ------------ |
 |http|Makes Node.js behave like a HTTP server.|
