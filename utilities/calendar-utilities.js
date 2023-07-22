@@ -1,4 +1,5 @@
 export const dayNames = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
+
 export const monthNames = [
   "JAN",
   "FEB",
@@ -37,25 +38,25 @@ function isDate(e, r) {
     -1 == a || -1 == n
       ? (alert("The date format should be : dd/mm/yyyy"), r.focus(), !1)
       : l.length < 1 || month < 1 || month > 12
-      ? (alert("Please enter a valid month"), r.focus(), !1)
-      : o.length < 1 ||
-        day < 1 ||
-        day > 31 ||
-        (2 == month && day > daysInFebruary(year)) ||
-        day > t[month]
-      ? (alert("Please enter a valid day"), r.focus(), !1)
-      : 4 != s.length || 0 == year || year < minYear || year > maxYear
-      ? (alert(
-          "Please enter a valid 4 digit year between " +
-            minYear +
-            " and " +
-            maxYear
-        ),
-        r.focus(),
-        !1)
-      : (-1 == e.indexOf(dtCh, n + 1) &&
-          0 != isInteger(stripCharsInBag(e, dtCh))) ||
-        (alert("Please enter a valid date"), r.focus(), !1)
+        ? (alert("Please enter a valid month"), r.focus(), !1)
+        : o.length < 1 ||
+          day < 1 ||
+          day > 31 ||
+          (2 == month && day > daysInFebruary(year)) ||
+          day > t[month]
+          ? (alert("Please enter a valid day"), r.focus(), !1)
+          : 4 != s.length || 0 == year || year < minYear || year > maxYear
+            ? (alert(
+              "Please enter a valid 4 digit year between " +
+              minYear +
+              " and " +
+              maxYear
+            ),
+              r.focus(),
+              !1)
+            : (-1 == e.indexOf(dtCh, n + 1) &&
+              0 != isInteger(stripCharsInBag(e, dtCh))) ||
+            (alert("Please enter a valid date"), r.focus(), !1)
   );
 }
 
@@ -176,3 +177,65 @@ function compareDates(e, r) {
   if (new Date(s, l, o) < u)
     return alert("To date cannot be greater than from date"), !1;
 }
+
+const isleapYear = y => {
+  if ((y % 4 == 0 && y % 100 != 0) || y % 400 == 0) return 1;
+  return 0;
+};
+const getDay = (y, m, d) => {
+  var sum = 0;
+  var month = [0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+  var i;
+  month[2] = month[2] + Number(isleapYear(y));
+  for (i = 1; i < y; i++) {
+    sum = sum + Number(365) + Number(isleapYear(i));
+  }
+  for (i = 1; i < m; i++)
+    sum = sum + Number(month[i]);
+  sum = sum + Number(d);
+  return sum % 7;
+};
+
+const convertDateFormat = preDate => {
+  var weekDay = [
+    'Sunday',
+    'Monday',
+    'Tuesday',
+    'Wendesday',
+    'Thursday',
+    'Friday',
+    'Saturday',
+  ];
+  var month = [
+    '',
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December',
+  ];
+  var str = preDate;
+  var y, m, d;
+  var i;
+  var data = str.split('-');
+  y = parseInt(data[0], 10);
+  m = month[parseInt(data[1], 10)];
+  d = data[2].split('T')[0];
+
+  return (
+    weekDay[getDay(y, parseInt(data[1], 10), Number(d))] +
+    ', ' +
+    m +
+    ' ' +
+    d +
+    ', ' +
+    y
+  );
+};

@@ -84,13 +84,31 @@ How ?
 — Classes, Array Methods, Scoping, Hoisting, Closures
 
 - learn internet fundamentals
+   -- How does the internet work
+   -- What is HTTP
+   -- Browsers how they work
+   
 — learn HTTP vs HTTPS
-— learn HTML and CSS
+— Learn HTML and CSS
+    Basic HTMl
     Create an HTML file from Scractch, Use an HTML template like HTML boilerplate
     Following industry Naming conventions
     Incorporate latest HTML 5 tags
     Learn semantic HTMl
+    Accessiblity
     Learn SEO Basics
+    Conventions and Best practices
+    Learn DOM Manipulation and Visual Elements
+    
+    Learn Fetch API / Ajax HR
+    ES6+ and modular Javascript
+    Concepts
+      Hoisting
+      Event bubbling
+      Scope
+      Prototype
+      Shadow DOM
+      strict
     
     Take Css from Scractch
     Manipulate layouts and styles
@@ -104,7 +122,6 @@ How ?
    -
 - Learn Browsers and Editors
 — learn to run code on web 
-— learn about DOM and visual elements
 — learn to use dev tools
 — learn where to write and debug the code 
 
