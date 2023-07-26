@@ -135,3 +135,4 @@ React Performance Optimisation techniques
 9. Use Dyanmic imports only when needed
 10. Use Service-workers, Web workers
 11. Use local storage & cookie
+

@@ -21,7 +21,15 @@ useEffect(() => {
 
 ### Is Mounted
 
-import { useEffect, uesRef } from 'react';
+1. To avoid dual rendering of useEffect running twice in React 18
+due to concurrent rendering
+  makes rendering of UI faster and more responsive
+
+  fluid user experience
+
+Temporary fixe remove <StrictMode> in index.js
+
+import { useEffect, useRef } from 'react';
 
 const useIsMounted = () => {
 
