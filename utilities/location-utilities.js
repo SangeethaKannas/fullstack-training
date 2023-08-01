@@ -1,5 +1,5 @@
 const displayError = (error) => {
-    switch (error.code) {
+  switch (error.code) {
     case error.PERMISSION_DENIED:
       return 'Permission Denied';
     case error.POSITION_UNAVAILABLE:
@@ -21,3 +21,12 @@ const getLocation = (location) => {
     console.error('Geolocation is not supported by this browser.');
   }
 };
+
+const getParamValue = (name) => {
+  if (name != null && name != "" && name.replace(/\s+/g, '') != "") {
+    var url = new URL(window.location.href);
+    return url.searchParams.get(name);
+  }
+  return null;
+
+}

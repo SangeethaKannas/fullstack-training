@@ -1,3 +1,11 @@
+export const convertTimezone = (date, tzString) => {
+  return new Date(
+      (typeof date === "string" ? 
+      new Date(date) : 
+      date)
+      .toLocaleString("en-US", { timeZone: tzString }));
+}
+
 export const dayNames = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
 
 export const monthNames = [
