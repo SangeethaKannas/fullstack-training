@@ -692,3 +692,16 @@ Icon.propTypes = {
 }
 
 export default Icon
+
+
+### Improve React performance
+Prevent re-rending components that is not needed
+		shouldComponentUPdate	
+		useRef
+		Lazy imports
+		Suspense and fallback
+
+### React Currying
+const handleChange = (setState) => (event) => {
+	setState(event.target.value)
+}

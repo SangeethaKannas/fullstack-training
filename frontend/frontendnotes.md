@@ -38,3 +38,22 @@
 1️9️ Mobile Applications: Expand to mobile development with JavaScript - https://lnkd.in/dmt-tpXr
 
 2️0️ Desktop apps in JavaScript: Build cross-platform desktop apps using frameworks like Electron and Tauri - https://lnkd.in/dYpRdbNt    
+
+Javascript - Basics - https://lnkd.in/dNJPGhdE
+Javascript and DOM - Intermediate - https://javascript.info/
+Javascript - Advanced - https://lnkd.in/dhbihk7t
+Critical rendering path - Advanced - https://lnkd.in/gAiQ93yx
+Javascript - Advanced - https://lnkd.in/gpkCuZcA
+Machine coding - Advanced - https://shorturl.at/iovAU
+Browser Rendering- Advanced - https://lnkd.in/gSHQxgvQ
+
+
+Courses
+► Course links: 
+1. CS 50:   
+ • Harvard CS50 – Fu...  
+2. 100 Days of Code: https://www.udemy.com/course/100-days...
+3. Algorithms 1 and 2: http://imp.i384100.net/algorithms-1 and http://imp.i384100.net/algorithms-2
+4. Meta Front-end Professional Certificate: https://www.coursera.org/professional-certificates/meta-front-end-developer?irclickid=1XES4vxjfxyPRxeTvz2WZ0A0UkFwim3pOVSXVY0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=3552395&utm_content=b2c
+5. System Design:   https://www.youtube.com/watch?v=-W9F__D3oY4&t=0s
+ • CS75 (Summer 2012...  
