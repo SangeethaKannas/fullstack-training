@@ -155,3 +155,17 @@ angular copy
 Json.stringify
 
 jquery.extend
+
+
+### Courses
+
+Udemy courses
+https://www.udemy.com/online-business-selling-simple-products-amazon/
+https://www.udemy.com/learn-responsive-web-development-from-scratch/learn/v4/overview
+https://www.udemy.com/html-css-build-a-dashboard/
+https://www.udemy.com/become-a-full-stack-developer-with-spring-aws-and-stripe/
+https://www.udemy.com/photoshop-for-web-design-beginners/
+https://www.udemy.com/regex-academy-an-introduction-to-text-parsing-sorcery/
+https://www.udemy.com/learn-angular-from-scratch/
+
+

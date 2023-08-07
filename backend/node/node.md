@@ -185,3 +185,92 @@ http.createServer(function(req, res) {
 console.log('Server running at http://localhost:' + port);
 
 }());
+
+
+Is Node.js single-threaded? What happens when I run "node myscript.js"?
+
+No, Node.js is not single-threaded, it has never been. This is a very common misunderstanding among the dev community.
+
+Javascript indeed is single-threaded and the Node.js event loop runs into a single thread. But that’s not all about the runtime.
+
+A key component of the runtime, responsible for managing the event loop and async operations, is libuv. Libuv itself has a thread pool, composed by default of 4 threads (you can change this number by setting the process.env.UV_THREADPOOL_SIZE value), that is started every time you run the node command.
+
+For some functions from the std lib, libuv decides to run computationally intensive tasks outside the event loop and uses its thread pool to do so.
+
+Some tasks don’t even follow the thread pool avenue and are delegated to the underlying OS, like the network requests using the https module, for example.
+
+How Node.js manages the event loop, its thread pool and OS async helpers is what makes this runtime so powerful. 🚀
+
+To answer the second question, keep in mind that:
+
+1️⃣ First of all, the javascript synchronous code is executed into the thread's call stack, one step after another.
+
+2️⃣ All the callbacks (for example setTimeout(callback1, 0), process.nextTick(callback2), Promise.then(callback3), etc) are sent to the libuv event loop queues.
+
+3️⃣ The event loop will start picking these callbacks from its queues and executing them into the call stack after the js sync execution finishes.
+
+The event loop steps/queues are the following, in order of priority and execution:
+
+Microtask Queues
+Composed of two queues: the process.nextTick() callbacks queue and the Promise callbacks queue. The Microtask Queues have the highest priority when it comes to executing asynchronous code in Node.js.
+
+Timers Queue
+Holds callbacks associated with setTimeout and setInterval. The callbacks are executed in the first-in-first-out order (FIFO). When there are multiple setTimeout executed with different delays, the event loop queues up the one with the shortest delay first and executes it before the others.
+
+I/O Queue
+To add callbacks to the I/O Queue we can use most of the async methods from the std lib, for example fs.readFile().
+
+I/O Pooling
+In the previous example, libuv will delegate the readFile operation to its thread pool and the callback will be queued to the I/O Queue by the I/O Pooling step only after the I/O operation completed.
+
+Check Queue
+Contains the callbacks associated with the setImmediate() function.
+
+Close Queue
+Holds the callbacks of close events, for example, readableStream.on('close', callback).
+
+The event loop continues running until there is no pending task being executed by the thread pool and the OS sync helpers, and all the queues are empty.
+
+ℹ️ The Microtask queues are executed in between each queue and in between each callback of the Timer and Check queues.
+
+
+
+
+
+Single Signon
+
+What is SSO (Single Sign-On)?
+.
+.
+Basically, Single Sign-On (SSO) is an authentication scheme. It allows a user to log in to different systems using a single ID.
+
+The diagram below illustrates how SSO works.
+
+Step 1: A user visits Gmail, or any email service. Gmail finds the user is not logged in and so redirects them to the SSO authentication server, which also finds the user is not logged in. As a result, the user is redirected to the SSO login page, where they enter their login credentials.
+
+Steps 2-3: The SSO authentication server validates the credentials, creates the global session for the user, and creates a token.
+
+Steps 4-7: Gmail validates the token in the SSO authentication server. The authentication server registers the Gmail system, and returns “valid.” Gmail returns the protected resource to the user.
+
+Step 8: From Gmail, the user navigates to another Google-owned website, for example, YouTube.
+
+Steps 9-10: YouTube finds the user is not logged in, and then requests authentication. The SSO authentication server finds the user is already logged in and returns the token.
+
+Step 11-14: YouTube validates the token in the SSO authentication server. The authentication server registers the YouTube system, and returns “valid.” YouTube returns the protected resource to the user.
+
+The process is complete and the user gets back access to their account.
+
+Over to you: 
+Question 1: have you implemented SSO in your projects? What is the most difficult part?
+Question 2: what’s your favorite sign-in method and why?
+
+
+serpapi.com
+
+shutterstock.com/developers
+
+mapbox.com
+
+fakestoreapi.com
+
+randomeuser.me	
