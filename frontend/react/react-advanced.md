@@ -705,3 +705,5 @@ Prevent re-rending components that is not needed
 const handleChange = (setState) => (event) => {
 	setState(event.target.value)
 }
+
+<input value={value} onChange={handleChange(setName)} />

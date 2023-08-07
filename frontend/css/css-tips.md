@@ -16,7 +16,6 @@ Some of the most important CSS3 modules are:
 ⦁ Multiple Column Layout
 ⦁ User Interface
 
-
 # Mask image
 .mask-image-in-div {
   mask-image: url('image.png');
@@ -38,7 +37,6 @@ Some of the most important CSS3 modules are:
 }
 
 # Layout Models
-
 - flexbox
 - flow - one dimensional layout
 - grid - two dimensional layout
@@ -47,7 +45,6 @@ Some of the most important CSS3 modules are:
 - float - for floating images inside of text; occasionaly used for layouts
 
 # Font size
-
   html {
     font-size: 62.5%
   }
@@ -59,7 +56,6 @@ Some of the most important CSS3 modules are:
   .element {
     font-size: 1.3rem;
   }
-
 
 # Border radius
 
@@ -116,8 +112,6 @@ Some of the most important CSS3 modules are:
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(YOUR IMAGE HERE);
 }
 
-
-
 ### Put text in a box
 .text-box {
 	background-color: rgba(0, 0, 0, 0.5);
@@ -125,8 +119,6 @@ Some of the most important CSS3 modules are:
 	display: inline;
 	padding: 10px;
 }
-
-
 
 ### Floor fade
 .floor-fade {
@@ -151,8 +143,6 @@ Some of the most important CSS3 modules are:
     bottom: 10px;
     left: 25px;
 }
-
-----------------------------------------
 
 <div class="test">
     <p>Beautiful image with dark overlay</p>
@@ -287,6 +277,13 @@ strawberry700: "#E98888",
 ultramarine350: "#8A97DA",
 ultramarine950: "#32343B",
 golden: "#A9943C"
+
+### CSS points
+
+em vs rem
+
+em: Relative to the font size of the parent element
+rem: Relative to the font size of the root element
 
 ### css-all
 

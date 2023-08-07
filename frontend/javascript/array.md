@@ -27,22 +27,25 @@ fill
 
 sort
 
-### subset of array
-1. slice
+    ### subset of array
+    1. slice
 
-2. splice
+    2. splice
 
-3. filter
+    3. filter
 
 
 ### single element
 push
-
+    
 pop
 
 shift
 
 unshift
+
+fill
+    
 
 ### Check
 Array.isArray
@@ -56,6 +59,9 @@ find
 includes
 
 some
+
+at
+    [1, 5, 6, 7].at(1)    // 5
 
 ### Read an array
 anIndividual elements in an array``

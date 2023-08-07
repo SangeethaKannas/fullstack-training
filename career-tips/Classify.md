@@ -69,8 +69,6 @@ Want to learn DSA - Search Abdul Bari and GFG
 
 Want to learn System Design - Nobody can come close to Alex Xu. Follow him religiously. Also you can take a look at Grokking
 
-
-
 Round 1 (Basic JS Round):
 
 🤝 Started with introductions and discussed my work experience.

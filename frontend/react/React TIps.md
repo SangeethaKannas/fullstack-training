@@ -136,3 +136,19 @@ React Performance Optimisation techniques
 10. Use Service-workers, Web workers
 11. Use local storage & cookie
 
+
+
+React Unit testing
+-----------------------------------------------------
+Jest + React Testing Library
+
+
+Test Structure
+
+Test Block
+   Render component
+   Select Elements
+   Interact with elements
+   asset expecte results
+
+Add data-testid="testid"
