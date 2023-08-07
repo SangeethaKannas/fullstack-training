@@ -1,4 +1,17 @@
-###
+### Performance Tips and ticks
+1. Remove unused imports
+    1.1 Removing duplicate coe
+        Moving codebase from JS to TS
+        Moving strings to enums
+2. Remove lodash. 
+3. Webpack bundle analyzer
+4. API Testing using Postman
+   4.1 API error handling
+5. End to End Testing
+6. Mixpanel issue trackers
+7. Sentry error tracking
+
+### 
 A Sneak Peak into Super Optimized Code in JS Frameworks
 
 React - Fibernode
