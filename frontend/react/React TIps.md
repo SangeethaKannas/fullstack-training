@@ -152,3 +152,39 @@ Test Block
    asset expecte results
 
 Add data-testid="testid"
+
+
+######################33 Context
+
+
+const ThemeContext = createContext(null);
+function ThemeContextProvider({ children }) {
+   return (
+    <ThemeContext.Provider value="dark">
+      {children}
+    </ThemeContext.Provider>
+   );
+}
+
+And use children prop to inject NestedComponent inside it:
+
+function Page() {
+   return (
+    <ThemeContextProvider>
+      <NestedComponent />
+    </ThemeContext.Provider>
+   );
+}
+
+Then, any component nested under it, at any level, can access that data:
+
+function NestedComponent() {
+  const theme = useContext(ThemeContext);
+  return (
+   <section>
+    <div>The theme value is: {theme}</div>
+   </section>
+  )
+}
+
+Remember that you only have to have a handful of truly global values, while everything else should be more localized.
