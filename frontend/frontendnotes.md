@@ -57,3 +57,18 @@ Courses
 4. Meta Front-end Professional Certificate: https://www.coursera.org/professional-certificates/meta-front-end-developer?irclickid=1XES4vxjfxyPRxeTvz2WZ0A0UkFwim3pOVSXVY0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=3552395&utm_content=b2c
 5. System Design:   https://www.youtube.com/watch?v=-W9F__D3oY4&t=0s
  • CS75 (Summer 2012...  
+
+
+### Design Patterns
+1. Factory
+2. Observor
+3. Singleton
+4. Builder
+5. Adapter
+6. Decorator
+7. Proxy
+8. Strategy
+9. Command
+10. Template
+11. Iterator
+12. State
