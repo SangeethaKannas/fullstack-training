@@ -17,5 +17,11 @@ inputmode:  numeric   decimal   tel   search   url    email   text password  dat
 - poster: display image while video is downloading, or when user clicks play button
 - loading="lazy":  load an image directly, 
 
+### Semantic HTML
 
-
+1. <header>
+2. <nav>
+3. <section>
+4. <article>
+5. <aside>
+6. <footer>
