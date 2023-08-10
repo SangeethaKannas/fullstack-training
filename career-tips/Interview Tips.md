@@ -14,7 +14,6 @@ Here is what to expect in a Facebook interview for software engineers:
  
 ◈ Lunch - It's not an interview. The interviewer will show you around and have lunch with you.
  
- 
 Interview Tips
 ----
   
@@ -160,3 +159,66 @@ Round 5(Hiring Manager Round): It comprised of low- and high-level system design
 • How to optimize the design with given constraints
 
 Also, it had a High-level project discussion based on resume and previous work experience, tech stack used, challenges faced, How you solved those, What was your role in previous teams, etc.
+
+### Interview Strategy
+
+1. Confidence is the key. Don’t jump into the interview process when you are not fully prepared. 
+
+2. Rather than doing 1000s of leetcode (https://lnkd.in/gyRnXuHQ), do few examples and understand the patterns which will help you to crack any problem. Also, think about all edge cases and test cases. 
+
+3. At the end, spend some time thinking about time and space complexity. It gets tricky with graph and tree problems.
+
+4. Think about the possible use cases of the given problem, for example, flood fill is nothing but the paint app and try to explain that to the interviewer. 
+
+5. Create a Google doc and list down all recent/interesting project you worked on. Start with design, implementation, testing, monitoring, your contribution and ask yourself what questions a person can ask if he/she doesn’t have any idea about the project. This will also help you during the system design interview.
+
+6. Also, create a Google doc for behavior questions (https://lnkd.in/gPp8iE_x) and write down what was the situation, what was your task, what action you took and what was the result. Read more about the STAR approach. Companies like Amazon, pays more attention to these questions so be well-prepared.  
+
+7. Do practice interviews with your friends and peers, and take feedback seriously. 
+
+8. At the end of an onsite interview, make a list of what went well and where you need to put more attention and work on it.  
+
+9. While practicing system design, try to relate things with your current or past experience. Like how server side configuration has been set up or how APIs are implemented in your current project. This way you will remember things easily.    
+
+10. Before your onsite interview, visit Glassdoor (https://lnkd.in/gwKXeYQA) and read about other’s experiences. That will give you an idea on what to expect. 
+
+11. Lastly, don’t get dejected by rejections. Sometimes it looks difficult, but with enough practice and hard work, you will get your dream job.
+
+
+### FAANG Rounds
+
+# FAANG Interview road map
+Learn DSA - Search Abdul Bari and GFG
+
+System Design - Nobody can come close to Alex Xu. Follow him religiously. Also you can take a look at Grokking
+
+Round 1 (Basic JS Round):
+
+🤝 Started with introductions and discussed my work experience.
+💻 Technical questions covered Promises, asynchronous behavior, and generator functions.
+🔍 Asked to write a polyfill for the reduce function (already practiced!).
+🖇️ Question on object manipulation (specific details not recalled).
+💬 In-depth discussions and arguments on pure functions and currying concepts.
+
+After completing the first round, I was given a half-hour break and asked to rejoin the same link for the next round.
+
+Round 2 (Security and React):
+
+🔒 Focus on web security, including knowledge about attacks and defense mechanisms.
+🛡️ Questioned about web security fundamentals, such as common attacks like XSS (Cross-Site Scripting) and ransomware.
+💡 Discussed the security principles followed in my organization and the security considerations while coding on the frontend.
+⚛️ Explored React's lifecycle methods and their significance in maintaining secure web applications.
+📚 Asked about component design considerations, such as minimizing security vulnerabilities and ensuring data privacy.
+
+✍️ Requested to write a generic memoization function to test problem-solving skills.
+
+I honestly admitted that I was familiar with the terms but lacked practical experience. However, I expressed my willingness to learn and enhance my understanding of security.
+
+Soon after, the HR representative joined the call and informed me that if I were selected, I would receive an invitation for a managerial interview within the next two hours. At that moment, I felt burnt out and uncertain about my chances of being selected, considering my performance in the security-related questions.
+
+Managerial Interview and HR Wrap-Up:
+
+💼 Interviewed by the manager who explained the project and asked about a feature I was proud of.
+📊 Provided a detailed explanation and even drew a flow chart to illustrate the feature's flow.
+💬 Discussion about conflict resolution within a team and handling team dynamics.
+🤝 HR informed me that if selected, I would receive an invitation for the next round within two hours.

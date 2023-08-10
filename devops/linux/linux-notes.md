@@ -18,7 +18,6 @@ Install xsltproc git
 mkdir ~/apps/
 cd ~/apps/
 
-
 sudo usermod -aG docker $(whoami)
 
 sudo yum install -y yum-utils \
@@ -29,13 +28,6 @@ wget http://li.nux.ro/download/nux/dextop/el7/x86_64/nux-dextop-release-0-5.el7.
 Devops
 
 
-sudo yum install epel-release 
-sudo yum install nodejs
-sudo yum install npm
-sudo yum install git
-sudo yum install ant
-sudo yum install ruby
-sudo yum install rubygems
-sudo yum install java-1.6.0-openjdk-devel (installs JDK)
+sudo yum install epel-release nodejs npm git ant ruby rubygems  java-1.6.0-openjdk-devel (installs JDK)
 sudo mkdir /opt/maven && chmod -R 777 /opt/maven && cd /opt/maven && sudo curl http://mirror.csclub.uwaterloo.ca/apache/maven/maven-3/3.2.5/binaries/apache-maven-3.2.5-bin.tar.gz > apache-maven-3.2.5-bin.tar.gz
 tar zxvf apache-maven-3.2.5-bin.tar.gz

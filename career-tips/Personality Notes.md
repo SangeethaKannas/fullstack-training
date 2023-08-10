@@ -11,37 +11,36 @@
 
 6. Put people first. Even during tough times, always take care of those around you.
 
-
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-#1. Buy experiences not things
+1. Buy experiences not things
 
 Experts believe that spending money on experiences such as a vacation or adventure sports, produces happiness that lasts longer compared to spending the same money on physical things. The reasoning is that experiences stay in the memory longer, and can’t be compared with someone else’s experience.
 
 So the next time you want to remember fondly what you spent your money on, try a road trip instead of a new smartphone whose technology will be obsolete in less than a year.
 
-#2. Spend on others
+2. Spend on others
 
 Research has found that spending money on others, generally friends or family, helps you derive greater happiness as compared to spending on yourself. So treat your loved ones to a great gift and let their happiness add to your own.
 
 Giving to charity and sharing your wealth with those who need help, is another great way to derive meaningful joy.
 
-#3. Buy happiness in bite sized pieces
+3. Buy happiness in bite sized pieces
 
 Small indulgences such as a one off ice-cream or even a head massage the next time you go to a hair salon are likely to give you greater joy than a one-off big ticket purchase. The key is to go for small things that give you several small bursts of happiness.
 
-#4. Buy what you like, not to keep up with others
+4. Buy what you like, not to keep up with others
 
 Buying based on what you like versus trying to keep up with your peers has been shown to provide greater joy. Your individuality, when it reflects in the things you buy, tends to bring greater satisfaction to you.
 
-#5. Buy more free time
+5. Buy more free time
 
 Spend on outsourcing things which save you time such as on hiring a maid or a cook. You will have more time to spend on things you like to do rather than boring chores which you would rather avoid.
 
-#6. Spend on your passion or hobbies
+6. Spend on your passion or hobbies
 
 Spending on something you enjoy doing, such as spending on a sports club membership, Lego sets, or even video games, can directly enhance your happiness.
---------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 
 ### Experience
 The first time nearbuy went to hire from ISB, we had to find a way of creating a buzz on the campus.
@@ -103,7 +102,8 @@ And thus the rules laid out by someone else.
 The world does not need another template.
 The world needs a rebel.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
+
 1. He was always punctual. I cannot remember a day that he was late even by a minute. He may come few minutes early but never late. Respect for time is very important to build a great reputation.
 
 2. He was always regular. In 8 years, he has never taken a single day off. Very rarely he needs a leave but always informs well in advance. Commitment and dependability is very important in customer service.
@@ -139,7 +139,6 @@ Consistent actions (short term) ⇒ Crack marketing channels for your startup (l
 
 3. Write 1 newsletter every week ⇒ Email audience
 
-
 Now, become obsessive about your time.
 Do your work diligently, but spare as much time as you can after that. Your nights, weekends, holidays. Whatever you can manage.
 And use that time to explore.
@@ -158,6 +157,7 @@ Which is when you can say no to your job.
 What often comes as lack of clarity, goes away when we free ourselves from any pressure to make things work. Which is when things do work out!
 
 ----------------------------------------------------------------------------------------------
+
 At times all you need is not only to push yourself a little bit more, but to accept that you’re facing a burnout, a creative block, a gloomy day to not do anything else but to wake up & still make yourself a plate of good food, turn on your laptop just to browse through your emails & do nothing else… allow yourself a good afternoon nap on a Saturday afternoon & come back to LinkedIn to share your burnout with your connections!
 
 Burnout is real. The only way to overcome is to accept it. Allow yourself a creative break. Sleep enough. Drink water. That’s it.
@@ -171,7 +171,5 @@ Your circle of people can define the motivation inside you, the goals you set, t
 
 > Self- worth is subjective. Not a metric for comparison.
 A lot of variables contribute to your journey. You can’t compare each and everything. Accept the unique path you are on and move ahead taking inspiration from others’ journeys.
+
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-

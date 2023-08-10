@@ -1,217 +1,282 @@
+Start investing today
 
-Progressive Web apps
-Web accesibility
-Reactive programming like RxJS
-GraphQL Tools Apollo
-NextJS and express
-API Documentation using swagger
+Get insured - Medical and Life insurance Amway   Term Insurance
+Emergency Funds
+Right Career Choice
+Invest in yourself - Medical
+Plan for retirement
+Debt free
+education and marriage
 
-Chromium Dev Tools are your best friend,and you just love to optimise for maximum Lighthouse scores
-Optimising components for maximum performance across a vast array of web- capable devices and browsers
-You know how to build,bundle,lazy-load ES modules,etc. You have at least a minimum of 2 years of solid hands-on experience with React and the React ecosystem
+Kidney
 
-You're aware of semantics in HTML - in fact, you try to apply semantics to your HTML structures.
-You have a solid grasp of CSS3 and understand CSS grids, flex, layering and CSS selector specificity.
+Vitamin B6 
+Magnesium
 
-Swagger/OpenAPI and are used to having a highly autonomous position as a dedicated frontend developer
+Caffeine
+Pain Killers
+Highprotien diet
+Overwork during cough and cold
 
 
-Strong skills in programming structures, algorithms, design patterns, and standard (W3C) Web UI APIs
-Oriented to details and software best practices & patterns
-Experience with RESTful backend applications (like NodeJS/Express)
-Experience with GraphQL tools (like Apollo)
-Knowledge of the following types of frameworks/libraries/languages:
-Web Application Platforms:
-Experience with React or other Single Page Application libraries.
-ES6+, TypeScript.
-Async Module Definition (like AMD, requireJS, commonJS).
-CSS Pre-Processors (like SASS, LESS).
-Application state management (like Redux).
-Reactive Programming (like RxJS)
-Build tools like Webpack, Gulp, Grunt
-Minification, Aggregation, and Fingerprinting (Gulp/Grunt)
-Node (NPM)
-Experience with frameworks for Server Side Rendering (_NextJS, Express)
-Server-Side Rendering (like Express)
-API documentation using Swagger
-Platforms:
-NoSQL (MongoDB, Cassandra, Redis)
-Testing frameworks (Jasmine, Karma, Protractor)
-Docker & Kubernetes, CircleCI, AWS, Heroku
-Other
-Cross-browser techniques.
-Experience with different databases (SQL/NoSQL)
-Experience with PWA (Progressive Web Apps)
-Debugging with tools like (Chrome Dev Tools, Web Inspector).
-Responsive design implementation across devices, platforms, screens, etc.
-Browser performance auditing and tuning.
-Demonstrated skills using distributed code repositories (Git, Perforce, BitBucket) with code reviews.
-Experience with UNIX systems and terminal
-Experience working within Scrum / Kanban.
-Web Accessibility.
+Toothpaste vs cocunut oil - Oil Pulling - one teaspoon
+Kathhai gel
+Sun Screen
+No Tea/Cofee --> Fruits and Vegetables
+Less Salt
+Sound Sleep
 
+Sivappu Santhanam
 
-1. Learn basic HTML
-2. Add styling with CSS
-3. Build 3-5 static websites
-4. Learn basic JavaScript
-5. Learn a JS framework like Vue or React
-6. Build 3-5 small apps in that framework
-7. Put everything together in a portfolio
-8. Start applying
 
-Somewhere in-between you should also pick up git and basic terminal usage.
 
-Now how long it's gonna take to become job ready is completely dependent on the time and effort you can put in.
 
 
-Want to learn DSA - Search Abdul Bari and GFG
 
-Want to learn System Design - Nobody can come close to Alex Xu. Follow him religiously. Also you can take a look at Grokking
+#1 Start a Holiday fund
 
-Round 1 (Basic JS Round):
+Start your travel planning by starting a holiday fund. Investing will make your money work for you while you work hard towards that holiday.
 
-🤝 Started with introductions and discussed my work experience.
-💻 Technical questions covered Promises, asynchronous behavior, and generator functions.
-🔍 Asked to write a polyfill for the reduce function (already practiced!).
-🖇️ Question on object manipulation (specific details not recalled).
-💬 In-depth discussions and arguments on pure functions and currying concepts.
+For short term goals such as these a debt fund can be useful
 
-After completing the first round, I was given a half-hour break and asked to rejoin the same link for the next round.
+#2 Befriend and follow your airline
 
-Round 2 (Security and React):
+Dynamic pricing is a necessary evil when taking flights and the only way to beat it is by booking early. But sometimes booking early isn’t the best option as you miss out on the various offers which come up during off peak seasons. Today all airlines are active on social media; follow their accounts. They often have preview sales and offers for their newsletter members prior to a public announcement.
 
-🔒 Focus on web security, including knowledge about attacks and defense mechanisms.
-🛡️ Questioned about web security fundamentals, such as common attacks like XSS (Cross-Site Scripting) and ransomware.
-💡 Discussed the security principles followed in my organization and the security considerations while coding on the frontend.
-⚛️ Explored React's lifecycle methods and their significance in maintaining secure web applications.
-📚 Asked about component design considerations, such as minimizing security vulnerabilities and ensuring data privacy.
+Set alerts on airline ticketing aggregator websites for the routes you wish to travel, this will ensure you get information not only on your regular airline but the best rate for that period.
 
-✍️ Requested to write a generic memoization function to test problem-solving skills.
+#3 Go off the beaten track
 
-I honestly admitted that I was familiar with the terms but lacked practical experience. However, I expressed my willingness to learn and enhance my understanding of security.
+Road travel is always a great hit, with the flexibility it provides to stop and explore as you travel. With your own vehicle, the only major cost tends to be fuel. Water is another great travel option and sea cruises are becoming quite popular and sometimes cheaper too.
 
-Soon after, the HR representative joined the call and informed me that if I were selected, I would receive an invitation for a managerial interview within the next two hours. At that moment, I felt burnt out and uncertain about my chances of being selected, considering my performance in the security-related questions.
+#4 Stay down to earth
 
-Managerial Interview and HR Wrap-Up:
+The best travel experiences are those which happen when you let yourself immerse into the local culture, and staying with the locals is the best way to make that happen.
 
-💼 Interviewed by the manager who explained the project and asked about a feature I was proud of.
-📊 Provided a detailed explanation and even drew a flow chart to illustrate the feature's flow.
-💬 Discussion about conflict resolution within a team and handling team dynamics.
-🤝 HR informed me that if selected, I would receive an invitation for the next round within two hours.
+If you are staying with your family, however, a better option would be to look up home stays on hotel aggregator websites. These could be less expensive than standard star hotels and still give you a more immersive experience. Do, however, check reviews before booking.
 
+#5 Volunteer your time
 
-UI References
+Many destinations have volunteering vacations where travellers can work in the destinations for any period of time and contribute to the local community. These are budget vacations where the travellers can exchange expertise for food and even stay.
 
-https://www.studiorhe.com/ - menu
+#6 Locals know their food best
 
-https://www.hortioutdoor.com/ - logo scrolling
+Many travelers tend to order their comfort food even at locations where it is nowhere near the local food, like ordering Punjabi food at a restaurant in Chennai. Just because it’s listed on the menu doesn’t mean it’s good.  Always ask the waiter for local delicacies, they give you a flavour of the cuisine as well as are cheaper.
 
-https://sctconsulting.com.au/
+Use restaurant rating apps curated by locals, they will let you find those hidden gems with the best gastronomic experiences.
 
-https://www.kpff.com/
+#7 Be safe and healthy
 
-https://www.hustonengineering.com/ - hero scrolling
+It is best to stock up on your prescribed medication as it may not be available at your holiday destination or maybe priced exorbitantly.
 
-https://www.stellardevelopment.eu/ - menu
+In foreign locations, healthcare can be expensive without local insurance and it’s best to keep over the counter medication for common ailments. Do keep in mind local laws with regards to medication as what’s over the counter in India might be a restricted drug abroad.
 
-https://csd.sagirov.com/
+#8 Cash or card for shopping
 
-https://corespaces.com/ - scrolling
+Travelers usually refrain from carrying a lot of cash on themselves and quite rightly so. Your debit card can be used to withdraw cash in the local currency almost everywhere across the world. However, with a user fee of 3.5% it’s advisable to withdraw larger sums, and rarely if you do so.
 
-https://www.gtispartners.com/
+When shopping, use credit cards as it’s easier to cancel any transactions in case of any problems with the vendor whereas remittance of money back to your account through a debit card may take time.
 
-https://www.builderproptech.com/ - logo pattern bg
+#9 Souvenirs, smart or not
 
-https://www.artmeta.org/ - logo scrolling
+Ensure that the souvenirs you buy are unique to the destination and not easily available everywhere. If they are made of precious materials, it is best if they are bought at government approved stores as there is a lesser chance of fraud and even their prices would be regulated.
 
-https://www.alukaze.com/
+#10 Don’t get stressed out
 
-https://yays.com/
+Planning for the vacation is known to be as therapeutic as the vacation itself but in a bid to make the best of the vacation, travelers tend to plan too much and end up with a packed itinerary. Be a traveler, enjoy the road less traveled and pick up experiences as you go along.
 
-http://www.mrozinskiconstruction.com/
 
-https://gmcontractors.co.uk/
 
-https://strana-wow.com/en - menu
+#1. Quality and Credibility
 
-https://www.jdgconstructions.com.au/
+Shop from a website which has a good reputation in the market. Purchase products of reputed brands, instead of purchasing solely on the basis of offers, discounts and deals.
 
-https://www.studiomotio.com/
+If an offer seems  too good to be true, it probably is. Get a detailed understanding of the deal to avoid loopholes in it.
 
-https://dinamicaplataforma.com/
+#2. Use plastic money instead of Cash on Delivery
 
-https://www.blackfin-tech.com/
+For new shoppers, cash on delivery seems like a safe option as they have to dispense with cash only when they have the ordered product in their hands. However, shopping online during sale season using your credit card or debit card will reap you a number of benefits.
 
-https://en.ogkgroup.ru/
+First and foremost, using plastic money when making purchases online helps accumulate points on your card, as well as on your registered account on the merchant website. These points can be redeemed for future purchases.
 
-https://www.exonetik.com/ - hero scrolling
+A lot of websites also have a number of different cash back offers and tie ups with various banks. These benefits can be availed using your card.
 
-https://www.quonota.com/ - logo pattern
+Warning: Do not go overboard just because it is plastic money. Falling into the credit card debt trap will ruin your future Diwalis.
 
-https://rnd.nlmk.com/en/
+#3. Informed and comparative shopping
 
-https://www.ocs.plus/
+Before you buy a product, find information and product reviews. To get the best possible deal, do a price comparison on different websites.
 
+If you are looking for a particular category of product, list down all the brands of that product with a positive feedback, and compare all the offers available on the listed brands, on various retail websites.
 
+This will help you get the best price and deal on that product without compromising on quality. This option is valid only if you have the time or the inclination as it is quite tedious to compare across websites.
 
-1. Communication:
+#4. Shop with patience
 
-• Listen without interrupting.
-• Speak with a positive tone.
-• Pay attention to your body language.
+Don’t make impulsive purchases just because of offers and discounts. Always look to get value for your money, and refrain from buying products you don’t need.
 
-2. Self-awareness:
-• Be curious about how your mind works.
-• Pay attention to your thoughts and feelings.
-• Identify which situations or events trigger specific reactions.
+#5. Shipping and other charges
 
-3. Time management:
-• Learn to prioritize.
-• Learn to delegate.
-• Learn to say no.
+When placing an order online, consider the shipping and other incidental costs being charged on that product. Most websites provide free shipping beyond a certain purchase value.
 
-4. Storytelling:
-• Identify what problem people are trying to solve.
-• Show them how you will help them solve the problem.
-• Identify the right emotions that will help your audience go from understanding their problem to accepting you as the solution.
+#6. Promotional and coupon codes
 
-5. Grit:
-• Pick a long-term goal.
-• Practice it every day.
-• Identify ways to maintain motivation when the going gets tough and you hit a block.
+One of the most convenient ways to get promotional and discount codes is by registering on retail websites and subscribing to promotional updates. Go to a search engine and enter the website name along with the phrase “promotional code” or “coupon code”. This could get you codes of various deals and discounts on different products on that website.
 
-6. Prioritizing:
-• Create a list of everything you have to do.
-• Rank things by urgency and importance.
-• Do things that are urgent and important.
-• Delegate, schedule, or delete everything that isn't urgent and important.
+All reputed retailers have a page on social media network. Subscribe to or like these pages to get regular information regarding discount codes, special sales and other promotions.
 
-7. Decision-making:
-• Take a step back when faced with a big decision.
-• Identify the key emotions and biases affecting the decision.
-• Create a list of all the available options.
-• Understand the short and long-term consequences of each option.
-• Decide accordingly.
+Having access to discount codes and coupons is not enough. Use these coupons strategically and smartly for maximum benefit and savings. This is vital when availing multiple coupons on the same order. When using more than one code, the target must be to get the maximum possible discount on that particular purchase.
 
-8. Connecting the dots:
-• Go deep into a subject or field of interest.
-• Then explore other fields similar to yours.
-• Read widely and talk to people in these new fields.
-• Zoom out and identify recurring patterns of failures and success across these fields to connect the dots.
+#7. Avoid the trap of dynamic pricing
 
-9. Emotional intelligence:
-• Never act impulsively.
-• Take a step back when you're upset.
-• Understand what you're feeling.
-• Act accordingly.
+Dynamic pricing is pricing of products done by the retailers based on your location, browsing habits, spending pattern, demand of the product and so on. To avoid falling prey to this pricing system, ensure you clear your browsing history and cookies and log out of your email and social media accounts, before you shop online.
 
-10. Resilience:
-• Do more things you are not qualified to do.
-• Reframe every failure as a learning opportunity.
-• Keep repeating this till you convert failure into success.
+Note: The most important thing you should remember is your spending this festive season should not come at the cost of your retirement, or other financial goals. Spend only what you can afford to after you have saved. You can actually save for “festive spending” by investing in liquid funds.
 
-11. Thinking clearly:
-• Learn the fundamentals of statistics and probability.
-• Understand the fundamental psychological biases that undermine your thinking ability.
-• Identify the fundamental biases undermining your thinking and be aware of them.
+
+
+SBI Blue Chip Fund (G) (NEW)
+ICICI Prudential Value Discovery Fund (G) (NEW)
+Kotak Select Focus Fund (G)
+UTI Equity Fund (G)
+
+
+
+#1. Subscribe to a finance blog
+
+And No, the blog doesn’t have to be ours. There are quite a few options out there.
+
+How does it help: We are not taught financial education as part of our school curriculum. How can you expect to really grow your wealth without knowing the basics of saving and investing? 
+
+#2. Unlock the power of “72”
+
+How does it help: Unless you know, what is your actual financial worth, how can you think of growing it? Add all your cash, FDs, Mutual Fund, Equity Holdings, and Saved Annual Income. Subtract from this all your debts. This is your financial net worth. Now use the rule of 72. 
+
+The rule of 72 states that if you divide 72 by the compounded annual rate of return, you get a rough estimate of when your money will double. So at 8% (what most debt instruments provide), your money will double in 9 years. But this is not considering inflation. If you want to grow your money faster and in a tax free manner, you might want to consider equity(12%-16%).
+
+#3. Mobilize unused money lying in your bank account and move it into a liquid mutual fund
+
+How does it help: Most people fall in love with their bank balance once it starts approaching a “nice looking” figure. While a big balance looks nice, if you have more money sitting there than you need in a 3 month period, you are losing out on interest.
+
+Move your unused cash into a liquid mutual fund to begin with, and then you can decide whether you want to invest in more long term instruments.
+
+#4. Repeat the above three steps for your family or close friends
+
+How does it help: For most of us financial growth doesn’t happen in isolation. The way our family members grow wealth impacts us as well. Help out your family members and close friends figure out these money hacks and improve their relationship with their own money.
+
+#5. Use MOOCs to up-skill yourself
+
+How does it help: The most effective way to grow your money, is increasing your salary. How much you make is dependent on, among other things, your experience and skills. While experience is something you can’t control, you can always learn new skills related to your work.
+
+MOOCs or Massive open online courses are gaining popularity and acceptance among companies. These courses are often free or priced attractively. Finding and enrolling for a MOOC requires just one lunch break at work.
+
+Related Posts:
+
+
+
+#1. Buy experiences not things
+
+
+Codecourse
+Codecourse helping you learn to code for web development for free. There are videos about making awesome CSS using Bourbon & Neat, bulding MVC applications in PHP from scratch, and learning material for PHP from the basics up to practical application.
+
+Things you can learn: PHP, CSS, Hosting.
+
+
+Dev Tips
+DevTips gives you weekly tutorials and each video covers a topic thoroughly yet in an easy-to-follow manner. You can go into the basics such as HTML and CSS, CSS positioning, and others. The creator also devulges his experience in developing his personal website, from finding ideas, wireframing, creating web components to the final result.
+
+Things you can learn: HTML, CSS, JavaScript.
+
+
+Level Up Tuts
+Scott Tolinski runs this channel, covering CSS Styling and web-building, frameworks such as AngularJavaScript, CMS like WordPress or Magento. and more. On design, he covers tutorials about the Sketch app, giving some sketching tips and guides to using some features. He releases a new video twice a week.
+
+Things you can learn: HTML, CSS, JavaScript (AngularJavaScript, Meteor), PHP, Design (Sketch 3).
+
+
+JREAM
+JREAM regularly provides programming courses with many topics there that you can learn, covering both front-end development (CSS, JavaScript, jQuery, Gulp) and back-end development (PHP OOP). Sometimes there are also videos on useful tips, such as advice on writing good code and new topics such as Windows 10.
+
+Things you can learn: CSS, JavaScript(NodeJavaScript, jQuery), PHP, MySql, Design (Photoshop, Illustrator).
+
+
+LearnCode.academy
+A channel that can help you become a Pro web developer, with topics ranging from the basics to what is emerging today – all about web development. You will learn the basics of HTML, JavaScript fundamentals, jQuery, CSS, and Modular JavaScript or ES6 Cheatsheet. There are also tutorials on how to use multiple Pro WebDev tools.
+
+Things you can learn: HTML, CSS, JavaScript (including Node.JavaScript, Angular.JavaScript, Backbone.JavaScript), Server Administration, Deployment Strategies.
+
+
+Mackenzie Child
+Mackenzie Child covers various topics in web development, from design to coding to launching web apps on Ruby on Rails. There are screencasts about Ruby on Rails in 12 different applications, ranging from blogs, to-do apps to Pinterest clones on Rails.
+
+Things you can learn: Ruby on Rails.
+
+
+Derek Banas
+Derek Banas presents a video tutorial on programming in many languages. Interestingly he covers the topic of programming languages in the video as a whole. You can see a tutorial on Object Oriented JavaScript, CSS and SASS, Ruby, Go, Swift, Visual C#, Haskel, Dart, Scala and other languages.
+
+Things you can learn: CSS, JavaScript, Ruby, Go, Swift, Visual C#, Haskel, Dart etc.
+
+
+StartHere.fm
+StartHere.fm is a podcast channel about web development. The topics presented include: introduction to HTML and CSS, JavaScript, PHP, Rails and also about design (prototyping, wireframing, UX).
+
+Things you can learn: HTML, CSS, JavaScript, Ruby on Rails.
+
+
+Tuts+ Web Design
+Tut+ creates video courses and tutorials to help you learn and master skills in web design. You can learn much here, including mastering Bootstrap, layout on Photoshop and Dreamweaver, build a responsive layout, implement SASS and Compass, making themes for Tumblr, and more. The in 60 Seconds videos make many topics very simple.
+
+Things you can learn: HTML, CSS, Design (Photoshop, Dreamweaver).
+
+
+Adam Khoury
+Here is a free video course from Adam Khoury, that aims to help you in mastering web development technologies such as JavaScript, PHP, SQL, HTML, CSS and others.
+
+Things you can learn: HTML, CSS, JavaScript, PHP, SQL.
+
+
+Coder’s Guide
+On Coder’s Guide you can learn computer programming more broadly. You can start from HTML/CSS and JavaScript then move on to more advanced topics such as responsive websites and applying WordPress themes with Bootstrap. Also available are videos on Java programming and VisualBasic.
+
+Things you can learn: HTML, CSS, JavaScript, PHP, Java, VisualBasic.
+
+
+Brad Hussey
+Check out this channel by Brad Hussey which feaures free courses on coding for web development. The topics include: building websites from scratch using HTML and CSS, responsive web with Bootstrap, coding dynamic websites using PHP and others. Also included are videos about web hosting, and even how to be a great freelancer.
+
+Things you can learn: HTML, CSS, JavaScript, PHP.
+
+
+Google Chrome Developer
+Google Chrome Developer shows web development best practice, HTTP 203, Polycast (about Google Polymer) and a very interesting tool tips series that shows you good tips for using many web fundamental apps or tools.
+
+Things you can learn: HTML, JavaScript, Google Polymer.
+
+
+CodeGeek
+CodeGeek is a channel that talks about events, tutorials, courses and webinars about coding and web development. The contents shared here are related to AngularJs, NodeJS, JavaScript, NodeJS Frameworks, PHP, Python, MongoDb, NoSQL, Couchbase, SQL Server and more.
+
+Things you can learn: JavaScript and frameworks (Angular, NodeJS), PHP, Python, Database (MongoDB, NoSQL and more).
+
+
+Google Web Designer
+
+Things you can learn: Design, HTML, CSS, JS.
+
+CSS Tricks
+This is the YouTube Channel for CSSTricks.com made by Chris Coyier. The channel shows screencasts mainly about web design related topics, including CSS, Responsive design, SVG and others. There are also screencasts about WordPress Development.
+
+Websites to ask questions
+
+1. Stack overflow
+2. Quora
+3. Reddit
+4. Stack Exchange
+5. CodeProject
+6. Google Groups
+7. Google Ranch
+8. Programmers Haven
+9. findNerd
+10. Chegg

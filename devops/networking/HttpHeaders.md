@@ -1,5 +1,4 @@
-
-HTTP Headers for responsible developer
+# HTTP Headers for responsible developer
 
 Key-Value pairs - request and response
 

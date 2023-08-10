@@ -72,3 +72,51 @@ Courses
 10. Template
 11. Iterator
 12. State
+
+### Front end references
+UI References
+
+https://www.studiorhe.com/ - menu
+
+https://www.hortioutdoor.com/ - logo scrolling
+
+https://sctconsulting.com.au/
+
+https://www.kpff.com/
+
+https://www.hustonengineering.com/ - hero scrolling
+
+https://www.stellardevelopment.eu/ - menu
+
+https://csd.sagirov.com/
+
+https://corespaces.com/ - scrolling
+
+https://www.gtispartners.com/
+
+https://www.builderproptech.com/ - logo pattern bg
+
+https://www.artmeta.org/ - logo scrolling
+
+https://www.alukaze.com/
+
+https://yays.com/
+
+http://www.mrozinskiconstruction.com/
+
+https://gmcontractors.co.uk/
+
+https://strana-wow.com/en - menu
+
+https://www.jdgconstructions.com.au/
+
+https://www.studiomotio.com/
+
+https://dinamicaplataforma.com/
+
+https://www.blackfin-tech.com/
+https://en.ogkgroup.ru/
+https://www.exonetik.com/ - hero scrolling
+https://www.quonota.com/ - logo pattern
+https://rnd.nlmk.com/en/
+https://www.ocs.plus/

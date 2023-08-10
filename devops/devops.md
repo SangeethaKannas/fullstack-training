@@ -35,7 +35,6 @@
 
 10. Instead it creates segment files and then appends them to that file until it reaches 1GB(configurable). When all messages in the segment expire, it deletes the entire segment.
 
-
 ### AWS
 AWS Glue Basic Concept!!!
 

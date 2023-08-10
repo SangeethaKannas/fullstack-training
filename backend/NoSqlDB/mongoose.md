@@ -27,11 +27,8 @@ Buffer, Mixed, ObjectId, and Array.
 Mongoose schemas
   References using objectId
   
-  
-
 find
    where, and, limit
-   
    
 findByIdAndUpdate
 
