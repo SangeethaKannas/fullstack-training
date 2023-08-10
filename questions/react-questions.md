@@ -649,3 +649,44 @@ fs.appendFile('log.txt',___________________(process.argv[2]) + "\n",
 For example, when "node main.js 68" is executed, "20" should be appended to the log.txt.
 
 https://speckyboy.com/page-transition-effects/
+
+
+React Js Interview Question
+● What is React js
+● What is difference between virtual dom and shallow dom, dom in React js
+● What is controlled and uncontrolled component in React js
+● What is hooks in React js
+● What is jsx, babel, webpack
+● What is Redux
+● What is reducer , action, store in Redux
+● What is middleware in Redux
+● Explain data flow in Redux
+● What is Redux-Thunk
+● What is Redux-Saga, Difference between Redux-thunk and Redux-saga
+● Difference between class component and function component
+● How can we implement componentWillUnmount in function component
+● useEffect,UseState,useMemo.useCallback hooks in Details
+● Explain lifecycle method in React js
+● What is difference between export default and export in React js
+● What is portal in React js
+● What is reconciliation in React js
+● What is useRef in React js
+● What is server side render in React js
+● What is useStrict in React js
+● What is fragment in React js
+● What is react router in React js
+● What is node module in React js
+● What is the default localhost server port in react js.
+how can we change the local server port
+● What is high order component in React js
+● What is pure component in React js
+● What is difference state and props in React js
+● How to optimize React js app
+● What is difference between React js and Angular js
+● What is prop drilling in React js how to overcome it
+● What is context api in React js
+● What is super, constructor , render function in React js
+What is Pure component
+Explain about Redux architecture
+What is props and Can we change props value
+How will communicate between parent to child and vice versa

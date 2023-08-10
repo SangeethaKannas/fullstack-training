@@ -1,44 +1,14 @@
-React Js Interview Question
-● What is React js
-● What is difference between virtual dom and shallow dom , dom in React js
-● What is controlled and uncontrolled component in React js
-● What is hooks in React js
-● What is jsx, babel, webpack
-● What is Redux
-● What is reducer , action, store in Redux
-● What is middleware in Redux
-● Explain data flow in Redux
-● What is Redux-Thunk
-● What is Redux-Saga, Difference between Redux-thunk and Redux-saga
-● Difference between class component and function component
-● How can we implement componentWillUnmount in function component
-● useEffect,UseState,useMemo.useCallback hooks in Details
-● Explain lifecycle method in React js
-● What is difference between export default and export in React js
-● What is portal in React js
-● What is reconciliation in React js
-● What is useRef in React js
-● What is server side render in React js
-● What is useStrict in React js
-● What is fragment in React js
-● What is react router in React js
-● What is node module in React js
-● What is the default localhost server port in react js.
-how can we change the local server port
-● What is high order component in React js
-● What is pure component in React js
-● What is difference state and props in React js
-● How to optimize React js app
-● What is difference between React js and Angular js
-● What is prop drilling in React js how to overcome it
-● What is context api in React js
-● What is super, constructor , render function in React
-js
+
+Design Questions
+42:How to design a chat system
+43:How to design a listing page like amazon
+44:How to design a search box
+45:How to design carousal
+
 HTML interview question
 ● What is <!Doctype html> in Html5
 ● What is difference between div and span in Html
 ● What is semantic tags and non semantic tags in
-Html
 ● What is difference between html and html5
 ● What is Iframe tag in Html5
 ● What are the formatting tags in html
@@ -46,71 +16,58 @@ Html
 ● What is view port attribute in html
 ● What is attribute in html
 ● What is block level element and inline element in
-html
-● What is difference between Html and Html5
+
 Css Interview Question
 ● What is difference between css and css3
-● What are the selector in css
-● What is media query in css
-● What is different position in css
-● What is bom in css
-● What is difference between PX,unit,em,rem in
-css
-● What is flex box in css
-● What is pseudo selector in css
+● What are the selector
+● What is media query
+● What is different position
+● What is bom
+● What is difference between PX,unit,em,rem
+● What is flex box
+● What is pseudo selector
 ● How to make website responsive
-● What are breakpoint for viewport responsive
-device
-● Why we use box-sizing in css
+● What are breakpoint for viewport responsive device
+● Why we use box-sizing
+
 Javascript interview Question
-● What is Ecmascript in Javascript
+● What is Ecmascript
 ● What is difference between let ,cons and var
-● What is spread operator, Rest operator ,
-default parameter
-● What is deep copy and shallow copy in
-Javascript
-● What is promise , callback function , async await
-in in Javascript
-● What is difference between promise and
-callback in Javascript
-● What is event bubbling and event capturing in
-Javascript
-● What is higher order function in Javascript
-● Explain different-2 types of function in Javascript
-● What is arrow function in Javascript
-● Why we use call, apply bind method in
-Javascript
-● How many way to create object in Javascript
-● What is prototype inheritance in Javascript
+● What is spread operator, Rest operator, default parameter
+● What is deep copy and shallow copy
+● What is promise, callback function, async await
+● What is difference between promise and callback
+● What is event bubbling and event capturing
+● What is higher order function
+● Explain different-2 types of function
+● What is arrow function
+● Why we use call, apply bind method in Javascript
+● How many way to create object
+● What is prototype inheritance
 ● What is typescript
-● What are the array method , string method
+● What are the array method, string method
 ● What is difference between java and javascript
 ● What is throttling and debouncing in js
 ● What is Null and undefined in javascript
 ● What are the falsy values in javascript
-● What is execution context, event loop ,stack,
-call queue,microtask queue in Javascript
-● What is setTimeOut and setInterval in Javascript
-● What is object.seal and object.freeze in
-Javascript
-● What is difference between map and set in
-Javascript
-● What is Weakmap and Weakset in Javascript
+● What is execution context, event loop, stack, call queue,microtask queue
+● What is setTimeOut and setInterval
+● What is object.seal and object.freeze in Javascript
+● What is difference between map and set in Javascript
+● What is Weakmap and Weakset
 ● What is sessionStorage, localStorage , cookie,
 ● Write a program to sort an array
-● What is use of json.stringify and json parse()
-method in Javascript
+● What is use of json.stringify and json parse() method
 ● What are is map, filter , reducer in javascript
-● What is generator function in Javascript
-● How to stop event propagation in Javascript
-● What is closure in Javascript
-● What is housing in Javascript
-● What is dead zone in Javascript
-● What is function currying in Javascript
-● What is mutation observer in Javascript
+● What is generator function
+● How to stop event propagation
+● What is closure
+● What is housing
+● What is dead zone
+● What is function currying
+● What is mutation observer
 ● What is memorization in javascript
-● Write a program to find element occurence in
-array
+● Write a program to find element occurence in array
 const arr = [1,1,2,3,1,4]
 const count = {};
 for (const element of arr) {
@@ -121,8 +78,7 @@ count[element] = 1;
 }
 }
 console.log(count); // 👉 {1: 3, 2: 1, 3: 2}
-● Write a program to remove duplicate item
-from array
+● Write a program to remove duplicate items from array
 const arr = [1,2,3,4,1,2];
 const b=[];
 for(let i=0;i<arr.length;i++){
@@ -201,7 +157,7 @@ console.log(i);
 }, i * 1000);
 }
 Write a program to multiply two number without
-using multiply Sign in Javascript
+using multiply Sign
 function multiplay(a, b) {
 let answer = a;
 for (let i = 0; i < b - 1; i++) {
@@ -346,15 +302,7 @@ console.log("polyfil", sumOfArray);
 33:Since both promise and setTimeout is async function which will execute first if both is available in queue at time T.
 34:what is job queue
 35:ES6 feature - What is arrow function and when we have to use it, How it is different from normal function
-36:What is Pure component
 37:What is Middleware
-38:Explain about Redux architecture
 39:What is Modular design pattern
 40:What is CORS issue
 41:How to improve web performance and how will you optimize code
-42:How to design a chat system
-43:How to design a listing page like amazon
-44:How to design a search box
-45:How to design carousal
-46:What is props and Can we change props value
-47:How will communicate between parent to child and vice versa
