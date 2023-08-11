@@ -112,3 +112,29 @@ console.log(pipedPlayerName); // VIRAT
 
 GitHub repo name - "JavaScript-with-JC"
 GitHub repo link - https://lnkd.in/dX8nuf5D
+
+
+#### Angular Upgrade
+
+
+ng update @angular/cli@7 @angular/core@7
+ng update @angular/material@7
+
+
+
+hould test your application for sizing and layout changes. 
+4. Check the updated file in application and push that file to git. 
+5. Update to version 8 of the core framework and CLI by running ng update @angular/cli@8 @angular/core@8 in your terminal and review and commit the changes. 
+6. Update Angular Material to version 8 by running ng update @angular/material@8 in your terminal. Upgrade Information: Many changes will be done once you upgrade application with angular 8 version. a) Angular will use TypeScript 3.4 in angular8. b) Instead of importing from @angular/material, you should import deeply from the specific component. E.g. @angular/material/button. ng update will do this automatically for you. c) Lazy loading dynamic import will update automatically. 
+
+7. Use git status command and check the updated file and push that changes to git. 
+
+8. Run ng update @angular/core@9 @angular/cli@9 which should bring you to version 9 of Angular. 
+9. Run ng update @angular/material@9. 
+Upgrade Information: During the update to version 9, your project was transformed as necessary via code migrations in order to remove any incompatible or deprecated API calls from your code base. You can now review these changes, and consult the Updating to version 9 guide(https://v9.angular.io/guide/updating-to-version-9). - Remove any es5BrowserSupport flags in your angular.json and set your target to es2015 in 
+your tsconfig.json. Angular now uses your browsers list to determine if an ES5 build is needed. ng update will migrate you automatically. - Angular 9 ivy is default rendering engine. - Angular 9 introduced a global $localize() function that needs to be loaded if you depend on Angular's internationalization (i18n). Run ng add @angular/localize to add the necessary packages and code modifications.( https://v9.angular.io/guide/migration-localize) 
+10. If you use TestBed.get, you should instead use TestBed.inject. This new method has the same behaviour, but is type safe 
+11. Use git status command and check the updated file and push that changes to git. 
+12. Run ng update @angular/core@10 @angular/cli@10 which should bring you to version 10 of Angular. 
+13. Run ng update @angular/material@10. 
+14. Run you application and check you all feature are working fine or not. Note: This is the generic document for migrate A6 to A10. You might be get error while migrating the application please check your third party dependency and resolved accordingly. 
