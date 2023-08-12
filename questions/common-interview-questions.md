@@ -306,3 +306,14 @@ console.log("polyfil", sumOfArray);
 39:What is Modular design pattern
 40:What is CORS issue
 41:How to improve web performance and how will you optimize code
+
+let book = { 
+
+    printTitle() {
+        let title = ''
+        console.log(`Title ${this.title`});
+    }
+    
+}
+
+setTime(book.printTitle, 100)
