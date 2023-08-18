@@ -59,3 +59,14 @@ As long as you're proactive in knowing what you're doing, these freelance platfo
 6. Don’t go for the free trials
 7. Don’t lose hope after applying to 5-10 projects. Remember “Patience is another important key”. Keep knocking on the door until it opens.
 
+
+## Remote job skills
+7 SKILLS Every remote worker should master 
+Be proactive and independent
+1 Communication Learn to communicate asynchronously
+2 Emotional Intelligence        Deploy empathy to colleagues
+3 Digital Proficiency       Adapt to different tool sets easily
+4 Sales      Develop your brand and ability to influence
+5 Self Motivation   Maintain your focus, organization, and schedule
+6 Hard Skills   Develop expertise directly related to your job role
+
