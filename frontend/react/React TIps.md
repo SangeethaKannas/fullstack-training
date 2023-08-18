@@ -188,3 +188,26 @@ function NestedComponent() {
 }
 
 Remember that you only have to have a handful of truly global values, while everything else should be more localized.
+
+##### React tips
+React Lifecycle
+UNSAFE_componentWillReceiveProps
+
+static getDerivedStateFromProps()
+
+, Z = "function" == typeof Symbol && Symbol.for
+, J = Z ? Symbol.for("react.element") : 60103
+, ee = Z ? Symbol.for("react.portal") : 60106
+, te = Z ? Symbol.for("react.fragment") : 60107
+, ne = Z ? Symbol.for("react.strict_mode") : 60108
+, re = Z ? Symbol.for("react.profiler") : 60114
+, le = Z ? Symbol.for("react.provider") : 60109
+, ie = Z ? Symbol.for("react.context") : 60110
+, ae = Z ? Symbol.for("react.concurrent_mode") : 60111
+, oe = Z ? Symbol.for("react.forward_ref") : 60112
+, ue = Z ? Symbol.for("react.suspense") : 60113
+, ce = Z ? Symbol.for("react.suspense_list") : 60120
+, se = Z ? Symbol.for("react.memo") : 60115
+, fe = Z ? Symbol.for("react.lazy") : 60116
+, de = Z ? Symbol.for("react.block") : 60121
+
