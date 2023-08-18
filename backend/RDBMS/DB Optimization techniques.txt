@@ -1,0 +1,25 @@
+Database Optimization Techniques 👇
+
+Each "Technique" optimizes database performance in distinct ways
+
+𝟭. 𝗥𝗲𝗮𝗱 𝗥𝗲𝗽𝗹𝗶𝗰𝗮𝘀 𝗳𝗼𝗿 𝗥𝗲𝗽𝗼𝗿𝘁𝗶𝗻𝗴:
+- Used to offload read traffic from the main database instance
+- Beneficial for heavy read queries like reporting and analytics
+
+𝟮. 𝗖𝗼𝗺𝗽𝗿𝗲𝘀𝘀𝗶𝗼𝗻 𝗮𝗻𝗱 𝗖𝗼𝗹𝘂𝗺𝗻𝗮𝗿 𝗦𝘁𝗼𝗿𝗮𝗴𝗲:
+- Compression reduces storage costs and improves read performance
+- Columnar storage is well-suited for analytics workloads
+
+𝟯. 𝗜𝗻-𝗺𝗲𝗺𝗼𝗿𝘆 𝗗𝗮𝘁𝗮 𝗦𝘁𝗼𝗿𝗲𝘀:
+Like Redis or Memcached reduces the need to retrieve frequently accessed data from the database repeatedly, improving response times
+
+𝟰. 𝗢𝗽𝘁𝗶𝗺𝗶𝘇𝗲𝗱 𝗗𝗮𝘁𝗮 𝗧𝘆𝗽𝗲𝘀:
+- Choose appropriate data types for columns
+- Avoid using excessively large data types, as they consume more storage and memory
+
+𝟱. 𝗣𝗮𝗿𝘁𝗶𝘁𝗶𝗼𝗻𝗶𝗻𝗴:
+For large datasets, consider partitioning tables based on certain criteria (e.g., date ranges)
+
+𝟲. 𝗦𝗵𝗮𝗿𝗱𝗶𝗻𝗴:
+Distributes data across instances for better query performance
+

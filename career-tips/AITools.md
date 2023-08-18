@@ -16,3 +16,36 @@
 16. Gnbly.com : It is your personal AI assistant. It can help you book restaurants reservations, call service providers, etc.
 17. adswithai.io : adswithAI allows you to create your ads visuals and captions to help you accelerate the launch of your advertising campaigns or e-commerce products.
 18. muzaic.studio : AI composed copyright free music tailored as per your needs.
+
+Resume Resources
+
+
+1. Kickresume https://lnkd.in/dJiYTaZx
+
+2. Copy.ai https://www.copy.ai
+
+3. Enhancv 1000+ cvs https://lnkd.in/dznSfcab
+
+4. HyreSnap – AI driven https://lnkd.in/dGNqQt-r
+
+5. resumestar io https://www.resumestar.io
+
+6. Skillroads - AI Resume Career Builder https://lnkd.in/dbjY3mgG
+
+7. Hiration https://lnkd.in/dS4Yi4ba
+
+8. ResumAI. – (uses ChatGPT) https://www.resumai.com
+
+9. thisresumedoesnotexist-1000 examples (based on enhancv https://lnkd.in/dkp95Ye9
+
+10. Resume Worded https://resumeworded.com
+
+11. jasper – AI driven LinkedIn posts. https://www.jasper.ai
+
+12. Resumaker.ai ai https://resumaker.ai
+
+13. REZI ai https://www.rezi.ai
+
+14. Designs.ai – (designer of your cv - fonts, colors, etc). https://lnkd.in/dyadVj7M
+
+15. mosaic ai (keywords) https://lnkd.in/d3B2G9g
