@@ -1,0 +1,88 @@
+CREATE A PROCEDURE FOR STOCK MANAGEMENT DATABASE
+
+Create:
+SQL> create table stock_45(Prod_idnumber(3) constraint p primary key,Prod_name
+varchar(10),Price number(5),Qty number(3));
+Table created.
+View:
+SQL> desc stock_45;
+ Name                                      Null?          Type
+ ----------------------------------------- -------- ----------------------------
+
+ PROD_ID                                   NOT       NULL NUMBER(3)
+ PROD_NAME                                           VARCHAR2(10)
+ PRICE                                                        NUMBER(5)
+ QTY                                                           NUMBER(3)
+Insert:
+ SQL> insert into stock_45 values('001','Soap','35','10');
+1 row created.
+SQL> insert into stock_45 values('002','Powder','60','5');
+1 row created.
+SQL> insert into stock_45 values('003','Biscuit','40','8');
+1 row created.
+Select:
+SQL> select * from stock_45;
+
+   PROD_ID        PROD_NAME       PRICE        QTY
+---------- ---------- ---------- -------------------------------
+         1                  Soap                         35         10
+         2                  Powder                     60          5
+         3                  Biscuit                     40          8
+Procedure:
+SQL> ed
+Wrote file afiedt.buf
+
+    1 create or replace procedure stock_prog(pid1 in number,Qty1 in number)
+    2 is
+    3 oQtynumber(3);
+    4 nQtynumber(3);
+    5 pnvarchar(12);
+    6 pprvarchar(5);
+    7 begin
+    8 select Qty into oQty from stock_45 where Prod_id=pid1;
+    9 nQty:=oQty+Qty1;
+    10 update stock_45 set Qty=nQty where Prod_id=pid1;
+    11 dbms_output.put_line('Prod_id:'||pid1);
+    12 dbms_output.put_line('old Quantity:'||oQty);
+    13 dbms_output.put_line('new Quantity:'||nQty);
+    14 exception
+    15 when no_data_found then
+    16 pn:='&pname';
+    17 ppr:='&price';
+    18 insert into stock_45 values(pid1,pn,ppr,Qty1);
+    19 dbms_output.put_line('New record inserted');
+    20 end;
+SQL> /
+Enter value for pname: Shampoo
+old  16: pn:='&pname';
+new  16: pn:='Shampoo';
+Enter value for price: 90
+old  17: ppr:='&price';
+new  17: ppr:='90';
+
+Procedure created.
+
+SQL> set serveroutput on;
+SQL> /
+Enter value for pname: Deo
+old  16: pn:='&pname';
+new  16: pn:='Deo';
+Enter value for price: 60
+old  17: ppr:='&price';
+new  17: ppr:='60';
+
+Procedure created.
+
+SQL> execute stock_prog(0,5);
+New record inserted
+
+PL/SQL procedure successfully completed.
+
+SQL> select * from stock_45;
+
+   PROD_ID         PROD_NAME       PRICE        QTY
+---------- ---------- ---------- -----------------------
+         1                  Soap                         35         10
+         2                  Powder                    60          5
+         3                  Biscuit                     40          8
+         0                   Deo                         60          5

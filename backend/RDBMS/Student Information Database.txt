@@ -1,0 +1,143 @@
+CREATE A STUDENT INFORMATION AND MARK DETAILS USING   DDL,DML,TCL,DCL
+
+Create:
+SQL> create table stdinfo045(regno number(6),name varchar(15),DBMS number(3),OOAD
+number(3),DCN number(3));
+Table created.
+
+View:
+SQL> desc stdinfo045;
+ Name                                      Null?           Type
+ ----------------------------------------- -------- ----------------------------
+ REGNO                                                        NUMBER(6)
+ NAME                                                          VARCHAR2(15)
+ DBMS                                                           NUMBER(3)
+ OOAD                                                           NUMBER(3)
+ DCN                                                              NUMBER(3)
+
+Alter:
+SQL> alter table stdinfo045 add phonenumbernumber(10);
+Table altered.
+
+Insert:
+SQL>insert into stdinfo045 values ('&regno','&name','&DBMS','&OOAD','&DCN ','&phone number');
+Enter value for regno: 00101
+Enter value for name: Sumi
+Enter value for dbms: 95
+Enter value for ooad: 96
+Enter value for dcn: 97
+Enter value for phonenumber: 8903090281
+old   1: insert into stdinfo045 values('&regno','&name','&DBMS','&OOAD','&DCN','&phone number')
+new   1: insert into stdinfo045 values('00101','Sumi','95','96','97','8903090281')
+1 row created.
+SQL> /
+Enter value for regno: 00102
+Enter value for name: Agalya
+Enter value for dbms: 92
+Enter value for ooad: 94
+Enter value for dcn: 91
+Enter value for phonenumber: 9486152261
+old   1: insert into stdinfo045 values('&regno','&name','&DBMS','&OOAD','&DCN','&phone number')
+new   1: insert into stdinfo045 values('00102','Agalya','92','94','91','9486152261')
+1 row created.
+SQL> /
+Enter value for regno: 00103
+Enter value for name: Preetipal
+Enter value for dbms: 86
+Enter value for ooad: 92
+Enter value for dcn: 99
+Enter value for phonenumber: 9985642585
+old   1: insert into stdinfo045 values('&regno','&name','&DBMS','&OOAD','&DCN','&phone number')
+new   1: insert into stdinfo045 values('00103','Preetipal','86','92','99','9985642585')
+1 row created.
+SQL> /
+Enter value for regno: 00104
+Enter value for name: Dhaarani
+Enter value for dbms: 96
+Enter value for ooad: 92
+Enter value for dcn: 93
+Enter value for phonenumber: 8040952512
+old   1: insert into stdinfo045 values('&regno','&name','&DBMS','&OOAD','&DCN','&phone number')
+new   1: insert into stdinfo045 values('00104','Dhaarani','96','92','93','8040952512')
+1 row created.
+SQL> /
+Enter value for regno: 00105
+Enter value for name: Pradeeba
+Enter value for dbms: 96
+Enter value for ooad: 88
+Enter value for dcn: 98
+Enter value for phonenumber: 9985612547
+old   1: insert into stdinfo045 values('&regno','&name','&DBMS','&OOAD','&DCN','&phone number')
+new   1: insert into stdinfo045 values('00105','Pradeeba','96','88','98','9985612547')
+1 row created.
+Select:
+SQL> select * from stdinfo045;
+    REGNO       NAME             DBMS        OOAD         DCN            PHONENUMBER
+         ---------- ---------------   ---------- ---------- ---------- -----------     -----------------------
+        101             Sumi                    95                96              97               8903090281
+       102             Agalya                 92                94              91               9486152261
+       103             Preetipal              86                92              99               9985642585
+       104             Dhaarani              96               92               93               8040952512
+       105             Pradeeba              96               88               98               9985612547
+
+Update:
+SQL> update stdinfo045 set OOAD='100' where name='Pradeeba';
+1 row updated.
+
+Select:
+SQL> select * from stdinfo045;
+     REGNO      NAME              DBMS       OOAD        DCN        PHONENUMBER
+     ----------       ---------------      ----------    ----------     ----------      ------------------------
+       101            Sumi                   95              96              97                8903090281
+       102            Agalya                92              94              91                9486152261
+       103            Preetipal              86             92              99                9985642585
+       104            Dhaarani              96             92              93                8040952512
+       105            Pradeeba              96            100             98                9985612547
+
+Delete:
+SQL> delete from stdinfo045 where regno='00104';
+1 row deleted.
+
+Select:
+SQL> select * from stdinfo045;
+     REGNO          NAME          DBMS      OOAD      DCN            PHONENUMBER
+      ------------      ---------- ---------------    ----------    ----------     ---------------------
+       101                Sumi                  95           96             97               8903090281
+       102               Agalya                92           94             91               9486152261
+       103              Preetipal               86           92            99               9985642585
+       105              Pradeeba              96          100            98               9985612547
+
+Rename:
+SQL> rename stdinfo045 to info045;
+Table renamed.
+
+Select:
+SQL> select * from info045;
+     REGNO     NAME            DBMS       OOAD        DCN         PHONENUMBER
+      ---------- --------------- ---------- -------------------- -----------  ----------------------
+       101          Sumi                  95              96               97             8903090281
+       102         Agalya                92               94              91             9486152261
+       103         Preetipal             86              92              99              9985642585
+       105         Pradeeba             96             100              98             9985612547
+
+Commit:
+SQL> commit;
+Commit complete.
+
+Savepoint:
+SQL>savepoint info045;
+Savepoint created.
+
+Rollback:
+SQL> rollback;
+Rollback complete.
+
+Truncate:
+SQL> truncate table info045;
+Table truncated.
+
+Drop:
+SQL> drop table info045;
+Table dropped.
+
+

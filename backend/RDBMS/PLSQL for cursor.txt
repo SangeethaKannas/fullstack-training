@@ -1,0 +1,134 @@
+CREATE PL/SQL FOR CURSOR.
+
+CREATE:
+SQL> create table PSC_45(ID number(5),E_name varchar(10),desg varchar(5),salary varchar(5));
+
+Table created.
+
+View:
+SQL>desc  PSC_45;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+IDNUMBER(5)
+E_NAME                                         VARCHAR2(10)
+DESGVARCHAR2(25)
+SALARY    VARCHAR2(5)
+
+Insert:
+SQL> insert into PSC_45 values ('1','Albert','Programmer',’50000’);
+1 row created.
+SQL> insert into PSC_45 values('2','Anna','HR' ,’25000’);
+1 row created.
+SQL> insert into PSC_45 values('3','Mark','Analyst',’55000’);
+1 row created.
+SQL> insert into PSC_45 values('4','Jason','Content writer',’21000’);
+1 row created.
+SQL> insert into PSC_45 values('5','Andrew','Programmer',’90000’);
+1 row created.
+
+Select:
+SQL> select * from PSC_45;
+  
+ID
+E_NAME
+DESG
+SALARY
+1
+1
+Albert
+Programmer
+50000
+2
+2
+Anna
+HR
+25000
+3
+3
+Mark
+Analyst
+55000
+4
+5
+Andrew
+Programmer
+90000
+5
+4
+Jason
+Content writer
+21000
+
+Procedure:
+IMPLICIT:
+DECLARE   
+total_rowsnumber(2);  
+BEGIN  
+   UPDATE PSC_45 SET salary = salary + 1000;  
+   IF sql%notfound THEN  
+dbms_output.put_line('no Employee updated');  
+   ELSIF sql%found THEN  
+total_rows := sql%rowcount;  
+dbms_output.put_line( total_rows ||  ' Employee updated ');  
+   END IF;  
+END;
+/
+Select:
+SQL> select * from PSC_45;
+
+  
+ID
+E_NAME
+DESG
+SALARY
+1
+1
+Albert
+Programmer
+51000
+2
+2
+Anna
+HR
+26000
+3
+3
+Mark
+Analyst
+56000
+4
+5
+Andrew
+Programmer
+91000
+5
+4
+Jason
+Content writer
+22000
+
+
+EXPLICIT:
+Procedure:
+DECLARE  
+c_id PSC_45.ID%type; 
+c_name PSC_45.E_name%type;  
+c_addr PSC_45.desg%type;  
+CURSOR c_employee is  
+SELECT ID, E_name, desg FROM PSC_45;  
+BEGIN  
+OPEN c_employee;  
+LOOP  
+FETCH c_employee into c_id, c_name, c_addr;  
+EXIT WHEN c_employee%notfound; 
+dbms_output.put_line(c_id||' '||c_name||' '||c_addr);  
+END LOOP;  
+CLOSE c_employee;  
+END;
+/
+Output 
+1 Albert Programmer
+2 Anna HR
+3 Mark Analyst
+5 Andrew Programmer
+4 Jason Content writer

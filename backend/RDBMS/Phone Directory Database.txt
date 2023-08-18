@@ -1,0 +1,84 @@
+CREATE A VIEW AND INDEXES FOR PHONE DIRECTORY SYSTEM
+CREATE:
+SQL> create table ph24(pidnumber(5)constraint p primary key,name varchar(10),street varchar(10),city varchar(10),district varchar(10));
+Table created.
+VIEW:
+SQL> desc ph24;
+ Name                      Null?                   Type
+ -----------------------------------------------------------------------------
+PID                           NOT NULL        NUMBER(5)
+ NAME                                                VARCHAR2(10)
+ STREET                                             VARCHAR2(10)
+ CITY                                                   VARCHAR2(10)
+ DISTRICT                                           VARCHAR2(10)
+SQL> insert into ph24 values('11','Anu','raju st','tvm','vpm');
+1 row created.
+SQL> insert into ph24 values('12','Banu','rmk st','vpm','vpm');
+1 row created.
+SQL> insert into ph24 values('13','Charu','rkk st','pondy','pondy');
+1 row created.
+SQL> insert into ph24 values('14','Dhana','rk st','pondy','pondy');
+1 row created.
+SQL> insert into ph24 values('15','Elakiya','mg st','vpm','vom');
+1 row created.
+
+SELECT:
+SQL> select* from ph24;
+PID NAME       STREET     CITY       DISTRICT
+----------------------------------------------------------------
+        11 Anu         rajusttvmvpm
+        12 Banu       rmkstvpmvpm
+        13 Charurkkstpondypondy
+CREATE:  
+SQL> create table ph2(pidnumber(5)constraint fk references ph24(pid),email varchar(10),website varchar(10),phnum number(10));
+Table created.
+VIEW:
+SQL> desc ph2;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+
+ PID                                                       NUMBER(5)
+ EMAIL                                                VARCHAR2(10)
+ WEBSITE                                            VARCHAR2(10)
+ PHNUM                                               NUMBER(10)
+INSERT:
+SQL> insert into ph2 values('11','Anu@','www.n.com','9807654321');
+1 row created.
+SQL> insert into ph2 values('12','Banu@','www.a.com','9867654321');
+1 row created.
+SQL> insert into ph2 values('13','Charu@','www.b.com','9867654821');
+1 row created.
+SQL> insert into ph2 values('14','Dhana@','www.h.com','9867654820');
+1 row created.
+SQL> insert into ph2 values('15','Elakiya@','www.b.com','9867654821');
+1 row created.
+
+VIEW:
+SQL> create view phdr as select p1.pid,p2.website from ph24 p1,ph2 p2 where p1.pid=p2.pid;
+View created.
+SQL> select* from phdr;
+
+PID WEBSITE
+---------- ----------
+        11 wwww.n.com
+        12 wwww.a.com
+        13 wwww.b.com
+VIEW:
+SQL> create or replace view phdr as select p1.pid,p1.name,p2.phnum,p2.email from
+ ph24 p1,ph2 p2 where p1.pid=p2.pid;
+View created.
+SELECT:
+SQL> select* from phdr;
+       PID NAME            PHNUM            EMAIL
+---------- ---------- ---------- ---------- -------------------------
+        11 Anu               9807654321          Anu@
+        12 Banu             9867654321          Banu@
+        13 Charu            9867654821         Charu@
+
+INDEX:
+SQL> create index indexa on ph24(city);
+Index created.
+
+INDEX ALTERED:
+SQL> alter index indexa rename to indexcity;
+Index altered.

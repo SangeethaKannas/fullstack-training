@@ -1,0 +1,142 @@
+CREATE A HOSPITAL DATABASE AND PERFORM THE INNER AND OUTER JOIN
+
+Create:
+SQL> create table hosp_m045(pidnumber(6),name varchar(10),doctor varchar(10),dep
+varchar(10),app_date date);
+Table created.
+View:
+SQL> desc hosp_m045;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+PID                                           NUMBER(6)
+ NAME                         VARCHAR2(10)
+ DOCTOR                     VARCHAR2(10)
+ DEP                                VARCHAR2(10)
+ APP_DATE                       DATE
+Insert:
+SQL> insert into hosp_m045 values('&pid','&name','&doctor','&dep','&app_date');
+Enter value for pid: 001
+Enter value for name: Dhaarani
+Enter value for doctor: Rajeswari
+Enter value for dep: Cardio
+Enter value for app_date: 4-Jan-2018
+old   1: insert into hosp_m045 values('&pid','&name','&doctor','&dep','&app_date')
+new   1: insert into hosp_m045 values('001','Dhaarani','Rajeswari','Cardio','4-Jan-2018')
+1 row created.
+SQL> /
+Enter value for pid: 002
+Enter value for name: PreetiPal
+Enter value for doctor: Sudha
+Enter value for dep: Thyroid
+Enter value for app_date: 5-Jan-2018
+old   1: insert into hosp_m045 values('&pid','&name','&doctor','&dep','&app_date')
+new   1: insert into hosp_m045 values('002','PreetiPal','Sudha','Thyroid','5-Jan-2018')
+1 row created.
+SQL> /
+Enter value for pid: 004
+Enter value for name: Jayanthi
+Enter value for doctor: Devi
+Enter value for dep: Heart
+Enter value for app_date: 6-Jan-2018
+old   1: insert into hosp_m045 values('&pid','&name','&doctor','&dep','&app_date')
+new   1: insert into hosp_m045 values('004','Jayanthi','Devi','Heart','6-Jan-2018')
+1 row created.
+SQL> /
+Enter value for pid: 006
+Enter value for name: Raji
+Enter value for doctor: Aswathi
+Enter value for dep: Eye
+Enter value for app_date: 7-Jan-2018
+old   1: insert into hosp_m045 values('&pid','&name','&doctor','&dep','&app_date')
+new   1: insert into hosp_m045 values('006','Raji','Aswathi','Eye','7-Jan-2018')
+1 row created.
+Select:
+SQL> select * from hosp_m045;
+PIDNAME      DOCTOR     DEP      APP_DATE
+ --------    -----------------    -------------  --------------       ---------------
+    1DhaaraniRajeswari Cardio     04-JAN-18
+2 PreetiPalSudha      Thyroid 05-JAN-18
+4 Jayanthi   Devi       Heart   06-JAN-18
+6 Raji       Aswathi  Eye       07-JAN-18
+Create:
+SQL> create table hosp_cli045(pidnumber(6),fname varchar(10),lname varchar(10));
+Table created.
+View:
+SQL> desc hosp_cli045;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+PID                                             NUMBER(6)
+ FNAME                                              VARCHAR2(10)
+ LNAME                                              VARCHAR2(10)
+Insert:
+SQL> insert into hosp_cli045 values('&pid','&fname','&lname');
+Enter value for pid: 001
+Enter value for fname: Sridevi
+Enter value for lname: Suresh
+old   1: insert into hosp_cli045 values('&pid','&fname','&lname')
+new   1: insert into hosp_cli045 values('001','Sridevi','Suresh')
+1 row created.
+SQL> /
+Enter value for pid: 002
+Enter value for fname: Valli
+Enter value for lname: Moorthy
+old   1: insert into hosp_cli045 values('&pid','&fname','&lname')
+new   1: insert into hosp_cli045 values('002','Valli','Moorthy')
+1 row created.
+SQL> /
+Enter value for pid: 003
+Enter value for fname: Niveditha
+Enter value for lname: Sharath
+old   1: insert into hosp_cli045 values('&pid','&fname','&lname')
+new   1: insert into hosp_cli045 values('003','Niveditha','Sharath')
+1 row created.
+SQL> /
+Enter value for pid: 0045
+Enter value for fname: Dharshini
+Enter value for lname: Sudhakar
+old   1: insert into hosp_cli045 values('&pid','&fname','&lname')
+new   1: insert into hosp_cli045 values('0045','Dharshini','Sudhakar')
+1 row created.
+Select:
+SQL> select * from hosp_cli045;
+PID FNAME      LNAME
+---------- --------------------------
+   1                Sridevi   Suresh
+2 Valli    Moorthy
+3 Niveditha Sharath
+ 45Dharshini Sudhakar
+Left outer join:
+SQL> select * from hosp_m045 left outer join hosp_cli045 on hosp_m045.pid=hosp_cli045.pid;
+ PID      NAME        DOCTOR        DEP            APP_DATE         PID FNAMELNAME
+ ------- -----------------------      ----------    ------------------   ---------- --------------  ------------
+1DhaaraniRajeswari  Cardio   04-JAN-18          1 SrideviSuresh
+2PreetiPal Sudha      Thyroid         05-JAN-18          2         Valli          Moorthy
+4 Jayanthi   Devi       Heart      06-JAN-18
+6 Raji       AswathiEye        07-JAN-18
+Right outer join:
+SQL> select * from hosp_m045 right outer join hosp_cli045 on hosp_m045.pid=hosp_cli045.pid;
+PID NAME       DOCTOR     DEP           APP_DATE       PID FNAMELNAME
+-------     -----------      -------------    -----------      ---------------       --------   ------------      --------
+ 1DhaaraniRajeswari  Cardio         04-JAN-18        1 SrideviSuresh
+ 2 PreetiPalSudha      Thyroid        05-JAN-18       2 ValliMoorthy
+	                                                                                             3 NivedithaSharath
+	45 DharshiniSudhakar
+Full outer join:
+SQL> select * from hosp_m045 full outer join hosp_cli045 on hosp_m045.pid=hosp_cli045.pid;
+ PID      NAME         DOCTOR     DEP        APP_DATE   PIDFNAMELNAME
+-------      -----------      -------------      ----------        ---------------    --------       ------------  -------
+1Dhaarani Rajeswari  Cardio     04-JAN-18          1SrideviSuresh
+2 PreetiPalSudha      Thyroid    05-JAN-18          2ValliMoorthy
+4Jayanthi   Devi       Heart      06-JAN-18           3      Niveditha  Sharath
+ 6         Raji      AswathiEye        07-JAN-18         45      Dharashini  Sudhakar
+
+Inner join:
+PID       NAME      DOCTOR     DEP        APP_DATE         PID FNAMELNAME
+-------      ----------   ------------ ----------     ------------------- --------------------    ----------
+ 1 DhaaraniRajeswari Cardio         04-JAN-18            1          Sridevi      Suresh
+2 PreetiPal Sudha      Thyroid  05-JAN-18          2          Valli       Moorthy
+Natural join:
+ PID NAME       DOCTOR     DEP        APP_DATE        PID       FNAME   LNAME
+---------- ---------- ---------- ---------- --------- ---------- ----------    ------------      -----------   ------
+1DhaaraniRajeswari Cardio     04-JAN-18         1            Sridevi   Suresh
+ 2 PreetiPal Sudha      Thyroid    05-JAN-18         2           Valli      Moorthy

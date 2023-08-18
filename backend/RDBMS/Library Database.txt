@@ -1,0 +1,275 @@
+CREATE A LIBRARY DATABASE AND PERFORM THE AGGREGATE FUNCTION AND SET OPERATION
+
+Create:
+SQL> create table master045(acc_nonumber(7),bookname varchar(18),author varchar(18),publication varchar(16),copies number(7));
+Table created.
+View:
+SQL> desc master045;
+ Name                                      Null?                Type
+ ----------------------------------------- -------- --- -------------------------
+ ACC_NO                                                       NUMBER(7)
+ BOOKNAME                                                VARCHAR2(18)
+ AUTHOR                                                       VARCHAR2(18)
+ PUBLICATION                                             VARCHAR2(16)
+ COPIES                                                           NUMBER(7)
+Insert:
+SQL> insert into master045 values('&acc_no','&bookname','&author','&publication','&copies')
+Enter value for acc_no: 111
+Enter value for bookname: Java
+Enter value for author: HerbertSchieldt
+Enter value for publication: TaTa
+Enter value for copies: 4
+old1: insert into master045 values('&acc_no','&bookname','&author','&publication','&copies')
+new 1: insert into master045 values('111','Java','HerbertSchieldt','TaTa','4')
+1 row created.
+SQL> /
+Enter value for acc_no: 112
+Enter value for bookname: C
+Enter value for author: Bala
+Enter value for publication: McHill
+Enter value for copies: 5
+old 1: insert into master045values('&acc_no','&bookname','&author','&publication','&copies)
+new   1: insert into master045 values('112','C','Bala','McHill','5')
+1 row created.
+SQL> /
+Enter value for acc_no: 113
+Enter value for bookname: C++
+Enter value for author: Robert
+Enter value for publication: TaTa
+Enter value for copies: 6
+old 1: insert into master045values('&acc_no','&bookname','&author','&publication','&copies')
+new   1: insert into master045 values('113','C++','Robert','TaTa','6')
+1 row created.
+SQL> /
+Enter value for acc_no: 114
+Enter value for bookname: DCN
+Enter value for author: Forozan
+Enter value for publication: McHill
+Enter value for copies: 6
+old1: insert into master045 values('&acc_no','&bookname','&author','&publication','&copies')
+new   1: insert into master045 values('114','DCN','Forozan','McHill','6')
+1 row created.
+SQL> /
+Enter value for acc_no: 115
+Enter value for bookname: DMW
+Enter value for author: Benrouz
+Enter value for publication: TaTa
+Enter value for copies: 8
+old 1: insert into master045values('&acc_no','&bookname','&author','&publication','&copies')
+new   1: insert into master045 values('115','DMW','Benrouz','TaTa','8')
+1 row created.
+SQL> /
+Enter value for acc_no: 116
+Enter value for bookname: OOAD
+Enter value for author: Ali
+Enter value for publication: McHill
+Enter value for copies: 6
+old 1: insert into master045values('&acc_no','&bookname','&author','&publication','&copies')
+new   1: insert into master045 values('116','OOAD','Ali','McHill','6')
+1 row created.
+SQL> /
+Enter value for acc_no: 117
+Enter value for bookname: FA
+Enter value for author: Reddy
+Enter value for publication: TaTa
+Enter value for copies: 9
+old 1: insert into master045values('&acc_no','&bookname','&author','&publication','&copies')
+new   1: insert into master045 values('117','FA','Reddy','TaTa','9')
+1 row created.
+Select:
+SQL> select * from master045;
+    ACC_NO      BOOKNAME              AUTHOR                  PUBLICATION          COPIES
+     -------------      ------------------          ------------------         ----------------------           ----------
+       111                 Java                         HerbertSchieldtTaTa                           4
+       112                 C                             BalaMcHill                         5
+       113                 C++                        Robert                                 TaTa                            6
+       114                 DCN                       ForozanMcHill                        6
+       115                 DMW                     BenrouzTaTa                           8
+       116                OOAD                     Ali                                      McHill                         6
+       117                 FA                          Reddy                                  TaTa                           9
+7 rows selected.
+Create:
+SQL> create table client045(acc_nonumber(7),bookname varchar(18),author varchar
+(18),publication varchar(16),copies number(7));
+Table created.
+View:
+SQL> desc client045;
+Name                                      Null?                    Type
+ ----------------------------------------- -------- ----- -----------------------
+ ACC_NO                                                           NUMBER(7)
+ BOOKNAME                                                    VARCHAR2(18)
+ AUTHOR                                                          VARCHAR2(18)
+ PUBLICATION                                                VARCHAR2(16)
+ COPIES                                                              NUMBER(7)
+Insert:
+SQL> insert into client045values('&acc_no','&bookname','&author','&publication','&copies');
+Enter value for acc_no: 221
+Enter value for bookname: C
+Enter value for author: Robert
+Enter value for publication: TaTa
+Enter value for copies: 8
+old   1: insert into client045values('&acc_no','&bookname','&author','&publication','&copies')
+new   1: insert into client045 values('221','C','Robert','TaTa','8')
+1 row created.
+SQL> /
+Enter value for acc_no: 222
+Enter value for bookname: C++
+Enter value for author: Anderson
+Enter value for publication: McHill
+Enter value for copies: 6
+old   1: insert into client045values('&acc_no','&bookname','&author','&publication','&copies')
+new   1: insert into client045 values('222','C++','Anderson','McHill','6')
+1 row created.
+SQL> /
+Enter value for acc_no: 223
+Enter value for bookname: CA
+Enter value for author: Bahrami
+Enter value for publication: TaTa
+Enter value for copies: 9
+old   1: insert into client045values('&acc_no','&bookname','&author','&publication','&copies')
+new   1: insert into client045 values('223','CA','Bahrami','TaTa','9')
+1 row created.
+SQL> /
+Enter value for acc_no: 224
+Enter value for bookname: Java
+Enter value for author: Gurusamy
+Enter value for publication: McHill
+Enter value for copies: 6
+old   1: insert into client045values('&acc_no','&bookname','&author','&publication','&copies')
+new   1: insert into client045 values('224','Java','Gurusamy','McHill','6')
+1 row created.
+SQL> /
+Enter value for acc_no: 225
+Enter value for bookname: FM
+Enter value for author: Moorthy
+Enter value for publication: TaTa
+Enter value for copies: 5
+old   1: insert into client045values('&acc_no','&bookname','&author','&publication','&copies')
+new   1: insert into client045 values('225','FM','Moorthy','TaTa','5')
+1 row created.
+SQL> /
+Enter value for acc_no: 226
+Enter value for bookname: CMA
+Enter value for author: Acharya
+Enter value for publication: McHill
+Enter value for copies: 6
+old   1: insert into client045values('&acc_no','&bookname','&author','&publication','&copies')
+new   1: insert into client045 values('226','CMA','Acharya','McHill','6')
+1 row created.
+SQL> /
+Enter value for acc_no: 227
+Enter value for bookname: MA
+Enter value for author: TSReddy
+Enter value for publication: TaTa
+Enter value for copies: 4
+old   1: insert into client045values('&acc_no','&bookname','&author','&publication','&copies')
+new   1: insert into client045 values('227','MA','TSReddy','TaTa','4')
+1 row created.
+Select:
+SQL> select * from client045;
+      ACC_NO          BOOKNAME             AUTHOR               PUBLICATION          COPIES
+       ----------------   ------------------    ------------------------      ----------------         -----------------
+       221                     C                             Robert                          TaTa                            8
+       222                     C++                         Anderson                     McHill                         6
+       223                     CA                           BahramiTaTa                            9
+       224                     Java                         GurusamyMcHill                         6
+       225                     FM                           Moorthy                      TaTa                            5
+       226                     CMA                        Acharya                       McHill                        6
+       227                     MA                           TSReddyTaTa                            4
+7 rows selected.
+Union:
+SQL> select bookname from master045 UNION select bookname from client045;
+BOOKNAME
+------------------
+C
+C++
+CA
+CMA
+DCN
+DMW
+FA
+FM
+Java
+MA
+OOAD
+11 rows selected.
+
+Intersect:
+SQL> select bookname from master045 INTERSECT select bookname from client045;
+BOOKNAME
+------------------
+C
+C++
+Java
+Union all:
+SQL> select bookname from master045 UNION ALL select bookname from client045;
+BOOKNAME
+------------------
+Java
+C
+C++
+DCN
+DMW
+OOAD
+FA
+C
+C++
+CA
+Java
+FM
+CMA
+MA
+14 rows selected.
+Minus:
+SQL> select bookname from master045 MINUS select bookname from client045;
+BOOKNAME
+------------------
+DCN
+DMW
+FA
+OOAD
+Average:
+SQL> select avg(copies) from master045;
+AVG(COPIES)
+-----------
+ 6.28571429
+SQL> select avg(copies) from client045;
+AVG(COPIES)
+-----------
+ 6.28571429
+Minimum:
+SQL> select min(copies) from master045;
+MIN(COPIES)
+-----------
+          4
+SQL> select min(copies) from client045;
+MIN(COPIES)
+-----------
+          4
+Maximum:
+SQL> select max(copies) from master045;
+MAX(COPIES)
+-----------
+          9
+SQL> select max(copies) from client045;
+MAX(COPIES)
+-----------
+          9
+Count:
+SQL> select count(*) from master045;
+COUNT(*)
+   ----------
+         7
+SQL> select count(*) from client045;
+COUNT(*)
+   ----------
+         7
+Sum:
+SQL> select sum(copies) from master045;
+SUM(COPIES)
+-----------
+      44
+SQL> select sum(copies) from client045;
+SUM(COPIES)
+-----------
+         44

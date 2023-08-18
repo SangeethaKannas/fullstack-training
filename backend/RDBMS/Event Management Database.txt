@@ -1,0 +1,106 @@
+CREATE DIFFERENT TYPES OF TRIGGERS FOR EVENT MANAGEMENT DATABASE
+
+Create:
+SQL> create table event_45(E_idnumber(2),E_name varchar(10),E_datedate,Hall_no
+number(3),S_time varchar(5),E_time varchar(15));
+Table created.
+View:
+SQL> desc event_45;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+
+ E_ID                                             NUMBER(2)
+ E_NAME                                             VARCHAR2(10)
+ E_DATE                                             DATE
+ HALL_NO                                           NUMBER(3)
+ S_TIME                                             VARCHAR2(5)
+ E_TIME                                             VARCHAR2(15)
+Insert:
+SQL> insert into event_45 values('1','Debug','2-Feb-19','10','9.30','10.30');
+1 row created.
+SQL> insert into event_45 values('2','Azab','3-Feb-19','11','10.30','11.30');
+1 row created.
+SQL> insert into event_45 values('3','Quiz','4-Feb-19','12','11.30','12.30');
+1 row created.
+SQL> insert into event_45 values('4','Tech','5-Feb-19','5','11.30','12.30');
+1 row created.
+SQL> insert into event_45 values('5','Prog_W','6-Feb-19','1','11.30','12.30');
+1 row created.
+SQL> insert into event_45 values('6','PP','7-Feb-19','2','11.30','12.30');
+1 row created.
+Select:
+SQL> select * from event_45;
+
+      E_ID E_NAME     E_DATE       HALL_NO S_TIM E_TIME
+---------- ---------- --------- ---------- ----- ---------------------------------------------------
+         1 Debug      02-FEB-19         10 9.30  10.30
+         2 Azab 03-FEB-19         11 10.30	 11.30
+         3 Quiz       04-FEB-19       12		 11.30 12.30
+         4 Tech     05-FEB-19          5		 11.30 12.30
+         5Prog_W 06-FEB-19          1 		11.30 12.30
+         6 PP         07-FEB-19          2 		11.3012.30
+
+6 rows selected.
+Before trigger:
+SQL> create or replace trigger btrigger before insert or update on event_45
+2  for each row
+3  begin
+4  if(:new.Hall_no>10) then
+5  raise_application_error(-20001,'Enter the Hall_no less than 10');
+6  end if;
+7  end;
+8  /
+Trigger created.
+SQL> set serveroutput on;
+SQL> insert into event_45 values('23','Tech','9-Feb-19','9','3.30','4.30');
+Your registration is successfull and accepted
+Thankyou, You are Welcome
+1 row created.
+SQL> insert into event_45 values('5','Seminar','12-Feb-19','8','2.30','3.30');
+Your registration is successfull and accepted
+Thankyou, You are Welcome
+1 row created.
+Select:
+SQL> select * from event_45;
+
+      E_ID E_NAME     E_DATE       HALL_NO S_TIM E_TIME
+---------- ---------- --------- ---------- ----- -------------------------------------------------
+         1 Debug      02-FEB-19         10 9.30  10.30
+         2	Azab03-FEB-19        11 10.30 11.30
+         3 Quiz       04-FEB-19      12 11.30 12.30
+         4 Tech       05-FEB-19      5 11.30 12.30
+         5 Prog_W06-FEB-19          1 11.3012.30
+         6 PP         07-FEB-19          2 11.3012.30
+        23 Tech       09-FEB-19         9 3.30 4.30
+         5 Seminar    12-FEB-19          8 2.303.30
+
+8 rows selected.
+After trigger:
+SQL> create or replace trigger atrigger after insert or update on event_45
+2  begin
+3  dbms_output.put_line('Your registration is successfull and accepted');
+4  dbms_output.put_line('Thankyou,you are Welcome');
+5  end;
+6  /
+Trigger created.
+
+SQL> set serveroutput on;
+SQL> insert into event_45 values('7','Prog_W','17-Feb-19','10','12.30','1.30');
+Your registration is successfull and accepted
+Thankyou,you are Welcome
+1 row created.
+Select:
+SQL> select * from event_45;
+      E_ID E_NAME     E_DATE       HALL_NO S_TIM E_TIME
+---------- ---------- --------- ---------- ----- ----------------------------------------------------------
+         1 Debug      02-FEB-19         10 9.30  10.30
+         2 Azab03-FEB-19         11 10.30 11.30
+         3 Quiz      04-FEB-19         12 11.30 12.30
+         4 Tech      05-FEB-19          511.30 12.30
+         5Prog_W     06-FEB-19          111.30 12.30
+         6 PP         07-FEB-19          211.30 12.30
+        23 Tech       09-FEB-19          9 3.30  4.30
+         5 Seminar   12-FEB-19          8 2.30  3.30
+         7Prog_W17-FEB-19         1012.301.30
+
+9 rows selected.

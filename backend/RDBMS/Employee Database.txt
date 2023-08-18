@@ -1,0 +1,147 @@
+CREATE AN EMPLOYEE DATABASE AND QUERY IT USING SUB QUERIES
+
+Create:
+SQL> create table emp_M45(emp_idnumber(5),fname varchar(10),lname varchar(10),c_no number(10));
+Table created.
+View:
+SQL> desc emp_m45;
+ Name                                      Null?    Type
+ ---------------------------------- -------- ----------------------------
+ EMP_ID                                          NUMBER(5)
+ FNAME                                              VARCHAR2(10)
+ LNAME                                              VARCHAR2(10)
+ C_NO                                            NUMBER(10)
+Insert:
+SQL> insert into emp_M45 values('&empid','&fname','&lname','&contact');
+Enter value for empid: 1001
+Enter value for fname: Dhaarani
+Enter value for lname: Selvam
+Enter value for contact: 8903090281
+old   1: insert into emp_M45 values('&empid','&fname','&lname','&contact')
+new   1: insert into emp_M45 values('1001','Dhaarani','Selvam','8903090281')
+1 row created.
+SQL> /
+Enter value for empid: 1002
+Enter value for fname: Anu
+Enter value for lname: Raj
+Enter value for contact: 9486152261
+old   1: insert into emp_M45 values('&empid','&fname','&lname','&contact')
+new   1: insert into emp_M45 values('1002','Anu','Raj','9486152261')
+1 row created.
+SQL> /
+Enter value for empid: 1003
+Enter value for fname: Deepthi
+Enter value for lname: Satheesh
+Enter value for contact: 9789520968
+old   1: insert into emp_M45 values('&empid','&fname','&lname','&contact')
+new   1: insert into emp_M45 values('1003','Deepthi','Satheesh','9789520968')
+1 row created.
+SQL> /
+Enter value for empid: 1004
+Enter value for fname: Shruthi
+Enter value for lname: Suresh
+Enter value for contact: 9856472525
+old   1: insert into emp_M45 values('&empid','&fname','&lname','&contact')
+new   1: insert into emp_M45 values('1004','Shruthi','Suresh','9856472525')
+1 row created.
+Select:
+SQL> select * from emp_m45;
+  EMP_ID FNAME     LNAME          C_NO
+---------- ---------- ---------- ----------   --------------     ---------------
+      1001 DhaaraniSelvam     8903090281
+      1002 Anu        Raj       9486152261
+      1003 Deepthi    Satheesh  9789520968
+      1004 Shruthi    Suresh   9856472525
+Create:
+SQL> create table emp_cli45(emp_idnumber(5),ename varchar(10),desg varchar(10),salary number(10));
+Table created.
+View:
+SQL> desc emp_cli45;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+EMP_ID                                          NUMBER(5)
+ ENAME                                              VARCHAR2(10)
+ DESG                                               VARCHAR2(10)
+ SALARY                                     NUMBER(10)
+Insert:
+SQL> insert into emp_cli45 values('&emp_id','&ename','&desg','&salary');
+Enter value for emp_id: 1001
+Enter value for ename: Dhaarani
+Enter value for desg: Manager
+Enter value for salary: 20000
+old   1: insert into emp_cli45 values('&emp_id','&ename','&desg','&salary')
+new   1: insert into emp_cli45 values('1001','Dhaarani','Manager','20000')
+1 row created.
+SQL> /
+Enter value for emp_id: 1002
+Enter value for ename: Anuja
+Enter value for desg: Employee
+Enter value for salary: 10000
+old   1: insert into emp_cli45 values('&emp_id','&ename','&desg','&salary')
+new   1: insert into emp_cli45 values('1002','Anuja','Employee','10000')
+1 row created.
+SQL> /
+Enter value for emp_id: 1003
+Enter value for ename: Deepthi
+Enter value for desg: Worker
+Enter value for salary: 8900
+old   1: insert into emp_cli45 values('&emp_id','&ename','&desg','&salary')
+new   1: insert into emp_cli45 values('1003','Deepthi','Worker','8900')
+1 row created.
+SQL> /
+Enter value for emp_id: 1004
+Enter value for ename: Nive
+Enter value for desg: Technian
+Enter value for salary: 10000
+old   1: insert into emp_cli45 values('&emp_id','&ename','&desg','&salary')
+new   1: insert into emp_cli45 values('1004','Nive','technian','10000')
+1 row created.
+Select:
+SQL> select * from emp_cli45;
+   EMP_ID ENAME     DESG          SALARY
+---------- ---------- ---------- ---------- ------------   -------------------
+      1001 Dhaarani Manager        20000
+      1002 AnujaEmployee      10000
+      1003 Deepthi    Worker        8900
+      1004               NiveTechnian  10000
+IN:
+fname:
+SQL> select fname from emp_M45 where emp_id IN (select emp_id from emp_cli45 where fname=ename);
+FNAME
+----------
+Dhaarani
+Deepthi
+ename:
+SQL> select ename from emp_cli45 where emp_id IN (select emp_id from emp_M45 where fname=ename);
+ENAME
+----------
+Dhaarani
+Deepthi
+NOT IN:
+fname:
+SQL> select fname from emp_M45 where emp_id NOT IN (select emp_id from emp_cli45
+ where fname=ename);
+FNAME
+----------
+Anu
+Shruthi
+ename:
+SQL> select ename from emp_cli45 where emp_id NOT IN (select emp_id from emp_M45
+ where fname=ename);
+ENAME
+----------
+Anuja
+Nive
+EXISTS:
+SQL> select emp_id,desg from emp_cli45 where EXISTS (select * from emp_M45 where
+fname=ename);
+  EMP_ID DESG
+---------- ---------------
+      1001 Manager
+      1003 Worker
+NOT EXISTS:
+SQL> select fname,lname from emp_M45 where NOT EXISTS (select * from emp_cli45 where emp_id=emp_id);
+no rows selected
+Commit:
+SQL> commit;
+Commit complete.
