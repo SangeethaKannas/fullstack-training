@@ -26,3 +26,14 @@ I am submitting my humble request to have an early relive from the Company. I un
 This is because I have got a new job in California. As you are aware that I stay alone in New York and my family is settled in California. Therefore, it is a wonderful opportunity for me to stay with my family. But the Company wants to me join within ten days.
 
 I will make sure that I will wind up all the work and finish everything within 15 days. I am also ready to work beyond working hours in order to transfer all my duties. I am very hopeful that you will consider my situation and reduce the notice period to 10 days
+
+###################################################################3
+
+Hi <Employee Name>,
+
+    I am React JS developer with 5y+ of experience in React, React Hooks and Redux. I found this position greatly interesting and wish to apply for the same.
+
+    Please let me know how we can take this up further.
+
+Thanks and Regards,
+<Candidate Name>
