@@ -1,10 +1,6 @@
-
 media queries
 
 responsive web designate
-react redux
-
-jsx  - write html without JSX
 
 React.fragment vs <>
 
