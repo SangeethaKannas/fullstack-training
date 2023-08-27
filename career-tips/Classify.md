@@ -28,80 +28,74 @@ Sound Sleep
 
 Sivappu Santhanam
 
-
-
-
-
-
+# Financial planning
 #1 Start a Holiday fund
 
-Start your travel planning by starting a holiday fund. Investing will make your money work for you while you work hard towards that holiday.
+    Start your travel planning by starting a holiday fund. Investing will make your money work for you while you work hard towards that holiday.
 
-For short term goals such as these a debt fund can be useful
+    For short term goals such as these a debt fund can be useful
 
 #2 Befriend and follow your airline
 
-Dynamic pricing is a necessary evil when taking flights and the only way to beat it is by booking early. But sometimes booking early isn’t the best option as you miss out on the various offers which come up during off peak seasons. Today all airlines are active on social media; follow their accounts. They often have preview sales and offers for their newsletter members prior to a public announcement.
+    Dynamic pricing is a necessary evil when taking flights and the only way to beat it is by booking early. But sometimes booking early isn’t the best option as you miss out on the various offers which come up during off peak seasons. Today all airlines are active on social media; follow their accounts. They often have preview sales and offers for their newsletter members prior to a public announcement.
 
-Set alerts on airline ticketing aggregator websites for the routes you wish to travel, this will ensure you get information not only on your regular airline but the best rate for that period.
+    Set alerts on airline ticketing aggregator websites for the routes you wish to travel, this will ensure you get information not only on your regular airline but the best rate for that period.
 
 #3 Go off the beaten track
 
-Road travel is always a great hit, with the flexibility it provides to stop and explore as you travel. With your own vehicle, the only major cost tends to be fuel. Water is another great travel option and sea cruises are becoming quite popular and sometimes cheaper too.
+    Road travel is always a great hit, with the flexibility it provides to stop and explore as you travel. With your own vehicle, the only major cost tends to be fuel. Water is another great travel option and sea cruises are becoming quite popular and sometimes cheaper too.
 
 #4 Stay down to earth
 
-The best travel experiences are those which happen when you let yourself immerse into the local culture, and staying with the locals is the best way to make that happen.
+    The best travel experiences are those which happen when you let yourself immerse into the local culture, and staying with the locals is the best way to make that happen.
 
-If you are staying with your family, however, a better option would be to look up home stays on hotel aggregator websites. These could be less expensive than standard star hotels and still give you a more immersive experience. Do, however, check reviews before booking.
+    If you are staying with your family, however, a better option would be to look up home stays on hotel aggregator websites. These could be less expensive than standard star hotels and still give you a more immersive experience. Do, however, check reviews before booking.
 
 #5 Volunteer your time
 
-Many destinations have volunteering vacations where travellers can work in the destinations for any period of time and contribute to the local community. These are budget vacations where the travellers can exchange expertise for food and even stay.
+    Many destinations have volunteering vacations where travellers can work in the destinations for any period of time and contribute to the local community. These are budget vacations where the travellers can exchange expertise for food and even stay.
 
 #6 Locals know their food best
 
-Many travelers tend to order their comfort food even at locations where it is nowhere near the local food, like ordering Punjabi food at a restaurant in Chennai. Just because it’s listed on the menu doesn’t mean it’s good.  Always ask the waiter for local delicacies, they give you a flavour of the cuisine as well as are cheaper.
+    Many travelers tend to order their comfort food even at locations where it is nowhere near the local food, like ordering Punjabi food at a restaurant in Chennai. Just because it’s listed on the menu doesn’t mean it’s good.  Always ask the waiter for local delicacies, they give you a flavour of the cuisine as well as are cheaper.
 
-Use restaurant rating apps curated by locals, they will let you find those hidden gems with the best gastronomic experiences.
+    Use restaurant rating apps curated by locals, they will let you find those hidden gems with the best gastronomic experiences.
 
 #7 Be safe and healthy
 
-It is best to stock up on your prescribed medication as it may not be available at your holiday destination or maybe priced exorbitantly.
+    It is best to stock up on your prescribed medication as it may not be available at your holiday destination or maybe priced exorbitantly.
 
-In foreign locations, healthcare can be expensive without local insurance and it’s best to keep over the counter medication for common ailments. Do keep in mind local laws with regards to medication as what’s over the counter in India might be a restricted drug abroad.
+    In foreign locations, healthcare can be expensive without local insurance and it’s best to keep over the counter medication for common ailments. Do keep in mind local laws with regards to medication as what’s over the counter in India might be a restricted drug abroad.
 
 #8 Cash or card for shopping
 
-Travelers usually refrain from carrying a lot of cash on themselves and quite rightly so. Your debit card can be used to withdraw cash in the local currency almost everywhere across the world. However, with a user fee of 3.5% it’s advisable to withdraw larger sums, and rarely if you do so.
+    Travelers usually refrain from carrying a lot of cash on themselves and quite rightly so. Your debit card can be used to withdraw cash in the local currency almost everywhere across the world. However, with a user fee of 3.5% it’s advisable to withdraw larger sums, and rarely if you do so.
 
-When shopping, use credit cards as it’s easier to cancel any transactions in case of any problems with the vendor whereas remittance of money back to your account through a debit card may take time.
+    When shopping, use credit cards as it’s easier to cancel any transactions in case of any problems with the vendor whereas remittance of money back to your account through a debit card may take time.
 
 #9 Souvenirs, smart or not
 
-Ensure that the souvenirs you buy are unique to the destination and not easily available everywhere. If they are made of precious materials, it is best if they are bought at government approved stores as there is a lesser chance of fraud and even their prices would be regulated.
+    Ensure that the souvenirs you buy are unique to the destination and not easily available everywhere. If they are made of precious materials, it is best if they are bought at government approved stores as there is a lesser chance of fraud and even their prices would be regulated.
 
 #10 Don’t get stressed out
 
-Planning for the vacation is known to be as therapeutic as the vacation itself but in a bid to make the best of the vacation, travelers tend to plan too much and end up with a packed itinerary. Be a traveler, enjoy the road less traveled and pick up experiences as you go along.
-
-
+    Planning for the vacation is known to be as therapeutic as the vacation itself but in a bid to make the best of the vacation, travelers tend to plan too much and end up with a packed itinerary. Be a traveler, enjoy the road less traveled and pick up experiences as you go along.
 
 #1. Quality and Credibility
 
-Shop from a website which has a good reputation in the market. Purchase products of reputed brands, instead of purchasing solely on the basis of offers, discounts and deals.
+    Shop from a website which has a good reputation in the market. Purchase products of reputed brands, instead of purchasing solely on the basis of offers, discounts and deals.
 
-If an offer seems  too good to be true, it probably is. Get a detailed understanding of the deal to avoid loopholes in it.
+    If an offer seems  too good to be true, it probably is. Get a detailed understanding of the deal to avoid loopholes in it.
 
 #2. Use plastic money instead of Cash on Delivery
 
-For new shoppers, cash on delivery seems like a safe option as they have to dispense with cash only when they have the ordered product in their hands. However, shopping online during sale season using your credit card or debit card will reap you a number of benefits.
+    For new shoppers, cash on delivery seems like a safe option as they have to dispense with cash only when they have the ordered product in their hands. However, shopping online during sale season using your credit card or debit card will reap you a number of benefits.
 
-First and foremost, using plastic money when making purchases online helps accumulate points on your card, as well as on your registered account on the merchant website. These points can be redeemed for future purchases.
+    First and foremost, using plastic money when making purchases online helps accumulate points on your card, as well as on your registered account on the merchant website. These points can be redeemed for future purchases.
 
-A lot of websites also have a number of different cash back offers and tie ups with various banks. These benefits can be availed using your card.
+    A lot of websites also have a number of different cash back offers and tie ups with various banks. These benefits can be availed using your card.
 
-Warning: Do not go overboard just because it is plastic money. Falling into the credit card debt trap will ruin your future Diwalis.
+    Warning: Do not go overboard just because it is plastic money. Falling into the credit card debt trap will ruin your future Diwalis.
 
 #3. Informed and comparative shopping
 

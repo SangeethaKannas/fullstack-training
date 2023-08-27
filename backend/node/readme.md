@@ -100,7 +100,6 @@ It stores a new note with the provided data in the database, in the `notes` tabl
 
 *   The database is already created for you, do not force syncing DB by `sequelize.sync` or anything like this. This could break the evaluation.
 *   The dependencies used in this task are in the following versions:
-
     {
       "dependencies": {
         "pg-hstore": "2.3.3",
