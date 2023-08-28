@@ -1,3 +1,31 @@
+### Common interview Topics
+Frontend concepts that you need to know for frontend interviews:
+- Accessibility (a11y), Algorithms, Async/Await
+- Browser Compatibility, Box Model, Bundling
+- Closure, CORS, CSP, CSS, CI/CD, CDN, CLS, Cache control, Cookie
+- DOM, DRY, Data Structures, Dependency Injection, Design Patterns
+- Event Loop, Event Bubbling, ES6, e2e testing
+- FCP, Fetch, Flexbox
+- Grid (CSS), Gzip, git commands
+- Hoisting, HOC (for React), HTTP headers
+- IIFE, Internationalization (i18n)
+- JWT, JavaScript quirks
+- KISS
+- Lazy Loading, LCP, localStorage vs sessionStorage vs IndexedDB
+- Memoization, Micro-frontends, MVC, Media query
+- Null vs Undefined
+- OOP, OAuth
+- Promise, Polyfill, Prototype, PWA, Prefetch
+- Query String
+- Responsive Design, RESTful API
+- SOLID, SSR, SSG, SPA, SEO
+- Throttle vs Debounce, TDD, this keyword
+- UX/UI Principles
+- Virtual DOM, VCS
+- Webp, Web APIs, WebSockets, Web Workers
+- XHR, XSS
+- Yarn vs npm vs pnpm
+
 
 Design Questions
 42:How to design a chat system
