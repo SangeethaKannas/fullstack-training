@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../design"
+		},
+		{
+			"path": "../dsa"
+		}
+	],
+	"settings": {}
+}

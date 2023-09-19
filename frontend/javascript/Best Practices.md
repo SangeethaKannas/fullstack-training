@@ -63,3 +63,19 @@ const ob = {
 }
 
 4. Avoid delete keyword
+
+
+
+
+1. Learn to use all recent es6 utilities, for example, If I ask you to check if the array [1, 3, 6, 8, 10, 15, 17] contains any element greater than 10, then you'll probably write a for loop and individually check each element. But If you had known about Array.some() then probably you'll solve this question in one line, mind-blowing isn't it 😎 ?
+
+2. Have a clear understanding of how a util function treats your input data. For example, Array.prototype.splice() mutates your original array, on the other hand, Array.prototype.slice() does not mutate the array.
+
+3. Learn about Shallow copy and Deep copy, this concept is really important when you are dealing with nested data. All methods like slice, concat, Object.create, etc perform a shallow copy. While JSON.parse(JSON.stringify()) will do a deep copy. This will avoid a lot of bugs.
+
+4. Ditch for loop and use reduce. I have found reduce really amazing! Whenever you encounter a case where you have to populate an output(array or any single value) from iterable (array or Objects) then reduce should be your first choice.
+
+5. Know the time complexities of each JavaScript function, for example
+a) Array.prototype.every() -> O(n)
+b) Array.prototype.push() -> O(1)
+c) Array.prototype.reduce() -> O(n)
