@@ -1,3 +1,12 @@
+### Why react
+1. Performance
+2. Learning Curve
+3. Reusable Components
+4. Big community support
+5. Backed by large companies
+
+
+
 ### HoC Sample
    const HoCSample = ( {value, ...props})   => {
 
