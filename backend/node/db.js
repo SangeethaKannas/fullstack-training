@@ -1,3 +1,8 @@
+
+
+
+
+
 const { Sequelize } = require("sequelize");
 const sequelize = new Sequelize({
     host: process.env.DB_HOST,

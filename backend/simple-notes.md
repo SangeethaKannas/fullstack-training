@@ -11,7 +11,6 @@ Techincally it’s an API standard/specification
  Only one schema
  
 
-
 GraphQL Vs SQL
 
 Query language for APIs    Database
@@ -21,3 +20,7 @@ use 'query'                 'select'
   subscription to           no subscription
 
   listen to data chagnes
+
+
+use DBeaver and PgAdmin. Both tools have the feature to build ERD from your tables.
+For creating my own ERD without SQL, I use https://dbdiagram.io/

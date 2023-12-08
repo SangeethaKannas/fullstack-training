@@ -100,8 +100,6 @@ Design patterns
 
  Symbols are used as an alternative to Strings while setting keys for properties. Symbols are used for hiding properties on Objects. This is because the values can be accessed only by using the same instance of the Symbol. To access a property using Symbol key, use the notation object[symbol] as shown in below example.
 
-
-
 ### Simple node
 (function() {
 
@@ -233,15 +231,10 @@ The event loop continues running until there is no pending task being executed b
 
 ℹ️ The Microtask queues are executed in between each queue and in between each callback of the Timer and Check queues.
 
-
-
-
-
 Single Signon
 
 What is SSO (Single Sign-On)?
-.
-.
+
 Basically, Single Sign-On (SSO) is an authentication scheme. It allows a user to log in to different systems using a single ID.
 
 The diagram below illustrates how SSO works.
@@ -268,9 +261,30 @@ Question 2: what’s your favorite sign-in method and why?
 serpapi.com
 
 shutterstock.com/developers
-
 mapbox.com
-
 fakestoreapi.com
-
 randomeuser.me	
+
+
+let mysql = require('mysql')
+
+let connection = mysql.createConnection({
+  host: '',
+  user: '',
+  password: '',
+  database: ''
+})
+
+connection.connect((err) => {
+  if(err) {
+
+  } else {
+    if(connection.query('SELECT * FROM EMPLOYEE", (err, result) => {
+        console.log(result)
+    }))
+  }
+  connection.end();
+});
+
+
+router.post('/createDevice', authenticate, createDevice, DeviceController.createDevice);

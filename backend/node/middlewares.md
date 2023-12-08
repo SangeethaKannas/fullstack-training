@@ -16,3 +16,15 @@ export const checkForErrors = (req: Request, res: Response, next: NextFunction) 
 
 }
 
+
+
+import { body, param, query} from 'express-validator'
+
+import { checkForErrors} from '../helperValidation'
+
+export const createDeviceMiddleware = [
+  body('serial').isString().withMessage('Must be valid string')
+  body('region').isString(). withMessage('Must be valid region'), checkForEerrors
+
+
+]
