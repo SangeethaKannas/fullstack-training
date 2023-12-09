@@ -1,4 +1,45 @@
 ## Design Patterns
+General reusable solution to a commonly occuring problem in software design
+
+Not a finished piece of code that can be directly applied to any program. 
+More like a template or description that can give an idea of approaching a problem and inspiring solutions
+
+23 Gang of Four Design Patterns
+## Design Pattern Categorization
+### Creational Design Pattern
+  - Handling object creation mechanisms
+
+  Constructor
+  Factory
+  Abstract Factory
+  Prototype
+  Singleton
+  Builder
+
+### Structural Design Pattern
+  - For Identifying ways to realize relationships between objects
+
+  Adapter
+  Bridge
+  Composite
+  Decorator
+  Facade
+  Flyweight
+  Proxy
+  
+### Behavioral Design Pattern
+  - For handling communication between different objects
+  Chain of responsibility
+  Command
+  Iterator
+  Mediator
+  Memento
+  Observor
+  State
+  Strategy
+  Template Method
+  Visitor
+  
 
 ### OOPS
 - Inheritance

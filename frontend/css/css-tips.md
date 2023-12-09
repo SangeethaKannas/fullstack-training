@@ -200,84 +200,6 @@ Some of the most important CSS3 modules are:
 filter: invert(99%) sepia(95%) saturate(0%) hue-rotate(244deg) brightness(101%) contrast(106%);
 
 
-# Color names
-Colors Names
-
-ultramarine50: "#f5f7ff",
-ultramarine100: "#e8ecff",
-ultramarine200: "#d2d8f9",
-ultramarine300: "#b2bdf5",
-ultramarine400: "#778bee",
-ultramarine500: "#4a64e9",
-ultramarine600: "#3c53c2",
-ultramarine800: "#30418c",
-ultramarine900: "#393c4b",
-white: "#ffffff",
-coolgrey50: "#f8f9fa",
-coolgrey100: "#f5f7f9",
-coolgrey200: "#e9edf1",
-coolgrey300: "#dbdfe4",
-coolgrey400: "#b6bfc9",
-coolgrey500: "#7e8891",
-coolgrey600: "#5d666f",
-coolgrey800: "#3b4148",
-coolgrey900: "#252b30",
-black: "#000000",
-warmgrey300: "#e0e0e0",
-warmgrey500: "#9e9e9e",
-warmgrey600: "#737373",
-warmgrey700: "#424242",
-warmgrey750: "#2f3129",
-warmgrey800: "#272822",
-warmgrey900: "#1d1e19",
-sunset100: "#ffec4d",
-sunset300: "#ffdd4d",
-sunset500: "#ffcb45",
-sunset600: "#ffba4d",
-sunset800: "#ffa04d",
-blue: "#78CCFA",
-green: "#87CC43",
-orange: "#FAB54E",
-red500: "#e85858",
-red600: "#db3939",
-red700: "#c93434",
-lavender100: "#eceffd",
-lavender400: "#d9dffb",
-lavender600: "#b4beed",
-aqua100: "#e6f4fd",
-aqua400: "#bee5fa",
-aqua600: "#abe2ff",
-mint100: "#e6fbf3",
-mint400: "#c9f2e3",
-mint600: "#a2ebd0",
-lime100: "#ebf9de",
-lime400: "#d6eebf",
-lime600: "#bce099",
-lemon100: "#fffedf",
-lemon400: "#fff5b3",
-lemon600: "#fff196",
-mango100: "#fff1d6",
-mango400: "#ffe2a9",
-mango600: "#ffcb7d",
-strawberry100: "#ffe6e6",
-strawberry400: "#ffc8c8",
-strawberry600: "#fc9797",
-raspberry100: "#feeaf3",
-raspberry400: "#fcd7e8",
-raspberry600: "#fcbddb"
-
-coolgrey550: "#888A93",
-coolgrey450: "#9DA3A8",
-coolgrey350: "#D3D8DE",
-coolgrey250: "#E9EBEE",
-warmgrey550: "#969694",
-warmgrey650: "#6E6E6C",
-warmgrey725: "#343431",
-strawberry700: "#E98888",
-ultramarine350: "#8A97DA",
-ultramarine950: "#32343B",
-golden: "#A9943C"
-
 ### CSS points
 
 em vs rem
@@ -302,7 +224,6 @@ instead of
     padding: 0;
   }
 
-
 ### Content-box
 
 content-box = content;
@@ -323,9 +244,6 @@ border-box = content + padding + border
   background: yellow;
 }
 
-
-
-
 CSS
 
    Separation of Concerns
@@ -339,9 +257,7 @@ CSS Syntax
 		property : value -- How and where
 	Class
 		
-		
 		#id and name
-		  
 
 Cascading Style Sheets
 	
@@ -362,3 +278,8 @@ Code Wise
 	 Downloading codes which already exists	 
 	 Inline Downloading Codes
 
+### CSS Performance
+section:not(.page-first-told) {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 300px;
+}

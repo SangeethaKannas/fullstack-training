@@ -247,3 +247,15 @@ const convertDateFormat = preDate => {
     y
   );
 };
+
+function formatDate(date: Date) : string {
+  return date.toLocaleDateString('en-US', {
+    day: 'numeric',
+    month: 'short',
+    hour: '2-digit',
+    minute: '2-digit'
+  })
+}
+
+const formatted = formatDate(new Date())
+console.log(formatted)

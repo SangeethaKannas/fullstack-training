@@ -142,8 +142,6 @@ Rule:
  Spread operator ...
  Destructuring   []
 
-
-
 ### Number
   - toFixed
   - toString
@@ -155,8 +153,6 @@ Rule:
 ###Built In objects
 - Date
 - Math
-
-
 
 ### Examples
 1. Tab Navigation - https://lnkd.in/g6gw5_eZ
@@ -182,3 +178,35 @@ Rule:
 21. Flatten Array - https://lnkd.in/g_qKu2KJ
 22. Connect Four - https://lnkd.in/gtySDMrc
 23. Snake Game - https://lnkd.in/gXzsZjpE
+
+Closures and out-of-scope variables
+
+// Memory leak example - 
+
+function createClosure() {
+  const data = 'sensitive data';
+  return function() {
+    console.log(data)
+  }
+
+}
+
+const leakedFunction = createClosure()
+
+//Leaked function retains a reference to 'data' even when it is no longer needed
+
+// Closure retains a reference to the data variable, preventing it from being garbage collected 
+when leaked function exists
+
+//### Circular references - happens when object reference each other forming a cycle. 
+const objA = {}
+const objB = {}
+
+objA.ref = objB
+objB.ref = objA
+
+// Neither ObjA nor objB can be garbage collected due to circular reference
+
+
+
+

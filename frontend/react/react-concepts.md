@@ -136,3 +136,35 @@ Frameworks and Libraries
 26.Routing Libraries
 • React Router
 • Reach Router
+
+
+Day 1: Conducting User Research with AI-Powered Applications.✅🥽🦾
+
+User research, the heartbeat of user-friendly designs, is undergoing a transformative era thanks to AI advancements. AI is reshaping the user research landscape and propelling us into an era of efficiency, scalability, and unprecedented success.
+
+What do I mean?
+✨ AI is reducing transcribing and text-based video editing efforts, making UX researchers more efficient.
+
+✨ Machine learning-based insights, like attention prediction, are streamlining the testing process.
+
+✨ Automated test setup is accelerating study launches, reducing overall testing time.
+
+✨ AI enables the collection of larger datasets without compromising insightful findings.
+
+✨ AI-powered analysis is identifying patterns at scale, offering precise and nuanced insights.
+
+There are several AI-powered applications that you can use during your user research processes. For example:
+
+📌 ChatGPT : Leverages AI for user test scripts and material research preparation.
+
+📌 Synthesia Transforms text into videos, generating transcripts, timestamps, and sentiment analysis of user feedback.
+
+📌 Odaptos: Pioneers emotion recognition through speech and facial expressions, providing valuable emotion analysis through heat maps.
+
+📌 WevoConversion: Specializes in eye tracking movements and heat maps for comprehensive user insights.
+
+📌 Otter.ai : Facilitates the conversion of user interview audios into transcripts for in-depth analysis.
+
+📌 UserZoom (now part of UserTesting): and Maze: Use AI to identify patterns and trends in user behavior during user testing.
+
+📌Tricentis: Utilizes machine learning algorithms to analyze application behavior, generating automated test scripts for comparing front-end implementation with the design.
