@@ -379,3 +379,35 @@ Good to hear:
 In situations where modules or functional programming don’t provide an obvious solution.
 When you need to compose objects from multiple sources.
 Any time you need inheritance.
+
+
+Question 1
+You are given 3 arrays and a dictionary/hash table:
+
+names = ["Helen", "Joe", "Sarah"]
+ages = [24, 32, 34]
+profession = ['Marketer', 'Teacher', 'Nurse']
+hobbies = {
+    "Helen": ['Karate', 'Reading'],
+    "Joe": ['Soccer'],
+    "Sara": ['Hiking', 'Swimming', 'Calligraphy']
+}
+
+Create a dictionary/hash table called 'table' where the keys are the names, and the values are their age, hobby, and profession.
+The index position of the names, ages, and profession arrays represent the relationship between all the arrays.
+For example, index position 0 of the names array correlates to index position 0 of professions and age arrays, and etc.
+In this specific example, Helen is 24 years old, a Marketer, and likes Karate and Reading. Joe is 32 years old, a Teacher, and likes Soccer. 
+
+Retrieve all information on Joe and print it out.
+
+You can use Python or Javascript for your solution.
+
+Question 2
+How would you design a backend system where you have to do data analysis on very large files that are located on the cloud?
+Please be as detailed as you can including what kind of stack you'd be using, what things you have considered and assumed, and how it would integrate all together.
+
+Question 3 - Django System Design:
+Show an example of how you would build the Django models with the following requirements:
+- 3 Models: Company, Product, Employee
+- A company can have multiple products and employees
+- The Employee model should have a string dunder/magic method that returns the name of the employee

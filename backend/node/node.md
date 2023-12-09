@@ -288,3 +288,21 @@ connection.connect((err) => {
 
 
 router.post('/createDevice', authenticate, createDevice, DeviceController.createDevice);
+
+### Node js notes
+
+1. What is an event loop & how NodeJS achieves concurrency?
+2. How you can improve performance of NodeJS app?
+3. How to avoid memory leaks in NodeJS app?
+4. What are Streams & Buffers in NodeJS?
+5. What are four types of streams in NodeJS?
+6. Difference between Cluster / Child Processes / Worker Threads?
+7. How you can communicate between two child processes in NodeJS?
+8. What do you understand about Event Emitter?
+9. How NodeJS can utilise all resources of the processor?
+10. What is the reactor pattern in NodeJS?
+11. Difference between process.nextTick() & setImmediate()?
+12. What does promisify method of util module do?
+13. What are stubs in NodeJS?
+14. Difference between spawn() and fork() methods in NodeJS?
+15. Explain libuv?

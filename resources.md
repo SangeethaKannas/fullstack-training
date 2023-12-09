@@ -184,3 +184,151 @@ https://lnkd.in/dtFpAQkg
 🔟𝐃𝐞𝐞𝐩 𝐋𝐞𝐚𝐫𝐧𝐢𝐧𝐠 𝐒𝐩𝐞𝐜𝐢𝐚𝐥𝐢𝐳𝐚𝐭𝐢𝐨𝐧
 
 https://lnkd.in/db5i3xvv
+
+
+### Productivity
+
+1. darebee.com
+
+2. Tinywow.com
+
+Tiny Wow provides free online conversion, pdf, and other handy tools to help you solve problems of all types. All files both processed and unprocessed are deleted after 15 minutes.
+
+3. Edx.org
+
+The most renowned online learning
+platform for high-quality courses from
+world-famous universities.
+
+4. Remove.bg
+Remove image backgrounds automatically
+in 5 seconds with just one click.
+
+5. Supercook.com
+
+recipe search engine that
+lets you search by ingredients you have at
+home.
+
+
+Carrd.co
+Build simple, free, fully responsive onepage sites for pretty much anything.
+
+
+Pexels.com
+Free stock photos & videos you can use
+everywhere. Browse millions of highquality royalty free stock images &
+copyright free pictures.
+
+Screenshot.guru
+
+screen-capture
+beautiful and high-resolution screenshot
+images of any web page on the Internet
+
+
+Pixlr.com
+
+to edit photos and create
+stunning designs right in your browser, on
+your phone or desktop for free.
+
+
+Dictation.io
+
+a free online speech
+recognition software that will help you
+write emails, documents and essays using
+your voice narration and without typing
+
+
+wikihow
+
+Archive.org
+
+
+
+ 𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝗳𝗼𝗿 𝗽𝗿𝗲𝗽𝗮𝗿𝗮𝘁𝗶𝗼𝗻 𝗼𝗳 𝗽𝗹𝗮𝗰𝗲𝗺𝗲𝗻𝘁𝘀 : https://lnkd.in/d6zpHj4P
+
+- 𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝗳𝗼𝗿 𝘄𝗲𝗯 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁 : https://lnkd.in/dQXfVQrb
+
+- 𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝗳𝗼𝗿 𝘀𝘆𝘀𝘁𝗲𝗺 𝗱𝗲𝘀𝗶𝗴𝗻 : https://lnkd.in/d4QX__nv
+
+- 𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝗳𝗼𝗿 𝗔𝗽𝗽 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁 : https://lnkd.in/g-YkJ-vp
+
+- 𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝗳𝗼𝗿 𝗽𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗶𝗻𝗴 𝗹𝗮𝗻𝗴𝘂𝗮𝗴𝗲 : https://lnkd.in/dV6xSUbC
+
+- 𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝗳𝗼𝗿 𝗗𝗮𝘁𝗮 𝗦𝗰𝗶𝗲𝗻𝗰𝗲 : https://lnkd.in/gcNj_UJZ
+
+- 𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝗳𝗼𝗿 𝗥𝗲𝗮𝗰𝘁 : https://lnkd.in/gcZwQcvt
+
+- 𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝗳𝗼𝗿 𝗖𝗣 : https://lnkd.in/giDwucWv
+
+- 𝗔𝗹𝗹 𝗻𝗼𝘁𝗲𝘀 𝗮𝘁 𝗼𝗻𝗲 𝗽𝗹𝗮𝗰𝗲 : https://lnkd.in/gaccvYmm
+
+
+
+1️⃣ The Open University - A pioneer in distance learning, providing diverse courses across various fields. 🌍📚
+
+Link: https://www.open.ac.uk/
+
+2️⃣ Class Central - Discover thousands of free online courses from renowned universities worldwide. 🌐🎓
+
+Link: https://lnkd.in/dvphRycB
+
+3️⃣ Google Digital Garage - Enhance your digital skills with Google's free courses and certifications. 📱💻
+
+Link: https://lnkd.in/dMSb6kYc
+
+4️⃣ Khan Academy - Access a vast collection of free educational content in various subjects. 🧮📖
+
+Link: https://lnkd.in/dAcRX3Hg
+
+5️⃣ edX - Partnered with top institutions, edX offers high-quality courses for lifelong learners. 🎯🏛️
+
+Link: https://www.edx.org/
+
+6️⃣ Udemy - Find affordable courses on diverse topics taught by industry experts. 💡💼
+
+Link: https://www.udemy.com/
+
+7️⃣ Academic Earth - Access free lectures and courses from top universities worldwide. 🌏🎥
+
+Link: https://academicearth.org/
+
+
+### React resources
+
+React.dev
+
+https://react.dev
+
+Free code camp / free-react-course
+
+
+udemy
+
+
+Youtube: Dave Gray's react course
+
+Egghead.io /courses/react-9fl85549
+Codecademy /react-101
+
+Scrimba.com/learn/frontend
+
+
+### Libraries
+
+React
+moment.js
+Redux Toolkit
+
+React query
+
+React Spring
+React router
+Formik
+Reacgt Aria
+
+React Devtools
+Framer Motion
