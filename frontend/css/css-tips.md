@@ -283,3 +283,11 @@ section:not(.page-first-told) {
   content-visibility: auto;
   contain-intrinsic-size: auto 300px;
 }
+
+
+### Resources
+1. Smooth shadow : https://shadows.brumm.af
+2. CSS path clip maker : https://bennettfeely.com/clippy/
+3. Generate Soft UI CSS Code : https://neumorphism.io/#e0e0ee0
+4. Fancy border radius: https://9elements.github.io/fancy-border-radius
+5. https://getwaves.io
