@@ -492,3 +492,14 @@ console.log(myGeneratorValue.next());
 console.log(myGeneratorValue.next());
 
 
+### Console methods
+1. console.log
+2. console.warn
+3. console.error
+4. console.table
+5. console.assert
+6. console.time and console.timeEnd
+7. console.info
+8. console.trace
+9. console.count
+10. console.clear
