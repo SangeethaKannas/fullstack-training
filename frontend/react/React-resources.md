@@ -31,5 +31,16 @@
 - https://github.com/remix-run/react-router/blob/320be7afe44249d5c025659bc00c3276a19f0af9/packages react-router-dom/examples/Auth.js#L50-L52
 - https://gist.github.com/mjackson/d54b40a094277b7afdd6b81f51a0393f
 
+### React animatinns
+Framer Motion
+
+react-spring
+remotion
+react-awesome-reveal.morello.dev
+react-move-docs.netlify.app
+react-anime
+react-motion
+greensock.com/react
+
 
 ### React web3
