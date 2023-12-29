@@ -1,4 +1,5 @@
-# About React
+# React
+## About React
 
 1. It's just a View library
 2. Keep your components Small
@@ -8,6 +9,7 @@
 6. Always use prop Types
 7. Use JSX, ES6
 8. Use React and Redux Developer tools
+
 
 Memoization | shouldComponentUpdate | may result in buggy code as it may create issues in Code Maintainability | PureComponent
 
@@ -76,15 +78,63 @@ Append the following lines in index.js
 
 ## Basic Hooks
 
-- useState
+- useState : Creates state resources and assigns initial value
+  const [var, setVar] = useState(<initialValue>)
+   var : holds the state value
+   setVar : updates state value
+
 - useEffect
+  used to run side effects in the component such as fetching data or adding listeners.
+
+    useEffect(() => {
+      addListeners()  // Runs after initial render
+      return () => {
+         removeListeners()   // Runs after component unmounts
+       }
+    })
+
+    useEffect(() =>  fetchUserInfo(userId), [userId])
+     // Runs after first render and every time userId updates
+
 - useContext
+
+   Accepts a context object that is created using React.createContext and returns current value of that context
+   const value = useContext(ThemeContext < ContextObject>);
+
 
 ## Additional Hooks
 
 - useReducer
-- useCallback
-- useMemo
+    -- similar to useState
+    -- use own update state logic
+
+    const [state, dispatch] = useReducer(updateCount, { count: 0})
+     //contians state value and a function to update state
+
+    // A callback takes current state and action object and returns new state
+    const updateCount = (state, action) => {
+      switch(action.type) {
+         case 'increment': return {count: state.count + 1}
+         case 'decrement': return {count: state.count - 1}
+         default: return { count }
+      }
+    }
+
+    dispatch({type: 'increment})  // Calls updateCount
+              <Action Object: // May include payload also>
+
+- useCallback : Returns a memoized version of a callback that only changes when dependencies change
+
+   cosnt handleRenderArea = useCallback(() => { updateSurfaceArea(size) }, [])
+   a memoized version of updateSurfaceArea
+
+   updates when size changes value
+
+- useMemo : Returns a memoized value, which only gets recalculated  only when the value of dependencies change
+   const area = useMemo(() => { return calcSurfArea(size) }, ]size])
+    
+    area is updated only when size changes
+
 - useRef
 - useImerativeHandle
 - useLayoutEffect

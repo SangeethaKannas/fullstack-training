@@ -40,7 +40,6 @@ More like a template or description that can give an idea of approaching a probl
   Template Method
   Visitor
   
-
 ### OOPS
 - Inheritance
 - Abstraction
@@ -73,8 +72,9 @@ h) Asynchronous Design Patterns
 - https://lnkd.in/dPQG-7TZ
 
 ##### Books
-- Head First Design Patterns
+- Head First Design Patterns  :  Eric Freeman and Robson
 - Design Patterns: Elements of Reusable Object Oriented Software
+- Design Patterns: by Gang of Four
 
 #### Design Patterns
 a) Singleton design pattern
