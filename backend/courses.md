@@ -16,3 +16,21 @@ S. API Status Codes - https://Inkd.in/5ox7rp6a
 
 
 
+1. API Fundamentals: https://Inkd.in/e8eMet_k 
+2. API Simplified: https://Inkd.in/er9JiGxw 
+3. API Methods: https://Inkd.in/ey9v7-hU
+4. API Terminologies: https://Inkd.in/eRsPMzpd 
+5. API Authentication: https://Inkd.in/eNPfpAdE 
+6. API Status Codes: https://Inkd.in/egXizUrS 
+7. REST API vs GraphQL: https://Inkd.in/eZHREdgC 
+8. API Integration: https://Inkd.in/eDASPP5m 
+9. API Integration in Detail: https://Inkd.in/eZwFVrH7 
+10. API Testing: https://Inkd.in/emgmWJqH 
+11. API with Python: https://Inkdin/eM23ah2y 
+12. API Scaling: https://Inkd.in/e3mZSvmn 
+13. Developing Robust APIs: https://Inkd.in/eBXzbFyg 
+14. APIs with Postman: https://Inkd.in/ezue3d4B 
+15. Testing APIs with Postman: https://Inkd.in/eCPnGTGi 
+16. API Security: https://Inkd.in/e79ZYfPa 
+17. APIs for Everyone: https://Inkd.in/e4WGDffA 
+
