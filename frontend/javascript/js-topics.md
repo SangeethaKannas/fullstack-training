@@ -1,10 +1,5 @@
 JavaScript Topics
-1. Null vs Undefined
-2. Examples 
-    typeof([]) – object
-    typeof({}) - object
-    typeof(null) - object
-    typeof(undefined) – undefined
+
 3. Hoisting
     Hoisting is a JavaScript mechanism where variables and function declarations are moved to 
     the top of their scope before code execution.
@@ -345,7 +340,6 @@ Resolved: Promise resolved
 
 JavaScript Other Topics
 Shallow and Deep copy
-Shallow Copy Deep Copy
 A deep copy means that all of the values of the 
 new variable are copied and disconnected from 
 the original variable.

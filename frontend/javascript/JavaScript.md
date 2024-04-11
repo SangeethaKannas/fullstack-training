@@ -13,12 +13,20 @@
 ### Seven Types
 
 ### Primitive Data types
-- String
-- Number
-- Boolean
-- Null
-- undefined
-- Symbol
+- String String Represents a sequence of characters (text)
+- Number - Represents both integer and floating-point numbers.
+- Boolean - Represents a logical value, either true or false
+- Null - Represents the intentional absence of any value or object
+- undefined - Undefined Represents an uninitialized variable or a function that doesn't return a value
+- Symbol - Represents a unique and immutable value, often used as object property keys
+- BigInt Represents arbitrarily large integers
+
+    1. Null vs Undefined
+2. Examples 
+    typeof([]) – object
+    typeof({}) - object
+    typeof(null) - object
+    typeof(undefined) – undefined
 
 ### Non-Primitive Datatypes
 
@@ -27,11 +35,13 @@
   -- Value
   -- Method
 
-- Array
+Represents a collection of key-value pairs or properties
+
+- Array : Represents an ordered collection of values
 
 - Regexp
 
-- Function
+- Function : Represents a block of code that can be invoked or called
   -- Bunch of code bundled in a section, which runs only when the function is called
   -- allow for organizing code and code reusability
 
@@ -65,39 +75,6 @@ Rule:
  Scope Chain
     Nested hierarchy of scope --> JS Engine looks for variables in the scope chain upwards ( its ancestors )
 
-### Operators
-#### Basic Operators
-  +
-  -
-  *
-  /
-  % remainder
-  ++ Increment numbers
-  -- Decrement numbers
-  ()  Grouping operator
-
-#### Comparison Operators
-  ==  ===
-  !=  !==
-  >   <
-  >=  <=
-
-#### Logical Operators
-  && Logical and
-  || Logical or
-  ! Logical Not
-
-#### Bitwise operators
- - mostly used for numerical conversions/computations, because sometimes they are faster than their Math or parseInt equivalents
-
- &  AND
- |  OR
- ~  NOT
- ^  XOR
- << Zero fill left shift
- >>  Signed right shift
- >>> Zero fill right shift
-
 
 ### Keyword / reserved word
 
@@ -107,14 +84,6 @@ Rule:
 
 ### Built in functions
 
-### String
-   - concat
-   - charAt
-   - split
-   - indexOf
-   - startsWith
-   - endsWith
-   - slice
 
 ### Array
    - sort

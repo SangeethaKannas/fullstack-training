@@ -353,3 +353,61 @@ Link: https://www.udemy.com/
 
 Link: https://academicearth.org/
 
+1. Google Data Analytics:    🔗https://lnkd.in/d_eAZ2wB
+2. Learn Python Basics for Data Analysis     🔗https://lnkd.in/dSwuqVAm
+3. Data Analysis with R Programming      🔗 https://lnkd.in/dCJYSbzE
+4. Foundations: Data, Data, Everywhere     🔗https://lnkd.in/db4HN23c
+5. Ask Questions to Make Data-Driven Decisions     🔗https://lnkd.in/dwRRwQ6Z
+6. Process Data from Dirty to Clean    🔗 https://lnkd.in/db3QzbPh
+7. Share Data Through the Art of Visualization    🔗 https://lnkd.in/darCNvxG
+8. Analyze Data to Answer Questions   🔗https://lnkd.in/dEEPHFD5
+9. Get Started with Python            🔗https://lnkd.in/dCzeH-WP
+10. Go Beyond the Numbers: Translate Data into Insights          🔗 https://lnkd.in/dk--DWhT
+11. The Power of Statistics     🔗 https://lnkd.in/djPTRnPR    
+12. Regression Analysis: Simplify Complex Data Relationships     🔗 https://lnkd.in/dFPPEP7N
+13. The Nuts and Bolts of Machine Learning    🔗 https://lnkd.in/d9PUhiq5
+14. Google Advanced Data Analytics Capstone    🔗 https://lnkd.in/ddYqDxsG
+
+
+1. Master any coding interview with these 14 patterns: https://lnkd.in/gBu9uZtz
+
+2. Backtracking solutions for 10 popular problems: https://lnkd.in/gjpC9MCC
+
+3. Beginner's guide to Dynamic Programming patterns: https://lnkd.in/gevrxmmy
+
+4. Compilation of all Graph algorithms: https://lnkd.in/g2xdz7TY
+
+5. Deciding when to use two pointers: https://lnkd.in/gqzEDmf6
+
+6. Simplifying the Sliding Window algorithm: https://lnkd.in/gnDS8sJn
+
+7. The ultimate Binary Search guide: https://lnkd.in/gg_BB6ik
+
+8. Strategies for solving Linked List problems: https://lnkd.in/gp7FgTGx
+
+9. Study guide for comprehensive Data Structures and Algorithms: https://lnkd.in/gcUnWavF
+
+10. Effectively utilizing Leetcode: https://lnkd.in/gEuRT4ik
+
+
+
+
+
+1) Learn an object oriented programming language (eg. C++, Java)
+
+2) Know how to create classes/objects.
+
+3) Basic Object-Oriented Principles (Inheritance, Polymorphism, Abstraction, Encapsulation): https://lnkd.in/gsH6xxQX
+
+4) SOLID Principles: https://lnkd.in/dNZsRxQ6
+
+5) Object-Oriented Design (Coursera): https://lnkd.in/gxXe3AsT
+
+6) Design Patterns (Coursera): https://lnkd.in/greN39U9
+
+7) Low-Level Design (LLD) Interview Problems: https://lnkd.in/gSi3KPki
+
+More resources in this Github repository: https://lnkd.in/gb-r9vha
+(Consider giving it a star if you find it valuable)
+
+***

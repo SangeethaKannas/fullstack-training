@@ -39,13 +39,13 @@ Module scope: node script.js
 Global Scope: node < script.js
 
 ## New Features
-   Opt-in block scope
-   Arrow functions
-   Iterable objects: for-of, for-await-of
-   "Spread" syntax
-   "Rest" syntax
-   Destructuring
-   Asynchronous programming improvements
+  Opt-in block scope
+  Arrow functions
+  Iterable objects: for-of, for-await-of
+  "Spread" syntax
+  "Rest" syntax
+  Destructuring
+  Asynchronous programming improvements
    Template literals
    Typed Arrays
 

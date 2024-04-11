@@ -1,0 +1,1 @@
+const clearCookies = document.cookie.split(";").forEach(cookie => document.cookie = cookie.replace())
