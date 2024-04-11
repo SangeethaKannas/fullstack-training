@@ -1,5 +1,95 @@
-# Whitepapers
+# References
 
+1️ Internet: Gain a fundamental understanding of how the Internet works -https://lnkd.in/djbrQVYm
+
+2️ HTML: Dive into the fundamentals of HTML and learn how to structure web content -https://lnkd.in/dDpQ9e3u
+
+3️ CSS: Discover the power of CSS and master the art of designing stunning websites -https://lnkd.in/ddqmkmez
+
+4️ JavaScript: Unlock JavaScript's potential and add interactivity to your web pages -https://lnkd.in/dHKbtNQA
+
+5️ Version Control Systems: Manage code changes with Git -https://lnkd.in/djqpFJxX
+
+6️ Repo Hosting Services:: Collaborate using platforms like GitHub, GitLab -https://lnkd.in/d8nFNUC2
+
+7️ Web Security: Learn about securing frontend code - https://lnkd.in/d65XJPBP
+
+8️ Package Managers: Manage JavaScript dependencies - https://lnkd.in/dhyRAXqn
+
+9️ CSS Architecture: Organize CSS for scalability -https://lnkd.in/dE6Zain3
+
+10 Build Tools and Module Bundlers: Optimize and package your frontend code - https://lnkd.in/dk_729Ai
+
+1️1 Pick a Framework (React, Vue, !Angular): Explore and specialize in popular frontend frameworks - https://lnkd.in/dmzbbv9h
+
+1️2 Web Components: Create encapsulated UI elements - https://lnkd.in/dpSXEksz
+
+1️3️ CSS Frameworks: Familiarize yourself with popular CSS frameworks - https://lnkd.in/djvXxAUC
+
+1️4️ Testing your Apps: Ensure code quality with frontend testing techniques and frameworks - https://lnkd.in/dUmBbwiz
+
+1️5️ Authentication Strategies: Explore authentication methods - https://lnkd.in/dUfyXfNx
+
+1️6️ TypeScript: Improve JavaScript code with type-checking - https://lnkd.in/d3DzZ8vA
+
+1️7️ Progressive Web Apps (PWA): Build PWAs for app-like experiences - https://lnkd.in/dEQd8tmR
+
+1️8️ Jamstack (SSR, SSG & GraphQL): Learn about the Jamstack architecture for fast and scalable web apps - https://jamstack.org
+
+1️9️ Mobile Applications: Expand to mobile development with JavaScript - https://lnkd.in/dmt-tpXr
+
+2️0️ Desktop apps in JavaScript: Build cross-platform desktop apps using frameworks like Electron and Tauri - https://lnkd.in/dYpRdbNt    
+
+Javascript - Basics - https://lnkd.in/dNJPGhdE
+Javascript and DOM - Intermediate - https://javascript.info/
+Javascript - Advanced - https://lnkd.in/dhbihk7t
+Critical rendering path - Advanced - https://lnkd.in/gAiQ93yx
+Javascript - Advanced - https://lnkd.in/gpkCuZcA
+Machine coding - Advanced - https://shorturl.at/iovAU
+Browser Rendering- Advanced - https://lnkd.in/gSHQxgvQ
+
+
+Courses
+► Course links: 
+1. CS 50:   
+ • Harvard CS50 – Fu...  
+2. 100 Days of Code: https://www.udemy.com/course/100-days...
+3. Algorithms 1 and 2: http://imp.i384100.net/algorithms-1 and http://imp.i384100.net/algorithms-2
+4. Meta Front-end Professional Certificate: https://www.coursera.org/professional-certificates/meta-front-end-developer?irclickid=1XES4vxjfxyPRxeTvz2WZ0A0UkFwim3pOVSXVY0&irgwc=1&utm_medium=partners&utm_source=impact&utm_campaign=3552395&utm_content=b2c
+5. System Design:   https://www.youtube.com/watch?v=-W9F__D3oY4&t=0s
+ • CS75 (Summer 2012...  
+
+
+### Front end references
+#### UI References
+
+https://www.studiorhe.com/ - menu
+https://www.hortioutdoor.com/ - logo scrolling
+https://sctconsulting.com.au/
+https://www.kpff.com/
+https://www.hustonengineering.com/ - hero scrolling
+https://www.stellardevelopment.eu/ - menu
+https://csd.sagirov.com/
+https://corespaces.com/ - scrolling
+https://www.gtispartners.com/
+https://www.builderproptech.com/ - logo pattern bg
+https://www.artmeta.org/ - logo scrolling
+https://www.alukaze.com/
+https://yays.com/
+http://www.mrozinskiconstruction.com/
+https://gmcontractors.co.uk/
+https://strana-wow.com/en - menu
+https://www.jdgconstructions.com.au/
+https://www.studiomotio.com/
+https://dinamicaplataforma.com/
+https://www.blackfin-tech.com/
+https://en.ogkgroup.ru/
+https://www.exonetik.com/ - hero scrolling
+https://www.quonota.com/ - logo pattern
+https://rnd.nlmk.com/en/
+https://www.ocs.plus/
+
+# Whitepapers
 
 20. TikTok Monolith
 19. Meta FlexiRaft
@@ -27,7 +117,6 @@
 
 
 1. Python for beginners
-
 Learn how to create programs and projects in Python. Work with strings, lists, loops, dictionaries, and functions.
 
 🔗 https://lnkd.in/drQMQsBK
@@ -101,15 +190,16 @@ Learn the basic syntax and thought processes required to build simple applicatio
 2. https://smalldev.tools
 
 devdocs.io
+
 carbon.now.sh
 
 readme.so
+
 ide.onelang.io
 
 extractcss.com
 
 cssbuttons.app
-
 
 Excelformulabot.com
 
@@ -121,26 +211,7 @@ alison.com
 
 kapwing.com
 
-
-
 ### Courses.md
-
-Free:
-1. Wes Bos JS30 (learn vanilla JS): https://javascript30.com/
-2. Kevin Powell YouTube channel: https://lnkd.in/eQQGMuud
-3. Front-end beginner GitHub page resources: https://lnkd.in/eYgkakXJ
-4. Lydia Hallie's JavaScript quiz questions: https://lnkd.in/epiW6qhD
-5. You don't know JS by Kyle Simpson: https://lnkd.in/erkjRpbQ
-
-Mid-priced (< $50):
-6. Frontend Masters subscription (everything you need): https://lnkd.in/eCHKJbmF
-7. Udemy React the Complete Guide 2023: https://lnkd.in/eU9JHJdJ
-8. Udemy CSS the Complete Guide 2023: https://lnkd.in/eWAa5vCP
-
-Expensive (but worth it):
-9. Josh Comeau Joy of React (highly recommend): https://lnkd.in/eTYK7dGU
-10. Josh Comeau CSS for JS devs (highly recommend): https://css-for-js.dev/
-11. Kent C Dodds Epic React: https://epicreact.dev/
 
 
 10 FREE courses
@@ -196,24 +267,18 @@ Tiny Wow provides free online conversion, pdf, and other handy tools to help you
 
 3. Edx.org
 
-The most renowned online learning
-platform for high-quality courses from
-world-famous universities.
+The most renowned online learning platform for high-quality courses from world-famous universities.
 
 4. Remove.bg
-Remove image backgrounds automatically
-in 5 seconds with just one click.
+Remove image backgrounds automatically in 5 seconds with just one click.
 
 5. Supercook.com
 
 recipe search engine that
-lets you search by ingredients you have at
-home.
-
+lets you search by ingredients you have at home.
 
 Carrd.co
 Build simple, free, fully responsive onepage sites for pretty much anything.
-
 
 Pexels.com
 Free stock photos & videos you can use
@@ -246,21 +311,13 @@ wikihow
 
 Archive.org
 
-
-
  𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝗳𝗼𝗿 𝗽𝗿𝗲𝗽𝗮𝗿𝗮𝘁𝗶𝗼𝗻 𝗼𝗳 𝗽𝗹𝗮𝗰𝗲𝗺𝗲𝗻𝘁𝘀 : https://lnkd.in/d6zpHj4P
-
-- 𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝗳𝗼𝗿 𝘄𝗲𝗯 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁 : https://lnkd.in/dQXfVQrb
-
-- 𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝗳𝗼𝗿 𝘀𝘆𝘀𝘁𝗲𝗺 𝗱𝗲𝘀𝗶𝗴𝗻 : https://lnkd.in/d4QX__nv
 
 - 𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝗳𝗼𝗿 𝗔𝗽𝗽 𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁 : https://lnkd.in/g-YkJ-vp
 
 - 𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝗳𝗼𝗿 𝗽𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗶𝗻𝗴 𝗹𝗮𝗻𝗴𝘂𝗮𝗴𝗲 : https://lnkd.in/dV6xSUbC
 
 - 𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝗳𝗼𝗿 𝗗𝗮𝘁𝗮 𝗦𝗰𝗶𝗲𝗻𝗰𝗲 : https://lnkd.in/gcNj_UJZ
-
-- 𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝗳𝗼𝗿 𝗥𝗲𝗮𝗰𝘁 : https://lnkd.in/gcZwQcvt
 
 - 𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝗳𝗼𝗿 𝗖𝗣 : https://lnkd.in/giDwucWv
 
@@ -295,62 +352,4 @@ Link: https://www.udemy.com/
 7️⃣ Academic Earth - Access free lectures and courses from top universities worldwide. 🌏🎥
 
 Link: https://academicearth.org/
-
-
-### React resources
-
-React.dev
-
-https://react.dev
-
-Free code camp / free-react-course
-
-udemy
-
-Youtube: Dave Gray's react course
-
-Egghead.io /courses/react-9fl85549
-Codecademy /react-101
-
-Scrimba.com/learn/frontend
-
-
-### Libraries
-
-React
-moment.js
-Redux Toolkit
-
-React query
-
-React Spring
-React router
-Formik
-Reacgt Aria
-
-React Devtools
-Framer Motion
-
-
-### System Design Books
-# Books
-- Data Science For Business (Provost & Fawcett)
-- Deep Learning With Python (Chollet)
-- Storytelling With Data (Knaflic)
-- Python Object-Oriented Programming (Lott & Phillips)
-- Deep Reinforcement Learning With Python (Ravichandiran)
-- Deep Learning Illustrated (Krohn)
-- Transformers For NLP (Rothman)
-- Generative Deep Learning (Foster)
-- ML With PyTorch & Scikit-Learn x2 (Raschka, Mirjalili, Liu)
-- Transformers For NLP - 2nd Ed. (Rothman)
-- Hands-On ML with Scikit-Learn, Keras, & Tensorflow (Geron)
-- Generative AI With Python & Tensorflow 2 (Babcock & Bali)
-- Hands-On Explainable AI (XAI) With Python (Rothman)
-- Python Machine Learning By Example (Liu)
-- Data Science From Scratch (Grus)
-- Cleaning Data For Effective Data Science (Mertz)
-- Expert Python Programming (Jaworski & Ziade)
-- The Kaggle Book (Banachewicz & Massaron)
-- Neural Networks From Scratch (Harrison a.k.a. Sentdex)
 

@@ -197,7 +197,6 @@ it is ready i.e. when the transition update is completed.
 • Demo: https://isha-11.github.io/react-18-features/#/suspense
 
 
-
 2. useDeferredValue()
    Used to defer the re-rendering of a non-urgent part of the tree.
    similar to debouncing.
@@ -211,8 +210,6 @@ it is ready i.e. when the transition update is completed.
 
 5. useInsertionEffect()
    allows CSS-in-JS libraries to address performance issue of injecting styles in render
-
-6. 
 
 
 # React 18
@@ -241,28 +238,18 @@ Migration
 Automatic Batching
 
    Grouping/Batching multiple state updates into a single re-render produces better performance.
-• Updates are said to be batched in a function if the Component re-renders only once at the end
-of the function and applies all state updates at once instead of re-rendering after every
-statement which updates state.
+• Updates are said to be batched in a function if the Component re-renders only once at the end of the function and applies all state updates at once instead of re-rendering after every statement which updates state.
 • Until React 17, updates only inside React event handlers were batched.
-• React 18 onwards updates inside of promises, setTimeout, native event handlers or
-any other event are also batched by default.
+• React 18 onwards updates inside of promises, setTimeout, native event handlers or any other event are also batched by default.
 • Opting out of automatic batching can be done using flushSync.
 • Demo: https://isha-11.github.io/react-18-features/#/batching
 
 
 Strict Mode
 
-In future, React may add a feature that allows to add and remove sections of the UI while
-preserving state.
-• To do this, React will support remounting trees using the same component state used before
-unmounting.
-• This feature requires components to be resilient to effects being mounted and destroyed
-multiple times.
-• Most effects will work without any changes, but if some effects do not properly clean up
-subscriptions in the destroy callback, or implicitly assume they are only mounted or destroyed
-once – those would cause errors.
-
-• This new check will automatically unmount and remount every component, whenever a
-component mounts for the first time, restoring the previous state on the second mount.
+In future, React may add a feature that allows to add and remove sections of the UI while preserving state.
+• To do this, React will support remounting trees using the same component state used before unmounting.
+• This feature requires components to be resilient to effects being mounted and destroyed multiple times.
+• Most effects will work without any changes, but if some effects do not properly clean up subscriptions in the destroy callback, or implicitly assume they are only mounted or destroyed once – those would cause errors.
+• This new check will automatically unmount and remount every component, whenever a component mounts for the first time, restoring the previous state on the second mount.
 

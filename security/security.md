@@ -1,3 +1,4 @@
+# Glossary
 1. Authentication 🕵️‍♀️ - Verifies the identity of users accessing APIs.
 2. Authorization 🚦 - Determines permissions of authenticated users.
 3. Data Redaction 🖍️ - Obscures sensitive data for protection.
@@ -41,6 +42,3 @@ Digital certificates ensure secure and encrypted communication between servers a
 4. Credentials:
 User authentication information is used to verify and grant access to various systems and services
 
-Ref:
-1) Grokking System Design Fundamentals: https://lnkd.in/gtcCT-dJ
-2) Grokking the System Design Interview: https://lnkd.in/giwyzfkT

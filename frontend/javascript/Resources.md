@@ -103,7 +103,6 @@
 - http://tumble.sneak.co.nz/post/928998513/fixing-the-background-bleed
 - Study about - https://github.com/reworkcss/rework
 
-
 #### Future Tasks
 - https://web.archive.org/web/20070509055923/http://gcc.gnu.org/java/
 - https://spring.io/guides/gs/spring-boot-docker/
