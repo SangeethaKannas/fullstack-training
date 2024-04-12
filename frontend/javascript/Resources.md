@@ -214,7 +214,6 @@ url:
 6. elsewhencode/project-guidelines
 7. loverajoel/jstips
 8. sudheerj/javascript-interview-questions
-9.
 
 ### Design patterns
 - https://blog.sessionstack.com/how-javascript-works-the-factory-design-pattern-4-use-cases-
@@ -224,4 +223,11 @@ url:
 - https://www.educative.io/collection/page/5429798910296064/5725579815944192/6078594150301696
 
 
-###
+#### Learning platforms
+• Codevolution - ReactJS
+• Akshay Saini - JavaScript
+• Traversy Media - Almost everything
+• The Net Ninja - JavaScript and CSS
+• Kevin Powell - CSS and Web Design
+• clever programmer - Real time project clones
+• code addict : basics of html,css,js in depth

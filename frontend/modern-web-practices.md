@@ -1,24 +1,7 @@
 Modern Web Practices
 Nicholas Cloud, Phillip Conaway, Ted Waller, Aaron Bushnell,
-Trevan Hetzel and Bob Yexley
-This book is for sale at http://leanpub.com/modernwebpractices
-This version was published on 2014-11-10
-This is a Leanpub book. Leanpub empowers authors and publishers with the Lean Publishing
-process. Lean Publishing is the act of publishing an in-progress ebook using lightweight tools and
-many iterations to get reader feedback, pivot until you have the right book and build traction once
-you do.
-©2014 Nicholas Cloud. All Rights Reserved.
-Tweet This Book!
-Please help Nicholas Cloud, Phillip Conaway, Ted Waller, Aaron Bushnell, Trevan Hetzel and Bob
-Yexley by spreading the word about this book on Twitter!
-The suggested tweet for this book is:
-I’m building the web with Modern Web Practices!
-The suggested hashtag for this book is #modernwebpractices.
-Find out what other people are saying about the book by clicking on this link to search for this
-hashtag on Twitter:
-https://twitter.com/search?q=#modernwebpractices
-This book is dedicated to all the ponytails and propellerheads who worked, at one time or another,
-for appendTo.
+Trevan Hetzel and Bob Yexley  This book is for sale at http://leanpub.com/modernwebpractices
+
 Contents
 Credits and Acknowledgements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
 Automate Your Workflow with Grunt . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
@@ -35,21 +18,7 @@ Contributing authors
 • Trevan Hetzel
 • Ted Waller
 • Bob Yexley
-Preface by Michael Hostetler
-Cover artwork by Trevan Hetzel
-Edited by Nicholas Cloud
-Automate Your Workflow with Grunt
-by Aaron Bushnell
-If you find yourself performing the same development tasks over and over again this chapter was
-written for you. Maybe you endlessly add browser prefixes to your CSS properties. Or maybe you
-know it’s a good idea to minify your JavaScript and CSS files, but you don’t really know how. Or
-maybe you have five or six pages with the same header and footer on them and changing those
-means editing five or six different HTML files.
-This chapter is about letting the computer do the hard, repetitive, or downright boring work for you.
-Because no one gets excited to do work that a computer could do faster and more reliably.
-We should be building LEGOs, not making sure the set has all the pieces.
-Read the rest of Aaron’s chapter in the full Modern Web Practices ebook¹!
-¹http://bit.ly/mwpebook
+
 Offline Web Applications
 by Nicholas Cloud
 There was a time not long ago when my mobile phone was just a phone. I made phone calls and
@@ -112,16 +81,3 @@ what works for every circumstance. However, the bad practices and patterns ident
 almost always unhelpful in the long-run.
 Read the rest of Ted’s chapter in the full Modern Web Practices ebook⁷!
 ⁷http://bit.ly/mwpebook
-Bower in Practice: A Package
-Manager for the Web
-by Bob Yexley
-Modern software development of nearly every flavor involves some kind of package manager. These
-have become essential tools for helping developers manage complex collections of utilities, libraries
-and dependencies of all kinds. Web development is no different in that it can benefit from a tool to
-help manage your web application dependencies. The biggest question that most web developers
-seem to have about Bower is: do I really need it? That decision can can only be made by the
-individual developer or team with the right information. This chapter will provide you with an
-in-depth look at Bower, how it works, how it can help you, and arm you with the information you
-need to determine if Bower is the tool for you.
-Read the rest of Bob’s chapter in the full Modern Web Practices ebook⁸!
-⁸http://bit.ly/mwpebook

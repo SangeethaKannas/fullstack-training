@@ -151,8 +151,7 @@ components)
 ├── 🚀 Bootstrap
 ├── 🎈 Tailwind CSS
 └── 🌈 Material UI
-💾 9. State Management (Manage, maintain, and track your application's
-state)
+💾 9. State Management (Manage, maintain, and track your application's state)
 ├── ⭕ Redux
 ├── 📦 MobX
 ├── 🖼 VueX (if you choose Vue.js)
@@ -176,7 +175,6 @@ state)
 ├── ⚛️ React (Next.js)
 ├── 🖼 Vue (Nuxt.js)
 └── 🔺 Angular (Angular Universal)
-
 📄 15. Static Site Generators (Generate static pages from dynamic data)
 ├── 📖 Jekyll
 ├── 🚀 Hugo
@@ -202,37 +200,29 @@ state)
 ├── 🌐 Browser DevTools
 ├── 💻 Terminal Usage
 └── 🐛 Debugging Tools & Techniques
-
 🎨 21. Design (Create visually appealing and intuitive interfaces)
 ├── 🖌 Basics of Design (Typography, Color Theory)
 ├── 📝 Wireframing
 ├── 🔄 Prototyping
 └── 👥 UX/UI Design Principles
-🗣 22. Soft Skills (Improve your effectiveness as a developer and team
-member)
+🗣 22. Soft Skills (Improve your effectiveness as a developer and team member)
 ├── 📢 Communication
 ├── 🧩 Teamwork
 └── 🧠 Problem-Solving
-🧩 23. Advanced Topics (Dive deeper and stay on top of the latest
-front-end trends)
+🧩 23. Advanced Topics (Dive deeper and stay on top of the latest front-end trends)
 ├── 🗂 GraphQL (A modern data query and manipulation language)
-├── 🚀 WebAssembly (Wasm) (Run code at near-native speed in the
-browser)
-├── 📚 JAMstack (A modern architecture for fast, secure, and
-scalable apps)
+├── 🚀 WebAssembly (Wasm) (Run code at near-native speed in the browser)
+├── 📚 JAMstack (A modern architecture for fast, secure, and scalable apps)
 ├── 🎨 CSS-in-JS libraries (Scoped and component-specific styles)
 │ ├── 💅 Styled Components
 │ └── 😃 Emotion
-├── 🔄 Design Systems (Maintain consistent styling across
-applications)
+├── 🔄 Design Systems (Maintain consistent styling across applications)
 │ ├── 🐜 Ant Design
 │ └── 🌈 Material-UI
 ├── 🎬 Motion UI (Enhance user experience with animations)
 │ ├── 🖼 Framer Motion
 │ └── 🌱 React Spring
-└── 🧬 Micro Frontends (A microservice approach to front-end
-development)
-
+└── 🧬 Micro Frontends (A microservice approach to front-end development)
 
 ## References
 Free:

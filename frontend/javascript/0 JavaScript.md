@@ -8,6 +8,16 @@
 7. Visual Effects
 8. Web and Mobile Apps
 
+### Real time scenario
+
+1. React Native powering cross-platform Mobile Apps.
+2. Electron powering cross-platform Desktop Apps.
+3. PWAs powering lighter Mobile Apps (like Instagram-lite, Telegram..)
+4. Bun, Node powering server-side programming (many Startups rely on this)
+5. Vanilla js, React, Svelte, Vue dominating the Frontend ecosystem.
+6. Javascript has formed multiple career line up options.
+
+
 ## Datatypes
 
 ### Seven Types
@@ -83,29 +93,6 @@ Rule:
 ### Expression
 
 ### Built in functions
-
-
-### Array
-   - sort
-   - slice
-   -    Returns new array
-   - splice
-   - map
-   - filter
-   - forEach
-   - find
-   - every
-   - some
-   - reduce
-   - fill
-   - join
-   - find
-   - isArray
-   - findIndex
-   - Pop
-   - Push
-   - shift
-   - unshift
 
  Operators
  Spread operator ...

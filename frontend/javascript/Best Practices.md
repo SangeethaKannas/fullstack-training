@@ -65,8 +65,6 @@ const ob = {
 4. Avoid delete keyword
 
 
-
-
 1. Learn to use all recent es6 utilities, for example, If I ask you to check if the array [1, 3, 6, 8, 10, 15, 17] contains any element greater than 10, then you'll probably write a for loop and individually check each element. But If you had known about Array.some() then probably you'll solve this question in one line, mind-blowing isn't it 😎 ?
 
 2. Have a clear understanding of how a util function treats your input data. For example, Array.prototype.splice() mutates your original array, on the other hand, Array.prototype.slice() does not mutate the array.

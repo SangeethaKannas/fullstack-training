@@ -1,13 +1,6 @@
 
 
-#### Learning platforms
-• Codevolution - ReactJS
-• Akshay Saini - JavaScript
-• Traversy Media - Almost everything
-• The Net Ninja - JavaScript and CSS
-• Kevin Powell - CSS and Web Design
-• clever programmer - Real time project clones
-• code addict : basics of html,css,js in depth
+
 
 #### Events
 "abort", "abort", je, "animationEnd", He, "animationIteration", $e, "animationStart", "canplay", "canPlay", "canplaythrough", "canPlayThrough", "durationchange", "durationChange", "emptied", "emptied", "encrypted", "encrypted", "ended", "ended", "error", "error", "gotpointercapture", "gotPointerCapture", "load", "load", "loadeddata", "loadedData", "loadedmetadata", "loadedMetadata", "loadstart", "loadStart", "lostpointercapture", "lostPointerCapture", "playing", "playing", "progress", "progress", "seeking", "seeking", "stalled", "stalled", "suspend", "suspend", "timeupdate", "timeUpdate", Be, "transitionEnd", "waiting", "waiting"
