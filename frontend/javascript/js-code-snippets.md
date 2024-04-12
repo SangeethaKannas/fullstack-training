@@ -17,4 +17,3 @@
 17. Check if a cookie exists: document.cookie.split(';').some(item => item.trim().startsWith('name=')
 18. Remove a cookie: 
 19. Getthe current viewport dimensions:
-20. Copy textto clipboard: navigator.clipboard.writeText(text)

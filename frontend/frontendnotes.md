@@ -1,16 +1,3 @@
-### Design Patterns
-1. Factory
-2. Observor
-3. Singleton
-4. Builder
-5. Adapter
-6. Decorator
-7. Proxy
-8. Strategy
-9. Command
-10. Template
-11. Iterator
-12. State
 
 
 #### Learning platforms

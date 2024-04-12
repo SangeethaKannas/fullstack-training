@@ -1,7 +1,5 @@
 # Real time scenario
 
-Starting with -
-
 1. React Native powering cross-platform Mobile Apps.
 
 2. Electron powering cross-platform Desktop Apps.
