@@ -1,4 +1,15 @@
 ##   Best Practices
+### General rules
+- Follow Standard conventions
+- KISS: Keep it simple silly. Reduce complexity as much as possible
+- Boy scout rule: Keep the campaign clound cleaner than you found it.
+- Always find root cause: Always find the root cause of a problem
+
+- Remove duplicate code
+- Remove unused code
+- Dont write to global functions like Arrays etc., instead extend them
+- Always declare variables
+- Use === instead of ==
 
 
 ### Objects
@@ -15,11 +26,6 @@
 - Favor functional programming instead of imperative programming
 
 ### General
-- Remove duplicate code
-- Remove unused code
-- Dont write to global functions like Arrays etc., instead extend them
-- Always declare variables
-- Use === instead of ==
 
 `
 const SuperArray extends Array {
@@ -77,3 +83,87 @@ const ob = {
 a) Array.prototype.every() -> O(n)
 b) Array.prototype.push() -> O(1)
 c) Array.prototype.reduce() -> O(n)
+
+### Design Rules
+- Keep configurable data at higher levels
+- Prefer polymorphism to if/else or switch/case
+- Separate multi threading code
+- Prevent over configurability
+- Use dependency injection
+- Follow law of Demeter: A class should know only its direct dependencies
+
+### Understandability tips
+- Consistent: Do all similar things in same way
+- Use Explanatory variables
+- Encapsulate boundary conditions: 
+    - Boundary conditions are hard to keep track
+    - Put processing for them in same place
+- Prefer dedicate value object to a primitive type
+- Avoid logical dependency: Dont write methods which works correctly depending on something else in same class
+- Avoid negative conditionals
+
+
+### Names rules
+- Choose descriptive and unambigious names
+- Make meaningful distinction
+- Use pronounceable names
+- Use Searchable names
+- Replace magic numbers with named constants
+- Avoid encodings. Dont append prefixes or type information
+
+### Functions rules
+- Small
+- Do one thing
+- Use descriptive names.
+- Prefer fewer agreements
+- Have no side effects
+- Dont use flag arguments. Split method into several independent methods that can be called from client without the flag
+
+### Comments Rules
+- Always try to explain yourself in code
+- Don't be redundant
+- Dont add obvious noise
+- Dont use closing brace comments
+- Dont comment out code. Just remove
+- Use as explanation of intent
+- Use as clarification of code
+- Use as warning of consequences
+
+### Source code structure
+- Seperate concepts vertically
+- Related code should appear vertically dense
+- Declare variables close to their usage
+- Dependent functions should be close
+- Similar functions should be close
+- Place functions in the downward directions
+- Keep lines short
+- Dont use horizontal alignment
+- Use whitespace to associate related things and disassociate weakly related
+- Dont break indentation
+
+### Objects and Data structures
+- Hide internal structure
+- Prefer data structures
+- Avoid hybrid structures ( half object and half data)
+- Should be small
+- Do one thing
+- Small number of instance variables
+- Base class should know nothing about its derivatives
+- Better to have many functions than to pass some code into a function to select a behaviour
+- Prefer non-static methods to static methods
+
+### Tests
+- One assert per test
+- Readable
+- Fast
+- Independent
+- Repetable
+
+### Code smells
+- Rigidity. Software is difficult to change. A small change causes a cascade of subsequent changes
+- Fragility. Software breaks in multiple places due to a single change
+- Immobility. You cannot reuse parts of code in other projects because of involved risks and high effort.
+- Needless complexity
+- Needless Repetition
+- Opacity. Code is hard to understand
+
