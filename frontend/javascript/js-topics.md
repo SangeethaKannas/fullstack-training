@@ -1283,3 +1283,48 @@ console.log(myGeneratorValue.next());
 8. console.trace
 9. console.count
 10. console.clear
+
+### Observables
+1. handle async operations that give multiple values
+2. are objects that can emit values, errors and completion notifications
+
+`
+const apiServices = new ApiService()
+
+const observable = apiService.getNewsArticles()
+
+observable.subscribe(articles => {
+  console.log(articles)
+})
+`
+
+### Topics
+1. Variables and Datatypes
+2. Control flow : Order of statement execution
+3. Functions
+4. Object oriented programming
+5. Debugging
+6. Memory management
+7. Algorithms and Datastructures
+8. APIs and webservices
+
+
+1. Modernizing the Web Playback UI     https://lnkd.in/gG7-VtbY
+
+2. Delivering Previews on Web       https://lnkd.in/giz5UY47
+
+3. Micro Frontend at Netflix		https://lnkd.in/gJRWCGy3
+
+4. HTML5 video to display premium quality	https://lnkd.in/gk3-XKW6
+
+5. Journey to a Responsive Design		https://lnkd.in/gEJaWuyW
+
+6. XSS payload management framework		https://lnkd.in/gWx46NRa
+
+7. HTML5 video for cross browser support	https://lnkd.in/gcAr_eWc
+
+8. Accessibility accross devices		https://lnkd.in/gZ356z8Z
+
+9. Netflix research papers and topics		https://lnkd.in/gWMeZn8W
+
+10. Web performance case study		https://lnkd.in/djZBgsKC

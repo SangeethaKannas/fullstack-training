@@ -290,3 +290,224 @@ a { color: red; }
 	}
 	sumn(1, '2');
 
+
+let names = ["Helen", "Joe", "Sara"];
+let ages = [24, 32, 34];
+let profession = ["Marketer", "Teacher", "Nurse"];
+let hobbies = {
+  Helen: ["Karate", "Reading"],
+  Joe: ["Soccer"],
+  Sara: ["Hiking", "Swimming", "Calligraphy"],
+};
+
+const getCombinedData = (
+  names = [],
+  ages = [],
+  profession = [],
+  hobbies = {}
+) => {
+  let combinedObject = {};
+
+  if (names.length > 0 && ages.length > 0 && profession.length > 0) {
+    let reducer = (accumulator, currentValue, index) => {
+      accumulator[currentValue] = {
+        age: ages[index],
+        profession: profession[index],
+        hobbies: [...hobbies[currentValue]],
+      };
+      return accumulator;
+    };
+    combinedObject = names.reduce(reducer, {});
+  }
+
+  return combinedObject;
+};
+
+console.log(getCombinedData(names, ages, profession, hobbies)["Joe"]);
+
+
+Question 2
+
+ First I would partition the data ( large file ) based on the usage and the sensitive nature of the data. Once that is done I will create separate microservices for accessing the partitioned data. Here I would be using node-js and mongodb for accessing the data. I would use service bus for inter-container communication
+
+ I assume the data does not follow a rigid schema definition
+
+
+# Question 1
+let x = {
+  flag: 1,
+  toString:  function() {
+    return this.flag++;
+  }
+}
+
+if (x ==1 && x ==2 && x==3) {
+  console.log("Hello")
+} else {
+  console.log("Bye ")
+}
+
+# Question 2
+let x = {
+  name: 1
+}
+
+if (x ==1 && x ==2 && x==3) {
+  console.log("Hello")
+} else {
+  console.log("Bye ")
+}
+
+"Hello"
+"Hello"
+
+# Question 3
+let x = {
+  flag: 1
+}
+
+if (x ==1 && x ==2 && x==3) {
+  console.log("Hello")
+} else {
+  console.log("Bye ")
+}
+
+"Hello"
+
+# Question 4
+Case 1: 
+function show () {
+ {
+   (function () {
+     var x = 9;
+     var y = 10;
+   })();
+ } 
+  console.log(x, y)
+}
+show();
+
+
+Case 2: 
+
+function show () {
+ {
+   var x = 9;
+  var y = 10;
+ } 
+  console.log(x, y)
+}
+show();
+
+
+Case 3: 
+function show () {
+ {
+   let x = 9;
+  let y = 10;
+ } 
+  console.log(x, y)
+}
+show();
+
+Case 1: undefined, undefined, case 2: 9, 10, case 3: undefined, undefined or reference error
+
+# Question 5
+console.log( 4 + + + "4");
+9
+# Question 6
+let b = "4";
+
+console.log(b +++ 3, b);
+
+7, "4"
+
+# Question 7
+function ArrayBoolean(){
+  if([] && [1])
+    return [true, true];
+  else if([] && ![1])
+    return [true,false];
+  else if(![] && [1])
+    return [false,true];
+  else
+    return [false,false];
+}
+ArrayBoolean();
+
+[false, true]
+
+# Question 8
+let array = [1, 2]
+
+(array).push(3)
+
+console.log(array)
+[1, 2, 3]
+
+# Question 9
+let a = 9;
+let b = 10;
+let c = 0;
+
+console.log(a && b && c)
+
+false
+
+# Question 10
+let a = 9;
+let b = 10;
+let c = 0;
+
+console.log(a && c && b)
+
+0
+
+# Question 11
+function Greetings(name) {
+  return
+    "Good morning, " + name
+}
+
+console.log(Greetings("Giovanni"))
+
+undefined
+
+
+1. Arrow function and what is the difference apart from syntax?
+2. Call, apply bind (write down the code for one of them)
+3. Generator Function and write a range Generator functions
+4. Real time example of Generator Functions?
+5. ES6 features
+6. Write down the code for spread operator, rest operator and Object destructuring?
+7. Difference between forEach and map?
+8. Difference between Object.assign(), Object.create()? Which one mutates the data ?
+9. What is a Promise ?
+10. Write a function component in react which returns a lazy loaded Button Component and add the Suspense with fallback UI?
+11. What is Error Boundary, How can we write a separate Error Boundary Component?
+12. What is Redux, Why Redux, Core principles of redux?
+13. Write down a basic sum function using Typescript and how do you accept params in either string or number?
+14. What are Generics functions (inside Typescript), can you write down types?
+15. Abstract function means?
+16. Software Principles (DRY, KISS) how do you implemented in your codebase
+17. Git hook (pre commit, husky)
+18. SOLID Principles
+19. Write down test cases? What does beforeEach and beforeAll do?
+20. Difference between mock vs spy in testing?
+21. Explain Testing Pyramid?
+22. Differences between Integration Testing vs End to End testing?
+23. Which tool you have used for above of them?
+24. What do we mean by code coverage? How do you measure code coverage?
+25. What is meant by OWASP top 10?
+26. What is meant by CSP, XSS (where do we set these CSP headers? In Client or Server)
+27. What is meant by CORS? (Where do we set them)
+28. DDD?
+29. Explain me the various ways of Performance Optimization that you can do at any level (ex: CSS, JS, HTML)
+30.What is CRP?
+31. What are memory leaks in react? Why do they happen?
+32. Promise.all vs Promise.any vs Promise.race?
+33. How do you configure typescript in your project?
+34. How many ways you can create an object?
+35. What does we have in.tsconfig.json? can you explain them?
+
+

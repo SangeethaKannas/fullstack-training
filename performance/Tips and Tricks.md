@@ -169,3 +169,9 @@ https://www.udemy.com/regex-academy-an-introduction-to-text-parsing-sorcery/
 https://www.udemy.com/learn-angular-from-scratch/
 
 
+### Dom node removal
+1. Removing a dom node removal without removing associated event listeners --> memory leaks
+2. Detecting and resolving memory leaks can be challenging, but essential for maintaining performance and reliability of JS applications
+3. Advanced tools like memory profilers and heap snapshots in browser developer tools can help identify and diagnose memory leaks in more complex scenarios
+
+

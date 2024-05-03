@@ -364,6 +364,143 @@ Link: https://academicearth.org/
 7) Low-Level Design (LLD) Interview Problems: https://lnkd.in/gSi3KPki
 
 More resources in this Github repository: https://lnkd.in/gb-r9vha
-(Consider giving it a star if you find it valuable)
 
-***
+
+### More resources
+1. Google Data Analytics:    🔗https://lnkd.in/d_eAZ2wB
+2. Learn Python Basics for Data Analysis     🔗https://lnkd.in/dSwuqVAm
+3. Data Analysis with R Programming      🔗 https://lnkd.in/dCJYSbzE
+4. Foundations: Data, Data, Everywhere     🔗https://lnkd.in/db4HN23c
+5. Ask Questions to Make Data-Driven Decisions     🔗https://lnkd.in/dwRRwQ6Z
+6. Process Data from Dirty to Clean    🔗 https://lnkd.in/db3QzbPh
+7. Share Data Through the Art of Visualization    🔗 https://lnkd.in/darCNvxG
+8. Analyze Data to Answer Questions   🔗https://lnkd.in/dEEPHFD5
+9. Get Started with Python            🔗https://lnkd.in/dCzeH-WP
+10. Go Beyond the Numbers: Translate Data into Insights          🔗 https://lnkd.in/dk--DWhT
+11. The Power of Statistics     🔗 https://lnkd.in/djPTRnPR    
+12. Regression Analysis: Simplify Complex Data Relationships     🔗 https://lnkd.in/dFPPEP7N
+13. The Nuts and Bolts of Machine Learning    🔗 https://lnkd.in/d9PUhiq5
+14. Google Advanced Data Analytics Capstone    🔗 https://lnkd.in/ddYqDxsG
+
+### JS resources
+
+<> 7000+ Course Free Access : https://lnkd.in/dNeD5TRR
+
+🪢Google Data Analytics:-
+🔹https://lnkd.in/dpVWZuJG
+
+1. IBM Full Stack Software Developer Professional Certificate
+🔗https://lnkd.in/d9yYAmTY
+
+2. HTML and CSS in depth
+🔗https://lnkd.in/dZTV8WJS
+
+3. JavaScript
+🔗https://lnkd.in/dabj4Vta
+
+4. Python
+🔗https://lnkd.in/gMizg4SB
+
+5. MySQL
+🔗https://lnkd.in/derXwh6E
+
+6. MongoDB
+🔗https://lnkd.in/djq5dPPJ
+
+7. Node.js
+🔗https://lnkd.in/ded5qGCQ
+
+8. Express
+🔗https://lnkd.in/ded5qGCQ
+
+9. React
+🔗https://lnkd.in/dUaSwp-u
+
+10. Java
+🔗https://lnkd.in/dyeNM_2i
+
+11. Git
+🔗https://lnkd.in/d9EAPtzh
+
+12. DSA
+🔗https://lnkd.in/dYX74hHc
+
+13. GraphQL
+🔗https://lnkd.in/dcqyuiWf
+
+14. Microservices
+🔗https://lnkd.in/dQgxJyqY
+
+15. Cloud
+🔗https://lnkd.in/dCzsyQkd
+
+16. Serverless
+🔗https://lnkd.in/dQgxJyqY
+
+17. Linux
+🔗https://lnkd.in/deafeiEe
+
+18. DevOps
+🔗https://lnkd.in/d35-e_zy
+
+19. Docker
+🔗https://lnkd.in/d5cErRCK
+
+20. Kubernetes, OpenShift
+🔗https://lnkd.in/dVgGacYD
+
+21. Front-End Development
+🔗https://lnkd.in/deFDdXtr
+
+22. Databases
+🔗https://lnkd.in/dep4eMR3
+
+23. Back-End Development
+🔗https://lnkd.in/d5mG3chj
+
+24. The Full Stack Course
+🔗https://lnkd.in/dfDXDuBe
+
+25. Web Design for Everybody: Basics of Web Development & Coding Specialization
+🔗https://lnkd.in/dyzGm87u
+
+26. Introduction to Web Development with HTML, CSS, JavaScript
+🔗https://lnkd.in/dwMSpUvH
+
+27. Introduction to Web Development
+🔗https://lnkd.in/dJRHBB_K
+
+28. IBM Full Stack Software Developer Professional Certificate
+🔗https://lnkd.in/d9yYAmTY
+
+
+## 
+
+🔹 Interpreted Language
+JavaScript code is executed by the browser or JavaScript engine rather than being compiled into machine language beforehand. This makes it highly portable across different platforms. Modern engines such as V8 utilize Just-In-Time (JIT) technology to compile code into directly executable machine code.
+
+🔹 Function is First-Class Citizen
+In JavaScript, functions are treated as first-class citizens, meaning they can be stored in variables, passed as arguments to other functions, and returned from functions.
+
+🔹 Dynamic Typing
+JavaScript is a loosely typed or dynamic language, meaning we don't have to declare a variable's type ahead of time, and the type can change at runtime.
+
+🔹 Client-Side Execution
+JavaScript supports asynchronous programming, allowing operations like reading files, making HTTP requests, or querying databases to run in the background and trigger callbacks or promises when complete. This is particularly useful in web development for improving performance and user experience.
+
+🔹 Prototype-Based OOP
+Unlike class-based object-oriented languages, JavaScript uses prototypes for inheritance. This means that objects can inherit properties and methods from other objects.
+
+🔹 Automatic Garbage Collection
+Garbage collection in JavaScript is a form of automatic memory management. The primary goal of garbage collection is to reclaim memory occupied by objects that are no longer in use by the program, which helps prevent memory leaks and optimizes the performance of the application.
+
+🔹 Compared with Other Languages
+JavaScript is special compared to programming languages like Python or Java because of its position as a major language for web development.
+
+While Python is known to provide good code readability and versatility, and Java is known for its structure and robustness, JavaScript is an interpreted language that runs directly on the browser without compilation, emphasizing flexibility and dynamism.
+
+🔹 Relationship with Typescript
+TypeScript is a superset of JavaScript, which means that it extends JavaScript by adding features to the language, most notably type annotations. This relationship allows any valid JavaScript code to also be considered valid TypeScript code.
+
+🔹 Popular Javascript Frameworks
+React is known for its flexibility and large number of community-driven plugins, while Vue is clean and intuitive with highly integrated and responsive features. Angular, on the other hand, offers a strict set of development specifications for enterprise-level JS development.
