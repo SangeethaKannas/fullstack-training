@@ -671,6 +671,7 @@ https://www.udemy.com/learn-angular-from-scratch/
 14. Google Advanced Data Analytics Capstone    🔗 https://lnkd.in/ddYqDxsG
 
 
+## Design interviews
 1. 𝐒𝐲𝐬𝐭𝐞𝐦 𝐃𝐞𝐬𝐢𝐠𝐧 𝐈𝐧𝐭𝐞𝐫𝐯𝐢𝐞𝐰𝐬: https://lnkd.in/gEVpTZKH
 
 2. 𝐋𝐨𝐰 𝐋𝐞𝐯𝐞𝐥 𝐃𝐞𝐬𝐢𝐠𝐧 𝐈𝐧𝐭𝐞𝐫𝐯𝐢𝐞𝐰𝐬: https://lnkd.in/gb-r9vha
@@ -678,3 +679,17 @@ https://www.udemy.com/learn-angular-from-scratch/
 3. 𝐂𝐨𝐝𝐢𝐧𝐠 𝐈𝐧𝐭𝐞𝐫𝐯𝐢𝐞𝐰𝐬: https://lnkd.in/g4x48ee9
 
 4. 𝐁𝐞𝐡𝐚𝐯𝐢𝐨𝐫𝐚𝐥 𝐈𝐧𝐭𝐞𝐫𝐯𝐢𝐞𝐰𝐬: https://lnkd.in/gJTs2Xsb
+
+
+##  Youtube MBA in 10 days
+1. Andrew Hubber man and davig Goggins : How to build willpower
+2. The Futur :  Pricing Design work
+3. Y Combinator : Sam Altman - How to succeed with Startup
+4. Matt Gray : How to make $5 Million profit in a year
+5. Alex Hormozi : My path to $100 m in 7 years
+6. Codie Sanchez : 6 business with low failure rates
+7. MIT Open course ware : 
+8. Freecodecamp.org
+9. Modern MBA : Why Airbnb fails to disrupt the whotel industry
+10. Dan Koe : how to productize yourself
+

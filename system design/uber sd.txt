@@ -1,0 +1,30 @@
+
+Scalability:
+Uber deals with a massive user base and requires a scalable architecture to handle a large number of concurrent requests. Discuss how the system can horizontally scale by adding more servers or resources.
+
+Microservices Architecture:
+Uber typically employs a microservices architecture, where different functionalities are broken down into smaller, independent services.
+
+Geographical Distribution:
+Uber operates in multiple cities worldwide. Explain how the system handles geographical distribution, load balancing, and routing requests to the nearest data center for optimal performance.
+
+Ride Matching Algorithm:
+Uber's core functionality involves matching riders with drivers efficiently. Discuss the algorithm used for real-time ride-matching, considering factors like distance, traffic, and driver availability.
+
+Real-time Data Processing:
+Uber relies heavily on real-time data processing for tracking rides, calculating fares, and managing driver availability. Discuss the tools and technologies used for real-time data processing, such as Apache Kafka or Apache Flink.
+
+Payment System:
+Uber's payment system must be secure and reliable.
+
+Availability and Fault Tolerance:
+Uber must ensure high availability. Discuss strategies for fault tolerance, including redundant systems, data backups, and mechanisms for handling service outages gracefully.
+
+User Authentication and Authorization:
+Security is paramount. Discuss how Uber ensures the security of user data, including authentication mechanisms, authorization processes, and encryption standards.
+
+Caching and Database:
+Explain the role of caching in optimizing system performance. Discuss the choice of databases for different functionalities, considering factors like consistency, scalability, and latency.
+
+Monitoring and Analytics:
+Uber relies on extensive monitoring and analytics to improve its services.
