@@ -473,6 +473,146 @@ More resources in this Github repository: https://lnkd.in/gb-r9vha
 28. IBM Full Stack Software Developer Professional Certificate
 🔗https://lnkd.in/d9yYAmTY
 
+## Free Courses
+𝐅𝐑𝐄𝐄 𝐂𝐨𝐮𝐫𝐬𝐞𝐬 𝐲𝐨𝐮 𝐰𝐢𝐥𝐥 𝐫𝐞𝐠𝐫𝐞𝐭 𝐧𝐨𝐭 𝐭𝐚𝐤𝐢𝐧𝐠 𝐢𝐧 𝟐𝟎𝟐𝟒.
+
+1. Azure Data Scientist Associate
+🔗https://lnkd.in/gszH3GD2
+
+2. Cybersecurity Analyst
+🔗https://lnkd.in/gFZPmX_c
+
+3. Power BI Data Analyst
+🔗https://lnkd.in/g45MuT-W
+
+4. Azure Data Engineering Associate (DP-203)
+🔗https://lnkd.in/g4tBxVKD
+
+5. Azure Developer Associate (AZ-204)
+🔗 https://lnkd.in/g-cV6YqU
+
+6. Microsoft Azure Security Engineer Associate (AZ-500)
+🔗https://lnkd.in/gCa748X5
+
+7. 𝗜𝗕𝗠 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗠𝗮𝗻𝗮𝗴𝗲𝗿
+🔗 https://lnkd.in/d9g-SZsx
+
+8. Google Project Management
+🔗 https://lnkd.in/dN4Gv65a
+
+9. 𝗔𝗜 𝗣𝗿𝗼𝗱𝘂𝗰𝘁 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁
+🔗 https://lnkd.in/dAQcVs3t
+
+10. 𝗙𝘂𝗻𝗱𝗮𝗺𝗲𝗻𝘁𝗮𝗹𝘀 𝗼𝗳 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗣𝗹𝗮𝗻𝗻𝗶𝗻𝗴 𝗮𝗻𝗱 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁
+🔗 https://lnkd.in/dUDuWrWZ
+
+11. SQL for Data Science with Python
+🔗 https://lnkd.in/g6YNmUnB
+
+12. Tableau
+🔗 https://lnkd.in/ggQmzh2c
+
+13. Microsoft Power BI
+🔗 https://lnkd.in/guAwnhpm
+
+14. IBM Data Science
+🔗 https://lnkd.in/gu4RPKwD
+
+15. IBM Data Analysts
+🔗 https://lnkd.in/gyyJvR2D
+
+16. IBM Data Engineering
+🔗 https://lnkd.in/gZN9umxi
+
+17. Big Data
+🔗 https://lnkd.in/gTgyCUZy
+
+18.Mathematics
+🔗 https://lnkd.in/g9n6a-dj
+
+19. Advanced Data Science
+🔗 https://lnkd.in/g4qmTTNS
+
+20. Data Analytics For Python
+🔗 https://lnkd.in/g-3tsuKG
+
+21. Python for Data Science , AI and Development
+🔗 https://lnkd.in/ggHsBA7u
+
+22. Data Analytics with excel and R
+🔗 https://lnkd.in/g_cq49dg
+
+Data Scientist ToolBox Kit
+https://lnkd.in/dUcbc_mJ
+
+Advanced DSA 1:1 Session
+https://lnkd.in/dmKTENvz
+
+HTML AND CSS
+🔗https://lnkd.in/gVZ9HdFx
+
+JavaScript
+🔗https://lnkd.in/gFURecbH
+
+Bootstrap
+🔗https://lnkd.in/gvt9yJ84
+
+React JS
+🔗https://lnkd.in/gwGWwEdZ
+
+Git and GitHub
+🔗https://lnkd.in/gTpfSHGj
+
+MySQL
+🔗https://lnkd.in/gRCdAbuN
+
+MongoDB
+🔗https://lnkd.in/g-P9YggE
+
+Django
+🔗https://lnkd.in/gV_RZTJR
+
+NodeJS
+🔗https://lnkd.in/gcz9xase
+
+Google Crash Course on Python
+🔗https://lnkd.in/gGfXtCiW
+
+𝗚𝗼𝗼𝗴𝗹𝗲 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁:
+https://lnkd.in/dN4Gv65a
+
+𝗜𝗕𝗠 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗠𝗮𝗻𝗮𝗴𝗲𝗿
+https://lnkd.in/d9g-SZsx
+
+𝗔𝗜 𝗣𝗿𝗼𝗱𝘂𝗰𝘁 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁
+https://lnkd.in/dAQcVs3t
+
+𝗙𝘂𝗻𝗱𝗮𝗺𝗲𝗻𝘁𝗮𝗹𝘀 𝗼𝗳 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗣𝗹𝗮𝗻𝗻𝗶𝗻𝗴 𝗮𝗻𝗱 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁
+https://lnkd.in/dUDuWrWZ
+
+Meta Android Developer
+🔗https://lnkd.in/g8Nnk3Ys
+
+Meta Frontend Developer
+🔗https://lnkd.in/gTiGrbAK
+
+Meta Backend Developer
+🔗https://lnkd.in/gR82v3Mn
+
+Data Science Toolbox Kit
+https://lnkd.in/dTABggsW
+
+Docker
+🔗https://lnkd.in/gyKUWUeR
+
+Google Cloud
+🔗https://lnkd.in/gFh93-aE
+
+Java
+🔗https://lnkd.in/gQw6Snhu
+
+Data Structures and Algorithm
+🔗https://lnkd.in/gVggb6Gg
 
 ## 
 
@@ -504,3 +644,37 @@ TypeScript is a superset of JavaScript, which means that it extends JavaScript b
 
 🔹 Popular Javascript Frameworks
 React is known for its flexibility and large number of community-driven plugins, while Vue is clean and intuitive with highly integrated and responsive features. Angular, on the other hand, offers a strict set of development specifications for enterprise-level JS development.
+
+Udemy courses
+https://www.udemy.com/online-business-selling-simple-products-amazon/
+https://www.udemy.com/learn-responsive-web-development-from-scratch/learn/v4/overview
+https://www.udemy.com/html-css-build-a-dashboard/
+https://www.udemy.com/become-a-full-stack-developer-with-spring-aws-and-stripe/
+https://www.udemy.com/photoshop-for-web-design-beginners/
+https://www.udemy.com/regex-academy-an-introduction-to-text-parsing-sorcery/
+https://www.udemy.com/learn-angular-from-scratch/
+
+
+1. Google Data Analytics:    🔗https://lnkd.in/d_eAZ2wB
+2. Learn Python Basics for Data Analysis     🔗https://lnkd.in/dSwuqVAm
+3. Data Analysis with R Programming      🔗 https://lnkd.in/dCJYSbzE
+4. Foundations: Data, Data, Everywhere     🔗https://lnkd.in/db4HN23c
+5. Ask Questions to Make Data-Driven Decisions     🔗https://lnkd.in/dwRRwQ6Z
+6. Process Data from Dirty to Clean    🔗 https://lnkd.in/db3QzbPh
+7. Share Data Through the Art of Visualization    🔗 https://lnkd.in/darCNvxG
+8. Analyze Data to Answer Questions   🔗https://lnkd.in/dEEPHFD5
+9. Get Started with Python            🔗https://lnkd.in/dCzeH-WP
+10. Go Beyond the Numbers: Translate Data into Insights          🔗 https://lnkd.in/dk--DWhT
+11. The Power of Statistics     🔗 https://lnkd.in/djPTRnPR    
+12. Regression Analysis: Simplify Complex Data Relationships     🔗 https://lnkd.in/dFPPEP7N
+13. The Nuts and Bolts of Machine Learning    🔗 https://lnkd.in/d9PUhiq5
+14. Google Advanced Data Analytics Capstone    🔗 https://lnkd.in/ddYqDxsG
+
+
+1. 𝐒𝐲𝐬𝐭𝐞𝐦 𝐃𝐞𝐬𝐢𝐠𝐧 𝐈𝐧𝐭𝐞𝐫𝐯𝐢𝐞𝐰𝐬: https://lnkd.in/gEVpTZKH
+
+2. 𝐋𝐨𝐰 𝐋𝐞𝐯𝐞𝐥 𝐃𝐞𝐬𝐢𝐠𝐧 𝐈𝐧𝐭𝐞𝐫𝐯𝐢𝐞𝐰𝐬: https://lnkd.in/gb-r9vha
+
+3. 𝐂𝐨𝐝𝐢𝐧𝐠 𝐈𝐧𝐭𝐞𝐫𝐯𝐢𝐞𝐰𝐬: https://lnkd.in/g4x48ee9
+
+4. 𝐁𝐞𝐡𝐚𝐯𝐢𝐨𝐫𝐚𝐥 𝐈𝐧𝐭𝐞𝐫𝐯𝐢𝐞𝐰𝐬: https://lnkd.in/gJTs2Xsb

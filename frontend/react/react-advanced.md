@@ -5,11 +5,9 @@ useEffect(() => {
   const fetch = async () => {
     try {
       const data = await fetch('a', { signal: abortController.signal});
-
       setData(data)
-
-    }catch(error) {
-
+    } catch(error) {
+      console.log(error)
     }
 
   };
@@ -22,12 +20,12 @@ useEffect(() => {
 ### Is Mounted
 
 1. To avoid dual rendering of useEffect running twice in React 18
-due to concurrent rendering
-  makes rendering of UI faster and more responsive
 
+  due to concurrent rendering
+  makes rendering of UI faster and more responsive
   fluid user experience
 
-Temporary fixe remove <StrictMode> in index.js
+  Temporary fix: remove <StrictMode> in index.js
 
 import { useEffect, useRef } from 'react';
 
@@ -47,7 +45,6 @@ const useIsMounted = () => {
   const getIsMounted = () => {
     return isMounted.current;
   }
-
 
   reurn getIsMounted;
 }
@@ -173,12 +170,6 @@ export default function VideoPlayer({
     <video controls={controls} muted={!withAudio} ref={handleVideoRef} className={className} />
   );
 }
-
-
-
-
-
-
 
 
 const LAZY_COMPONENTS = {
@@ -517,7 +508,6 @@ export const renderField = ({ input, placeholder, label, type, value, helperText
 
 export { email, required, phone, password } from "./validators";
 
-
 ### React symbols
 
 React Lifecycle
@@ -579,11 +569,11 @@ So to fix this in React version < 17, you have two options:
 𝘤𝘰𝘯𝘴𝘵 𝘷𝘢𝘭𝘶𝘦 = 𝘦𝘷𝘦𝘯𝘵.𝘵𝘢𝘳𝘨𝘦𝘵.𝘷𝘢𝘭𝘶𝘦;
 
 𝘴𝘦𝘵𝘜𝘴𝘦𝘳((𝘱𝘳𝘦𝘷𝘚𝘵𝘢𝘵𝘦) => {
-𝘳𝘦𝘵𝘶𝘳𝘯 {
-...𝘱𝘳𝘦𝘷𝘚𝘵𝘢𝘵𝘦,
-𝘢𝘨𝘦: 𝘷𝘢𝘭𝘶𝘦
-};
-});
+    𝘳𝘦𝘵𝘶𝘳𝘯 {
+      ...𝘱𝘳𝘦𝘷𝘚𝘵𝘢𝘵𝘦,
+      𝘢𝘨𝘦: 𝘷𝘢𝘭𝘶𝘦
+    };
+  });
 };
 
 Here's a CodeSandbox Demo: https://lnkd.in/dTPwpE3f

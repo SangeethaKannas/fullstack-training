@@ -1,0 +1,26 @@
+Skills:- MongoDB, NodeJS (Node.js), Javascript, jQuery and Amazon Web Services (AWS)
+Education
+ Good understanding of the object-oriented design and programming concepts, core JavaScript concepts like scope/closures, the event loop and asynchronous callbacks, promises, API formation, POSTMAN API etc.
+
+Hands on experience in Profiling tools like AppDynamics/Dynatrace, performance tuning, debugging, monitoring.
+Experience in Micro services Design Patterns: (Observer, SAGA, Circuit Breaker, API Gateway, Service Discovery etc).
+Hands on experience in performance tuning, debugging, monitoring Technical Skills
+Excellent knowledge developing scalable and highly-available Restful APIs using NodeJS technologies
+Extensive coding experience with SOLID principles, Event Driven Architecture (Kafka), MongoDB, Redis and have passion for coding.
+3. Well versed with CI/CD principles, actively involved in solving, troubleshooting issues in distributed services ecosystem
+4. Good experience in Quality gate tools like Sonarqube, Checkmarx/fortify.
+5. Familiar with Distributed services resiliency and monitoring in a production environment.
+6. Understanding of containerization, experienced in Dockers , Kubernetes.
+7. Exposed to API gateway integrations like 3Scale.
+8. Understanding of Single-Sign-on or token based authentication (Rest, JWT, oAuth)
+
+Functional Skills
+1. Experience in following best Coding, Security, Unit testing and Documentation standards and practices
+2. Experience in Banking, Financial and Fintech experience in an enterprise environment preferred
+3. Experience in Agile methodology.
+4. Effectively research and benchmark technology against other best in class technologies.
+
+Soft Skills
+1. Able to influence multiple teams on technical considerations, increasing their productivity and effectiveness, by sharing deep knowledge and experience.
+2. Self-motivator and self-starter, Ability to own and drive things without supervision and works collaboratively with the teams across the organization.
+3. Have excellent soft skills and interpersonal skills to interact and present the ideas to Senior and Executive management
