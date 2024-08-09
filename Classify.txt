@@ -1,0 +1,44 @@
+
+
+
+String buffer
+	function StringBuffer () {
+		this.buffer = [];
+	}
+
+CSS
+
+   Separation of Concerns
+    Document structure and Semantics - HTML	
+	Logic - JS	
+	Formatting and Display - CSS
+	
+CSS Syntax
+
+	Selector -  What	
+		property : value -- How and where
+	Class
+		
+		
+		#id and name
+		  
+
+Cascading Style Sheets
+	
+Conflicts
+
+Style Application
+   Same property has two different values   
+   Closest to the element takes precedence   
+   Last Write wins  
+   
+	Wastage
+
+Code Wise
+	 Repeated Code	 
+	 Unused Code	 
+	 Inline Style Elements - 	 
+	 Default Values	 
+	 Downloading codes which already exists	 
+	 Inline Downloading Codes
+
