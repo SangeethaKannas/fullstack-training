@@ -19,6 +19,13 @@ var app = http.createServer(function(req,res){
 app.listen(3000);
 
 
+caching in nodejs
+middlewares
+advantages of nodejs
+inner joins vis outer joins
+delete vs truncate  difference
+having vs where
+
 |  Module Name |  Functionality |
 | ------------ | ------------ |
 |http|Makes Node.js behave like a HTTP server.|

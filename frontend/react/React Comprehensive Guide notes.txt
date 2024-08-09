@@ -1,0 +1,13 @@
+React Comprehensive Guide notes
+
+# Performance 
+1. Callback hook
+     Returns a function that can be reused
+     Created only when dependencies changes
+
+2.  Pure components
+        Class based components
+	Rendered only when state changes
+	Components are rendered even when state value  is not changed
+
+3. 

@@ -1,0 +1,43 @@
+import firebase from 'firebase/app';
+import {
+  FB_API_KEY,
+  FB_AUTH_DOMAIN,
+  FB_DB_URL,
+  FB_PROJECT_ID,
+  FB_STORAGE_BUCKET,
+  FB_SENDER_ID,
+  FB_APP_ID,
+} from '../constants';
+
+import 'firebase/database';
+import 'firebase/auth';
+
+/**
+ * * CONFIGURATION OBJECT FOR FIREBASE
+ */
+const firebaseConfig = {
+  apiKey: FB_API_KEY,
+  authDomain: FB_AUTH_DOMAIN,
+  databaseURL: FB_DB_URL,
+  projectId: FB_PROJECT_ID,
+  storageBucket: FB_STORAGE_BUCKET,
+  messagingSenderId: FB_SENDER_ID,
+  appId: FB_APP_ID,
+};
+
+/**
+ * * INITIALIZING THE FIREBASE INSTANCE
+ */
+firebase.initializeApp(firebaseConfig);
+
+/**
+ * * INITIALIZING THE FIREBASE AUTH
+ */
+export const fireBaseAuth = firebase.auth();
+
+/**
+ * * INITIALIZING THE FIREBASE REAL TIME DATABASE
+ */
+export const database = firebase.database();
+
+export default firebase;
