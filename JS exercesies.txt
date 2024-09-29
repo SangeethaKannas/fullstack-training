@@ -1,0 +1,38 @@
+1. Print a Fibonacci Series
+2. Round off a Number to next multiple of 5 javascr
+3. Largest 3 numbers
+4. find a area of a circle( r value should be modified), pi value should be defaulted in a function
+5. "The Quick Brown fox jumps over the lazy dog", Find the reptitive words in this above string
+6. Find the Length of the above string
+7. Find the Number of vowels present in the string
+8. Find a given number is Perfect number or not - A number is said to be perfect when its value is equal to its sum of complete divisors
+9. Find a given number is to check number is Armstrong or not - A number is said to be Armstrong when its value is equal to its sum of cube of digits.
+10. Find a largest of three numbers
+11. Check if a string is palindrome or not
+12. Get the days of current Month
+13. Allow a funciton to pass the n number of arguments and find the average of the passed arguments
+14. Get the decimal point of the floating number
+15. Print the current date month and year in  the screen
+
+4. Write a JavaScript conditional statement to sort three numbers.
+Sample numbers : 3, -7, 2
+5. Write a JavaScript function that reverse a number.
+Sample Data and output:
+Example x = 32243;
+Expected Output : 34223
+6. Write a JavaScript function that accepts a string as a parameter and counts the
+number of vowels within the string.
+Note : As the letter 'y' can be regarded as both a vowel and a consonant, we do
+not count 'y' as vowel here.
+Sample Data and output:
+Example string : 'The quick brown fox'
+Expected Output : 5
+7. Write a JavaScript function that accepts a string as a parameter and converts the
+first letter of each word of the string in upper case.
+Example string : 'the quick brown fox'
+Expected Output : 'The Quick Brown Fox '
+8. Write a Javascript program to count the number of elements in an array and Sum all the numbers in array and find total
+Example Array: [10,20,30]
+Expected output:  Total 10+20+30 = 60 Array count-3
+Print all the prime numbers until 100.
+Print all the odd numbers until 100.

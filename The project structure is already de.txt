@@ -1,0 +1,90 @@
+The project structure is already defined. You will need to create components and organize them to be easily extensible. Using Shadcn and Tailwind is a must.
+Responsibilities:
+  - Develop a fully responsive front-end of the real estate platform using React
+  - Use Shadcn for components, as a base
+  - Implement responsive design using Tailwind
+  - Collaborate with the back-end development team to integrate APIs and ensure seamless data flow
+  - Optimize the performance of the platform for a smooth user experience
+
+Skills required:
+    - Strong proficiency in NextJS, React, and its ecosystem
+    - Experience with Shadcn and Tailwind
+    - Familiarity with RESTful APIs
+    - Mobile-First CSS
+
+This is a medium-sized project with a duration of 1 month. We are looking for an intermediate-level developer with prior experience in building complex, production-ready NexTJS applications.
+
+NOTE: This will be just the first functional prototype.
+It will contain 3 pages:
+1. Home Page
+- Menu (functional)
+- Search section / Search form (functional, redirect to list of posted ads)
+- Last 3 listings (functional, call API to retrieve last 3 ads)
+- Charts (non-functional, sample data)
+- Blog posts (non-functional, sample data)
+- Footer menu (functional, social network, links)
+2. Listings
+- Search form (functional, call API to retrieve data)
+- All filters (functional, call API to retrieve filtered data)
+- List of ads (functional, show basic ad details)
+- Ability to switch between list and cards view (functional, switch ads view between list and card)
+- Map view of the properties (functional, display properties on the map, using location field)
+3. Ad Details
+- Publisher info (functional, retrieve data via API)
+- Property info (functional, images, and details - retrieve data via API)
+- Property advanced details (functional, multi-sectional view of details - basic, advanced, analytics)
+
+* After this first MVP, the developer chosen will have an opportunity to work on all future developments of this project. These features will be developed in the future, with a higher budget:
+- Authentication and authorization
+- User Profile
+- Ad Creation (pretty complex stuff)
+- Notification system
+- About Us, Policy and Privacy, and other text-based pages
+- React Native version of the whole application
+
+
+## Teachers development application
+
+- Business Overview:
+Teacher's Development Platform Business Overview
+Lynkt is an innovative web and mobile application designed to empower educators by providing a comprehensive suite of tools for their professional development and daily teaching needs. The platform serves as a one-stop solution for teachers to assess their effectiveness, refine their
+teaching methodologies, enhance their knowledge base, and advance their careers.
+Key Features:
+1. Assessment Tools: Enables teachers to evaluate their teaching effectiveness
+through various assessment methods, helping them identify areas for
+improvement and growth.
+2. Knowledge Base: Offers a rich repository of resources, best practices, and
+teaching strategies, allowing educators to enhance their skills and stay
+updated with the latest educational trends.
+3. Course Creation: Facilitates the creation and management of courses,
+providing tools for syllabus design, lesson planning, and student engagement.
+4. Job Hunt Assistance: Supports teachers in their career advancement by
+offering job search tools, resume building, and interview preparation
+resources.
+5. Upskilling Modules: Provides access to professional development courses
+and workshops, enabling teachers to acquire new skills and certifications.
+6. Community and Collaboration: Fosters a community of educators for
+networking, sharing experiences, and collaborative learning.
+7. Mobile Access: Ensures that all functionalities are available on-the-go with a
+mobile app accessible on both Android and iOS platforms.
+Unique Value Proposition
+The Platform stands out in the educational technology landscape by offering a holistic
+platform that addresses the multifaceted needs of teachers. Its unique value
+proposition includes:
+1. Comprehensive Suite of Tools: Unlike other platforms that focus on a single
+aspect of teaching, Lynkt provides an all-in-one solution encompassing
+assessment, professional development, course creation, and job assistance.
+2. Tailored for Educators: Designed specifically with teachers in mind, Lynkt
+understands and caters to the unique challenges and requirements of
+educators at various stages of their careers.
+3. Community-Driven Learning: Promotes a collaborative environment where
+teachers can connect, share insights, and learn from each other, fostering a
+sense of community and support.
+4. Continuous Professional Growth: Emphasizes ongoing professional
+development, ensuring that educators can continually improve their skills and
+stay relevant in a rapidly evolving educational landscape.
+5. Accessibility and Convenience: With mobile access and a user-friendly
+interface, This Platform makes it easy for teachers to utilize its tools and resources
+anytime, anywhere.
+
+

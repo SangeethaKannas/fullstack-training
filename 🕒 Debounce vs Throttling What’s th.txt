@@ -1,0 +1,18 @@
+🕒 Debounce vs Throttling: What’s the Difference? 🤔
+🕒 Debounce :
+Purpose: Delays invoking a function until after a specified time period has elapsed since the last time the function was invoked.
+Use Case: Preventing frequent API requests on user input.
+
+Throttling: Purpose: Limits the rate at which a function can fire, typically to a fixed interval. Use Case: Optimizing scroll event handlers to execute at a controlled frequency.
+
+</> Debounce Code Sinppet:
+
+</> Throttling Code Sinppet:
+
+⚖️ Key Differences :
+Debounce: Delays execution of a function until after a specified time since the last call. 
+
+Throttling: Limits the execution rate of a function to a fixed interval. 
+
+Use Cases: Debounce for input events to reduce frequency, throttling for scroll or resize events to control execution frequency.
+
