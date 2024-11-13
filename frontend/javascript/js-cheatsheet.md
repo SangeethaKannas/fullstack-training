@@ -1,5 +1,5 @@
-METHODS
-Number()
+# METHODS
+## Number()
 
 s .toExponential(dec) exp. notation
 n

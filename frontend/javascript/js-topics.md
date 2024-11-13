@@ -1113,19 +1113,6 @@ The key part is to load what's actually important to the user when they need it 
 
 Advanced: We've been talking about code-splitting and lazy-loading for a number of years now. If you're interested in how this pertains to modern frameworks, partial hydration etc you may be interested in "is 0KB of JavaScript your future?": https://lnkd.in/g4ZYR4Dq. You might also be interested in reading up about the value of reducing unused code as it relates to newer performance metrics like INP: https://web.dev/inp/
 
-### Websites to ask Questions
-
-1. Stack overflow
-2. Quora
-3. Reddit
-4. Stack Exchange
-5. CodeProject
-6. Google Groups
-7. Google Ranch
-8. Programmers Haven
-9. findNerd
-10. Chegg
-
 
 1. Let's start from the basics. When we browse any website, we are connected via multiple HTTP requests which are sent over a TCP connection maintained between the client and the server. We also know, that for real-time systems like chat applications, we use Web Sockets instead of HTTP connections. Now, the question comes, what type of connection is maintained during streaming and how is the data actually transferred?
 
@@ -1308,23 +1295,3 @@ observable.subscribe(articles => {
 7. Algorithms and Datastructures
 8. APIs and webservices
 
-
-1. Modernizing the Web Playback UI     https://lnkd.in/gG7-VtbY
-
-2. Delivering Previews on Web       https://lnkd.in/giz5UY47
-
-3. Micro Frontend at Netflix		https://lnkd.in/gJRWCGy3
-
-4. HTML5 video to display premium quality	https://lnkd.in/gk3-XKW6
-
-5. Journey to a Responsive Design		https://lnkd.in/gEJaWuyW
-
-6. XSS payload management framework		https://lnkd.in/gWx46NRa
-
-7. HTML5 video for cross browser support	https://lnkd.in/gcAr_eWc
-
-8. Accessibility accross devices		https://lnkd.in/gZ356z8Z
-
-9. Netflix research papers and topics		https://lnkd.in/gWMeZn8W
-
-10. Web performance case study		https://lnkd.in/djZBgsKC

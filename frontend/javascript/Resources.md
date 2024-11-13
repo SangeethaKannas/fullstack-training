@@ -231,3 +231,29 @@ url:
 • Kevin Powell - CSS and Web Design
 • clever programmer - Real time project clones
 • code addict : basics of html,css,js in depth
+
+
+## More resources
+1. Modernizing the Web Playback UI     https://lnkd.in/gG7-VtbY
+2. Delivering Previews on Web       https://lnkd.in/giz5UY47
+3. Micro Frontend at Netflix		https://lnkd.in/gJRWCGy3
+4. HTML5 video to display premium quality	https://lnkd.in/gk3-XKW6
+5. Journey to a Responsive Design		https://lnkd.in/gEJaWuyW
+6. XSS payload management framework		https://lnkd.in/gWx46NRa
+7. HTML5 video for cross browser support	https://lnkd.in/gcAr_eWc
+8. Accessibility accross devices		https://lnkd.in/gZ356z8Z
+9. Netflix research papers and topics		https://lnkd.in/gWMeZn8W
+10. Web performance case study		https://lnkd.in/djZBgsKC
+
+### Websites to ask Questions
+
+1. Stack overflow
+2. Quora
+3. Reddit
+4. Stack Exchange
+5. CodeProject
+6. Google Groups
+7. Google Ranch
+8. Programmers Haven
+9. findNerd
+10. Chegg
